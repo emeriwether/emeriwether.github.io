@@ -1,0 +1,16 @@
+body {
+    margin: 0 auto;
+    width: 70%;
+    font: 100% Georgia, "Times New Roman", Times, serif;
+}
+
+p {
+    margin:0 auto;
+    line-height: 1.8;
+    test-align: justify;
+}
+
+.topNav {
+    font: 400% Raleway, "Times New Roman", Times, serif;
+    font-style: italic;
+}
