@@ -18,58 +18,38 @@ TOP NAVIGATION BAR STYLING
 -----------
 */
 
-/*
-Navigation List
-- margins and padding set to 0
-*/
 #topNav {
     margin:0;
     padding:0;
-    
-    background:#808259 0 0 repeat-x;
-    float:left;
-    width:100%;
-    border:1px solid #42432d;
-    border-width:1px 0;
+    list-style-type:none;
+    overflow:hidden;
+    background-color: #333;
+    position: fixed;
+    top:0;
+    width: 100%
 }
 
-/*
-Navigation List Items 
-- margins and padding set to 0
-- display inline (removes bullets)
-*/
 #topNav li{
-    padding:0;
-    margin:0;
-    display:inline;
+    float: left;
+    border-right: 1px solid #bbb;
 }
 
-/*
-Menu Tabs
-*add styles to the links, not the list items, because I want the entire area of each tab to be clickable
-- add color & bg color
-- add padding
-*/
-#topNav a:link, #topNav a:visited {
-    color:#000;
-    background:#b2b580;
-    padding:20px 40px 4px 10px;
-    float:left;
-    width:auto;
-    border-right:1px solid #42432d;
-    text-decoration:none;
-    font:bold 1em/1em Arial, Helvetica, sans-serif;
-    text-transform:uppercase;
-    text-shadow: 2px 2px 2px #555;
+#topNav li:last-child {
+    border-right: none;
 }
 
-#topNav li:first-child a{
-    border-left:1px solid #42434d;
+#topNav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding 14px 16px;
+    text-decoration: none;
 }
 
-#topNav a:hover, #topNav a:focus {
-    color:#fff;
-    background:#727454;
+#topNav li a:hover {
+    background-color: #111;
 }
 
-#topNavHome #top
+.active {
+    background-color: #4caf50;
+}
