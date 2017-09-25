@@ -10,23 +10,46 @@ p {
     test-align: justify;
 }
 
+/*
+-----------
+-----------
+TOP NAVIGATION BAR STYLING
+-----------
+-----------
+*/
+
+/*
+Navigation List
+- margins and padding set to 0
+*/
 #topNav {
     margin:0;
     padding:0;
-    list-style-type:none;
-    background:#808259 url(/img/topNav_bg.jpg) 0 0 repeat-x;
+    
+    background:#808259 url(topNav_bg.jpg) 0 0 repeat-x;
     float:left;
     width:100%;
     border:1px solid #42432d;
     border-width:1px 0;
 }
 
+/*
+Navigation List Items 
+- margins and padding set to 0
+- display inline (removes bullets)
+*/
 #topNav li{
-    display:inline;
     padding:0;
     margin:0;
+    display:inline;
 }
 
+/*
+Menu Tabs
+*add styles to the links, not the list items, because I want the entire area of each tab to be clickable
+- add color & bg color
+- add padding
+*/
 #topNav a:link, #topNav a:visited {
     color:#000;
     background:#b2b580;
