@@ -1,5 +1,8 @@
-main {
-    margin: 22px 22px 22px 22px;
+
+body {
+    background-color: #ebe8e4;
+    color: #222;
+    font-family: Verdana, Helvetica, sans-serif;
 }
 
 /*
@@ -18,24 +21,46 @@ TOP NAVIGATION BAR STYLING
 -----------
 */
 
-#topNav {
-    list-style-type:none;
-    margin:0;
+nav {
+    background-color: #fff;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+    color: #888;
+    display: block;
+    margin:8px 22px 8px 22px;
+    overflow:hidden;
+    width: 100%
+    
+    /*
     padding:0;
     height:30px;
-    overflow:hidden;
-    background-color: #333;
     position: fixed;
     top:0;
-    width: 100%
+    */
+}
+
+#topNav {
+    margin:0;
+    padding:0;
 }
 
 #topNav li{
+    display: inline-block;
+    list-style-type:none;
+    
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    
+    /*
     float: right;
     height:30px;
     width:auto;
     line-height:30px;
     border-right: 1px solid #bbb;
+    */
 }
 
 /*
@@ -45,11 +70,12 @@ TOP NAVIGATION BAR STYLING
 */
 
 #topNav li a {
+    color: #aaa;
     display: block;
-    color: white;
-    text-align: center;
-    padding 25px 27px;
+    line-height: 56px;
+    padding 0 24px;
     text-decoration: none;
+    text-align: center;
 }
 
 #topNav li a:hover {
