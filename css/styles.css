@@ -49,6 +49,8 @@ nav {
     display: inline-block;
     list-style-type:none;
     float: right;
+    height:30px;
+    width:auto;
 
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -56,8 +58,7 @@ nav {
     -o-transition: all 0.2s;
     
     /*
-    height:30px;
-    width:auto;
+
     line-height:30px;
     border-right: 1px solid #bbb;
     */
