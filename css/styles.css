@@ -49,13 +49,8 @@ nav {
     display: inline-block;
     list-style-type:none;
     float: right;
+    margin-right: -4px;
     height:30px;
-    width:auto;
-
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -ms-transition: all 0.2s;
-    -o-transition: all 0.2s;
     
     /*
 
@@ -75,7 +70,6 @@ nav {
     display: block;
     line-height: 56px;
     padding 50px 50px;
-    margin:10px 10px 10px 10px;
     text-decoration: none;
     text-align: center;
 }
