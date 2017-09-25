@@ -10,7 +10,21 @@ p {
     test-align: justify;
 }
 
-.topNav {
-    font: 100% Raleway, "Times New Roman", Times, serif;
-    font-style: italic;
+#topNav {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    background:#808259 url(/img/topNav_bg.jpg) 0 0 repeat-x;
+}
+
+#topNav li{
+    display:inline;
+    padding:0;
+    margin:0;
+}
+
+#topNav a:link, #topNav a:visited {
+    color:#000;
+    background:#b2b580;
+    padding:20px 40px 4px 10px;
 }
