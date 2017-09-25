@@ -35,6 +35,7 @@ TOP NAVIGATION BAR STYLING
 #topNav li{
     float: right;
     height:30px;
+    width:auto;
     line-height:30px;
     border-right: 1px solid #bbb;
 }
