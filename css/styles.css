@@ -49,8 +49,9 @@ nav {
     display: inline-block;
     list-style-type:none;
     float: right;
-    margin-right: -4px;
-    height:30px;
+    height:60px;
+    width:auto;
+
     
     /*
 
@@ -70,6 +71,7 @@ nav {
     display: block;
     line-height: 56px;
     padding 50px 50px;
+    margin:10px 10px 10px 10px;
     text-decoration: none;
     text-align: center;
 }
