@@ -39,9 +39,11 @@ TOP NAVIGATION BAR STYLING
     border-right: 1px solid #bbb;
 }
 
+/*
 #topNav li:last-child {
     border-right: none;
 }
+*/
 
 #topNav li a {
     display: block;
