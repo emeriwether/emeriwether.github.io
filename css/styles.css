@@ -40,7 +40,7 @@ header a.logo span {
 nav {
     background-color: rgba(0,0,0,.6); 
     position: relative; 
-    padding: 45px 0px 0px 180px; 
+    padding: 0px 0px 0px 180px; 
 }
 
 #topNav {
