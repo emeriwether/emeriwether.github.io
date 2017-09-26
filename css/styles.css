@@ -24,13 +24,6 @@ nav {
     overflow:hidden;
     height: 40px;
     width: 100%;
-    
-    /*
-    padding:0;
-    height:30px;
-    position: fixed;
-    top:0;
-    */
 }
 
 #topNav {
@@ -43,21 +36,7 @@ nav {
     list-style-type:none;
     float: right;
     height:40px;
-    width:100%;
-
-    
-    /*
-
-    line-height:30px;
-    border-right: 1px solid #bbb;
-    */
 }
-
-/*
-#topNav li:last-child {
-    border-right: none;
-}
-*/
 
 #topNav li a {
     color: #aaa;
