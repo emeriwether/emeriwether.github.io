@@ -57,7 +57,10 @@ nav {
     list-style-type:none;
     float: right;
     margin-right: 25px;
+    /*
+    not sure this does anything, probably take it out
     height:70px;
+    */
 }
 
 #topNav li a {
