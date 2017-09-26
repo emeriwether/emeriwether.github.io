@@ -13,17 +13,34 @@ TOP NAVIGATION BAR STYLING
 -----------
 */
 
+#navHeader {
+    height: 250px; 
+    background: #fff; 
+    background-size: cover; 
+    margin-bottom: 50px; 
+    position: relative; 
+}
+
+header a.logo { 
+    position: absolute; 
+    display: block; 
+    width: 154px; 
+    height: 57px; 
+    background: url(logo.jpg) no-repeat 0 0; 
+    background-size: contain; 
+    z-index: 1; 
+    top: 15px; 
+    left: 20px; 
+}
+
+header a.logo span { 
+    display: none; 
+}
+
 nav {
-    background-color: #fff;
-    border: 1px solid #dedede;
-    border-radius: 4px;
-    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
-    /*color: #888;*/
-    display: block;
-    margin:8px 22px 8px 0px;
-    overflow:hidden;
-    height: 70px;
-    width: 100%;
+    background-color: rgba(0,0,0,.6); 
+    position: relative; 
+    padding: 45px 0px 0px 180px; 
 }
 
 #topNav {
