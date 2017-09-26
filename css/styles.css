@@ -37,16 +37,20 @@ header a.logo span {
     display: none; 
 }
 
+/*
+I DONT THINK THIS DOES ANYTHING
+DELETE LATER IF STILL DONT NEED
 nav {
     background-color: rgba(0,0,0,.6); 
     position: relative; 
     padding: 0px 0px 0px 180px; 
 }
+*/
 
 #topNav {
     
-    margin:0px 10px 0px 0px;
-    padding:0;
+    margin:0px 25px 0px 0px;
+    padding:12px 0 0 0;
 }
 
 #topNav li{
