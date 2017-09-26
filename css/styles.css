@@ -53,6 +53,7 @@ nav {
     display: inline-block;
     list-style-type:none;
     float: right;
+    margin-right: 20px;
     height:70px;
 }
 
