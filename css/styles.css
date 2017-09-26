@@ -24,8 +24,8 @@ TOP NAVIGATION BAR STYLING
 #navHeader a.logo { 
     position: absolute; 
     display: block; 
-    width: 154px; 
-    height: 57px; 
+    width: 300px; 
+    height: 100px; 
     background: url(../img/website_logo.jpg) no-repeat 0 0; 
     background-size: contain; 
     z-index: 1; 
