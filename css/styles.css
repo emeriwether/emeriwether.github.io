@@ -6,7 +6,7 @@ body {
 }
 
 #home_bg {
-    background-size:cover;
+    background-size:100%;
 }
 
 /*
@@ -21,7 +21,6 @@ TOP NAVIGATION BAR STYLING
     height: 120px; 
     background: #fff; 
     background-size: cover; 
-    margin-bottom: 50px; 
     position: relative; 
 }
 
