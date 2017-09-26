@@ -70,6 +70,7 @@ nav {
 
 #topNav li a:hover {
     background-color: #aaa;
+    color: #333;
     text-decoration:none;
 }
 
