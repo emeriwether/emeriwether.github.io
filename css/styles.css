@@ -5,6 +5,10 @@ body {
     padding:0;
 }
 
+#home_bg {
+    background-size:cover;
+}
+
 /*
 -----------
 -----------
