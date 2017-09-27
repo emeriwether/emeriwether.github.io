@@ -2,7 +2,7 @@ body {
     background-color: #777;
     font-family: Verdana, Helvetica, sans-serif;
     margin: 0;
-    padding: 0 0 40px 0;
+    padding: 0 0 25px 0;
     height: 100%;
 }
 
@@ -13,7 +13,7 @@ body {
 
 footer {
     position: absolute;
-    height: 40px;
+    height: 25px;
     width: 100%;
     font-size: 14px;
     padding: 0 0 0 35px;
@@ -40,14 +40,15 @@ TOP NAVIGATION BAR STYLING
 
 #navHeader a.logo { 
     position: absolute; 
-    display: inline-block; 
     width: 300px; 
     height: 100px; 
     background: url(../img/website_logo.jpg) no-repeat 0 0; 
     background-size: contain; 
-    z-index: 1; 
     top: 35px; 
     left: 45px; 
+    
+    /* dont need? z-index: 1; */
+    /* dont need? display: inline-block; */
 }
 
 header a.logo span { 
@@ -60,7 +61,7 @@ header a.logo span {
 }
 
 #topNav li{
-    display: inline-block;
+    /* dont need? display: inline-block;*/
     list-style-type:none;
     float: right;
     margin-right: 25px;
