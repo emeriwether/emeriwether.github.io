@@ -14,7 +14,7 @@ article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summ
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -3;
+    z-index: -2;
     
     /* alternative option to try if above doesn't work somewhere
     #home_body {
