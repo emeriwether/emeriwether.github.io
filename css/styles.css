@@ -5,13 +5,6 @@ body, html {
     padding:0;
 }
 
-footer {
-    padding: 20px 10px;
-    color: #fff;
-    display: inline-block;
-}
-
-/*
 #home_bg {
     width: 100%;
     position: absolute;
@@ -19,11 +12,19 @@ footer {
     left: 0;
     z-index: -2;
 }
-*/
 
-/* alternative option to try if above doesn't work somewhere    */
+/* alternative option to try if above doesn't work somewhere    
 #home_body {
     background: url(../img/home_bg.jpg) center center cover no-repeat fixed;
+}
+*/
+
+footer {
+    padding: 20px 10px;
+    color: #fff;
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
 }
 
 /*
