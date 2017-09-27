@@ -93,7 +93,7 @@ nav {
     text-decoration:none;
 }
 
-nav a.current {
+#topNav li a.current {
     background-color: darkblue;
     color: white;
 }
