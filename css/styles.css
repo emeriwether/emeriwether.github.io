@@ -21,9 +21,12 @@ body, html {
 
 footer {
     height: 120px;
+    width: 100%;
+    font-size: 12px;
+    padding: 0 0 0 35px;
     background: #777;
     background-size: cover;
-    position: relative;
+    position: absolute;
     bottom: 0;
     color: #fff;
     
