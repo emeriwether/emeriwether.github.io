@@ -5,20 +5,18 @@ body {
     padding:0;
 }
 
-/*
------------
------------
-HOME PAGE BACKGROUND IMAGE STYLING
------------
------------
-*/
-
 #home_bg {
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     z-index: -3;
+    
+    /* alternative option to try if above doesn't work somewhere
+    #home_body {
+        background: url(../img/home_bg.jpg) center center cover no-repeat fixed;
+    }
+    */
 }
 
 /*
@@ -95,6 +93,6 @@ nav {
     text-decoration:none;
 }
 
-.active {
+#topNav li a:active {
     background-color: #4caf50;
 }
