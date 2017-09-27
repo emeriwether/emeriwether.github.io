@@ -19,10 +19,10 @@ footer {
     font-size: 14px;
     padding: 0 0 0 35px;
     background: #777;
-    background-size: cover;
-    position: fixed;
     bottom: 0;
     color: #fff;
+    
+    /*    background-size: cover;*/
 }
 
 /*
