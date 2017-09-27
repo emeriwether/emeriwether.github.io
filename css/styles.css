@@ -90,10 +90,12 @@ nav {
 #topNav li a:hover {
     background-color: #aaa;
     color: #333;
-    text-decoration:none;
+    text-decoration: underline;
 }
 
 #topNav li.current {
-    background-color: darkblue;
-    color: white;
+    font-style: oblique;
+    font-size: 22px;
+    color: #333;
+    text-decoration: underline;
 }
