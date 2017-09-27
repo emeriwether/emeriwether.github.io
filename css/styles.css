@@ -20,11 +20,18 @@ body, html {
 */
 
 footer {
+    height: 120px;
+    background: #777;
+    background-size: cover;
+    position: relative;
+    bottom: 0;
+    color: #fff;
+    
+    /*
     padding: 20px 10px;
-    color: #ff0000;
     display: inline-block;
     position: fixed;
-    bottom: 0;
+    */
 }
 
 /*
