@@ -12,7 +12,6 @@ body, html {
 }
 
 body {
-    padding: 10px;
     padding-bottom: 60px;
 }
 
@@ -37,9 +36,8 @@ HOME PAGE
 #home_bg {
     width: 100%;
     position: absolute;
-    top: 0;
+    top: -10;
     left: 0;
-    z-index: -1;
 }
 
 
