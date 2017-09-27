@@ -2,7 +2,7 @@ body {
     background-color: #777;
     font-family: Verdana, Helvetica, sans-serif;
     margin: 0;
-    padding: 0 0 60px 0;
+    padding: 0 0 40px 0;
     height: 100%;
 }
 
@@ -13,24 +13,13 @@ body {
 
 footer {
     position: absolute;
-    height: 60px;
+    height: 40px;
     width: 100%;
     font-size: 14px;
     padding: 0 0 0 35px;
     background: #777;
     bottom: 0;
     color: #fff;
-}
-
-/*
------------
------------
-HOME PAGE
------------
------------
-*/
-#home_bg {
-    width: 100%;
 }
 
 /*
@@ -97,4 +86,15 @@ header a.logo span {
 #topNav li.current {
     color: #333;
     text-decoration: underline;
+}
+
+/*
+-----------
+-----------
+HOME PAGE
+-----------
+-----------
+*/
+#home_bg {
+    width: 100%;
 }
