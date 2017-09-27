@@ -94,7 +94,6 @@ nav {
 }
 
 #topNav li.current {
-    background-color: #aaa;
     color: #333;
-    text-decoration: none;
+    text-decoration: underline;
 }
