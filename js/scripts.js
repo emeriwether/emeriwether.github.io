@@ -1,8 +1,3 @@
-/* function fName() {
-    code goes here
-}
-*/
-
 $(document).ready(function() { 
     var str=location.href.toLowerCase(); 
     $("#topNav li a").each(function() { 
