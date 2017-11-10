@@ -2,10 +2,10 @@
 <html lang="en">
      
     <head>
-        <meta charset="utf-8">
-        <meta name="description" content="Eleanor Meriwether - User Experience Designer">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Eleanor Meriwether - User Experience Designer</title>
-        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="/css/styles.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="../js/scripts.js"></script>
         <script type="application/ld+json">
@@ -16,28 +16,29 @@
         </script>
     </head>
 
-    <div id="container">
-        
-        <header role="banner" id="navHeader">
-            <a class="logo" href="/index.html"><span>eleanor meriwether</span></a>
-            <nav role="navigation">
-                <ul id="topNav">
-                    <li id="topNavContact"><a href="/contact.html" title="Contact">Contact</a></li>
-                    <li id="topNavResume"><a href="/resume.html" title="Resume">Resume</a></li>
-                    <li id="topNavAbout"><a href="/about.html" title="About">About</a></li>
-                    <li id="topNavHome"  class="current"><a href="/index.html" title="Home">Work</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <body>
+    <body>
+        <div id="page">
+            
+            <header role="banner" id="navHeader">
+                <a class="logo" href="/index.html"><span>eleanor meriwether</span></a>
+                <nav role="navigation">
+                    <ul id="topNav">
+                        <li id="topNavContact"><a href="/contact.html" title="Contact">Contact</a></li>
+                        <li id="topNavResume"><a href="/resume.html" title="Resume">Resume</a></li>
+                        <li id="topNavAbout"><a href="/about.html" title="About">About</a></li>
+                        <li id="topNavHome"  class="current"><a href="/index.html" title="Home">Work</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
             {{content}}
-        </body>
-    
-        <footer role="contentinfo" class="page-footer">
-            <p>&copy; 2017 Eleanor Meriwether</p>
-        </footer>
+            
+            <footer role="contentinfo" class="page-footer">
+                <p>&copy; 2017 Eleanor Meriwether</p>
+            </footer>
+            
+        </div>
         
-    </div>
+    </body>
 
 </html>
