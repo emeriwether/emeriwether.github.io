@@ -73,7 +73,7 @@ nav {
     background-color: rgba(0,0,0,.5);
     position: absolute;
     top: 0px; left: 0px;
-    padding: 20px 0 0 0;
+    padding: 15px 0 0 0;
     width: 100%;
 }
 
@@ -86,7 +86,7 @@ nav ul li a {
     color: #aaa;
     padding: 10px 20px;
     text-decoration: none;
-    width: 125px;
+    width: 95px;
     position: relative;
     text-align: center;
 }
@@ -102,7 +102,7 @@ nav ul li.current {
     text-decoration: underline;
 }
 
-nav > ul { padding-left: 500px; }
+nav > ul { padding-left: 550px; }
 nav > ul > li { float: left; }
 
 /*
@@ -136,7 +136,7 @@ this is equal to nav ul li
 -----------
 -----------
 */
-section { padding: 30px 30px; }
+section { padding: 100px 30px; }
 section::after { content:''; display: block; clear: both; }
 
 section.projectGallery { margin-top: 20px; margin-bottom: 30px; padding: 0; background-color: #ddd; }
