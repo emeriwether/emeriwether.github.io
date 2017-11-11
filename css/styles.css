@@ -48,7 +48,7 @@ header a.logo {
     position: absolute; 
     display: block; width: 100%; 
     background: url(../img/website_logo.jpg) no-repeat 0 0; background-size: contain;
-    top: 15px; left: 20px;
+    top: 15px; left: 25px;
 }
 
 /* hides link text */
@@ -148,7 +148,11 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width: 425px) {
-  /* Section - Project Gallery */
+  
+    /* Header */
+    header a.logo { background-image: url(../img/website_logo_phone.jpg); }
+    
+    /* Section - Project Gallery */
     section.projectGallery article { width: 100%; float: none; text-align: left; }
     
 }
