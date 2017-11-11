@@ -152,8 +152,9 @@ MEDIA QUERIES
     /* Header */
     header a.logo {
         background: url(../img/website_logo_phone.jpg) no-repeat center center;
-        background-size: 120px 110px;
+        background-size: 120px 100px;
     }
     
-    
+    nav { padding-top: 120px; }
+      
 }
