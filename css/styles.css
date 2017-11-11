@@ -139,5 +139,6 @@ MEDIA QUERIES
 */
 @media screen and (max-width: 1000px) {
 
+    section.projectGallery article img { height: 270px; width: auto; }
     
 }
