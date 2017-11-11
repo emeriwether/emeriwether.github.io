@@ -40,7 +40,7 @@ a.btn:hover { background-color: rgba(0,0,0,.3); color: #555; }
 HEADER
 -----------
 */
-header { height: 120px; background: #fff; position: relative; }
+header { height: 100px; background: #fff; position: relative; }
 
 /* Header Logo */
 header a.logo { 
@@ -151,12 +151,10 @@ MEDIA QUERIES
 
 /* Phones */
 @media screen and (max-width: 425px) {
-
     /* Section - Project Gallery */
     section.projectGallery article { width: 100%; float: none; text-align: left; }
     section.projectGallery article div.content {
         margin: 8px 20px 8px 20px;
         padding: 5px  0px 10px 45px;
-    }
-    
+    }   
 }
