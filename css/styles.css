@@ -32,6 +32,7 @@ TOP NAVIGATION BAR STYLING
 -----------
 */
 
+/*
 #navHeader {
     height: 120px; 
     background: #fff; 
@@ -52,7 +53,7 @@ TOP NAVIGATION BAR STYLING
 
 header a.logo span { 
     display: none; 
-}
+} */
 
 #topNav {
     margin:0px 25px 0px 0px;
