@@ -142,6 +142,6 @@ MEDIA QUERIES
     
 /* Section */
     section.projectGallery article { padding-left: 400px; }
-    section.projectGallery article img { height: 275; width: auto; }
+    section.projectGallery article img { height: 250px; width: 250px; }
     
 }
