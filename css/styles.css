@@ -148,12 +148,15 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width: 425px) {
+    a.btn { font-size: .9em; }
     
     /* Header */
+    header { height: 160px; }
     header a.logo {
         background: url(../img/website_logo_phone.jpg) no-repeat;
     }
+    nav { position: static; width: auto; padding-top: 20px 15px; }
     
-    nav { padding-top: 120px; }
+
       
 }
