@@ -36,7 +36,7 @@ header a.logo span { display: none; }
 /* Project Gallery */
 section::after { content:''; display: block; clear: both; }
 
-section.projectGallery { padding: 30px 30px; margin-top: 20px; margin-bottom: 30px; padding: 0; background-color: #ddd; }
+section.projectGallery { padding: 0 30px; margin-top: 20px; margin-bottom: 30px; padding: 0; background-color: #ddd; }
 section.projectGallery article { width: 33%; float: left; text-align: center; }
 section.projectGallery .content { margin: 15px; padding-top: 25px; }
 
@@ -45,7 +45,7 @@ section.projectGallery article h3 a:hover { text-decoration: underline; }
 
 section.projectGallery article img { height: 350px; width: 350px; }
 
-section.projectGallery h2 { text-align: center; }
+section.projectGallery h2 { padding: 10px 0; text-align: center; }
 
 /*
 -----------
