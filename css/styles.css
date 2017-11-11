@@ -34,14 +34,14 @@ header a.logo {
 header a.logo span { display: none; }
 
 /* Project Gallery */
-section.projectGallery { padding: 0 30px; margin-top: 20px; 30px; padding: 0; }
+section.projectGallery { padding: 0 30px; margin-top: 20px; margin-bottom: 30px; padding: 0; }
 section.projectGallery article { width: 33%; float: left; text-align: center; }
 section.projectGallery .content { margin: 15px; padding-top: 85px; }
 
 section.projectGallery article h3 a { color: #000; text-decoration: none; }
 section.projectGallery article h3 a:hover { text-decoration: underline; }
 
-section.projectGallery article img { height: auto; width: auto; }
+section.projectGallery article img { height: 350px; width: 350px; }
 
 /*
 -----------
