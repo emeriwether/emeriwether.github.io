@@ -49,7 +49,7 @@ section.projectGallery article img { height: 350px; width: 350px; }
 section.projectGallery h2 { text-align: center; font-size: 2em; padding-top: 35px; }
 
 /* Footer */
-footer { font-size: .8em; margin: 40px; color: #eee; background-color: #666; padding: 25px 15px; }
+footer { font-size: .8em; color: #eee; background-color: #666; padding: 25px 15px; }
 
 /*
 -----------
