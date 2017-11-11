@@ -46,7 +46,7 @@ header { height: 120px; background: #fff; position: relative; }
 header a.logo { 
     z-index: 1;
     position: absolute; 
-    display: block; width: 280px; height: 140px;
+    display: block; width: 280px; height: auto;
     background: url(../img/website_logo.jpg) no-repeat 0 0; background-size: contain;
     top: 15px; left: 20px;
 }
