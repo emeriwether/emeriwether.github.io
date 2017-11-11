@@ -137,8 +137,9 @@ footer p { padding-left: 25px; }
 MEDIA QUERIES
 -----------
 */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
 
-    section.projectGallery article img { height: 250px; width: 250px; }
-    nav ul li a { width: 50px; }
+    section.projectGallery article img { height: 300px; width: 300px; }
+    nav ul li a { width: 60px; }
+    nav > ul { padding-left: 500px; }
 }
