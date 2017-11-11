@@ -171,3 +171,4 @@ section.projectGallery h2 { text-align: center; font-size: 2em; padding-top: 35p
 -----------
 */
 footer { font-size: .8em; color: #eee; background-color: #666; padding: 25px 15px; }
+footer p { padding-left: 25px; }
