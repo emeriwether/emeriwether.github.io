@@ -139,10 +139,10 @@ MEDIA QUERIES
 -----------
 */
 @media screen and (max-width: 1054px) {
-    nav > ul { padding-left: 55%;  transition: padding-left 0.2s; }*/
+    nav > ul { padding-left: 55%;  transition: padding-left 0.2s; }
 }
 
 @media screen and (max-width: 950px) {
     nav { padding-top: 70px; }
-    nav > ul { padding-left: 20px; }
+    nav > ul { padding-left: 15px; transition: padding-left 0.2s; }
 }
