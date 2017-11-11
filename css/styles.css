@@ -1,10 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:700|Montserrat:400,700');
 
+/*
+-----------
+-----------
+/* SITE-WIDE STYLING*/
+-----------
+-----------
+*/
+
 body { font-family: 'Montserrat', sans-serif; font-size: 16px; font-weight: 400; color: #555; margin: 0; padding: 0; }
 
 #page { max-width: 1200px; margin: 0 auto; position: relative; }
 
-/* Text */
+/*
+-----------
+-----------
+/* TEXT */
+-----------
+-----------
+*/
 p { margin: 0 0 1em 0; }
 
 a { color: #555; }
@@ -15,15 +29,28 @@ h2 { font-family: 'Merriweather', serif; margin: 0 0 .5em 0; font-size: 1.6em; f
 h3 { font-family: 'Merriweather', serif; margin: 0 0 .5em 0; font-size: 1.3em; font-weight: 700; }
 h4 { font-family: 'Merriweather', serif; margin: 0 0 1.5em 0; font-size: 1em; font-weight: 700; }
 
-/* Buttons */
+/*
+-----------
+-----------
+/* BUTTONS */
+-----------
+-----------
+*/
 a.btn { font-size: 1.2 em; text-decoration: none; color: #000; background-color: #eee; border: 1px solid #000; padding: 4px 15px; transition: background-color .5s; }
 a.btn:hover { background-color: rgba(0,0,0,.3); }
 
-/* Header */
+/*
+-----------
+-----------
+/* HEADER */
+-----------
+-----------
+*/
 header { height: 120px; background: #fff; position: relative; }
 
 /* Header Logo */
 header a.logo { 
+    z-index: 1;
     position: absolute; 
     display: block; width: 280px; height: 140px;
     background: url(../img/website_logo.jpg) no-repeat 0 0; background-size: contain;
@@ -33,23 +60,6 @@ header a.logo {
 /* hides link text */
 header a.logo span { display: none; }
 
-/* Project Gallery */
-section { padding: 0 30px; }
-section::after { content:''; display: block; clear: both; }
-
-section.projectGallery { margin-top: 20px; margin-bottom: 30px; padding: 0; background-color: #ddd; }
-section.projectGallery article { width: 33%; float: left; text-align: center; }
-section.projectGallery .content { margin: 15px; padding-top: 25px; }
-
-section.projectGallery article h3 a { text-decoration: none; font-size: 1.4em; }
-section.projectGallery article h3 a:hover { text-decoration: underline; }
-
-section.projectGallery article img { height: 350px; width: 350px; }
-
-section.projectGallery h2 { text-align: center; font-size: 2em; padding-top: 35px; }
-
-/* Footer */
-footer { font-size: .8em; color: #eee; background-color: #666; padding: 25px 15px; }
 
 /*
 -----------
@@ -59,11 +69,44 @@ TOP NAVIGATION BAR STYLING
 -----------
 */
 
-#topNav {
-    margin:0px 25px 0px 0px;
-    padding:12px 0px 0px 0px;
+nav { 
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0px; left: 0px;
+    padding: 50px 0 0 0;
+    width: 100%;
 }
 
+nav ul { list-style: none; margin: 0; padding: 0; }
+
+nav ul li a {
+    display: inline-block;
+    color: #aaa;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 125px;
+    position: relative;
+}
+
+
+nav ul li a:hover {
+    background-color: #aaa;
+    color: #333;
+}
+
+nav ul li.current {
+    color: #333;
+    text-decoration: underline;
+}
+
+/*
+this is equal to the nav ul above
+#topNav {
+    margin: 0px 25px 0px 0px;
+    padding: 12px 0px 0px 0px;
+}
+
+this is equal to nav ul li
 #topNav li{
     list-style-type:none;
     float: right;
@@ -73,9 +116,10 @@ TOP NAVIGATION BAR STYLING
 #topNav li a {
     color: #aaa;
     display: block;
-    line-height: 56px;
     padding: 20px;
     text-decoration: none;
+
+    line-height: 56px;
     text-align: center;
     font-size: 20px;
     font-family: Verdana;
@@ -91,3 +135,34 @@ TOP NAVIGATION BAR STYLING
     color: #333;
     text-decoration: underline;
 }
+*/
+
+/*
+-----------
+-----------
+/* PROJECT GALLERY */
+-----------
+-----------
+*/
+section { padding: 0 30px; }
+section::after { content:''; display: block; clear: both; }
+
+section.projectGallery { margin-top: 20px; margin-bottom: 30px; padding: 0; background-color: #ddd; }
+section.projectGallery article { width: 33%; float: left; text-align: center; }
+section.projectGallery .content { margin: 15px; padding-top: 25px; }
+
+section.projectGallery article h3 a { text-decoration: none; font-size: 1.4em; }
+section.projectGallery article h3 a:hover { text-decoration: underline; }
+
+section.projectGallery article img { height: 350px; width: 350px; }
+
+section.projectGallery h2 { text-align: center; font-size: 2em; padding-top: 35px; }
+
+/*
+-----------
+-----------
+/* Footer */
+-----------
+-----------
+*/
+footer { font-size: .8em; color: #eee; background-color: #666; padding: 25px 15px; }
