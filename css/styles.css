@@ -140,6 +140,6 @@ MEDIA QUERIES
 @media screen and (max-width: 1170px) {
 
     section.projectGallery article img { height: 300px; width: 300px; }
-    nav ul li a { width: 95px; }
-    nav > ul { padding-left: 600px; }
+    nav ul li a { width: 90px; }
+    nav > ul { padding-left: 580px; }
 }
