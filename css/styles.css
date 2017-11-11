@@ -129,3 +129,19 @@ FOOTER
 */
 footer { font-size: .8em; color: #eee; background-color: #666; padding: 25px 15px; }
 footer p { padding-left: 25px; }
+
+
+
+/*
+-----------
+MEDIA QUERIES
+-----------
+*/
+@media screen and (max-width: 1000px) {
+    h1 { font-size: 2.4em; }
+    
+/* Section */
+    section.projectGallery article { padding-left: 400px; }
+    section.projectGallery article img { height: 275; width: auto; }
+    
+}
