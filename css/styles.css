@@ -34,8 +34,7 @@ header a.logo {
 header a.logo span { display: none; }
 
 /* Project Gallery */
-section { padding: 0 30px; }
-section.projectGallery { margin-top: 20px; margin-bottom: 30px; padding: 0; }
+section.projectGallery { padding: 0 30px; margin-top: 20px; background-color: "beige"; 30px; padding: 0; }
 section.projectGallery article { width: 33%; float: left; text-align: center; }
 section.projectGallery .content { margin: 15px; padding-top:85px; }
 
