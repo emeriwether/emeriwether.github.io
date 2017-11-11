@@ -13,7 +13,7 @@ a:visited { color: #65b1ff; }
 h1 { font-family: 'Merriweather', serif; margin: 0 0 1em 0; font-size: 2.8em; font-weight: 700; }
 h2 { font-family: 'Merriweather', serif; margin: 0 0 .5em 0; font-size: 1.6em; font-weight: 700; line-height: 1.1em; }
 h3 { font-family: 'Merriweather', serif; margin: 0 0 .5em 0; font-size: 1.3em; font-weight: 700; }
-h3 { font-family: 'Merriweather', serif; margin: 0 0 1.5em 0; font-size: 1em; font-weight: 700; }
+h4 { font-family: 'Merriweather', serif; margin: 0 0 1.5em 0; font-size: 1em; font-weight: 700; }
 
 /* Buttons */
 a.btn { font-size: 1.2 em; text-decoration: none; color: #000; border: 1px solid #000; padding: 4px 15px; transition: background-color .5s; }
@@ -36,7 +36,7 @@ header a.logo span { display: none; }
 /* Project Gallery */
 section::after { content:''; display: block; clear: both; }
 
-section.projectGallery { padding: 0 30px; margin-top: 20px; margin-bottom: 30px; padding: 0; background-color: #ddd; }
+section.projectGallery { padding: 30px 30px; margin-top: 20px; margin-bottom: 30px; background-color: #ddd; }
 section.projectGallery article { width: 33%; float: left; text-align: center; }
 section.projectGallery .content { margin: 15px; padding-top: 25px; }
 
@@ -45,7 +45,7 @@ section.projectGallery article h3 a:hover { text-decoration: underline; }
 
 section.projectGallery article img { height: 350px; width: 350px; }
 
-section.projectGallery h2 { padding: 10px 0; text-align: center; }
+section.projectGallery h2 { padding: 20px 0; text-align: center; }
 
 /*
 -----------
