@@ -46,7 +46,7 @@ section.projectGallery article h3 a:hover { text-decoration: underline; }
 
 section.projectGallery article img { height: 350px; width: 350px; }
 
-section.projectGallery h2 { text-align: center; background-color: aquamarine; }
+section.projectGallery h2 { text-align: center; background-color: #aaa; border: 1px solid #000; padding: 4px 15px; }
 
 /*
 -----------
