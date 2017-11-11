@@ -103,7 +103,7 @@ nav > ul > li { float: left; }
 PROJECT GALLERY
 -----------
 */
-section { padding: 80px 30px; display: inline-block; }
+section { padding: 30px 30px; display: inline-block; }
 section::after { content:''; display: block; clear: both; }
 
 section.projectGallery { margin-top: 80px; margin-bottom: 30px; padding: 0; background-color: #ddd; }
