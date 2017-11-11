@@ -2,28 +2,20 @@
 
 /*
 -----------
------------
-/* SITE-WIDE STYLING*/
------------
+SITE-WIDE STYLING
 -----------
 */
-
 body { font-family: 'Montserrat', sans-serif; font-size: 16px; font-weight: 400; color: #555; margin: 0; padding: 0; }
-
 #page { max-width: 1200px; margin: 0 auto; position: relative; }
 
 /*
 -----------
------------
-/* TEXT */
------------
+TEXT
 -----------
 */
 p { margin: 0 0 1em 0; }
-
 a { color: #555; }
 a:visited { color: #555; }
-
 h1 { font-family: 'Merriweather', serif; margin: 0 0 1em 0; font-size: 2.8em; font-weight: 700; }
 h2 { font-family: 'Merriweather', serif; margin: 0 0 .5em 0; font-size: 1.6em; font-weight: 700; line-height: 1.1em; }
 h3 { font-family: 'Merriweather', serif; margin: 0 0 .5em 0; font-size: 1.3em; font-weight: 700; }
@@ -31,19 +23,15 @@ h4 { font-family: 'Merriweather', serif; margin: 0 0 1.5em 0; font-size: 1em; fo
 
 /*
 -----------
------------
-/* BUTTONS */
------------
+BUTTONS
 -----------
 */
-a.btn { font-size: 1.2 em; text-decoration: none; color: #000; background-color: #eee; border: 1px solid #000; padding: 4px 15px; transition: background-color .5s; }
+a.btn { text-decoration: none; color: #000; background-color: #eee; border: 1px solid #000; padding: 4px 15px; transition: background-color .5s; }
 a.btn:hover { background-color: rgba(0,0,0,.3); }
 
 /*
 -----------
------------
-/* HEADER */
------------
+HEADER
 -----------
 */
 header { height: 120px; background: #fff; position: relative; }
@@ -63,17 +51,13 @@ header a.logo span { display: none; }
 
 /*
 -----------
------------
 TOP NAVIGATION BAR STYLING
 -----------
------------
 */
-
 nav { 
-    background-color: rgba(0,0,0,.5);
     position: absolute;
     top: 0px; left: 0px;
-    padding: 15px 0 0 0;
+    padding: 15px 0 15px 0;
     width: 100%;
 }
 
@@ -102,44 +86,18 @@ nav ul li.current {
     text-decoration: underline;
 }
 
-nav > ul { padding-left: 550px; }
+nav > ul { padding-left: 630px; }
 nav > ul > li { float: left; }
 
 /*
-this is equal to the nav ul above
-#topNav {
-    margin: 0px 25px 0px 0px;
-    padding: 12px 0px 0px 0px;
-}
-
-this is equal to nav ul li
-#topNav li{
-    list-style-type:none;
-    float: right;
-    margin-right: 25px;
-}
-
-#topNav li a {
-    color: #aaa;
-    display: block;
-    padding: 20px;
-    text-decoration: none;
-
-    line-height: 56px;
-}
-*/
-
-/*
 -----------
------------
-/* PROJECT GALLERY */
------------
+PROJECT GALLERY
 -----------
 */
-section { padding: 100px 30px; }
+section { padding: 100px 30px; display: inline-block; }
 section::after { content:''; display: block; clear: both; }
 
-section.projectGallery { margin-top: 20px; margin-bottom: 30px; padding: 0; background-color: #ddd; }
+section.projectGallery { margin-top: 80px; margin-bottom: 30px; padding: 0; background-color: #ddd; }
 section.projectGallery article { width: 33%; float: left; text-align: center; }
 section.projectGallery .content { margin: 15px; padding-top: 25px; }
 
@@ -152,9 +110,7 @@ section.projectGallery h2 { text-align: center; font-size: 2em; padding-top: 35p
 
 /*
 -----------
------------
-/* Footer */
------------
+Footer
 -----------
 */
 footer { font-size: .8em; color: #eee; background-color: #666; padding: 25px 15px; }
