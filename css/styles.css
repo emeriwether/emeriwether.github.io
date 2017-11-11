@@ -26,6 +26,8 @@ header a.logo {
     top: 15px; left: 20px;
 }
 
+header a.logo.span { display: none; }
+
 /*
 -----------
 -----------
