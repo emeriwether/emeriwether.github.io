@@ -140,10 +140,10 @@ MEDIA QUERIES
 */
 @media screen and (max-width: 1200px) {
     /*nav ul li a { width: 75px; }*/
-    nav > ul { padding-left: 600px; }
+    nav > ul { padding-left: 630px;  transition: padding-left 0.2s; }
 }
 
 @media screen and (max-width: 1000px) {
     /*nav ul li a { width: 75px; }*/
-    nav > ul { padding-left: 550px; }
+    nav > ul { padding-left: 580px; transition: padding-left 0.2s; }
 }
