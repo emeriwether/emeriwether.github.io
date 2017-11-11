@@ -22,7 +22,7 @@ body { font-family: 'Montserrat', sans-serif; font-size: 16px; font-weight: 400;
 p { margin: 0 0 1em 0; }
 
 a { color: #555; }
-a:visited { color: #65b1ff; }
+a:visited { color: #555; }
 
 h1 { font-family: 'Merriweather', serif; margin: 0 0 1em 0; font-size: 2.8em; font-weight: 700; }
 h2 { font-family: 'Merriweather', serif; margin: 0 0 .5em 0; font-size: 1.6em; font-weight: 700; line-height: 1.1em; }
@@ -77,6 +77,8 @@ nav {
     width: 100%;
 }
 
+nav::after { content:''; display: block; clear: both; }
+
 nav ul { list-style: none; margin: 0; padding: 0; }
 
 nav ul li a {
@@ -98,6 +100,9 @@ nav ul li.current {
     color: #333;
     text-decoration: underline;
 }
+
+nav > ul { padding-left: 400px; }
+nav > ul > li { float: left; }
 
 /*
 this is equal to the nav ul above
