@@ -106,7 +106,7 @@ PROJECT GALLERY
 section { padding: 30px 30px; display: inline-block; }
 section::after { content:''; display: block; clear: both; }
 
-section.projectGallery { margin-top: 80px; margin-bottom: 30px; padding: 0; background-color: #ddd; }
+section.projectGallery { margin-top: 30px; margin-bottom: 30px; padding: 0; background-color: #ddd; }
 section.projectGallery article { width: 33%; float: left; text-align: center; }
 section.projectGallery .content { margin: 15px; padding-top: 25px; }
 
@@ -115,7 +115,7 @@ section.projectGallery h2 { text-align: center; font-size: 2em; padding-top: 35p
 section.projectGallery article h3 a { text-decoration: none; font-size: 1.2em; }
 section.projectGallery article h3 a:hover { text-decoration: underline; }
 
-section.projectGallery article p { padding: 10px 0; }
+section.projectGallery article p { padding: 20px 0; }
 
 section.projectGallery article img { height: 350px; width: 350px; }
 
