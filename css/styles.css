@@ -138,10 +138,6 @@ MEDIA QUERIES
 -----------
 */
 @media screen and (max-width: 1000px) {
-    h1 { font-size: 2.4em; }
-    
-/* Section */
-    section.projectGallery article { padding-left: 400px; }
-    section.projectGallery article img { height: 200px; width: 200px; }
+
     
 }
