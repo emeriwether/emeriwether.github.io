@@ -25,13 +25,18 @@ header { height: 120px; background: #fff; position: relative; }
 /* Header Logo */
 header a.logo { 
     position: absolute; 
-    display: block; width: 240px; height: 120px;
+    display: block; width: 280px; height: 140px;
     background: url(../img/website_logo.jpg) no-repeat 0 0; background-size: contain;
     top: 15px; left: 20px;
 }
 
 /* hides link text */
 header a.logo span { display: none; }
+
+/* Project Gallery */
+section { padding: 0 30px; }
+section.projectGallery { margin-top: 20px; margin-bottom: 30px; padding: 0; }
+section.projectGallery article { width: 33%; float: left; text-align: center; }
 
 /*
 -----------
