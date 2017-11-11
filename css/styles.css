@@ -151,7 +151,7 @@ MEDIA QUERIES
     
     /* Header */
     header a.logo {
-        background: url(../img/website_logo_phone.jpg) no-repeat center center;
+        background: url(../img/website_logo_phone.jpg) no-repeat;
     }
     
     nav { padding-top: 120px; }
