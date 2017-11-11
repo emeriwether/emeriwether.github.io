@@ -8,6 +8,8 @@ SITE-WIDE STYLING
 body { font-family: 'Montserrat', sans-serif; font-size: 16px; font-weight: 400; color: #555; margin: 0; padding: 0; }
 #page { max-width: 1200px; margin: 0 auto; position: relative; }
 
+
+
 /*
 -----------
 TEXT
@@ -21,13 +23,17 @@ h2 { font-family: 'Merriweather', serif; margin: 0 0 .5em 0; font-size: 1.6em; f
 h3 { font-family: 'Merriweather', serif; margin: 0 0 .5em 0; font-size: 1.3em; font-weight: 700; }
 h4 { font-family: 'Merriweather', serif; margin: 0 0 1.5em 0; font-size: 1em; font-weight: 700; }
 
+
+
 /*
 -----------
 BUTTONS
 -----------
 */
-a.btn { text-decoration: none; color: #000; background-color: #eee; border: 1px solid #000; padding: 4px 15px; transition: background-color .5s; }
+a.btn { text-decoration: none; color: #eee; background-color: #555; border: 1px solid #000; padding: 5px 15px; transition: background-color .5s; }
 a.btn:hover { background-color: rgba(0,0,0,.3); }
+
+
 
 /*
 -----------
@@ -49,6 +55,7 @@ header a.logo {
 header a.logo span { display: none; }
 
 
+
 /*
 -----------
 TOP NAVIGATION BAR STYLING
@@ -67,7 +74,7 @@ nav ul { list-style: none; margin: 0; padding: 0; }
 
 nav ul li a {
     display: inline-block;
-    color: #e32d2f;
+    color: #333;
     padding: 10px 20px;
     text-decoration: none;
     width: 95px;
@@ -77,8 +84,8 @@ nav ul li a {
 
 
 nav ul li a:hover {
-    background-color: #aaa;
-    color: #333;
+    background-color: #666;
+    color: #ccc;
 }
 
 nav ul li.current {
@@ -88,6 +95,8 @@ nav ul li.current {
 
 nav > ul { padding-left: 630px; }
 nav > ul > li { float: left; }
+
+
 
 /*
 -----------
@@ -101,16 +110,21 @@ section.projectGallery { margin-top: 80px; margin-bottom: 30px; padding: 0; back
 section.projectGallery article { width: 33%; float: left; text-align: center; }
 section.projectGallery .content { margin: 15px; padding-top: 25px; }
 
-section.projectGallery article h3 a { text-decoration: none; font-size: 1.4em; }
+section.projectGallery h2 { text-align: center; font-size: 2em; padding-top: 35px; }
+
+section.projectGallery article h3 a { text-decoration: none; font-size: 1.2em; }
 section.projectGallery article h3 a:hover { text-decoration: underline; }
+
+section.projectGallery article p { padding: 10px 0; }
 
 section.projectGallery article img { height: 350px; width: 350px; }
 
-section.projectGallery h2 { text-align: center; font-size: 2em; padding-top: 35px; }
+
+
 
 /*
 -----------
-Footer
+FOOTER
 -----------
 */
 footer { font-size: .8em; color: #eee; background-color: #666; padding: 25px 15px; }
