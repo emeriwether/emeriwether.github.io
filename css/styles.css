@@ -44,10 +44,12 @@ header { height: 100px; position: relative; }
 
 /* Header Logo */
 header a.logo { 
-    z-index: 2;
+    z-index: 1;
     position: absolute; 
-    display: block; width: 240px; height: 50px; 
-    background-image: url(http://www.eleanorpoleshow.cz/img/logo-eleanor-big.png) no-repeat 0 0; background-size: contain; 
+    /*display: block; width: 240px; height: 50px; 
+    background-image: url(http://www.eleanorpoleshow.cz/img/logo-eleanor-big.png) no-repeat 0 0; background-size: contain;
+    <a class="logo" title="Eleanor Meriwether" href="/index.html"><span>Eleanor Meriwether</span></a>
+*/ 
     top: 15px; left: 25px;
 }
 
@@ -145,7 +147,7 @@ MEDIA QUERIES
 @media screen and (max-width: 475px) {
     
     /* Header */
-    header { height: 150px; }
+    header { height: 125px; }
     
     /* Navigation */
     nav ul { padding-left: 10px; }
@@ -154,8 +156,8 @@ MEDIA QUERIES
     /* Section - Project Gallery */
     section.projectGallery article { width: 100%; float: none; text-align: left; }
     section.projectGallery article div.content { margin: 10px 20px 50px 20px; padding: 5px 0px; }
-    section.projectGallery article p { padding: 5px 0; margin: 0 0; }
-    section.projectGallery h2 { text-align: left; font-size: 1.4em; padding-left: 22px; padding-bottom: 10px; }
+    section.projectGallery article p { padding: 5px 0 10px 0; margin: 0 0; }
+    section.projectGallery h2 { text-align: left; font-size: 1.4em; padding-left: 20px; padding-bottom: 10px; }
     section.projectGallery article h3 { margin: 0 0 0 0; font-size: 1.1em; }
     section.projectGallery a.btn { font-size: .8em; }
     
