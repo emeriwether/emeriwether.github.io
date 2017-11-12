@@ -145,6 +145,7 @@ MEDIA QUERIES
 @media screen and (max-width: 475px) {
     
     /* Navigation */
+    nav ul { padding: 0; }
     nav ul li a { font-size: .7em; width: 20%; }
     
     /* Section - Project Gallery */
