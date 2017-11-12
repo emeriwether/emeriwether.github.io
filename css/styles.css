@@ -116,8 +116,11 @@ section.aboutMe article { padding: 0; min-height: 220px; }
 section.aboutMe article p { width: 100%; }
 section.aboutMe article img { width: 100%; }
 
-section.aboutMe_likes { padding-top: 30px; padding-bottom: 30px; }
-section.aboutMe_likes aside { width: 33%; float left; text-align: left; padding: 0;  }
+section.aboutMe_likes { margin-top: 20px; margin-bottom: 30px; padding: 0; }
+section.aboutMe_likes aside { width: 33%; float: left; text-align: left; }
+section.aboutMe_likes .content { margin: 15px; padding-top: 35px; }
+
+
 
 /*
 -----------
