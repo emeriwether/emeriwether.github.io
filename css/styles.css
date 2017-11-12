@@ -114,7 +114,7 @@ section.projectGallery article img { width: 100%; }
 section.aboutMe { background-color: #ddd; padding-top: 30px; padding-bottom: 30px; }
 
 section.aboutMe article { padding: 0 20px 0 515px; min-height: 220px; }
-section.aboutMe article img {  }
+section.aboutMe article img { top: 0px; left: 5px; }
 
 
 /*
@@ -161,6 +161,6 @@ MEDIA QUERIES
     section.projectGallery a.btn { font-size: .8em; }
     
     /* Buttons */
-    a.btn { padding: 5px 10px; top: 0px; left: 5px;}
+    a.btn { padding: 5px 10px; }
 
 }
