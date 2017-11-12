@@ -73,6 +73,8 @@ nav::after { content:''; display: block; clear: both; }
 
 nav ul { list-style: none; margin: 0; padding: 0;  padding-left: 60%; }
 
+nav ul li { float: left; }
+
 nav ul li a {
     display: inline-block;
     color: #333;
@@ -92,9 +94,6 @@ nav ul li a.current {
     color: #333;
     text-decoration: underline;
 }
-
-nav > ul {}
-nav > ul > li { float: left; }
 
 
 
@@ -157,5 +156,6 @@ MEDIA QUERIES
     section.projectGallery article p { padding: 10px 5px; margin: 0 0 ; }
     section.projectGallery article h3 { margin: 0 0; }
     
+    nav ul li a { font-size: .8em; }
 
 }
