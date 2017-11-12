@@ -46,7 +46,7 @@ header { height: 100px; position: relative; }
 img.logo { 
     z-index: 1;
     position: absolute; 
-    width: 240px; height: 50px; 
+    width: 260px; height: 50px; 
     top: 15px; left: 25px;
 }
 
@@ -129,23 +129,22 @@ footer p { padding-left: 25px; }
 MEDIA QUERIES
 -----------
 */
-
-/* Adjustable Browser Sizes */
 @media screen and (max-width: 1054px) {
     nav > ul { padding-left: 55%;  transition: padding-left 0.2s; }
 }
 
 @media screen and (max-width: 950px) {
+    /* Header */
+    header { height: 125px; }
+    
+    /* Navigation */
     nav { padding-top: 70px; }
     nav ul { padding-left: 10px; transition: padding-left 0.2s; }
 }
 
 /* Phones (works for 347-475 width) */
 @media screen and (max-width: 475px) {
-    
-    /* Header */
-    header { height: 125px; }
-    
+
     /* Navigation */
     nav ul { padding-left: 10px; }
     nav ul li a { font-size: .7em; width: 20%; }
