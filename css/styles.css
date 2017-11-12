@@ -117,8 +117,7 @@ section.aboutMe article p { width: 100%; }
 section.aboutMe article img { width: 100%; }
 
 section.aboutMe_likes { padding-top: 30px; padding-bottom: 30px; }
-section.aboutMe_likes aside { padding: 0; }
-section.aboutMe_likes aside .content { width: 33%; float left; text-align: left; }
+section.aboutMe_likes aside { width: 33%; float left; text-align: left; padding: 0;  }
 
 /*
 -----------
