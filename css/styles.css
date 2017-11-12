@@ -129,11 +129,11 @@ footer p { padding-left: 25px; }
 MEDIA QUERIES
 -----------
 */
-@media screen and (max-width: 1054px) {
+@media screen and (max-width: 1053px) {
     nav > ul { padding-left: 55%;  transition: padding-left 0.2s; }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 948px) {
     /* Header */
     header { height: 125px; }
     
