@@ -114,7 +114,7 @@ section.projectGallery article img { width: 100%; }
 section.aboutMe { background-color: #ddd; padding-top: 30px; padding-bottom: 30px; }
 
 section.aboutMe article { padding: 0 20px 0 20px; min-height: 220px; }
-section.aboutMe article .content { width: 50%; float: left; text-align: left; }
+section.aboutMe article .content { width: 50%; float: left; text-align: left; padding: 0 30px; }
 section.aboutMe article .content:nth-child(2) { padding-top: 30px; }
 section.aboutMe article img { width: 100%; }
 
