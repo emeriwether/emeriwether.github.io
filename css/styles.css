@@ -157,8 +157,5 @@ MEDIA QUERIES
     section.projectGallery article p { padding: 10px 5px; margin: 0 0 ; }
     section.projectGallery article h3 { margin: 0 0; }
     
-    /* Navigation */
-    nav ul li a {
-        width: 100%;
-    }
+
 }
