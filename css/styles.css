@@ -115,9 +115,9 @@ section.main { background-color: #ddd;}
 section.main article div { width: 45%; float: left; text-align: left; }
 section.main div p { padding-top: 40px; }
 
-section.aside { width: 30%; float: left; }
-section.aside div { width: 45%; float: left; }
-section.aside div p { padding-top: 40px; }
+section.aside aside { width: 30%; float: left; }
+section.aside aside div { width: 45%; float: left; }
+section.aside aside div p { padding-top: 40px; }
 
 
 
