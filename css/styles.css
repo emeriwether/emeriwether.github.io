@@ -111,8 +111,8 @@ section.projectGallery article p { padding: 20px 0; }
 section.projectGallery article img { width: 100%; }
 
 /*ABOUT ME*/
-section.main { background-color: #ddd;}
-section.main article div { width: 45%; float: left; text-align: left; }
+section.main { background-color: #ddd; padding-bottom: 30px; }
+section.main article div { width: 45%; float: left; text-align: left; margin-left: 25px; margin-top: 25px;}
 section.main article div p { padding-top: 40px; }
 section.main article div img { width: 90%; }
 
