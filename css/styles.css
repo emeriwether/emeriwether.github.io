@@ -89,36 +89,31 @@ nav ul li a:hover { color: #ccc; }
 nav ul li a.current { color: #333; text-decoration: underline;}
 
 
-/*
------------
-SECTIONS
------------
-*/
+/**********
+------------
+--SECTIONS--
+------------
+***********/
 section { padding: 10px 60px; display: inline-block; }
 section::after { content:''; display: block; clear: both; }
 
 
-/*
-PROJECT GALLERY
-*/
+/*PROJECT GALLERY*/
 section.projectGallery { margin-bottom: 50px; padding: 0; background-color: #ddd; }
-section.projectGallery article { width: 33%; float: left; text-align: center; }
 section.projectGallery .content { margin: 15px; padding-top: 25px; }
 
 section.projectGallery h2 { text-align: center; font-size: 2em; padding-top: 35px; }
 
+section.projectGallery article { width: 33%; float: left; text-align: center; }
 section.projectGallery article h3 a { text-decoration: none; font-size: 1.2em; }
 section.projectGallery article h3 a:hover { text-decoration: underline; }
-
 section.projectGallery article p { padding: 20px 0; }
-
 section.projectGallery article img { width: 100%; }
 
+/*ABOUT ME*/
+section.aboutMe { background-color: #ddd; padding-top: 30px; padding-bottom: 30px; }
 
-/*
-ABOUT ME
-*/
-section.aboutMe { background-color: #ddd; }
+section.aboutMe article { padding: 0 20px 0 515px; min-height: 220px; }
 
 
 
