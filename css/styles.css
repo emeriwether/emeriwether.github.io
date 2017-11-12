@@ -101,7 +101,9 @@ section::after { content:''; display: block; clear: both; }
 /*PROJECT GALLERY*/
 section.projectGallery { margin-bottom: 50px; padding: 0; background-color: #ddd; }
 section.projectGallery .content { margin: 15px; padding-top: 25px; }
+
 section.projectGallery h2 { text-align: center; font-size: 2em; padding-top: 35px; }
+
 section.projectGallery article { width: 33%; float: left; text-align: center; }
 section.projectGallery article h3 a { text-decoration: none; font-size: 1.2em; }
 section.projectGallery article h3 a:hover { text-decoration: underline; }
@@ -112,13 +114,15 @@ section.projectGallery article img { width: 100%; }
 section.aboutMe { background-color: #ddd; padding-top: 30px; padding-bottom: 30px; }
 section.aboutMe .content { width: 45%; float: left; text-align: left; }
 section.aboutMe .content:nth-child(2) { padding-top: 40px; padding-left: 60px; margin-left: 25px; }
+
 section.aboutMe article { padding: 0; min-height: 220px; }
 section.aboutMe article p { width: 100%; }
 section.aboutMe article img { width: 100%; }
-
+/********/
 section.aboutMe_likes { margin-top: 20px; margin-bottom: 30px; padding: 0; }
+section.aboutMe_likes .content { width: 40%; float: left; text-align: left; }
+
 section.aboutMe_likes aside { width: 33%; float: left; text-align: left; }
-section.aboutMe_likes .content { width: 40%; }
 section.aboutMe_likes article img { width: 100%; }
 
 
