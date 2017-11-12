@@ -89,15 +89,18 @@ nav ul li a:hover { color: #ccc; }
 nav ul li a.current { color: #333; text-decoration: underline;}
 
 
-
 /*
 -----------
-PROJECT GALLERY
+SECTIONS
 -----------
 */
 section { padding: 10px 60px; display: inline-block; }
 section::after { content:''; display: block; clear: both; }
 
+
+/*
+PROJECT GALLERY
+*/
 section.projectGallery { margin-bottom: 50px; padding: 0; background-color: #ddd; }
 section.projectGallery article { width: 33%; float: left; text-align: center; }
 section.projectGallery .content { margin: 15px; padding-top: 25px; }
@@ -111,6 +114,11 @@ section.projectGallery article p { padding: 20px 0; }
 
 section.projectGallery article img { width: 100%; }
 
+
+/*
+ABOUT ME
+*/
+section.aboutMe { background-color: #ddd; }
 
 
 
