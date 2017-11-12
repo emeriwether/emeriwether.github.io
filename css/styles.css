@@ -40,7 +40,7 @@ a.btn:hover { background-color: rgba(0,0,0,.3); color: #555; }
 HEADER
 -----------
 */
-header { height: 100px; background: #fff; position: relative; }
+header { height: 100px; position: relative; }
 
 /* Header Logo */
 header a.logo { 
