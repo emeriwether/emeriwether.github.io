@@ -121,6 +121,7 @@ section.aboutMe article img { width: 100%; }
 /********/
 section.aboutMe_likes { margin-top: 20px; margin-bottom: 30px; padding: 0; }
 section.aboutMe_likes .content { width: 50%; float: left; text-align: left; }
+section.aboutMe_likes::after { content:''; display: block; clear: both; }
 
 section.aboutMe_likes aside { width: 33%; float: left; text-align: left; }
 
