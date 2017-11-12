@@ -77,7 +77,6 @@ nav ul li a {
     color: #333;
     padding: 10px 20px;
     text-decoration: none;
-    /*width: 90px;*/
     width: 24%;
     position: relative;
     text-align: center;
@@ -155,4 +154,9 @@ MEDIA QUERIES
     section.projectGallery article div.content { margin: 10px 20px 50px 20px; padding: 5px 5px; }
     section.projectGallery article p { padding: 10px 5px; margin: 0 0 ; }
     section.projectGallery article h3 { margin: 0 0; }
+    
+    /* Navigation */
+    nav ul li a {
+        width: 100%;
+    }
 }
