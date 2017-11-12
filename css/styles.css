@@ -71,7 +71,7 @@ nav {
 
 nav::after { content:''; display: block; clear: both; }
 
-nav ul { list-style: none; margin: 0; padding: 0; }
+nav ul { list-style: none; margin: 0; padding: 0;  padding-left: 60%; }
 
 nav ul li a {
     display: inline-block;
@@ -88,12 +88,12 @@ nav ul li a:hover {
     color: #ccc;
 }
 
-nav ul li.current {
+nav ul li a.current {
     color: #333;
     text-decoration: underline;
 }
 
-nav > ul { padding-left: 60%; }
+nav > ul {}
 nav > ul > li { float: left; }
 
 
