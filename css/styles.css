@@ -42,7 +42,7 @@ HEADER
 */
 header { height: 100px; position: relative; }
 
-/* Header Logo */
+/* Header Logo 
 header a.logo { 
     z-index: 1;
     position: absolute; 
@@ -50,10 +50,11 @@ header a.logo {
     background-image: url(http://www.eleanorpoleshow.cz/img/logo-eleanor-big.png); 
     top: 15px; left: 25px;
 }
+*/
 
-/* hides link text */
+/* hides link text 
 header a.logo span { display: none; }
-
+*/
 
 
 /*
