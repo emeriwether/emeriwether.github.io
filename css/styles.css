@@ -185,7 +185,7 @@ MEDIA QUERIES
     /* Header */
     header { height: 125px; }
     
-    /* Navigation *0
+    /* Navigation 8
     nav { padding-top: 70px; }
     nav ul { padding-left: 10px; transition: padding-left 0.2s; }
     
@@ -195,7 +195,7 @@ MEDIA QUERIES
     /*Contact*/
     section.contactInfo #info h3 { font-size: 1.1em;}
     section.contactInfo #info p { font-size: .8em;}
-    section.contactInfo #form input[type=text] { width: 75%; margin-left: 10px; }
+    section.contactInfo #form input[type=text] { width: 75%; margin-left: 8px; }
 }
 
 @media screen and (max-width: 842px) {
