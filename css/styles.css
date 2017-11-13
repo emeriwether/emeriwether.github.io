@@ -150,7 +150,8 @@ CONTACT
 -----------
 */
 
-section.contactHeader { background-color: #eee; text-align: center; left: 40%; }
+section.contactHeader { background-color: #eee; text-align: center; }
+section.contactHeader div { left: 40%; }
 
 section.contactInfo { margin-top: 60px; }
 section.contactInfo div { background-color: #eee; width: 40%; float: left; }
