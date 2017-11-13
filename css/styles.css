@@ -139,7 +139,7 @@ section.resume { margin-bottom: 80px;}
 /*CONTACT*/
 section.contactHeader { background-color: #ddd; text-align: center; padding: 30px 0 20px 0; display: block; }
 
-section.contactInfo { margin-top: 60px; margin-bottom: 60px; text-align: center; display: block; padding: 10px 0x; }
+section.contactInfo { margin-top: 60px; margin-bottom: 60px; text-align: center; display: block; padding: 10px 0; }
 section.contactInfo > div { float: left; }
 section.contactInfo > div:nth-child(1) { width: 60%; }
 section.contactInfo > div:nth-child(2) { margin-left: 60px;  background-color: #ddd; padding: 15px 15px; }
