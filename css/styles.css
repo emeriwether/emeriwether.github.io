@@ -139,13 +139,18 @@ section.resume { margin-bottom: 80px;}
 /*CONTACT*/
 section.contactHeader { background-color: #ddd; text-align: center; padding: 30px 0 20px 0; display: block; }
 
-section.contactInfo { margin-top: 60px; text-align: center; display: block; }
+section.contactInfo { margin-top: 60px; margin-bottom: 60px; text-align: center; display: block; }
 section.contactInfo > div { width: 25%; float: left; padding: 15px 15px; }
-section.contactInfo > div:nth-child(1) { width: 60%; display: inline-block; float: left; }
+section.contactInfo > div:nth-child(1) { width: 60%; }
 section.contactInfo div:nth-child(2) { margin-left: 60px;  background-color: #ddd; }
-section.contactInfo div div img { width: 30px; height: 30px; }
-section.contactInfo div div a:nth-child(2) img { padding-left: 15px; }
-section.contactInfo input[type=text] { border: 1px solid #ddd; border-radius: 4px; }
+
+section.contactInfo #form div { padding: 15px 0; }
+section.contactInfo #form input[type=text] { border: 1px solid #ddd; border-radius: 4px;  height: 30px; width: 30%; }
+section.contactInfo #form input:nth-child(2) { margin-left: 25px; }
+section.contactInfo #form textarea { border: 1px solid #ddd; border-radius: 4px; width: 70%; height: 150px; }
+
+section.contactInfo #info div img { width: 30px; height: 30px; }
+section.contactInfo #info div a:nth-child(2) img { padding-left: 15px; }
 
 
 /*
