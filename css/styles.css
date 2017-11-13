@@ -153,6 +153,11 @@ MEDIA QUERIES
     nav ul { padding-left: 10px; transition: padding-left 0.2s; }
 }
 
+@media screen and (max-width: 842px) {
+    /* Main */
+    section.main article div { width: 100%; }
+}
+
 /* Phones (works for 347-475 width) */
 @media screen and (max-width: 475px) {
 
