@@ -144,8 +144,12 @@ MEDIA QUERIES
 -----------
 */
 @media screen and (max-width: 1053px) {
+    /* Navigation */
     nav > ul { padding-left: 55%;  transition: padding-left 0.2s; }
+    
+    /* About Me */
     section.main article div h2 { font-size: 1.4em; }
+    section.main article div p { padding-top: 60px; }
 }
 
 @media screen and (max-width: 948px) {
@@ -155,6 +159,9 @@ MEDIA QUERIES
     /* Navigation */
     nav { padding-top: 70px; }
     nav ul { padding-left: 10px; transition: padding-left 0.2s; }
+    
+    /* About Me */
+    section.main article div h2 { font-size: 1.2em; }
 }
 
 @media screen and (max-width: 842px) {
