@@ -152,8 +152,8 @@ CONTACT
 
 section.contactHeader { background-color: #eee; }
 
-section.contactInfo div { background-color: #eee; width: 40%; }
-section.contactInfo div div img { width: 30%; }
+section.contactInfo div { background-color: #eee; width: 40%; float: left; }
+section.contactInfo div div img { width: 30%; float: left;}
 
 /*
 -----------
