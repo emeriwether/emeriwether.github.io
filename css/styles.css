@@ -144,7 +144,7 @@ section.contactInfo > div { float: left; }
 section.contactInfo > div:nth-child(1) { width: 60%; }
 section.contactInfo > div:nth-child(2) { margin-left: 60px;  background-color: #ddd; padding: 15px 15px; }
 
-section.contactInfo #form input[type=text] { border: 1px solid #ddd; border-radius: 4px;  height: 30px; width: 35%; background-color: #ddd; margin-bottom: 15px; outline: none; padding: 0 10px; }
+section.contactInfo #form input[type=text] { border: 1px solid #ddd; border-radius: 4px;  height: 30px; width: 33%; background-color: #ddd; margin-bottom: 15px; outline: none; padding: 0 10px; }
 section.contactInfo #form input[type=text]:focus { border: 3px solid #ddd; }
 section.contactInfo #form input:nth-child(2) { margin-left: 25px; }
 section.contactInfo #form input[type=submit] {display: block; margin-top: 20px; margin-left: 12%; color: #eee; background-color: #555; border: 1px solid #555; padding: 5px 15px; border-radius: 4px;}
