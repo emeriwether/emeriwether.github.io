@@ -127,31 +127,18 @@ section.aside aside div p { padding-top: 40px; padding-left: 15px; font-size: 1.
 section.aside aside div img { width: 100%; }
 
 
-/*
------------
-PROJECT DETAILS
------------
-*/
+/*PROJECT DETAILS*/
 section.project1 { margin-bottom: 80px; }
 section.project2 { margin-bottom: 80px; }
 section.project3 { margin-bottom: 80px; }
 
 
-/*
------------
-RESUME
------------
-*/
+/*RESUME*/
 section.resume { margin-bottom: 80px;}
 
-/*
------------
-CONTACT
------------
-*/
-
+/*CONTACT*/
 section.contactHeader { background-color: #eee; text-align: center; }
-section.contactHeader div { left: 40%; }
+section.contactHeader div { left: 40%; width: 100%; }
 
 section.contactInfo { margin-top: 60px; }
 section.contactInfo div { background-color: #eee; width: 40%; float: left; }
