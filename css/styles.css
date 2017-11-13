@@ -195,7 +195,7 @@ MEDIA QUERIES
     /*Contact*/
     section.contactInfo #info h3 { font-size: 1.1em;}
     section.contactInfo #info p { font-size: .8em;}
-    section.contactInfo #form input[type=text] { width: 75%; margin-left: 20px; }
+    section.contactInfo #form input[type=text] { width: 75%; margin-left: 15px; }
 }
 
 @media screen and (max-width: 842px) {
