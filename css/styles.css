@@ -144,9 +144,10 @@ section.contactInfo > div { width: 25%; float: left; }
 section.contactInfo > div:nth-child(1) { width: 60%; }
 section.contactInfo > div:nth-child(2) { margin-left: 60px;  background-color: #ddd; padding: 15px 15px; }
 
-section.contactInfo #form input[type=text] { border: 1px solid #ddd; border-radius: 4px;  height: 30px; width: 30%; }
+section.contactInfo #form input[type=text] { border: 1px solid #ddd; border-radius: 4px;  height: 30px; width: 35%; }
 section.contactInfo #form input:nth-child(2) { margin-left: 25px; }
-section.contactInfo #form textarea { border: 1px solid #ddd; border-radius: 4px; width: 70%; height: 150px; }
+section.contactInfo #form textarea { border: 1px solid #ddd; border-radius: 4px; width: 75%; height: 150px; display: block; margin-left: 12%; }
+section.contactInfo #form input[type=submit] {display: block; margin-top: 20px; margin-left: 12%; }
 
 section.contactInfo #info div img { width: 30px; height: 30px; }
 section.contactInfo #info div a:nth-child(2) img { padding-left: 15px; }
