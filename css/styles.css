@@ -143,8 +143,8 @@ section.contactInfo { margin-top: 60px; text-align: center; }
 section.contactInfo div { background-color: #ddd; width: 30%; float: left; padding: 15px 15px; }
 section.contactInfo div:nth-child(1) { width: 60%; }
 section.contactInfo div:nth-child(2) { margin-left: 40px; }
-section.contactInfo div div { margin-left: 20%; }
-section.contactInfo div div img { width: 0%; float: left;}
+section.contactInfo div div { left: 40%; }
+section.contactInfo div div img { width: 40%; float: left;}
 
 /*
 -----------
