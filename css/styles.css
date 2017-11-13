@@ -115,6 +115,7 @@ section.main { background-color: #ddd; padding-bottom: 30px; }
 section.main article div { width: 45%; float: left; text-align: left; margin-left: 25px; margin-top: 25px;}
 section.main article div p { padding-top: 40px; }
 section.main article div img { width: 90%; max-height: 600px; max-width: 480px; }
+section.main article div h2 { padding-bottom: 20px; }
 
 section.aside { padding: 50px 60px; }
 section.aside aside { width: 33%; float: left; }
@@ -156,7 +157,7 @@ MEDIA QUERIES
 @media screen and (max-width: 842px) {
     /* Main */
     section.main article div { width: 100%; }
-    section.main article div img { margin: auto; }
+    section.main article div p { padding-right: 60px; padding-top: 20px; }
 }
 
 /* Phones (works for 347-475 width) */
