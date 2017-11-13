@@ -193,6 +193,7 @@ MEDIA QUERIES
     section.main article div h2 { font-size: 1.2em;  padding-bottom: 10px; }
     
     /*Contact*/
+    section.contactInfo #info { margin-left: 0;}
     section.contactInfo #info h3 { font-size: 1.1em;}
     section.contactInfo #info p { font-size: .8em;}
     section.contactInfo #form input[type=text] { width: 75%; margin-left: 0; }
@@ -209,9 +210,7 @@ MEDIA QUERIES
     section.aside aside:nth-child(3) div:nth-child(1) img { margin-bottom: 80px; }
     
     /*Contact*/
-    section.contactInfo #info { margin-left: 0;}
     section.contactInfo > div:nth-child(1) { width: 65%; }
-
 }
 
 @media screen and (max-width: 490px) {
