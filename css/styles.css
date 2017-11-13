@@ -178,6 +178,7 @@ MEDIA QUERIES
 @media screen and (max-width: 490px) {
     /* About Me */
     section.main article div { margin-left: 0; } 
+    section.main article div p { padding-right: 0; } 
     
     section.aside aside { width: 90%; float: none; margin-bottom: 30px; }
     section.aside aside div img { width: 70%; margin-bottom: 10px; }
