@@ -177,8 +177,9 @@ MEDIA QUERIES
 
 @media screen and (max-width: 490px) {
     /* About Me */
-    section.aside aside { width: 90%; float: none; }
-    
+    section.aside aside { width: 90%; float: none; margin-bottom: 20px; }
+    section.aside aside:nth-child(3) div:nth-child(1) img { margin-bottom: 15px; }
+    section.aside aside div img { width: 70%; }
 }
 
 /* Phones (works for 347-475 width) */
