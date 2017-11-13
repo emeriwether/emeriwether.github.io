@@ -142,7 +142,7 @@ section.contactHeader { background-color: #ddd; text-align: center; padding: 30p
 section.contactInfo { margin-top: 60px; text-align: center; }
 section.contactInfo div { background-color: #ddd; width: 30%; float: left; padding: 15px 15px; }
 section.contactInfo div:nth-child(1) { width: 60%; }
-section.contactInfo div div img { width: 30%; float: left; left: 40%; }
+section.contactInfo div div img { width: 40%; float: left; left: 40%; }
 section.contactInfo div:nth-child(2) { margin-left: 40px; }
 
 /*
