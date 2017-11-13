@@ -210,6 +210,8 @@ MEDIA QUERIES
     
     /*Contact*/
     section.contactInfo #info { margin-left: 40px;}
+    section.contactInfo > div:nth-child(1) { width: 70%; }
+
 }
 
 @media screen and (max-width: 490px) {
