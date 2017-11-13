@@ -129,6 +129,16 @@ section.aside aside div img { width: 100%; }
 
 /*
 -----------
+PROJECT DETAILS
+-----------
+*/
+section.project1 { margin-bottom: 80px; }
+section.project2 { margin-bottom: 80px; }
+section.project3 { margin-bottom: 80px; }
+
+
+/*
+-----------
 FOOTER
 -----------
 */
