@@ -157,7 +157,7 @@ MEDIA QUERIES
 @media screen and (max-width: 842px) {
     /* Main */
     section.main article div { width: 100%; }
-    section.main article div p { padding-right: 60px; padding-top: 20px; }
+    section.main article div p { padding-right: 80px; padding-top: 0; }
 }
 
 /* Phones (works for 347-475 width) */
