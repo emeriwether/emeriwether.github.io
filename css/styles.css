@@ -137,7 +137,7 @@ section.project3 { margin-bottom: 80px; }
 section.resume { margin-bottom: 80px;}
 
 /*CONTACT*/
-section.contactHeader { background-color: #ddd; text-align: center; padding-bottom: 30px; width: 90%; }
+section.contactHeader { background-color: #ddd; text-align: center; padding-bottom: 30px;  }
 
 section.contactInfo { margin-top: 60px;}
 section.contactInfo div { background-color: #ddd; width: 40%; float: left; }
