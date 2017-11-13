@@ -201,6 +201,9 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width: 842px) {
+    /* Navigation */
+    nav > ul { padding-left: 45%; }
+    
     /* About Me */
     section.main article div:nth-child(1) { width: 100%; }
     section.main article div:nth-child(2) { width: 100%; }
