@@ -150,9 +150,9 @@ CONTACT
 -----------
 */
 
-section.contactHeader { background-color: #eee; width: 100%; text-align: center; left: 40%; }
+section.contactHeader { background-color: #eee; text-align: center; left: 40%; }
 
-section.contactInfo { margin-top: 80px; }
+section.contactInfo { margin-top: 60px; }
 section.contactInfo div { background-color: #eee; width: 40%; float: left; }
 section.contactInfo div div img { width: 30%; float: left;}
 
