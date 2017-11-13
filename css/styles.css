@@ -144,7 +144,7 @@ section.contactInfo > div { width: 25%; float: left; padding: 15px 15px; }
 section.contactInfo div:nth-child(1) { width: 60%; }
 section.contactInfo div:nth-child(2) { margin-left: 60px;  background-color: #ddd; }
 section.contactInfo div div img { width: 30px; height: 30px; }
-
+section.contactInfo div div img:nth-child(2) { padding-left: 15px; }
 /*
 -----------
 FOOTER
