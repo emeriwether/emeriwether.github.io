@@ -172,7 +172,7 @@ MEDIA QUERIES
     section.main article div h2 { padding-bottom: 5px; }
     section.aside aside div { width: 85%; float: none; }
     section.aside aside div p { padding-top: 15px; padding-left: 0; font-size: 1em; }
-    section.aside aside:nth-child(3) div:nth-child(1) img { margin-bottom: 30px; }
+    section.aside aside:nth-child(3) div:nth-child(1) img { margin-bottom: 60px; }
 }
 
 /* Phones (works for 347-475 width) */
