@@ -212,7 +212,7 @@ MEDIA QUERIES
     
     /*Contact*/
     section.contactInfo > div:nth-child(1) { width: 65%; }
-    section.contactInfo > div:nth-child(1) h3 { font-size: 1.1em;}
+    section.contactInfo > div:nth-child(1) h3 { font-size: 1.1em; }
 }
 
 @media screen and (max-width: 650px) {
