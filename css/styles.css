@@ -216,9 +216,9 @@ MEDIA QUERIES
 
 @media screen and (max-width: 650px) {
     /*Contact*/
-    section.contactInfo { margin-bottom: 0; margin-top: 40px; }
+    section.contactInfo { margin-bottom: 0; margin-top: 40px; padding-bottom: 0; }
     section.contactInfo #form {margin-left: 15%; margin-bottom: 40px; }
-    section.contactInfo #info { display: block;  }
+    section.contactInfo #info { display: block; width: 100%; }
 }
 
 @media screen and (max-width: 490px) {
