@@ -191,6 +191,10 @@ MEDIA QUERIES
     
     /* About Me */
     section.main article div h2 { font-size: 1.2em;  padding-bottom: 10px; }
+    
+    /*Contact*/
+    section.contactInfo #info h3 { font-size: 1.1em;}
+    section.contactInfo #info p { font-size: .8em;}
 }
 
 @media screen and (max-width: 842px) {
