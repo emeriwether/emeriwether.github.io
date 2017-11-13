@@ -140,7 +140,7 @@ section.resume { margin-bottom: 80px;}
 section.contactHeader { background-color: #ddd; text-align: center; padding: 30px 0 20px 0; display: block; }
 
 section.contactInfo { margin-top: 60px; text-align: center; display: block; }
-section.contactInfo div { width: 25%; float: left; padding: 15px 15px; }
+section.contactInfo > div { width: 25%; float: left; padding: 15px 15px; }
 section.contactInfo div:nth-child(1) { width: 60%; }
 section.contactInfo div:nth-child(2) { margin-left: 60px;  background-color: #ddd; }
 section.contactInfo div div img { width: 30px; height: 30px; }
