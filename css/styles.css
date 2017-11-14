@@ -10,23 +10,19 @@ SITE-WIDE STYLING
 body { font-family: 'Montserrat', sans-serif; font-size: 16px; font-weight: 400; color: #555; margin: 0; padding: 0; }
 #page { max-width: 1400px; margin: 0 auto; position: relative; }
 
-
 /*TEXT*/
 p { margin: 0 0 1em 0; }
 a { color: #555; }
-a:visited { color: #555; }
 h1 { font-family: 'Merriweather', serif; margin: 0 0 1em 0; font-size: 2.8em; font-weight: 700; }
 h2 { font-family: 'Merriweather', serif; margin: 0 0 .5em 0; font-size: 1.6em; font-weight: 700; line-height: 1.1em; }
 h3 { font-family: 'Merriweather', serif; margin: 0 0 .5em 0; font-size: 1.3em; font-weight: 700; }
 h4 { font-family: 'Merriweather', serif; margin: 0 0 1.5em 0; font-size: 1em; font-weight: 700; }
 
-
-
 /*BUTTONS*/
-a.btn { text-decoration: none; color: #eee; background-color: #555; border: 1px solid #555; padding: 5px 15px; transition: background-color .5s; border-radius: 4px; }
+a.btn { text-decoration: none; color: #eee; background-color: #555; padding: 5px 15px; transition: background-color .5s; border-radius: 4px; }
 a.btn:hover { background-color: rgba(0,0,0,.3); color: #555; }
 
-button.toTop { display: none; color: #eee; background-color: #555; border: 1px solid #555; padding: 5px 15px; border-radius: 4px; margin: 20px 20px; font-size: 1em; }
+button.toTop { display: none; color: #eee; background-color: #555; padding: 5px 15px; border-radius: 4px; margin: 20px 20px; font-size: .9em; }
 
 /*
 -----------
