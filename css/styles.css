@@ -220,7 +220,13 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width: 562px) { 
-    section.projectGallery article div h3 { font-size: .8em; }
+    /*Project Gallery*/
+    section.projectGallery article { width: 100%; float: none; text-align: left; }
+    section.projectGallery article div.content { margin: 10px 20px 50px 20px; padding: 5px 0px; }
+    section.projectGallery article p { padding: 5px 0 10px 0; margin: 0 0; }
+    section.projectGallery h2 { text-align: left; padding-left: 20px; padding-bottom: 10px; }
+    section.projectGallery article h3 { margin: 0 0 0 0; font-size: 1.1em; }
+    section.projectGallery a.btn { font-size: .8em; }
 }
 
 @media screen and (max-width: 490px) {
@@ -238,14 +244,6 @@ MEDIA QUERIES
 @media screen and (max-width: 475px) {
     /*Navigation*/
     nav ul li a { font-size: .7em; width: 20%; }
-    
-    /*Project Gallery*/
-    section.projectGallery article { width: 100%; float: none; text-align: left; }
-    section.projectGallery article div.content { margin: 10px 20px 50px 20px; padding: 5px 0px; }
-    section.projectGallery article p { padding: 5px 0 10px 0; margin: 0 0; }
-    section.projectGallery h2 { text-align: left; padding-left: 20px; padding-bottom: 10px; }
-    section.projectGallery article h3 { margin: 0 0 0 0; font-size: 1.1em; }
-    section.projectGallery a.btn { font-size: .8em; }
     
     /*Contact*/
     section.contactInfo #form input[type=submit] { margin-left: 35%; }
