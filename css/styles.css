@@ -185,11 +185,8 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width: 842px) {
-    /* Navigation */
-    nav > ul { padding-left: 45%; }
-    
     /* Project Gallery */
-    section.projectGallery h2{ margin-bottom: 0; font-size: 1.4em; }
+    section.projectGallery h2{ margin-bottom: 0; font-size: 1.5em; }
     section.projectGallery article div h3 { font-size: 1.1em; }
     
     /* About Me */
