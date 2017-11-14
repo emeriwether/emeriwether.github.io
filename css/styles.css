@@ -218,10 +218,12 @@ MEDIA QUERIES
     section.contactInfo > div:nth-child(1) h3 { font-size: 1.1em; }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 767px) {
     /* Navigation */
     nav ul { padding-top: 40px; padding-left: 10px; }
-    
+}
+
+@media screen and (max-width: 650px) { 
     /*Contact*/
     section.contactInfo { margin-bottom: 0; margin-top: 40px; padding-bottom: 0; }
     section.contactInfo #form {margin-left: 15%; margin-bottom: 40px; }
