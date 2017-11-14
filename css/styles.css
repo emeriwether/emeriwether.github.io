@@ -122,7 +122,6 @@ section.resume { margin-bottom: 80px;}
 /*CONTACT*/
 section.contactHeader { background-color: #ddd; text-align: center; padding: 30px 0 20px 0; display: block; }
 section.contactInfo { margin-top: 60px; margin-bottom: 60px; text-align: center; display: block; padding: 10px 0; }
-section.contactInfo { display: inline-block; }
 section.contactInfo > div { float: left; }
 section.contactInfo > div:nth-child(1) { width: 60%; }
 section.contactInfo > div:nth-child(2) { margin-left: 60px;  background-color: #ddd; padding: 15px 15px; }
@@ -200,8 +199,8 @@ MEDIA QUERIES
     section.aside aside:nth-child(3) div:nth-child(1) img { margin-bottom: 80px; }
     
     /*Contact*/
-    section.contactInfo > div:nth-child(1) { width: 65%; }
-    section.contactInfo h3 { font-size: 1.1em; }
+    section.contactInfo #form { width: 65%; }
+    section.contactInfo #form { font-size: 1.1em; }
 }
 
 @media screen and (max-width: 767px) {
