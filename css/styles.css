@@ -22,7 +22,8 @@ h4 { font-family: 'Merriweather', serif; margin: 0 0 1.5em 0; font-size: 1em; fo
 a.btn { text-decoration: none; color: #eee; background-color: #555; padding: 5px 15px; transition: background-color .5s; border-radius: 4px; }
 a.btn:hover { background-color: rgba(0,0,0,.3); color: #555; }
 
-button.toTop { display: none; color: #eee; background-color: #555; padding: 5px 15px; border-radius: 4px; margin: 20px 20px; font-size: .9em; }
+button.toTop { display: none; color: #eee; background-color: #555; padding: 5px 15px; border-radius: 4px; margin: 20px 20px; font-size: .9em; transition: background-color .5s; }
+button.toTop:hover { background-color: rgba(0,0,0,.3); color: #555; }
 
 /*
 -----------
@@ -45,7 +46,9 @@ header a.logo span { display: none; }
 
 /*
 -----------
-TOP NAVIGATION BAR STYLING
+-----------
+NAVIGATION BAR
+-----------
 -----------
 */
 nav { 
@@ -76,11 +79,11 @@ nav ul li a:hover { color: #ccc; }
 nav ul li a:current { color: #e2002a; text-decoration: underline; }
 
 
-/**********
+/*
 ------------
---SECTIONS--
+SECTIONS
 ------------
-***********/
+*/
 section { padding: 10px 60px; display: inline-block; }
 section::after { content:''; display: block; clear: both; }
 
@@ -131,8 +134,8 @@ section.contactInfo > div { float: left; }
 section.contactInfo > div:nth-child(1) { width: 60%; }
 section.contactInfo > div:nth-child(2) { margin-left: 60px;  background-color: #ddd; padding: 15px 15px; }
 
-section.contactInfo #form input[type=text] { border: 1px solid #ddd; border-radius: 4px;  height: 30px; width: 33%; background-color: #ddd; margin-bottom: 15px; outline: none; padding: 0 10px; }
-section.contactInfo #form input[type=text]:focus { border: 3px solid #ddd; }
+section.contactInfo #form input[type=text], section.contactInfo #form input[type=email] { border: 1px solid #ddd; border-radius: 4px;  height: 30px; width: 33%; background-color: #ddd; margin-bottom: 15px; outline: none; padding: 0 10px; }
+section.contactInfo #form input:focus { border: 3px solid #ddd; }
 section.contactInfo #form input:nth-child(2) { margin-left: 25px; }
 section.contactInfo #form input[type=submit] {display: block; margin-top: 20px; margin-left: 12%; color: #eee; background-color: #555; border: 1px solid #555; padding: 5px 15px; border-radius: 4px;}
 section.contactInfo #form textarea { border: 1px solid #ddd; border-radius: 4px; max-width: 75%; width: 75%; height: 150px; display: block; margin-left: 12%; background-color: #ddd; padding: 10px 10px; }
@@ -143,17 +146,20 @@ section.contactInfo #info div a:nth-child(2) img { padding-left: 15px; }
 
 /*
 -----------
+-----------
 FOOTER
+-----------
 -----------
 */
 footer { font-size: .8em; color: #eee; background-color: #666; padding: 25px 15px; }
 footer p { padding-left: 25px; }
 
 
-
 /*
 -----------
+-----------
 MEDIA QUERIES
+-----------
 -----------
 */
 @media screen and (max-width: 1053px) {
@@ -184,7 +190,7 @@ MEDIA QUERIES
     section.contactInfo #info { margin-left: 0;}
     section.contactInfo #info h3 { font-size: 1.1em;}
     section.contactInfo #info p { font-size: .8em;}
-    section.contactInfo #form input[type=text] { width: 75%; margin-left: 0; }
+    section.contactInfo #form input[type=text], section.contactInfo #form input[type=email] { width: 75%; margin-left: 0; }
 }
 
 @media screen and (max-width: 842px) {
