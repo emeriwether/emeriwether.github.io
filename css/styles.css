@@ -33,7 +33,7 @@ BUTTONS
 a.btn { text-decoration: none; color: #eee; background-color: #555; border: 1px solid #555; padding: 5px 15px; transition: background-color .5s; border-radius: 4px; }
 a.btn:hover { background-color: rgba(0,0,0,.3); color: #555; }
 
-button .toTop { display: none; }
+button.toTop { display: none; }
 
 /*
 -----------
@@ -230,7 +230,7 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width: 490px) {
-    button .toTop { display: inline; }
+    button.toTop { display: inline; }
     
     /* About Me */
     section.main article div { margin-left: 0; } 
