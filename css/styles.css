@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:700|Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat');
 
 /*
 -----------
@@ -7,16 +7,16 @@ SITE-WIDE STYLING
 -----------
 -----------
 */
-body { font-family: 'Montserrat', sans-serif; font-size: 16px; font-weight: 400; color: #555; margin: 0; padding: 0; }
+body { font-family: 'Montserrat', sans-serif; font-size: 16px; color: #555; margin: 0; padding: 0; }
 #page { max-width: 1400px; margin: 0 auto; position: relative; }
 
 /*TEXT*/
 p { margin: 0 0 1em 0; }
 a { color: #555; }
-h1 { font-family: 'Merriweather', serif; margin: 0 0 1em 0; font-size: 2.8em; font-weight: 700; }
-h2 { font-family: 'Merriweather', serif; margin: 0 0 .5em 0; font-size: 1.6em; font-weight: 700; line-height: 1.1em; }
-h3 { font-family: 'Merriweather', serif; margin: 0 0 .5em 0; font-size: 1.3em; font-weight: 700; }
-h4 { font-family: 'Merriweather', serif; margin: 0 0 1.5em 0; font-size: 1em; font-weight: 700; }
+h1 { font-family: 'Merriweather', serif; margin: 0 0 1em 0; font-size: 2.8em; }
+h2 { font-family: 'Merriweather', serif; margin: 0 0 .5em 0; font-size: 1.6em; line-height: 1.1em; }
+h3 { font-family: 'Merriweather', serif; margin: 0 0 .5em 0; font-size: 1.3em; }
+h4 { font-family: 'Merriweather', serif; margin: 0 0 1.5em 0; font-size: 1em; }
 
 /*BUTTONS*/
 a.btn { text-decoration: none; color: #eee; background-color: #555; padding: 5px 15px; transition: background-color .5s; border-radius: 4px; }
