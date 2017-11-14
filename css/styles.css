@@ -50,10 +50,8 @@ img.logo {
     top: 15px; left: 25px;
 }
 
-
-/* hides link text  
+hides link text  
 header a.logo span { display: none; }
-*/
 
 
 /*
@@ -86,7 +84,7 @@ nav ul li a {
 
 nav ul li a:hover { color: #ccc; }
 
-nav ul li a:current { color: #333; text-decoration: underline; }
+nav ul li a:current { color: #e2002a; text-decoration: underline; }
 
 
 /**********
