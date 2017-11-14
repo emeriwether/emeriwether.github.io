@@ -219,6 +219,10 @@ MEDIA QUERIES
     section.contactInfo #form input[type=submit] { margin-left: 44%; }
 }
 
+@media screen and (max-width: 562px) { 
+    section.projectGallery article div h3 { font-size: .8em; }
+}
+
 @media screen and (max-width: 490px) {
     button.toTop { display: inline; }
     
