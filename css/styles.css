@@ -124,12 +124,12 @@ section.contactInfo { margin-top: 60px; margin-bottom: 60px; text-align: center;
 section.contactInfo > div { float: left; }
 section.contactInfo > div:nth-child(1) { width: 60%; }
 section.contactInfo > div:nth-child(2) { margin-left: 60px;  background-color: #ddd; padding: 15px 15px; }
-section.contactInfo #form input[type=text], section.contactInfo #form input[type=email] { border: 1px solid #ddd; border-radius: 4px;  height: 30px; width: 33%; background-color: #ddd; margin-bottom: 15px; outline: none; padding: 0 10px; }
+section.contactInfo #form input[type=text], section.contactInfo #form input[type=email] { border: 1px solid #ddd; border-radius: 4px;  height: 30px; width: 33%; background-color: #ddd; margin-bottom: 15px; outline: none; padding: 0 10px; color: #333; }
 section.contactInfo #form input:focus { border: 3px solid #ddd; }
 section.contactInfo #form input:disabled { background-color: #aaa; }
 section.contactInfo #form input:nth-child(2) { margin-left: 25px; }
 section.contactInfo #form input[type=submit] {display: block; margin-top: 20px; margin-left: 12%; color: #eee; background-color: #555; border: 1px solid #555; padding: 5px 15px; border-radius: 4px;}
-section.contactInfo #form textarea { border: 1px solid #ddd; border-radius: 4px; max-width: 75%; width: 75%; height: 150px; background-color: #ddd; padding: 10px 10px; }
+section.contactInfo #form textarea { border: 1px solid #ddd; border-radius: 4px; max-width: 75%; width: 75%; height: 150px; background-color: #ddd; padding: 10px 10px; color: #333; }
 section.contactInfo #form textarea:disabled { background-color: #aaa; }
 section.contactInfo #info div img { width: 30px; height: 30px; }
 section.contactInfo #info div a:nth-child(2) img { padding-left: 15px; }
