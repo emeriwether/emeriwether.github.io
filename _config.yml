@@ -19,6 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   User Experience Designer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+google_analytics: UA-109828884-1
 
 # Build Settings
 markdown: kramdown
