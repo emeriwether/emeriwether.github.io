@@ -143,7 +143,9 @@ article.PortfolioWebsite::after { content:''; display: block; clear: both; }
 
 
 article.PortfolioWebsite header { background-color: #eee; display: inline-block; padding: 10px 60px; height: 100%;}
-article.PortfolioWebsite header h2 { margin-top: 60px; }
+article.PortfolioWebsite header h2 { margin-top: 60px; margin-bottom: 40px; }
+article.PortfolioWebsite header h3 { margin-bottom: 0; }
+article.PortfolioWebsite header p { margin-bottom: 25px; }
 article.PortfolioWebsite header img { width: 33%; }
 article.PortfolioWebsite p span { font-weight: 600; }
 
