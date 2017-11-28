@@ -142,12 +142,13 @@ article.PortfolioWebsite { padding: 10px 60px; display: inline-block; margin-bot
 article.PortfolioWebsite::after { content:''; display: block; clear: both; }
 
 
-article.PortfolioWebsite header { background-color: #eee; display: inline-block; padding: 10px 60px; height: 100%; margin-bottom: 30px; }
+article.PortfolioWebsite header { background-color: #eee; display: inline-block; padding: 10px 60px; height: 100%; }
 article.PortfolioWebsite header h2 { margin-top: 45px; margin-bottom: 20px;  margin-left: 33%; }
 article.PortfolioWebsite h3 { margin-bottom: 0; }
 article.PortfolioWebsite header p { margin-bottom: 25px; }
 article.PortfolioWebsite header img { width: 33%; margin-left: 33%;  margin-bottom: 30px; }
 article.PortfolioWebsite p span { font-weight: 600; }
+article.PortfolioWebsite section h3 { margin-top: 30px;}
 article.PortfolioWebsite section img.underline { width: 95%; margin-bottom: 25px; }
 article.PortfolioWebsite section h4 { margin-bottom: 10px; }
 
