@@ -140,8 +140,10 @@ PROJECT DETAILS PAGES (WILL PROBABLY GET THEIR OWN TEMPLATE LATER)
 /*PORTFOLIO WEBSITE PROJECT DETAILS*/
 article.PortfolioWebsite {  padding: 10px 60px; display: inline-block; margin-bottom: 80px; }
 article.PortfolioWebsite::after { content:''; display: block; clear: both; }
-article.PortfolioWebsite header { background-color: #ddd; }
-article.PortfolioWebsite img { width: 33%; }
+
+
+article.PortfolioWebsite header { background-color: #ddd; display: inline-block; }
+article.PortfolioWebsite header img { width: 33%; }
 article.PortfolioWebsite p span { font-weight: 600; }
 
 
