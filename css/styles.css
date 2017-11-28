@@ -32,7 +32,7 @@ HEADER
 -----------
 -----------
 */
-header { height: 100px; position: relative; }
+header.mainHeader { height: 100px; position: relative; }
 
 /* Header Logo */
 img.logo { 
@@ -42,7 +42,7 @@ img.logo {
     top: 15px; left: 25px;
 }
 
-header a.logo span { display: none; }
+header.mainHeader a.logo span { display: none; }
 
 
 /*
@@ -182,7 +182,7 @@ MEDIA QUERIES
 
 @media screen and (max-width: 948px) {
     /* Header */
-    header { height: 125px; }
+    header.mainHeader { height: 125px; }
     
     /* Navigation */
     nav { padding-top: 70px; }
