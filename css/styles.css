@@ -148,6 +148,7 @@ article.PortfolioWebsite header h3 { margin-bottom: 0; }
 article.PortfolioWebsite header p { margin-bottom: 25px; }
 article.PortfolioWebsite header img { width: 33%; margin-left: 33%;  margin-bottom: 30px; }
 article.PortfolioWebsite p span { font-weight: 600; }
+article.PortfolioWebsite section img.underline { width: 85%; }
 
 
 /*PROJECTS 2 & 3 DETAILS*/
