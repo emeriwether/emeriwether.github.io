@@ -142,7 +142,6 @@ article.PortfolioWebsite {  padding: 10px 60px; display: inline-block; margin-bo
 article.PortfolioWebsite::after { content:''; display: block; clear: both; }
 article.PortfolioWebsite header { background-color: #ddd; }
 article.PortfolioWebsite img { width: 33%; }
-
 article.PortfolioWebsite p span { font-weight: 600; }
 
 
