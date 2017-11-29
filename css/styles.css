@@ -153,7 +153,7 @@ article.PortfolioWebsite section > section { display: inline-block; }
 article.PortfolioWebsite div { float: left; text-align: left; margin-left: 25px; margin-top: 25px; }
 article.PortfolioWebsite div.titleThumbnail { width: 30%; }
 article.PortfolioWebsite div.description { width: 60%; }
-
+article.PortfolioWebsite div p { padding-top: 10%; }
 
 article.PortfolioWebsite p span { font-weight: 600; }
 article.PortfolioWebsite section h3 { margin-top: 30px;}
