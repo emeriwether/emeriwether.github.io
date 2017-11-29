@@ -97,7 +97,7 @@ section.projectGallery article img { width: 100%; }
 
 /*ABOUT ME*/
 section.main { background-color: #ddd; padding-bottom: 30px; }
-section.main article div { float: left; text-align: left; margin-left: 25px; margin-top: 25px;}
+section.main article div { float: left; text-align: left; margin-left: 25px; margin-top: 25px; }
 section.main article div:nth-child(1) { width: 30%; }
 section.main article div:nth-child(2) { width: 60%; }
 section.main article div p { padding-top: 65px; font-size: 1.2em; }
