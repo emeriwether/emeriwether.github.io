@@ -138,10 +138,10 @@ PROJECT DETAILS PAGES (WILL PROBABLY GET THEIR OWN TEMPLATE LATER)
 -----------
 */
 /*PORTFOLIO WEBSITE PROJECT DETAILS*/
-article.PortfolioWebsite { padding: 10px 80px; display: inline-block; margin-bottom: 80px; }
+article.PortfolioWebsite { padding: 10px 60px; display: inline-block; margin-bottom: 80px; }
 article.PortfolioWebsite::after { content:''; display: block; clear: both; }
 
-article.PortfolioWebsite header { background-color: #eee; display: inline-block; padding: 10px 60px; height: 100%; }
+article.PortfolioWebsite header { background-color: #eee; display: inline-block; padding: 10px 80px; height: 100%; }
 article.PortfolioWebsite header h2 { margin-top: 45px; margin-bottom: 20px;  margin-left: 33%; }
 article.PortfolioWebsite header p { margin-bottom: 25px; }
 article.PortfolioWebsite header img { width: 33%; margin-left: 33%;  margin-bottom: 30px; }
