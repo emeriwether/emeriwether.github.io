@@ -160,7 +160,7 @@ article.PortfolioWebsite p span.bold { font-weight: 600; }
 article.PortfolioWebsite section h3 { margin-top: 30px;}
 article.PortfolioWebsite section h4 { margin-bottom: 10px; }
 
-article.PortfolioWebsite section.conclusion { margin: 0 140px; }
+article.PortfolioWebsite section.conclusion { margin: 0 140px 0 160px; }
 
 
 /*PROJECTS 2 & 3 DETAILS*/
