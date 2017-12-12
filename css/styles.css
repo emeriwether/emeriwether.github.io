@@ -163,8 +163,11 @@ article.PortfolioWebsite section h4 { margin-bottom: 10px; }
 article.PortfolioWebsite section.conclusion { margin: 0 140px 0 160px; }
 
 
-/*PROJECTS 2 & 3 DETAILS*/
-section.project2 { margin-bottom: 80px; }
+/*PROJECTS 2 DETAILS*/
+section.salonWebsite { margin-bottom: 80px; }
+section.salonWebsite img { width: 100%; }
+
+/*PROJECTS 2 DETAILS*/
 section.project3 { margin-bottom: 80px; }
 
 /*
