@@ -183,7 +183,7 @@ article.SalonWebsite div p { padding-top: 20px; }
 article.SalonWebsite div img { width: 100%; }
 
 article.SalonWebsite p span.bold { font-weight: 600; }
-article.SalonWebsite p span.underline { text-decoration: underline; }
+article.SalonWebsite p span.underline { font-style: italic; }
 article.SalonWebsite section h3 { margin-top: 30px;}
 article.SalonWebsite section h4 { margin-bottom: 10px; }
 
