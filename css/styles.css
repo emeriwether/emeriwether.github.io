@@ -164,8 +164,29 @@ article.PortfolioWebsite section.conclusion { margin: 0 140px 0 160px; }
 
 
 /*PROJECTS 2 DETAILS*/
-section.salonWebsite { margin-bottom: 80px; }
-section.salonWebsite img { width: 1000px; }
+article.SalonWebsite { padding: 10px 60px; display: inline-block; margin-bottom: 80px; }
+article.SalonWebsite::after { content:''; display: block; clear: both; }
+
+article.SalonWebsite header { background-color: #eee; display: inline-block; padding: 10px 80px; height: 100%; }
+article.SalonWebsite header h2 { margin-top: 45px; margin-bottom: 20px;  margin-left: 33%; }
+article.SalonWebsite header p { margin-bottom: 25px; }
+article.SalonWebsite header img { width: 33%; margin-left: 33%;  margin-bottom: 30px; }
+
+article.SalonWebsite h3 { margin-bottom: 0; }
+article.SalonWebsite section img.underline { width: 95%; margin-bottom: 25px; }
+
+article.SalonWebsite section > section { display: inline-block; }
+article.SalonWebsite div { float: left; text-align: left; margin-left: 25px; margin-top: 25px; }
+article.SalonWebsite div.titleThumbnail { width: 30%; }
+article.SalonWebsite div.description { width: 60%; }
+article.SalonWebsite div p { padding-top: 20px; }
+article.SalonWebsite div img { width: 100%; }
+
+article.SalonWebsite p span.bold { font-weight: 600; }
+article.SalonWebsite section h3 { margin-top: 30px;}
+article.SalonWebsite section h4 { margin-bottom: 10px; }
+
+article.SalonWebsite section.conclusion { margin: 0 140px 0 160px; }
 
 /*PROJECTS 2 DETAILS*/
 section.project3 { margin-bottom: 80px; }
