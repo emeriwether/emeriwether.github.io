@@ -25,6 +25,8 @@ a.btn:hover { background-color: rgba(0,0,0,.3); color: #555; }
 button.toTop { display: none; color: #eee; background-color: #555; padding: 5px 15px; border-radius: 4px; margin: 20px 20px; font-size: .9em; transition: background-color .5s; }
 button.toTop:hover { background-color: rgba(0,0,0,.3); color: #555; }
 
+@font-face { font-family: pacifico; src: url('/fonts/Pacifico-Regular.ttf')}
+
 /*
 -----------
 -----------
@@ -102,7 +104,7 @@ section.main article div:nth-child(1) { width: 30%; }
 section.main article div:nth-child(2) { width: 60%; }
 section.main article div p { padding-top: 65px; font-size: 1.2em; }
 section.main article div img { width: 100%; max-height: 400px; max-width: 400px; }
-section.main article div h2 { padding-bottom: 20px; }
+section.main article div h2 { padding-bottom: 20px; font-family: 'pacifico'; }
 section.aside { padding: 50px 60px; }
 section.aside aside { width: 33%; float: left; }
 section.aside aside div { width: 45%; float: left; }
