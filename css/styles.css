@@ -104,7 +104,7 @@ section.main article div:nth-child(1) { width: 30%; }
 section.main article div:nth-child(2) { width: 60%; }
 section.main article div p { padding-top: 65px; font-size: 1.2em; }
 section.main article div img { width: 100%; max-height: 400px; max-width: 400px; }
-section.main article div h2 { padding-bottom: 20px; font-family: 'pacifico'; }
+section.main article div h2 { padding-bottom: 20px; font-family: 'pacifico'; font-size: 1.6em; }
 section.aside { padding: 50px 60px; }
 section.aside aside { width: 33%; float: left; }
 section.aside aside div { width: 45%; float: left; }
