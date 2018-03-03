@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html class="no-js" lang="en" dir="ltr">
      
     <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -12,36 +12,60 @@
             gtag('config', 'UA-109828884-1');
         </script>
 
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+        </style>  
+        
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Eleanor Meriwether">
         <title>Eleanor Meriwether - User Experience Designer</title>
         <link rel="stylesheet" type="text/css" media="screen" href="/css/styles.css">
         <script src="../js/scripts.js"></script>
+        <link rel="stylesheet" href="css/foundation.css">
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/home.css">
     </head>
 
     <body>
         
-        <div id="page">
-            <header role="banner">
-                <a title="Eleanor Meriwether" href="/index.html"><img src="/img/website_logo.jpg" alt="logo" class="logo" ></a>
-            </header>
+    <div class="grid-x" id="background">
+        <main class="cell">
+            <div class="grid-x" id="content-bg">
+                
+                <div class="top-bar">
+                    <div class="top-bar-left" id="logo"><img src="img/website_logo.jpg">
+                    </div>
+                    <nav class="top-bar-right">
+                        <ul class="menu vertical medium-horizontal expanded">
+                            <li class="h5"><a href="index.html">Work</a></li>
+                            <li class="h5"><a href="pages/about.html">About</a></li>
+                            <li class="h5"><a href="pages/contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
             
             {{content}}
-            
-            <nav role="navigation">
-                <ul>
-                    <li><a href="index.html" title="Work" >WORK</a></li>
-                    <li><a href="about.html" title="About">ABOUT</a></li>
-                    <li><a href="resume.html" title="Resume">RESUME</a></li>
-                    <li><a href="contact.html" title="Contact">CONTACT</a></li>
-                </ul>
-            </nav>
         
-            <footer role="contentinfo" class="page-footer">
-                <p>&copy; 2017 Eleanor Meriwether</p>
-            </footer> 
-        </div>    
+            </div>
+        </main>
+        <footer class="small-3 cell" id="copyright">© 2018 all rights reserved</footer>
+        <div class="auto cell"></div>
+        <footer class="small-4 cell" id="socialMedia">
+            <p>Eleanor Meriwether&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/emeriwether"><img src="img/LinkedIn_logo.png" class="icon"></a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://github.com/emeriwether"><img src="img/GitHub_logo.png" class="icon"></a>
+            </p>
+        </footer>
+    </div> 
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>   
         
     </body>
 </html>
