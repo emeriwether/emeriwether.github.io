@@ -63,10 +63,14 @@
     nav {
         padding-left: 315px;
     } 
-}
-
-@media screen and (min-width: 68em) {
-    nav {
-        padding-left: 425px;
-    } 
 }*/
+
+@media screen and (min-width: 40em) and (max-width: 51.938em) {
+    nav {
+        margin-right: 35px;
+    } 
+    
+    nav > ul > li > a {
+        font-size: 80%
+    } 
+}
