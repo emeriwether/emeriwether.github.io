@@ -67,6 +67,15 @@
         margin: 0 35px 0 35px;
         padding: 25px 0 25px 0;
     }
+    
+    #currentlyEnjoying {
+        font-size: 125%;
+        padding-bottom: 15px;
+    }
+    
+    #forFun, #ux, #listening {
+        padding-bottom: 15px;
+    }
 }
 
 /*640px and above*/
@@ -123,6 +132,10 @@
     #aboutMeLikes {
         margin: 0 35px 0 35px;
         padding: 25px 0 25px 0;
+    }
+    
+    #currentlyEnjoying {
+        padding-bottom: 35px;
     }
 }
 
