@@ -71,10 +71,6 @@ body {
     padding: 25px 0 25px 0;
 }
 
-#aboutMeText {
-    padding: 95px 45px 0 25px;
-}
-
 #aboutMeText > p {
     color: #eee0cb;
 }

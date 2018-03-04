@@ -42,7 +42,10 @@
     #aboutMeImg {
         padding: 0 25px 0 25px;
     }
-    
+
+    #aboutMeText {
+        padding: 25px 25px 25px 25px;
+    }
 }
 
 /*640px and above*/
@@ -74,6 +77,10 @@
     
     #aboutMeImg {
         padding: 0 45px 45px 45px;
+    }
+    
+    #aboutMeText {
+        padding: 95px 45px 0 25px;
     }
 }
 
