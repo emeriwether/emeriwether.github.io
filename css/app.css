@@ -1,17 +1,11 @@
-@media screen and (max-width: 45.438em
-) {     
-    nav {
-        margin-right: 35px;
-    } 
-    
+@media screen and (max-width: 45.438em) {     
+
     nav > ul > li > a {
         font-size: 80%
     } 
 }
 
-@media screen and (min-width: 40em) and (max-width: 51.938em) {     nav {
-        margin-right: 35px;
-    } 
+@media screen and (min-width: 40em) and (max-width: 51.938em) {   
     
     nav > ul > li > a {
         font-size: 80%
