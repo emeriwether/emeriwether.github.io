@@ -111,7 +111,7 @@ body {
 
 .aboutLikesImg {
     padding-bottom: 20px;
-    max-width: 265px;
+    max-width: 100%;
 }
 
 #listeningImg {
