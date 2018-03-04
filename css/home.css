@@ -61,19 +61,25 @@ body {
     padding: 50px 10px 0 0;
 }
 
-#aboutMeImg > h3 {
+#aboutMeImg > h4 {
     font-family: "Libre Baskerville";
     color: #eee0cb;
     padding: 25px 0 25px 0;
 }
 
-#aboutMeImg > img {
-    width: 110%;
-}
 #aboutMeText {
     padding: 75px 75px 0 25px;
 }
 
 #aboutMeText > p {
     color: #eee0cb;
+}
+
+#aboutMeLikes {
+    padding: 25px 0 25px 0
+}
+
+#abotuMeLikes > h6 {
+    font-family: "Libre Baskerville";
+    color: #929b9b;
 }
