@@ -15,6 +15,10 @@
         padding: 15px 25px 25px 25px;
     }
     
+    #content {
+        margin: 0 15px 15px 15px;
+    }
+    
 }
 
 @media screen and (min-width: 39.939em) {
@@ -25,6 +29,10 @@
     
     article { 
         padding: 45px 65px 65px 65px;
+    }
+    
+    #content {
+        margin: 0 35px 35px 35px;
     }
 }
 
