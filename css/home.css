@@ -61,10 +61,6 @@ body {
     padding: 50px 10px 0 0;
 }
 
-#aboutMeImg {
-    padding: 0 45px 45px 45px
-}
-
 #aboutMeImg > img {
     width: 100%;
 }

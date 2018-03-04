@@ -39,6 +39,10 @@
         margin-bottom: 0;
     }
     
+    #aboutMeImg {
+        padding: 0 25px 0 25px;
+    }
+    
 }
 
 /*640px and above*/
@@ -66,6 +70,10 @@
 
     #socialMedia {
         margin-right: 50px;
+    }
+    
+    #aboutMeImg {
+        padding: 0 45px 45px 45px;
     }
 }
 
