@@ -64,11 +64,11 @@ body {
 #aboutMeImg > h3 {
     font-family: "Libre Baskerville";
     color: #eee0cb;
-    padding-top: 25px;
+    padding: 25px 0 25px 0;
 }
 
 #aboutMeText {
-    padding: 55px 55px 0 0;
+    padding: 75px 75px 0 25px;
 }
 
 #aboutMeText > p {
