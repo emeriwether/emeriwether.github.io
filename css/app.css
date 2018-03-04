@@ -11,6 +11,10 @@
     .menu a {
         padding: 0.7rem 0.7rem;
     }
+    
+    nav {
+        padding: 10px 0 15px 0;
+    }
 }
 
 @media screen and (min-width: 49.51em) { 
