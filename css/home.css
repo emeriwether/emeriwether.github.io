@@ -116,4 +116,5 @@ body {
 .active {
     color: #3e5c76;
     text-decoration: underline;
+    font-weight: 600;
 }
