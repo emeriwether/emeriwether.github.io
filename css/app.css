@@ -80,6 +80,10 @@
     .aboutLikesImg {
         max-width: 80%;
     }
+    
+    #hooked {
+        max-width: 60%;
+    }
 }
 
 /*640px and above*/
