@@ -62,7 +62,7 @@ body {
 }
 
 #aboutMeImg {
-    padding-left: 25px;
+    padding: 0 45px 45px 45px
 }
 
 #aboutMeImg > img {
@@ -76,7 +76,7 @@ body {
 }
 
 #aboutMeText {
-    padding: 85px 25px 0 25px;
+    padding: 95px 45px 0 25px;
 }
 
 #aboutMeText > p {
