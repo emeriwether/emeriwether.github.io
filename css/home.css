@@ -128,8 +128,12 @@ body {
 #workGallery {
 }
 
+#contactIntro {
+    padding: 40px;
+}
+
 #contactInfo {
-    margin: 35px 0 35px 0;
+    margin: 50px 0 50px 0;
 }
 
 #businessCard {
