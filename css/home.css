@@ -129,5 +129,9 @@ body {
 }
 
 #businessCard {
-    width: 40%;
+    margin: 35px 0 35px 0;
+}
+
+#businessCard > img {
+    width: 50%;
 }
