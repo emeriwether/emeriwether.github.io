@@ -67,6 +67,9 @@ body {
     padding: 25px 0 25px 0;
 }
 
+#aboutMeImg > img {
+    width: 110%;
+}
 #aboutMeText {
     padding: 75px 75px 0 25px;
 }
