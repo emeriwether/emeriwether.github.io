@@ -76,6 +76,10 @@
     #forFun, #ux, #listening {
         padding-bottom: 20px;
     }
+    
+    #aboutLikesImg {
+        max-width: 80%;
+    }
 }
 
 /*640px and above*/
