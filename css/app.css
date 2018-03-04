@@ -4,11 +4,20 @@
     }
     
     #topNav {
-        margin: 0 2% 0 2%;
+        margin: 0 4% 0 4%;
+    }
+    
+    #contentBG {
+        margin: 0;
+    }
+    
+    nav {
+        margin: 0 15%;
     }
 }
 
-@media screen and (min-width: 39.939em) and (max-width: 49.5em) {     #topNav {
+@media screen and (min-width: 39.939em) and (max-width: 49.5em) { 
+    #topNav {
         margin: 0 4% 0 4%;
     }
     
