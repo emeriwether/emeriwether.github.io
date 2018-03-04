@@ -20,6 +20,14 @@
         margin: 0 15px 15px 15px;
     }
     
+    #copyright {
+        margin-left: 10px;
+    }
+
+    #socialMedia {
+        margin-right: 10px;
+    }
+    
 }
 
 @media screen and (min-width: 39.939em) {
@@ -38,6 +46,14 @@
     
     nav {
         padding: 20px 0 25px 0;
+    }
+    
+    #copyright {
+        margin-left: 50px;
+    }
+
+    #socialMedia {
+        margin-right: 50px;
     }
 }
 
