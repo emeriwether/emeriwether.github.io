@@ -8,8 +8,8 @@
         margin: 0 4% 0 4%;
     }
     
-    nav > ul > li {
-        font-size:90%;
+    .menu a {
+        padding: 0.7rem 0.7rem;
     }
 }
 
