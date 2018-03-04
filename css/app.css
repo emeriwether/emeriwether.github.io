@@ -155,3 +155,9 @@
     }
 }
 
+/*1400 and above*/
+@media screen and (min-width: 87.5em) {
+    #aboutMeLikes {
+        margin: 0 15px 0 65px;
+    }
+}
