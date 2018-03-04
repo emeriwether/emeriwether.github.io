@@ -7,13 +7,16 @@
         margin: 0 4% 0 4%;
     }
     
-    #content-bg {
-        margin: 0;
-    }
-    
     nav {
         margin: 0 25%;
     }
+}
+
+@media screen and (min-width: 39.939em) {
+   #content-bg {
+        background: #fff;
+        margin: 15px 15px 0 15px;
+    } 
 }
 
 @media screen and (min-width: 39.939em) and (max-width: 49.5em) { 
