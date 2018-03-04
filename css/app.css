@@ -1,5 +1,7 @@
-@media screen and (max-width: 45.438em) {     
-
+@media screen and (max-width: 39.938em) {     
+    #logo > img {
+        max-width: 50%;
+    }
 }
 
 @media screen and (min-width: 40em) and (max-width: 51.938em) {   
