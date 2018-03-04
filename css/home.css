@@ -61,7 +61,11 @@ body {
     padding: 50px 10px 0 0;
 }
 
-#aboutMeImg > h4 {
+#aboutMeImg > img {
+    width: 100%;
+}
+
+#aboutMeImg > h3 {
     font-family: "Libre Baskerville";
     color: #eee0cb;
     padding: 25px 0 25px 0;
