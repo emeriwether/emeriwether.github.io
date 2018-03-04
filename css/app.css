@@ -54,6 +54,10 @@
     #businessCard {
         width: 90%;
     }
+     
+    #contactInfo {
+        margin: 20px 0 40px 0;
+    }
 }
 
 /*640px and above*/
@@ -97,6 +101,10 @@
     
     #businessCard {
         width: 70%;
+    }
+    
+    #contactInfo {
+        margin: 50px 0 50px 0;
     }
 }
 
