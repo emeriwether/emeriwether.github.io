@@ -89,17 +89,17 @@ body {
     color: #3e5c76;
 }
 
-#description {
+.description {
     line-height: 0.8em;
     font-size: 1.1em;
 }
 
-#credits {
+.credits {
     line-height: 0.8em;
     font-size: 1em;
 }
 
-#year {
+.year {
     line-height: 0.8em;   
     font-size: 1em;
     font-style: italic;
