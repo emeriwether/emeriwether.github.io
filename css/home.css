@@ -114,6 +114,6 @@ body {
 }
 
 .active {
-    color: red;
-    text-decoration:underline;
+    color: #3e5c76;
+    text-decoration: underline;
 }
