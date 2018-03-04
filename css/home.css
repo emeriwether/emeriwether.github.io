@@ -94,17 +94,17 @@ body {
 }
 
 .description {
-    line-height: 0.8em;
+    line-height: 0.6em;
     font-size: 1.1em;
 }
 
 .credits {
-    line-height: 0.8em;
+    line-height: 0.6em;
     font-size: 1em;
 }
 
 .year {
-    line-height: 0.8em;   
+    line-height: 0.6em;   
     font-size: 1em;
     font-style: italic;
 }
