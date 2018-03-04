@@ -39,11 +39,16 @@
                     <div class="auto cell"></div>
                     <nav class="medium-5 cell">
                         <ul class="menu horizontal">
-                            {% assign pages = site.pages | sort:'id'  %}
+                            {% assign pages = site.pages %}
                             {% for p in site.pages %}
-                                <li class="h5">
-                                    <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">{{ p.title }}</a>
-                                </li>
+                                {% if p.category == "main" %}
+                                    <li class="h5">
+                                        <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">{{ p.title }}</a>
+                                    </li>
+                                {% endfor %}
+                                {% if p.category == "sub" %}
+                                    
+                                {% endfor %}
                             {% endfor %}
                         </ul>
                     </nav>
