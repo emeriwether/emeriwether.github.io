@@ -60,3 +60,12 @@ body {
 #next {
     padding: 50px 10px 0 0;
 }
+
+#aboutMeetingImg > h2 {
+    font-family: "Libre Baskerville";
+    color: #eee0cb;
+}
+
+#aboutMeText > p {
+    color: #eee0cb;
+}
