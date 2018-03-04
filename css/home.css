@@ -83,7 +83,7 @@ body {
     padding: 25px 0 25px 0
 }
 
-#aboutMeLikes > h6 {
+.title {
     font-family: "Libre Baskerville";
     color: #929b9b;
 }
