@@ -66,6 +66,10 @@ body {
     color: #eee0cb;
 }
 
+#aboutMeText {
+    padding: 45px 25px 0 0;
+}
+
 #aboutMeText > p {
     color: #eee0cb;
 }
