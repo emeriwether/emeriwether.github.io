@@ -31,6 +31,10 @@
         padding-right: 10px;
     }
     
+    .menu a {
+        padding: 0.5rem 1rem;
+    }
+    
 }
 
 /*640px and above*/
@@ -93,6 +97,7 @@
     }
 }
 
+/*1150 and above*/
 @media screen and (min-width: 71.875em) {
     #aboutMeText > p {
         font-size: 125%;
