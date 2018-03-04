@@ -46,6 +46,14 @@
     #aboutMeText {
         padding: 25px 25px 25px 25px;
     }
+    
+    #contactIntro {
+        padding: 20px 20px 10px 20px;
+    }
+     
+    #businessCard {
+        width: 100%;
+    }
 }
 
 /*640px and above*/
@@ -81,6 +89,14 @@
     
     #aboutMeText {
         padding: 95px 45px 0 25px;
+    }
+    
+    #contactIntro {
+        padding: 60px 60px 10px 60px;
+    }
+    
+    #businessCard {
+        width: 70%;
     }
 }
 
