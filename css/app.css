@@ -93,7 +93,7 @@
     }
 }
 
-@media screen and (min-width: 75em) {
+@media screen and (min-width: 71.875em) {
     #aboutMeText > p {
         font-size: 125%;
     }
