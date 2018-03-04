@@ -89,3 +89,18 @@ body {
     color: #3e5c76;
 }
 
+#description {
+    line-height: 1;
+}
+
+#credits {
+    line-height: 1;
+    font-size: 1.375em;
+}
+
+#year {
+    line-height: 1;   
+    font-size: 1.375em;
+    font-style: italic;
+}
+
