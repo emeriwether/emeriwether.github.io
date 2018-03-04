@@ -1,25 +1,28 @@
 #logo {
     margin-left: 50px;
-    padding: 10px 0 25px 0;
 }
 
 nav {
     margin-right: 50px;
-    padding: 10px 0 25px 0;
+    padding: 20px 0 25px 0;
+}
+
+#logo > img {
+    padding: 20px 0 25px 0;
 }
 
 #copyright {
     margin-left: 50px;
     padding: 10px 0 25px 0;
     color: #fff;
-    font-size: 85%;
+    font-size: 90%;
 }
 
 #socialMedia {
     margin-right: 50px;
     padding: 25px 0 25px 0;
     color: #fff;
-    font-size: 85%;
+    font-size: 90%;
 }
 
 body {
