@@ -2,6 +2,10 @@
     #logo > img {
         max-width: 50%;
     }
+    
+    #topNav {
+        margin: 0 2% 0 2%;
+    }
 }
 
 @media screen and (min-width: 39.939em) and (max-width: 49.5em) {     #topNav {
