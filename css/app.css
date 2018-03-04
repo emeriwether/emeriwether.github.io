@@ -22,10 +22,12 @@
     
     #copyright {
         font-size: 70%
+        padding-left: 10px;
     }
 
     #socialMedia {
-        font-size: 70%
+        font-size: 70%;
+        padding-right: 10px;
     }
     
 }
@@ -50,12 +52,10 @@
     
     #copyright {
         margin-left: 50px;
-        font-size: 90%
     }
 
     #socialMedia {
         margin-right: 50px;
-        font-size: 90%
     }
 }
 
