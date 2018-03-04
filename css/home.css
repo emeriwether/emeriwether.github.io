@@ -119,3 +119,9 @@ body {
     text-decoration: underline;
     font-weight: 600;
 }
+
+.title {
+    font-family: "Libre Baskerville";
+    color: #eee0cb;
+    font-size: 1.125em;
+}
