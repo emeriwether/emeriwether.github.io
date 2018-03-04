@@ -32,6 +32,10 @@ body {
     color: #fff;
 }
 
+#definition {
+    max-width: 900px;
+}
+
 .cell {
   line-height: 50px;
   text-align: center;
