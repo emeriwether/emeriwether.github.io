@@ -6,6 +6,7 @@
 
 @media screen and (min-width: 39.939em) and (max-width: 49.5em) {     #topNav {
         margin: 0 4% 0 4%;
+        font-size: 90%;
     }
 }
 
