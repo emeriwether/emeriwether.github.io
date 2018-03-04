@@ -1,5 +1,23 @@
+#content {
+    background: #30292F;
+    margin: 0 35px 35px 35px;
+}
+
+#content-bg {
+    background: #fff;
+    margin: 15px 15px 0 15px;
+}
+
+#background {
+    background: #929b9b;
+}
+
 #logo {
     margin-left: 50px;
+}
+
+#logo > img {
+    padding: 25px 0 0 0;
 }
 
 nav {
@@ -7,8 +25,12 @@ nav {
     padding: 20px 0 25px 0;
 }
 
-#logo > img {
-    padding: 25px 0 0 0;
+nav > ul > li > a{
+    color: #929b9b;
+}
+
+body {
+    font-family: 'Saira Semi Condensed'; 
 }
 
 #copyright {
@@ -23,28 +45,6 @@ nav {
     padding: 25px 0 25px 0;
     color: #fff;
     font-size: 90%;
-}
-
-body {
-    font-family: 'Saira Semi Condensed'; 
-}
-
-#logo {
-    padding: 0 0 0 0px;
-}
-
-#content {
-    background: #30292F;
-    margin: 0 35px 35px 35px;
-}
-
-#content-bg {
-    background: #fff;
-    margin: 15px 15px 0 15px;
-}
-
-#background {
-    background: #929b9b;
 }
 
 .cell {
@@ -76,14 +76,6 @@ body {
     padding: 50px 10px 0 0;
 }
 
-nav > ul > li > a{
-    color: #666;
-}
-
 article { 
     padding: 45px 65px 65px 65px;
-}
-
-.top-bar {
-    padding-left: 35px;
 }
