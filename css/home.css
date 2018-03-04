@@ -128,10 +128,10 @@ body {
 #workGallery {
 }
 
-#businessCard {
+#contactInfo {
     margin: 35px 0 35px 0;
 }
 
-#businessCard > img {
+#businessCard {
     width: 50%;
 }
