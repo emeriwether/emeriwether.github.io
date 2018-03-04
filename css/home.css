@@ -13,15 +13,17 @@
 }
 
 #logo {
-    margin-left: 50px;
 }
 
 #logo > img {
     padding: 25px 0 0 0;
 }
 
+#topNav {
+    margin: 0 8% 0 8%;
+}
+
 nav {
-    margin-right: 50px;
     padding: 20px 0 25px 0;
 }
 
