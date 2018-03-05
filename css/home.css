@@ -171,3 +171,7 @@ h2 {
 .sumFindings {
     padding-top: 15px;
 }
+
+#pageLinks {
+    font-size: 75%;
+}
