@@ -37,10 +37,6 @@ body {
     max-width: 25px;
 }
 
-#item1 > .cell, #item2 > .cell, #item3 > .cell {
-    line-height:1.56em;
-}
-
 #date1, #date3 {
     font-style: italic;
 }
