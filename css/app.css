@@ -91,10 +91,11 @@
     
     .projectItem {
         padding: 20px 20px;
+        line-height: 0.6em;
     }
     
     .role {
-        margin-bottom: 0;
+        margin-bottom: 5px;
     }
 }
 
