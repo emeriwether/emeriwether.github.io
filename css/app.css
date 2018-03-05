@@ -1,6 +1,6 @@
 /*639px and below*/
-    @media screen and (max-width: 39.938em) {     
-        .viewProjButton {
+@media screen and (max-width: 39.938em) {     
+    .viewProjButton {
         padding: 15px 85px 55px 85px;
     }
     
@@ -111,8 +111,7 @@
 
 /*640px and above*/
 @media screen and (min-width: 39.939em) {
-    @media screen and (max-width: 39.938em) {     
-        .viewProjButton {
+    .viewProjButton {
         padding: 25px 85px;
     }
     
