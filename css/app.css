@@ -195,4 +195,22 @@
     #aboutMeLikes {
         margin: 0 15px 0 65px;
     }
+    
+    #content-bg {
+        background: #fff;
+        margin: 55px 55px 0 55px;
+    }
+   
+    #topNav {
+        margin: 35px 8% 35px 8%;
+    }
+    
+    #content {
+        margin: 0 55px 55px 55px;
+        padding: 65px;
+    }
+    
+    nav > ul > li > a{
+        font-size: 195%;
+    }
 }
