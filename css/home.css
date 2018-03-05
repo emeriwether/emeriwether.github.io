@@ -177,10 +177,10 @@ h2 {
 }
 
 .backToTop {
-    padding: 0 100px;
     color: #587b7f;
+    line-height: 0;
 }
 
 .upArrow {
-    max-width: 40%;
+    max-width: 12%;
 }
