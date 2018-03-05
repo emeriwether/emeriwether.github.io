@@ -160,3 +160,7 @@ h2 {
 .subsectionThumb {
     padding: 0 0 25px 0;
 }
+
+.projDescTextList {
+    text-align: left;
+}
