@@ -185,6 +185,14 @@
     .aboutLikesImg {
         max-width: 100%;
     }
+    
+    #workGallery {
+        padding: 0 25px;
+    }
+    
+    .projectItem {
+        padding: 0;
+    }
 }
 
 /* between 640px and 792px, inclusive*/
@@ -221,6 +229,14 @@
     
     .role {
         font-size: 1.5em;
+    }
+        
+    #workGallery {
+        padding: 0;
+    }
+    
+    .projectItem {
+        padding: 0 15px;
     }
 }
 
