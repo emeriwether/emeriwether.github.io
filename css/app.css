@@ -1,9 +1,4 @@
-/* 575px and below */
-@media screen and (min-width: 35.938em) and (max-width: 39.938em) {     
-    nav {
-        margin: 0 17%;
-    }
-}
+
 
 /* 575-639 */
 @media screen and (min-width: 35.939em) and (max-width: 39.938em) {     
@@ -108,6 +103,13 @@
     
     .role {
         margin-bottom: 5px;
+    }
+}
+
+/* 575px and below */
+@media screen and (min-width: 35.938em) and (max-width: 39.938em) {     
+    nav {
+        margin: 0 17%;
     }
 }
 
