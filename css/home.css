@@ -124,3 +124,8 @@ h2 {
 #pfDescSubtitle {
     color: #eee0cb;
 }
+
+#projDescHeader {
+    background: #443542;
+    padding: 0 45px;
+}
