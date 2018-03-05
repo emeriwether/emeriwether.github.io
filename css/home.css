@@ -111,3 +111,7 @@ h2 {
 .viewProjButton {
     padding: 25px 85px;
 }
+
+.projItem {
+    padding: 0 15px;
+}
