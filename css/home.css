@@ -92,7 +92,7 @@ body {
 .role {
     font-family: "Libre Baskerville";
     color: #eee0cb;
-    font-size: 1.4em;
+    font-size: 1.5em;
 }
 
 h2 {    
@@ -102,4 +102,8 @@ h2 {
 
 #workGallery {
     color: #eee0cb;
+}
+
+#projectGalleryImg {
+    margin-bottom: 30px;
 }
