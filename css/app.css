@@ -197,6 +197,7 @@
     }
 }
 
+/* 792px and above */
 @media screen and (min-width: 49.51em) { 
     #topNav {
         margin: 0 8% 0 8%;
