@@ -37,14 +37,6 @@ body {
     max-width: 25px;
 }
 
-#date1, #date3 {
-    font-style: italic;
-}
-
-#date2 {
-    font-style: italic;
-}
-
 #prev {
     padding: 50px 0 0 10px;
 }
