@@ -98,7 +98,7 @@
 }
 
 /* 575px and below */
-@media screen and (min-width: 35.938em) and (max-width: 39.938em) {     
+@media screen and (max-width: 35.938em) {     
     nav {
         margin: 0 17%;
     }
