@@ -103,6 +103,10 @@
     .role {
         margin-bottom: 5px;
     }
+        
+    nav {
+        margin: 0 17%;
+    }
 }
 
 /*640px and above*/
