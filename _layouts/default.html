@@ -41,13 +41,11 @@
                         <ul class="menu horizontal">
                             {% assign pages = site.pages %}
                             {% for p in site.pages %}
+                                {% if p.category == "main" %}
                                     <li class="h5">
-                                        {% if p.category == "sub" or if p.url == "/index.html" %}
-                                            <a href="/index.html" class="active">Work</a>
-                                        {% elseif p.url == "/about.html" or p.url == "/contact.html" %}
-                                            <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">{{ p.title }}</a>
-
+                                        <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">{{ p.title }}</a>
                                     </li>
+                                {% endif %}
                             {% endfor %}
                         </ul>
                     </nav>
