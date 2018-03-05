@@ -110,3 +110,9 @@ h2 {
 .projDescrip {
     margin-bottom: 0;
 }
+
+#pfDescrTitle {
+    font-family: "Libre Baskerville";
+    color: #eee0cb;
+    padding: 15px 0;
+}
