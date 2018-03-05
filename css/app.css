@@ -112,8 +112,12 @@
 
 /*640px and above*/
 @media screen and (min-width: 39.939em) {
+    #toolsSkills {
+        padding: 0 30px 30px 30px;
+    }
+    
     #moreAboutMe {
-        padding: 50px;
+        padding: 20px 200px;
     }
     
     .role {
