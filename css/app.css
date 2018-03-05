@@ -1,6 +1,5 @@
 /*639px and below*/
-@media screen and (max-width: 39.938em) {         
-    .viewProjButton {
+@media screen and (max-width: 39.938em) {   .viewProjButton {
         padding: 15px 85px 55px 85px;
     }
     
@@ -77,7 +76,6 @@
     
     #currentlyEnjoying {
         font-size: 125%;
-        padding-bottom: 15px;
     }
     
     #forFun, #ux, #listening {
