@@ -123,14 +123,19 @@ h2 {
 
 #projDescHeader {
     background: #443542;
-    padding: 0 45px;
+    padding: 15px 45px;
     color: #eee0cb;
 }
 
-.projDescH3, projDescH4 {
+.projDescH3 {
     margin-bottom: 0;
 }
 
 .projDescH4 {
     text-decoration: underline;
+    margin-bottom: 0;
+}
+
+#projDescText {
+    margin-bottom: 15px;
 }
