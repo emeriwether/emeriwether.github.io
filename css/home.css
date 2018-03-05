@@ -116,3 +116,7 @@ h2 {
     color: #eee0cb;
     padding: 15px 0;
 }
+
+#pfDescrThumb {
+    padding: 0 50px 25px 50px;
+}
