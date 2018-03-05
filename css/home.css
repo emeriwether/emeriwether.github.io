@@ -172,7 +172,7 @@ h2 {
     padding-top: 15px;
 }
 
-#pageLinks {
+#pageLinks, #pagelinks > a {
     font-size: 85%;
     color: #587b7f;
 }
