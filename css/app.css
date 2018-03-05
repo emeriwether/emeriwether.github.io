@@ -1,5 +1,9 @@
 /*639px and below*/
 @media screen and (max-width: 39.938em) {     
+    .projectGalleryImg {
+        margin-bottom: 10px;
+    }
+    
     #logo > img {
         max-width: 50%;
     }
@@ -113,7 +117,11 @@
 
 /*640px and above*/
 @media screen and (min-width: 39.939em) {
-   #content-bg {
+    .projectGalleryImg {
+        margin-bottom: 30px;
+    }
+    
+    #content-bg {
         background: #fff;
         margin: 15px 15px 0 15px;
     }  
