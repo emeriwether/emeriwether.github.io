@@ -1,12 +1,3 @@
-
-
-/* 575-639 */
-@media screen and (min-width: 35.939em) and (max-width: 39.938em) {     
-    nav {
-        margin: 0 0 0 30%;
-    }
-}
-
 /*639px and below*/
 @media screen and (max-width: 39.938em) {     
     #logo > img {
@@ -110,6 +101,13 @@
 @media screen and (min-width: 35.938em) and (max-width: 39.938em) {     
     nav {
         margin: 0 17%;
+    }
+}
+
+/* 575-639 */
+@media screen and (min-width: 35.939em) and (max-width: 39.938em) {     
+    nav {
+        margin: 0 0 0 30%;
     }
 }
 
