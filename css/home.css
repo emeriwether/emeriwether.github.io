@@ -127,6 +127,10 @@ h2 {
     color: #eee0cb;
 }
 
-.projDescH4 {
+.projDescH3, projDescH4 {
     margin-bottom: 0;
+}
+
+.projDescH4 {
+    text-decoration: underline;
 }
