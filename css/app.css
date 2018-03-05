@@ -84,6 +84,11 @@
     #hooked {
         max-width: 60%;
     }
+    
+    .projectGalleryImg {
+        max-width: 60%;
+        padding: 20px;
+    }
 }
 
 /*640px and above*/
