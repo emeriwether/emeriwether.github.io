@@ -1,5 +1,10 @@
 /*639px and below*/
-@media screen and (max-width: 39.938em) {   .viewProjButton {
+@media screen and (max-width: 39.938em) {         
+    .upArrow {
+        max-width: 12%;
+    }
+    
+    .viewProjButton {
         padding: 15px 85px 55px 85px;
     }
     
@@ -110,6 +115,10 @@
 
 /*640px and above*/
 @media screen and (min-width: 39.939em) {
+    .upArrow {
+        max-width: 8%;
+    }
+    
     #toolsSkills {
         padding: 0 30px 30px 30px;
     }
@@ -218,6 +227,10 @@
 
 /* 792px and above */
 @media screen and (min-width: 49.51em) { 
+    .upArrow {
+        max-width: 6%;
+    }
+    
     #topNav {
         margin: 0 8% 0 8%;
     }
@@ -229,6 +242,10 @@
 
 /*1000px and above*/
 @media screen and (min-width: 62.5em) {     
+    .upArrow {
+        max-width: 5%;
+    }
+    
     .viewProjButton {
         padding: 15% 15%;
     }
@@ -267,6 +284,10 @@
 
 /*1400 and above*/
 @media screen and (min-width: 87.5em) {
+    .upArrow {
+        max-width: 4%;
+    }
+    
     #aboutMeLikes {
         margin: 0 15px 0 65px;
     }
