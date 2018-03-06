@@ -115,10 +115,18 @@
     nav {
         margin: 0 17%;
     }
+    
+    .projDescTextList {
+        padding-left: 15%;
+    }
 }
 
 /*640px and above*/
 @media screen and (min-width: 39.939em) {
+    .projDescTextList {
+        padding-left: 15%;
+    }
+    
     #projDescMain {
         padding: 15px 75px;
     }
@@ -235,6 +243,10 @@
 
 /* 792px and above */
 @media screen and (min-width: 49.51em) { 
+    .projDescTextList {
+        padding-left: 25%;
+    }
+    
     .upArrow {
         max-width: 6%;
     }
