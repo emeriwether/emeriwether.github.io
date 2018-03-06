@@ -136,7 +136,7 @@
     }
     
     #toolsSkills {
-        padding: 0 30px 30px 30px;
+        padding: 0 30px 90px 30px;
     }
     
     #moreAboutMe {
@@ -312,6 +312,10 @@
 
 /*1400 and above*/
 @media screen and (min-width: 87.5em) {
+    #moreAboutMe {
+        padding: 20px 300px;
+    }
+    
     #projDescMain {
         padding: 15px 255px;
     }
