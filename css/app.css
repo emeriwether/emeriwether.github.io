@@ -297,6 +297,10 @@
 
 /*1150 and above*/
 @media screen and (min-width: 71.875em) {
+    .projDescTextList {
+        padding-left: 35%;
+    }
+    
     #aboutMeText > p {
         font-size: 125%;
     }
