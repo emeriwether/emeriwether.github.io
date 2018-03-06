@@ -183,3 +183,7 @@ h2 {
 .underline {
     text-decoration: underline;
 }
+
+.salonThumb {
+    max-width: 50%;
+}
