@@ -122,7 +122,7 @@ h2 {
 }
 
 #pfDescrThumbCC {
-    padding: 75%;
+    max-width: 75%;
     padding: 0 0 25px 0;
 }
 
