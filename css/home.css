@@ -165,7 +165,7 @@ h2 {
 .projDescTextList {
     text-align: left;
     font-size: 85%;
-    padding-left: 25px;
+    padding-left: 15%;
 }
 
 .sumFindings {
@@ -182,7 +182,7 @@ h2 {
 }
 
 .pgLinkTop {
-    padding: 15px 0 65px 0;
+    padding: 15px 40px 65px 4px;
 }
 
 .upArrow {
