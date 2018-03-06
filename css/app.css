@@ -1,5 +1,9 @@
 /*639px and below*/
-@media screen and (max-width: 39.938em) {         
+@media screen and (max-width: 39.938em) {            
+    #projDescMain {
+        padding: 15px 45px;
+    }
+    
     .upArrow {
         max-width: 12%;
     }
@@ -115,6 +119,10 @@
 
 /*640px and above*/
 @media screen and (min-width: 39.939em) {
+    #projDescMain {
+        padding: 15px 75px;
+    }
+    
     .upArrow {
         max-width: 8%;
     }
@@ -242,6 +250,10 @@
 
 /*1000px and above*/
 @media screen and (min-width: 62.5em) {     
+    #projDescMain {
+        padding: 15px 115px;
+    }
+    
     .upArrow {
         max-width: 5%;
     }
@@ -284,6 +296,10 @@
 
 /*1400 and above*/
 @media screen and (min-width: 87.5em) {
+    #projDescMain {
+        padding: 15px 255px;
+    }
+    
     .upArrow {
         max-width: 4%;
     }
