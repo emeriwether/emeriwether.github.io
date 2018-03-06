@@ -136,7 +136,7 @@
     }
     
     #toolsSkills {
-        padding: 0 30px 90px 30px;
+        padding: 0 30px 110px 30px;
     }
     
     #moreAboutMe {
@@ -344,5 +344,11 @@
     
     nav > ul > li > a{
         font-size: 195%;
+    }
+}
+
+@media screen and (min-width: 100em) {
+    #projDescMain {
+        padding: 15px 455px;
     }
 }
