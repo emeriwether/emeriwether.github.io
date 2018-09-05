@@ -1,0 +1,158 @@
+<!doctype html>
+
+<html class="no-js" lang="en" dir="ltr">
+    
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Cabin:700|Roboto+Condensed:400,400i,700" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Eleanor Meriwether">
+        <title>Eleanor Meriwether - User Experience Designer</title>
+        <link rel="stylesheet" href="css2/foundation.css">
+        <link rel="stylesheet" href="css2/home.css">
+        <link rel="stylesheet" href="css2/navigation.css">
+        <link rel="stylesheet" href="css2/footer.css">    
+    </head>
+    
+<body style="background-image: url(images/homePage_bg.png);">
+        
+        <!-- BEGIN NAVIGATION -->
+        <!-- RESPONSIVE NAVIGATION FOR SMALL SCREENS, REPLACES TOP-BAR-RIGHT BELOW -->
+        <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+            <div class="title-bar-left">
+                <a href="#"><img src="images/logo.png" id="smallScreenLogo"></a>
+            </div>
+            <div class="title-bar-right">
+                <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+            </div>            
+        </div>
+        <!-- RESPONSIVE NAVIGATION FOR MEDIUM & UP SCREENS -->
+        <nav class="top-bar">
+          <!-- LOGO ON LEFT-HAND-SIDE, VISIBLE FOR MEDIUM & UP SCREENS-->
+          <div class="top-bar-left show-for-medium">
+            <ul class="menu">
+              <li><a href="#"><img src="images/logo.png" id="mediumUpLogo"></a></li>
+            </ul>
+          </div>    
+          <!-- NAVIGATION LINKS, SHOWS FOR MEDIUM & UP, IS REPLACED BY TITLE-BAR FOR SMALL SCREENS -->
+          <div class="top-bar-right" id="responsive-menu">
+            <ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
+              <li class="is-active">
+                <a href="#">WORK</a>
+                <ul class="menu vertical">
+                  <li><a href="#" class="subnavText">Project 1: Designing a Salon Website</a></li>
+                  <li><a href="#" class="subnavText">Project 2: Redesigning a Case Study</a></li>
+                  <li><a href="#" class="subnavText">Project 3: Designing an Online Forum</a></li>
+                  <li><a href="#" class="subnavText">Project 4: Redesigning a Nonprofit Website</a></li>
+                  <li><a href="#" class="subnavText">Project 5: Designing a Mobile App</a></li>                    
+                </ul>
+              </li>
+              <li><a href="#">ABOUT ME</a></li>
+              <li><a href="#footer" data-smooth-scroll>CONTACT</a></li>
+            </ul>
+            </div>
+        </nav>  
+        <!-- END NAVIGATION -->
+
+    
+        <div class="grid-container">
+        
+            <!-- BEGIN HEADER -->
+            <header class="grid-x grid-padding-x align-middle">
+                <!-- HEADER TEXT -->            
+                <div class="small-6 cell">
+                    <h2>This is a 25-word introduction. It should be a condensed version of my elevator pitch, and should <span class="aquaText">describe my <span class="coralText">role</span> and my <span class="coralText">goal</span></span>.</h2>
+                </div>                
+                <!-- HEADER IMAGE -->
+                <div class="small-6 cell">
+                    <img src="images/placeholderImage.png">
+                </div>
+            </header>
+            <!-- END HEADER-->
+
+            <!-- BEGIN MAIN -->
+            <main class="grid-x grid-padding-x small-up-1 medium-up-2 large-up-3">
+              
+              <!-- PROJECT 1 -->
+              <div class="cell projectThumbnail">
+                <div class="card">
+                  <img src="images/placeholder_Thumbnail.png">
+                  <div class="card-section">
+                    <h5 class="myRole">FREELANCE UX DESIGNER &amp; WEB DEVELOPER</h5>
+                    <h4 class="company">Designing a Salon Website</h4>
+                    <a href="" class="linkToProject">View case study &gt;</a>
+                  </div>
+                </div>
+              </div>
+                
+              <!-- PROJECT 2 -->                
+              <div class="cell">
+                <div class="card">
+                  <img src="images/placeholder_Thumbnail.png">
+                  <div class="card-section">
+                    <h5 class="myRole">FREELANCE UX DESIGNER &amp; WEB DEVELOPER</h5>
+                    <h4 class="company">Redesigning a Case Study</h4>
+                    <a href="" class="linkToProject">View case study &gt;</a>
+                  </div>
+                </div>
+              </div>
+                
+              <!-- PROJECT 3 -->            
+              <div class="cell">
+                <div class="card">
+                  <img src="images/placeholder_Thumbnail.png">
+                  <div class="card-section">
+                    <h5 class="myRole">UI DESIGNER</h5>
+                    <h4 class="company">Designing an Online Forum</h4>
+                    <a href="" class="linkToProject">View case study &gt;</a>
+                  </div>
+                </div>
+              </div>
+                
+              <!-- PROJECT 4 -->            
+              <div class="cell">
+                <div class="card">
+                  <img src="images/placeholder_Thumbnail.png">
+                  <div class="card-section">
+                    <h5 class="myRole">UI DESIGNER</h5>
+                    <h4 class="company">Redesigning FTC's Website</h4>
+                    <a href="" class="linkToProject">View case study &gt;</a>
+                  </div>
+                </div>
+              </div> 
+                
+              <!-- PROJECT 5 -->            
+              <div class="cell">
+                <div class="card">
+                  <img src="images/placeholder_Thumbnail.png">
+                  <div class="card-section">
+                    <h5 class="myRole">UX DESIGNER</h5>
+                    <h4 class="company">Designing a Mobile App</h4>
+                    <a href="" class="linkToProject">View case study &gt;</a>
+                  </div>
+                </div>
+              </div>                
+            </main>
+            <!-- END MAIN -->   
+            
+        </div> 
+
+            
+        <!-- BEGIN FOOTER --> 
+        <footer class="grid-x grid-padding-x grid-frame" id="footer">
+            <div class="cell footer">
+                <p>Want to work with me? <br> Learn more <a href="" class="aquaText">about me</a>, or contact me below <span class="coralText">(resume available upon request)</span></p>
+                <a href=""><img src="images/linkedin.png"></a>
+                <a href="" class="aquaText" id="footerEmail">emeriwetherux@gmail.com</a>
+            </div>
+        </footer>
+        
+        <script src="js2/vendor/jquery.js"></script>
+        <script src="js2/vendor/what-input.js"></script>
+        <script src="js2/vendor/foundation.js"></script>
+        <script src="js2/app.js"></script> 
+        
+    </body>
+
+</html>

@@ -1,0 +1,173 @@
+/* SITE-WIDE STYLING */
+.aquaText {
+    color: #1399AA;
+}
+
+.coralText {
+    color: #E14658;
+}
+
+
+/* PAGE SPECIFIC STYLING */
+body {
+    background: #EBEDF3;
+}
+
+/* HEADER */
+header {
+    padding: 4em 1em 3em 1em;
+}
+
+header h1 {
+    font-size: 1.85em;
+}
+
+header h2 {
+    font-family: Cabin;
+    font-weight: 400;
+}
+
+header h3 {
+    padding-top: 1.5em;
+}
+
+#headerImg {
+    padding: 1.75em 0.7em 0 0.7em;
+}
+
+#caret-square-down {
+    max-width: 0.85em;
+    max-height: auto;
+    padding-left: 0.2em;
+}
+
+
+
+/* ASIDE */
+/* COLLAGE */
+.collage {
+    padding: 0 0.5em;
+}
+
+.collage img {
+    border: 1.5px solid #EBEDF3;
+    height: 100%;
+    width: 100%;
+}
+
+/* COLLAGE MODALS */
+.card {
+    border: 0;
+}
+
+.card-section {
+    padding-left: 0;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    padding-top: 1.5em;
+}
+
+
+/* MAIN */
+.aboutSection {
+    padding: 2.5em 1em 0 1em;
+}
+
+.aboutSection h4 {
+    padding-top: 0.75em;
+    font-size: 1.5em;
+    padding-left: 0.65em;
+}
+
+.aboutSection p {
+    font-family: Cabin;
+    font-weight: 400;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.sectionTag {
+    padding-right: 1em;
+    padding-left: 0.85em;
+}
+
+
+/* MEDIA QUERIES */
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .aboutSection {
+        padding: 3em 5.5em 0 5.5em;
+    }
+    .sectionTag {
+        padding-left: 1em;
+        max-width: 75%;
+        max-height: auto;
+    }
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+   .collage img {
+        border: 3px solid #EBEDF3;
+    }
+
+    header h2 {
+        font-size: 1em;
+        font-family: Cabin;
+    }
+    
+    #headerImg {
+        padding: 0em 0.7em 0 0.7em;
+    }
+    
+    header h3 {
+        font-size: 0.9em;
+    }
+}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+    header {
+        padding-left: 4.5em;
+        padding-right: 4.5em;
+    }
+    
+    header h1 {
+        font-size: 2.5em;
+    }
+    
+    header h2 {
+        font-size: 1.5em;
+    }
+    
+    header h3 {
+        font-size: 1.2em;
+    }
+    
+    aside {
+        padding-bottom: 1.5em;
+    }
+    
+    .collage {
+        padding-top: 2em;
+    }
+    
+    .collage img {
+        border: 4px solid #EBEDF3;
+    } 
+    
+    .collage div {
+        height: 10em;
+    }  
+    
+    .aboutSection {
+        padding-top: 3em;
+    }
+    
+    .aboutSection h4 {
+        padding-top: 0.45em;
+    }
+}

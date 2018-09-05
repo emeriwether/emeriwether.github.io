@@ -1,0 +1,309 @@
+/***********************/
+/* BEGIN GLOBAL STYLING */
+body {
+    background-color: #EBEDF3;
+}
+ 
+.indentText {
+    padding-left: 35px;
+}
+
+.italicText {
+    font-style: italic;
+}
+
+.linkText {
+    color: #1399AA;
+    text-decoration: underline;
+}
+
+.coralText {
+    color: #E14658;
+}
+
+.aquaText {
+    color: #1399AA;
+}
+
+/* END GLOBAL STYLING */
+/***********************/
+
+
+/***********************/
+/* BEGIN HEADER STYLING */
+header {
+    background: #22252C;
+    padding: 2.5em 0;
+}
+
+#headerText {
+    padding: 0 2.5em 0 2.5em;
+    margin: 0 0;
+}
+
+#headerImage {
+    margin: 0 0;
+    padding: 1em 1.5em 0 2em;
+}
+
+            #beforeAfterFrame {
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: auto;
+            }
+
+            #beforeAfterContainer {
+                overflow: scroll;
+                height: 10em;
+                padding-top: 0.8em;
+                padding-left: 0.78em;
+                padding-right: 8.5em;
+            }
+
+            #beforeAfterContainer img {
+                width: 80%;
+                height: auto;
+            }
+
+
+.sectionUnderline {
+    width: 50%;
+    height: auto;
+    margin-right: 50%;
+    padding-bottom: 1.25em;
+}
+
+#headerToggle {
+    padding-top: 1.25em;
+}
+
+header h1 {
+    color: #E14658;
+    line-height: 1;
+}
+
+header h2 {
+    color: #E14658;
+    line-height: 0.7;
+}
+
+header h3 {
+    color: #EBEDF3;
+    line-height: 1;
+}
+
+header h4 {
+    color: #E14658;
+    margin-bottom: 0;
+}
+
+header p {
+    color: #EBEDF3;
+}
+/* END HEADER STYLING */
+/***********************/
+
+
+/***********************/
+/* BEGIN SECTION STYLING */
+.mainContent {
+    max-width: 115rem;
+}
+
+section {
+    padding: 1.50em 2em 0 2em;
+}
+
+section h5 {
+    color: #29394B;
+}
+
+section p {
+    color: #000000;
+}
+
+.sectionTag {
+    width: 100%;
+    height: auto;
+    padding-top: 1.250em;
+    margin: 0 0;
+}
+
+.bodyText {
+    padding-top: 1em;
+    margin: 0 0;
+}
+
+.statsIcon {
+    padding: 1.25em 0 1em 0;
+    max-width: 80%;
+}
+
+.stat {
+    font-size: 1.7rem;
+}
+
+.card {
+    background: #EBEDF3;
+    border: 0;
+    padding: 0 0.55em;
+}
+
+.statText {
+    font-size: 0.875em;
+}
+
+    /* BEGIN IMAGE AND MODAL WINDOW STYLING */
+    .regularImage {
+        padding: 1.25em 0 2.5em 0;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .regularImage:hover {opacity: 0.7;}
+
+    /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    }
+
+    /* Modal Content (image) */
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+    }
+
+    /* Caption of Modal Image */
+    #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+        height: 150px;
+    }
+
+    /* Add Animation */
+    .modal-content, #caption {    
+        -webkit-animation-name: zoom;
+        -webkit-animation-duration: 0.6s;
+        animation-name: zoom;
+        animation-duration: 0.6s;
+    }
+
+    @-webkit-keyframes zoom {
+        from {-webkit-transform:scale(0)} 
+        to {-webkit-transform:scale(1)}
+    }
+
+    @keyframes zoom {
+        from {transform:scale(0)} 
+        to {transform:scale(1)}
+    }
+
+    /* The Close Button */
+    .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    /* 100% Image Width on Smaller Screens */
+    @media only screen and (max-width: 700px){
+        .modal-content {
+            width: 100%;
+        }
+    }
+    /* END MODAL WINDOW AND IMAGE STYLING */
+
+/* END SECTION STYLING */
+/***********************/
+
+
+/***********************/
+/* BEGIN MEDIA QUERIES */
+    /* MEDIUM AND UP */
+    @media screen and (min-width: 40em) {
+        /***********************/
+        /* BEGIN HEADER STYLING */
+        header {
+            padding: 3.5em 0;
+        }
+        
+        #headerText {
+            padding: 0 3em;
+        }
+        /* END HEADER STYLING */
+        /***********************/
+        
+        /***********************/
+        /* BEGIN SECTION STYLING */
+        section {
+            padding: 1.50em 3.125em 0 3.125em;
+        }
+        /* END SECTION STYLING */
+        /***********************/
+    }
+
+    /* LARGE AND UP */
+    @media screen and (min-width: 64em) {
+        /***********************/
+        /* BEGIN HEADER STYLING */
+        #headerText {
+            padding: 0 2.5em 0 0.9em;
+            margin: 0 0 0 0;
+        }
+        
+        #headerImage {
+            padding-left: 3em;
+
+        }
+        /* END HEADER STYLING */
+        /***********************/
+           
+        /***********************/
+        /* BEGIN SECTION STYLING */
+        section {
+            padding: 1.50em 0 0 0;
+            margin: 0 0 0 0;
+        }
+        
+        .sectionTag {
+            padding: 1.6em 2em 0 3em;
+        }
+        
+        .bodyText {
+            padding: 2.25em 0 0 1em;
+        }
+        
+        /* END SECTION STYLING */
+        /***********************/
+    }
+/* END MEDIA QUERIES */
+/***********************/

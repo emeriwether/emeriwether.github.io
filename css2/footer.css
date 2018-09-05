@@ -1,0 +1,20 @@
+footer {
+  background-color: #22252C;
+  color: #EBEDF3;
+  padding: 2em;
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+}
+
+.coralText {
+    color: #E14658;
+}
+
+.aquaText {
+    color: #1399AA;
+}
+
+#footerEmail {
+    padding-left: 2em;
+    font-size: 0.875em;
+}

@@ -1,0 +1,8 @@
+/* copied from https://codepen.io/ZURBFoundation/pen/gRYeMQ?editors=1000, with some modifications */
+
+.cell {
+  line-height: 50px;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
