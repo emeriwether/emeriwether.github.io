@@ -24,19 +24,17 @@ main {
 }
 
 .myRole {
-    color: #4A4a4a;
+    color: #4A4A4A;
     font-size: 0.9em;
     font-family: Cabin;
 }
 
 .company {
-    color: #E14658;
     font-size: 1.5em;
     font-family: "Roboto Condensed";
     font-weight: 700;
 }
 
 .linkToProject {
-    color: #1399AA;
     font-family: Cabin;
 }
