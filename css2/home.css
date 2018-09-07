@@ -32,3 +32,10 @@ main {
         padding-bottom: 1em;
     }
 }
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+    h1 {
+        font-size: 3em;
+    }
+}
