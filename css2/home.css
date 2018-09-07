@@ -12,6 +12,10 @@ main {
     margin-bottom: 2.5em;
 }
 
+.card img {
+    width: 100%;
+}
+
 .card p {
     color: #4A4A4A;
     font-size: 0.8em;
