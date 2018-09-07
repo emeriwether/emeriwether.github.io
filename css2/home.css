@@ -2,7 +2,7 @@ header {
     padding: 3em 2em 5em 2em;
 }
 
-h1 {
+header h1 {
     font-size: 2em;
 }
 
@@ -34,7 +34,7 @@ main .card p:first-child {
 
 /* Large and up */
 @media screen and (min-width: 64em) {
-    h1 {
+    header h1 {
         font-size: 3em;
     }
 }
