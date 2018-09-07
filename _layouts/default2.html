@@ -7,15 +7,18 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Eleanor Meriwether">
-        <title>Eleanor Meriwether - User Experience Designer</title>
-        <link rel="stylesheet" href="css2/foundation.css">
-        <link rel="stylesheet" href="css2/site.css">
-        <link rel="stylesheet" href="css2/footer.css">
-        <link rel="stylesheet" href="css2/navigation.css">
+        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{site.description}}{% endif %}">
+        <title>{% if page.title %}{{ page.title }}{% else %}{{site.title}}{% endif %}</title>
+        <link rel="canonical" href="{{site.baseurl}}{{page.url}}">
         
-        <link rel="stylesheet" href="css2/about.css">
-        <link rel="stylesheet" href="css2/home.css">
-        <link rel="stylesheet" href="css2/project.css">
+        <link rel="stylesheet" href="/css2/foundation.css">
+        <link rel="stylesheet" href="/css2/site.css">
+        <link rel="stylesheet" href="/css2/footer.css">
+        <link rel="stylesheet" href="/css2/navigation.css">
+        
+        <link rel="stylesheet" href="/css2/about.css">
+        <link rel="stylesheet" href="/css2/home.css">
+        <link rel="stylesheet" href="/css2/project.css">
         
     </head>
     
@@ -26,6 +29,11 @@
         {{ content }}
         
         {% include footer2.html %}
+        
+        <script src="/js2/vendor/jquery.js"></script>
+        <script src="/js2/vendor/what-input.js"></script>
+        <script src="/js2/vendor/foundation.js"></script>
+        <script src="/js2/app.js"></script> 
         
     </body>
     
