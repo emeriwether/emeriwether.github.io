@@ -1,0 +1,18 @@
+/* SITE WIDE STYLING */
+.aquaText {
+    color: #1399AA;
+}
+
+.coralText {
+    color: #E14658;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+}
+
+p, a {
+    font-family: Cabin;
+    font-weight: 400;
+}
