@@ -1,13 +1,13 @@
-body {
-    padding: 3em 2em 2em 2em;
-}
-
 header {
-    padding-bottom: 5em;
+    padding: 3em 2em 5em 2em;
 }
 
 h1 {
     font-size: 2em;
+}
+
+main {
+    padding: 0em 2em 2em 2em;
 }
 
 .card {
