@@ -12,9 +12,9 @@ main {
     margin-bottom: 2.5em;
 }
 
-.myRole {
+.card p {
     color: #4A4A4A;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 /* MEDIA QUERIES */
