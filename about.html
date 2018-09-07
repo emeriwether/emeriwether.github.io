@@ -1,355 +1,288 @@
-<!doctype html>
-<html class="no-js" lang="en" dir="ltr">
-    
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Cabin:700|Roboto+Condensed:400,400i,700" rel="stylesheet">
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Eleanor Meriwether">
-        <title>Eleanor Meriwether - User Experience Designer</title>
-        <link rel="stylesheet" href="css2/foundation.css">
-        <link rel="stylesheet" href="css2/about.css">
-        <link rel="stylesheet" href="css2/navigation.css">
-        <link rel="stylesheet" href="css2/footer.css">  
-    </head>
-    
-    <body>
-        <!-- BEGIN NAVIGATION -->
-        <!-- RESPONSIVE NAVIGATION FOR SMALL SCREENS, REPLACES TOP-BAR-RIGHT BELOW -->
-        <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
-            <div class="title-bar-left">
-                <a href="/home.html"><img src="images/logo.png" id="smallScreenLogo"></a>
-            </div>
-            <div class="title-bar-right">
-                <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
-            </div>            
+---
+layout: default2
+url: /about.html
+title: "About Me"
+category: main
+description: "About Eleanor Meriwether"
+css: /css2/about.css
+---
+
+<!-- BEGIN HEADER -->
+<header class="grid-container">
+    <div class="grid-x grid-padding-x align-middle"  data-equalizer data-equalize-on="medium">
+
+        <!-- HEADER TEXT -->            
+        <div class="medium-6 cell" data-equalizer-watch>
+
+            <h1 class="text-center medium-text-left">This is a 15-word summary of who I am as a <span class="coralText">designer</span> and what my <span class="coralText">background</span> is.</h1>
+
+            <h2 class="text-center medium-text-left">This is a two-sentence description that helps users relate to me. This should also highlight something unique and interesting about me.</h2>
+
+            <h3 class="text-center medium-text-left show-for-medium"><a href="#myStory" class="aquaText" data-smooth-scroll>Learn more<img src="images/about/caret-square-down.png" id="caret-square-down"></a></h3>   
+
+        </div>   
+
+        <!-- HEADER IMAGE -->
+        <div class="medium-6 cell" id="headerImg" data-equalizer-watch><img src="images/about/bio_headerImage.png"></div>
+
+        <!-- LINK TO MAIN -->
+        <div class="cell show-for-small-only">
+            <h3 class="text-center medium-text-left"><a href="#myStory" class="aquaText" data-smooth-scroll>Learn more<img src="images/about/caret-square-down.png" id="caret-square-down"></a></h3>       
         </div>
-        <!-- RESPONSIVE NAVIGATION FOR MEDIUM & UP SCREENS -->
-        <nav class="top-bar">
-          <!-- LOGO ON LEFT-HAND-SIDE, VISIBLE FOR MEDIUM & UP SCREENS-->
-          <div class="top-bar-left show-for-medium">
-            <ul class="menu">
-              <li><a href="/home.html"><img src="images/logo.png" id="mediumUpLogo"></a></li>
-            </ul>
-          </div>    
-          <!-- NAVIGATION LINKS, SHOWS FOR MEDIUM & UP, IS REPLACED BY TITLE-BAR FOR SMALL SCREENS -->
-          <div class="top-bar-right" id="responsive-menu">
-            <ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
-              <li class="is-active">
-                <a href="/home.html">WORK</a>
-                <ul class="menu vertical">
-                  <li><a href="#" class="subnavText">Project 1: Designing a Salon Website</a></li>
-                  <li><a href="/project.html" class="subnavText">Project 2: Redesigning a Case Study</a></li>
-                  <li><a href="#" class="subnavText">Project 3: Designing an Online Forum</a></li>
-                  <li><a href="#" class="subnavText">Project 4: Redesigning a Nonprofit Website</a></li>
-                  <li><a href="#" class="subnavText">Project 5: Designing a Mobile App</a></li>                    
-                </ul>
-              </li>
-              <li><a href="/about.html">ABOUT ME</a></li>
-              <li><a href="#footer" data-smooth-scroll>CONTACT</a></li>
-            </ul>
+
+    </div>
+</header> 
+<!-- END HEADER-->
+
+<!-- BEGIN ASIDE -->
+<aside class="grid-container">  
+      <!-- BEGIN COLLAGE -->                  
+      <div class="grid-x collage" id="collage">
+          <!-- ROW ONE -->
+          <div class="small-3 cell">
+            <a data-open="collageR1I1"><img src="images/about/collage/stirlingCastle.jpeg" data-equalizer-watch></a>
+          </div>
+          <div class="small-1 cell">
+              <a data-open="collageR1I2"><img src="images/about/collage/lillys.jpg" data-equalizer-watch></a>
+          </div>
+          <div class="small-2 cell">
+              <a data-open="collageR1I3"><img src="images/about/collage/fuji.jpeg" data-equalizer-watch></a>
+          </div> 
+          <div class="small-3 cell">
+              <a data-open="collageR1I4"><img src="images/about/collage/highlands.jpeg" data-equalizer-watch></a>
+          </div>  
+          <div class="small-1 cell">
+              <a data-open="collageR1I5"><img src="images/about/collage/seagulls.jpeg" data-equalizer-watch></a>
+          </div>
+          <div class="small-2 cell">
+              <a data-open="collageR1I6"><img src="images/about/collage/korea.jpg" data-equalizer-watch></a>
+          </div>
+
+          <!-- ROW TWO -->                      
+          <div class="small-2 cell">
+              <a data-open="collageR2I1"><img src="images/about/collage/scuba.jpg" data-equalizer-watch></a>
+          </div>
+          <div class="small-3 cell">
+              <a data-open="collageR2I2"><img src="images/about/collage/snowMonkeys.jpg" data-equalizer-watch></a>
+          </div> 
+          <div class="small-1 cell">
+              <a data-open="collageR2I3"><img src="images/about/collage/brandenburg.JPG" data-equalizer-watch></a>
+          </div>   
+          <div class="small-1 cell">
+              <a data-open="collageR2I4"><img src="images/about/collage/romeow.jpeg" data-equalizer-watch></a>
+          </div>                         
+          <div class="small-3 cell">
+              <a data-open="collageR2I5"><img src="images/about/collage/matterhorn.jpg" data-equalizer-watch></a>
+          </div>   
+          <div class="small-2 cell">
+              <a data-open="collageR2I6"><img src="images/about/collage/goldenGate.jpg" data-equalizer-watch></a>
+          </div>  
+      </div>
+      <!-- END COLLAGE -->  
+
+      <!-- BEGIN COLLAGE MODALS -->                  
+        <div class="reveal" id="collageR1I1" data-reveal>
+            <div class="card">
+                <img src="images/about/collage/stirlingCastle.jpeg">
+                <div class="card-section">
+                    <h5 class="coralText">Stirling Castle, Stirling, Scotland 2018</h5>
+                    <p>This is a description of the image.</p>
+                </div>
             </div>
-        </nav>  
-        <!-- END NAVIGATION -->
-        
-        
-        <!-- BEGIN HEADER -->
-        <header class="grid-container">
-            <div class="grid-x grid-padding-x align-middle"  data-equalizer data-equalize-on="medium">
-                
-                <!-- HEADER TEXT -->            
-                <div class="medium-6 cell" data-equalizer-watch>
-
-                    <h1 class="text-center medium-text-left">This is a 15-word summary of who I am as a <span class="coralText">designer</span> and what my <span class="coralText">background</span> is.</h1>
-
-                    <h2 class="text-center medium-text-left">This is a two-sentence description that helps users relate to me. This should also highlight something unique and interesting about me.</h2>
-                    
-                    <h3 class="text-center medium-text-left show-for-medium"><a href="#myStory" class="aquaText" data-smooth-scroll>Learn more<img src="images/about/caret-square-down.png" id="caret-square-down"></a></h3>   
-
-                </div>   
-                
-                <!-- HEADER IMAGE -->
-                <div class="medium-6 cell" id="headerImg" data-equalizer-watch><img src="images/about/bio_headerImage.png"></div>
-                
-                <!-- LINK TO MAIN -->
-                <div class="cell show-for-small-only">
-                    <h3 class="text-center medium-text-left"><a href="#myStory" class="aquaText" data-smooth-scroll>Learn more<img src="images/about/caret-square-down.png" id="caret-square-down"></a></h3>       
+            <a class="button" data-open="collageR1I2">Go to the next image</a>
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div> 
+        <div class="reveal" id="collageR1I2" data-reveal>
+            <div class="card">
+                <img src="images/about/collage/lillys.jpg">
+                <div class="card-section">
+                    <h5 class="coralText">Chonnam National University, Gwangju, South Korea, 2011</h5>
+                    <p>This is a description of the image.</p>
                 </div>
-                    
             </div>
-        </header> 
-        <!-- END HEADER-->
-
-        <!-- BEGIN ASIDE -->
-        <aside class="grid-container">  
-              <!-- BEGIN COLLAGE -->                  
-              <div class="grid-x collage" id="collage">
-                  <!-- ROW ONE -->
-                  <div class="small-3 cell">
-                    <a data-open="collageR1I1"><img src="images/about/collage/stirlingCastle.jpeg" data-equalizer-watch></a>
-                  </div>
-                  <div class="small-1 cell">
-                      <a data-open="collageR1I2"><img src="images/about/collage/lillys.jpg" data-equalizer-watch></a>
-                  </div>
-                  <div class="small-2 cell">
-                      <a data-open="collageR1I3"><img src="images/about/collage/fuji.jpeg" data-equalizer-watch></a>
-                  </div> 
-                  <div class="small-3 cell">
-                      <a data-open="collageR1I4"><img src="images/about/collage/highlands.jpeg" data-equalizer-watch></a>
-                  </div>  
-                  <div class="small-1 cell">
-                      <a data-open="collageR1I5"><img src="images/about/collage/seagulls.jpeg" data-equalizer-watch></a>
-                  </div>
-                  <div class="small-2 cell">
-                      <a data-open="collageR1I6"><img src="images/about/collage/korea.jpg" data-equalizer-watch></a>
-                  </div>
-
-                  <!-- ROW TWO -->                      
-                  <div class="small-2 cell">
-                      <a data-open="collageR2I1"><img src="images/about/collage/scuba.jpg" data-equalizer-watch></a>
-                  </div>
-                  <div class="small-3 cell">
-                      <a data-open="collageR2I2"><img src="images/about/collage/snowMonkeys.jpg" data-equalizer-watch></a>
-                  </div> 
-                  <div class="small-1 cell">
-                      <a data-open="collageR2I3"><img src="images/about/collage/brandenburg.JPG" data-equalizer-watch></a>
-                  </div>   
-                  <div class="small-1 cell">
-                      <a data-open="collageR2I4"><img src="images/about/collage/romeow.jpeg" data-equalizer-watch></a>
-                  </div>                         
-                  <div class="small-3 cell">
-                      <a data-open="collageR2I5"><img src="images/about/collage/matterhorn.jpg" data-equalizer-watch></a>
-                  </div>   
-                  <div class="small-2 cell">
-                      <a data-open="collageR2I6"><img src="images/about/collage/goldenGate.jpg" data-equalizer-watch></a>
-                  </div>  
-              </div>
-              <!-- END COLLAGE -->  
-
-              <!-- BEGIN COLLAGE MODALS -->                  
-                <div class="reveal" id="collageR1I1" data-reveal>
-                    <div class="card">
-                        <img src="images/about/collage/stirlingCastle.jpeg">
-                        <div class="card-section">
-                            <h5 class="coralText">Stirling Castle, Stirling, Scotland 2018</h5>
-                            <p>This is a description of the image.</p>
-                        </div>
-                    </div>
-                    <a class="button" data-open="collageR1I2">Go to the next image</a>
-                    <button class="close-button" data-close aria-label="Close reveal" type="button">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div> 
-                <div class="reveal" id="collageR1I2" data-reveal>
-                    <div class="card">
-                        <img src="images/about/collage/lillys.jpg">
-                        <div class="card-section">
-                            <h5 class="coralText">Chonnam National University, Gwangju, South Korea, 2011</h5>
-                            <p>This is a description of the image.</p>
-                        </div>
-                    </div>
-                    <a class="button" data-open="collageR1I3">Go to the next image</a>
-                    <button class="close-button" data-close aria-label="Close reveal" type="button">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+            <a class="button" data-open="collageR1I3">Go to the next image</a>
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="reveal" id="collageR1I3" data-reveal>
+            <div class="card">
+                <img src="images/about/collage/fuji.jpeg">
+                <div class="card-section">
+                    <h5 class="coralText">Mt. Fuji, Japan, 2017</h5>
+                    <p>This is a description of the image.</p>
                 </div>
-                <div class="reveal" id="collageR1I3" data-reveal>
-                    <div class="card">
-                        <img src="images/about/collage/fuji.jpeg">
-                        <div class="card-section">
-                            <h5 class="coralText">Mt. Fuji, Japan, 2017</h5>
-                            <p>This is a description of the image.</p>
-                        </div>
-                    </div>
-                    <a class="button" data-open="collageR1I4">Go to the next image</a>
-                    <button class="close-button" data-close aria-label="Close reveal" type="button">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="reveal" id="collageR1I4" data-reveal>
-                    <div class="card">
-                        <img src="images/about/collage/highlands.jpeg">
-                        <div class="card-section">
-                            <h5 class="coralText">Aberfeldy, Scottish Highlands, 2018</h5>
-                            <p>This is a description of the image.</p>
-                        </div>
-                    </div>
-                    <a class="button" data-open="collageR1I5">Go to the next image</a>
-                    <button class="close-button" data-close aria-label="Close reveal" type="button">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>    
-                <div class="reveal" id="collageR1I5" data-reveal>
-                    <div class="card">
-                        <img src="images/about/collage/seagulls.jpeg">
-                        <div class="card-section">
-                            <h5 class="coralText">San Francisco, California, 2008</h5>
-                            <p>This is a description of the image.</p>
-                        </div>
-                    </div>
-                    <a class="button" data-open="collageR1I6">Go to the next image</a>
-                    <button class="close-button" data-close aria-label="Close reveal" type="button">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="reveal" id="collageR1I6" data-reveal>
-                    <div class="card">
-                        <img src="images/about/collage/korea.jpg">
-                        <div class="card-section">
-                            <h5 class="coralText">South Korea, 2011</h5>
-                            <p>This is a description of the image.</p>
-                        </div>
-                    </div>
-                    <a class="button" data-open="collageR2I1">Go to the next image</a>
-                    <button class="close-button" data-close aria-label="Close reveal" type="button">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="reveal" id="collageR2I1" data-reveal>
-                    <div class="card">
-                        <img src="images/about/collage/scuba.jpg">
-                        <div class="card-section">
-                            <h5 class="coralText">SCUBA Diving, Curacao, 2013</h5>
-                            <p>This is a description of the image.</p>
-                        </div>
-                    </div>
-                    <a class="button" data-open="collageR2I2">Go to the next image</a>
-                    <button class="close-button" data-close aria-label="Close reveal" type="button">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="reveal" id="collageR2I2" data-reveal>
-                    <div class="card">
-                        <img src="images/about/collage/snowMonkeys.jpg">
-                        <div class="card-section">
-                            <h5 class="coralText">Snow Monkey Park, Nagano, 2017</h5>
-                            <p>This is a description of the image.</p>
-                        </div>
-                    </div>
-                    <a class="button" data-open="collageR2I3">Go to the next image</a>
-                    <button class="close-button" data-close aria-label="Close reveal" type="button">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>  
-                <div class="reveal" id="collageR2I3" data-reveal>
-                    <div class="card">
-                        <img src="images/about/collage/brandenburg.JPG">
-                        <div class="card-section">
-                            <h5 class="coralText">Brandenburg an der Havel, Germany, 2006</h5>
-                            <p>This is a description of the image.</p>
-                        </div>
-                    </div>
-                    <a class="button" data-open="collageR2I4">Go to the next image</a>
-                    <button class="close-button" data-close aria-label="Close reveal" type="button">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div> 
-                <div class="reveal" id="collageR2I4" data-reveal>
-                    <div class="card">
-                        <img src="images/about/collage/romeow.jpeg">
-                        <div class="card-section">
-                            <h5 class="coralText">Romeow / Business Cat, Laguna Niguel, California, 2015</h5>
-                            <p>This is a description of the image.</p>
-                        </div>
-                    </div>
-                    <a class="button" data-open="collageR2I5">Go to the next image</a>
-                    <button class="close-button" data-close aria-label="Close reveal" type="button">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="reveal" id="collageR2I5" data-reveal>
-                    <div class="card">
-                        <img src="images/about/collage/matterhorn.jpg">
-                        <div class="card-section">
-                            <h5 class="coralText">Matterhorn, Zermatt, Switzerland, 2007</h5>
-                            <p>This is a description of the image.</p>
-                        </div>
-                    </div>
-                    <a class="button" data-open="collageR2I6">Go to the next image</a>
-                    <button class="close-button" data-close aria-label="Close reveal" type="button">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>  
-                <div class="reveal" id="collageR2I6" data-reveal>
-                    <div class="card">
-                        <img src="images/about/collage/goldenGate.jpg">
-                        <div class="card-section">
-                            <h5 class="coralText">Golden Gate Bridge, San Francisco, California, 2009</h5>
-                            <p>This is a description of the image.</p>
-                        </div>
-                    </div>
-                    <button class="close-button" data-close aria-label="Close reveal" type="button">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>                      
-              <!-- END COLLAGE MODALS -->   
-        </aside>
-        <!-- END ASIDE -->   
-
-        <!-- BEGIN MAIN -->       
-        <main class="grid-container">
-            
-            <!-- BEGIN SECTION: MY STORY -->
-            <section class="grid-x aboutSection" id="myStory">
-                <!-- SECTION TAG -->
-                <div class="large-6 cell sectionTag">
-                     <img data-interchange="[images/about/sectionTags_smallScreens/about-tag-1.png, small], [images/about/sectionTags_mediumUp/about-tag1.png, large]" alt="Tag for section 1: My Story">
-                </div>
-                <!-- TEXT -->                    
-                <div class="large-6 cell bodyText">
-                    <h4 class="text-left aquaText">Section Title</h4>
-                    <p class="text-left">This is a two-paragraph description of my background, and how I came to be a UX Designer. Make sure to use highlighted text, and potentially include a quote or special area for key takeaways.<br><br>Lorem ipsum dolor sit amet, simul dolore mediocrem cu qui, mea volumus vivendum at. Probo error ubique ex eum, pro novum congue no, an vim brute exerci melius. Eum ut omnis homero dolores. Te nec quem graeco temporibus. Natum detracto albucius ad quo.Ex ius tation ridens. Est modus congue dolores te. Vis omnes graeci volumus ad. Choro phaedrum ei eam, sea et exerci noster evertitur.</p>
-                </div>
-            </section>  
-            <!-- END SECTION: MY STORY -->
-            
-            <!-- BEGIN SECTION: MY UX PROCESS -->
-            <section class="grid-x aboutSection">
-                <!-- SECTION TAG -->
-                <div class="large-6 cell sectionTag">
-                     <img data-interchange="[images/about/sectionTags_smallScreens/about-tag-2.png, small], [images/about/sectionTags_mediumUp/about-tag2.png, large]" alt="Tag for section 2: My UX PROCESS">
-                </div>
-                <!-- TEXT -->                    
-                <div class="large-6 cell bodyText">
-                    <h4 class="text-left aquaText">Section Title</h4>
-                    <p class="text-left">This is a two-paragraph description of my UX process, using examples from experience and past work. Try to link to case studies wherever possible. Try to use images. Make sure to use highlighted text, and potentially include a quote or special area for key takeaways.<br><br>Lorem ipsum dolor sit amet, simul dolore mediocrem cu qui, mea volumus vivendum at. Probo error ubique ex eum, pro novum congue no, an vim brute exerci melius. Eum ut omnis homero dolores. Te nec quem graeco temporibus. Natum detracto albucius ad quo.Ex ius tation ridens. Est modus congue dolores te. Vis omnes graeci volumus ad. Choro phaedrum ei eam, sea et exerci noster evertitur.</p>
-                </div>
-            </section>  
-            <!-- END SECTION: MY UX PROCESS -->
-            
-            <!-- BEGIN SECTION: MY TOOLBOX -->
-            <section class="grid-x aboutSection">
-                <!-- SECTION TAG -->
-                <div class="large-6 cell sectionTag">
-                     <img data-interchange="[images/about/sectionTags_smallScreens/about-tag-3.png, small], [images/about/sectionTags_mediumUp/about-tag3.png, large]" alt="Tag for section 2: My TOOLBOX">
-                </div>
-                <!-- TEXT -->                    
-                <div class="large-6 cell bodyText">
-                    <h4 class="text-left aquaText">Section Title</h4>
-                    <p class="text-left">This is a two-paragraph description of the tools and software that I use throughout my UX process, using examples from experience and past work. Try to link to case studies wherever possible. Try to use images. Make sure to use highlighted text, and potentially include a quote or special area for key takeaways.<br><br>Lorem ipsum dolor sit amet, simul dolore mediocrem cu qui, mea volumus vivendum at. Probo error ubique ex eum, pro novum congue no, an vim brute exerci melius. Eum ut omnis homero dolores. Te nec quem graeco temporibus. Natum detracto albucius ad quo.Ex ius tation ridens. Est modus congue dolores te. Vis omnes graeci volumus ad. Choro phaedrum ei eam, sea et exerci noster evertitur.</p>
-                </div>
-            </section>  
-            <!-- END SECTION: MY TOOLBOX -->
-        </main>
-        <!-- END MAIN -->       
-
-        <!-- BEGIN FOOTER --> 
-        <footer class="grid-x grid-padding-x grid-frame" id="footer">
-            <div class="cell footer">
-                <p>Want to work with me? <br> See some of <a href="/home.html" class="aquaText">my work</a>, or contact me below <span class="coralText">(resume available upon request)</span></p>
-                <a href="https://www.linkedin.com/in/emeriwether/"><img src="images/linkedin.png"></a>
-                <a href="mailto:emeriwetherux@gmail.com" class="aquaText" id="footerEmail">emeriwetherux@gmail.com</a>
             </div>
-        </footer>
-        <!-- END FOOTER --> 
+            <a class="button" data-open="collageR1I4">Go to the next image</a>
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="reveal" id="collageR1I4" data-reveal>
+            <div class="card">
+                <img src="images/about/collage/highlands.jpeg">
+                <div class="card-section">
+                    <h5 class="coralText">Aberfeldy, Scottish Highlands, 2018</h5>
+                    <p>This is a description of the image.</p>
+                </div>
+            </div>
+            <a class="button" data-open="collageR1I5">Go to the next image</a>
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>    
+        <div class="reveal" id="collageR1I5" data-reveal>
+            <div class="card">
+                <img src="images/about/collage/seagulls.jpeg">
+                <div class="card-section">
+                    <h5 class="coralText">San Francisco, California, 2008</h5>
+                    <p>This is a description of the image.</p>
+                </div>
+            </div>
+            <a class="button" data-open="collageR1I6">Go to the next image</a>
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="reveal" id="collageR1I6" data-reveal>
+            <div class="card">
+                <img src="images/about/collage/korea.jpg">
+                <div class="card-section">
+                    <h5 class="coralText">South Korea, 2011</h5>
+                    <p>This is a description of the image.</p>
+                </div>
+            </div>
+            <a class="button" data-open="collageR2I1">Go to the next image</a>
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="reveal" id="collageR2I1" data-reveal>
+            <div class="card">
+                <img src="images/about/collage/scuba.jpg">
+                <div class="card-section">
+                    <h5 class="coralText">SCUBA Diving, Curacao, 2013</h5>
+                    <p>This is a description of the image.</p>
+                </div>
+            </div>
+            <a class="button" data-open="collageR2I2">Go to the next image</a>
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="reveal" id="collageR2I2" data-reveal>
+            <div class="card">
+                <img src="images/about/collage/snowMonkeys.jpg">
+                <div class="card-section">
+                    <h5 class="coralText">Snow Monkey Park, Nagano, 2017</h5>
+                    <p>This is a description of the image.</p>
+                </div>
+            </div>
+            <a class="button" data-open="collageR2I3">Go to the next image</a>
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>  
+        <div class="reveal" id="collageR2I3" data-reveal>
+            <div class="card">
+                <img src="images/about/collage/brandenburg.JPG">
+                <div class="card-section">
+                    <h5 class="coralText">Brandenburg an der Havel, Germany, 2006</h5>
+                    <p>This is a description of the image.</p>
+                </div>
+            </div>
+            <a class="button" data-open="collageR2I4">Go to the next image</a>
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div> 
+        <div class="reveal" id="collageR2I4" data-reveal>
+            <div class="card">
+                <img src="images/about/collage/romeow.jpeg">
+                <div class="card-section">
+                    <h5 class="coralText">Romeow / Business Cat, Laguna Niguel, California, 2015</h5>
+                    <p>This is a description of the image.</p>
+                </div>
+            </div>
+            <a class="button" data-open="collageR2I5">Go to the next image</a>
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="reveal" id="collageR2I5" data-reveal>
+            <div class="card">
+                <img src="images/about/collage/matterhorn.jpg">
+                <div class="card-section">
+                    <h5 class="coralText">Matterhorn, Zermatt, Switzerland, 2007</h5>
+                    <p>This is a description of the image.</p>
+                </div>
+            </div>
+            <a class="button" data-open="collageR2I6">Go to the next image</a>
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>  
+        <div class="reveal" id="collageR2I6" data-reveal>
+            <div class="card">
+                <img src="images/about/collage/goldenGate.jpg">
+                <div class="card-section">
+                    <h5 class="coralText">Golden Gate Bridge, San Francisco, California, 2009</h5>
+                    <p>This is a description of the image.</p>
+                </div>
+            </div>
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>                      
+      <!-- END COLLAGE MODALS -->   
+</aside>
+<!-- END ASIDE -->   
 
-        
-        <script src="js2/vendor/jquery.js"></script>
-        <script src="js2/vendor/what-input.js"></script>
-        <script src="js2/vendor/foundation.js"></script>
-        <script src="js2/app.js"></script> 
+<!-- BEGIN MAIN -->       
+<main class="grid-container">
 
-    </body>
+    <!-- BEGIN SECTION: MY STORY -->
+    <section class="grid-x aboutSection" id="myStory">
+        <!-- SECTION TAG -->
+        <div class="large-6 cell sectionTag">
+             <img data-interchange="[images/about/sectionTags_smallScreens/about-tag-1.png, small], [images/about/sectionTags_mediumUp/about-tag1.png, large]" alt="Tag for section 1: My Story">
+        </div>
+        <!-- TEXT -->                    
+        <div class="large-6 cell bodyText">
+            <h4 class="text-left aquaText">Section Title</h4>
+            <p class="text-left">This is a two-paragraph description of my background, and how I came to be a UX Designer. Make sure to use highlighted text, and potentially include a quote or special area for key takeaways.<br><br>Lorem ipsum dolor sit amet, simul dolore mediocrem cu qui, mea volumus vivendum at. Probo error ubique ex eum, pro novum congue no, an vim brute exerci melius. Eum ut omnis homero dolores. Te nec quem graeco temporibus. Natum detracto albucius ad quo.Ex ius tation ridens. Est modus congue dolores te. Vis omnes graeci volumus ad. Choro phaedrum ei eam, sea et exerci noster evertitur.</p>
+        </div>
+    </section>  
+    <!-- END SECTION: MY STORY -->
 
-</html>
+    <!-- BEGIN SECTION: MY UX PROCESS -->
+    <section class="grid-x aboutSection">
+        <!-- SECTION TAG -->
+        <div class="large-6 cell sectionTag">
+             <img data-interchange="[images/about/sectionTags_smallScreens/about-tag-2.png, small], [images/about/sectionTags_mediumUp/about-tag2.png, large]" alt="Tag for section 2: My UX PROCESS">
+        </div>
+        <!-- TEXT -->                    
+        <div class="large-6 cell bodyText">
+            <h4 class="text-left aquaText">Section Title</h4>
+            <p class="text-left">This is a two-paragraph description of my UX process, using examples from experience and past work. Try to link to case studies wherever possible. Try to use images. Make sure to use highlighted text, and potentially include a quote or special area for key takeaways.<br><br>Lorem ipsum dolor sit amet, simul dolore mediocrem cu qui, mea volumus vivendum at. Probo error ubique ex eum, pro novum congue no, an vim brute exerci melius. Eum ut omnis homero dolores. Te nec quem graeco temporibus. Natum detracto albucius ad quo.Ex ius tation ridens. Est modus congue dolores te. Vis omnes graeci volumus ad. Choro phaedrum ei eam, sea et exerci noster evertitur.</p>
+        </div>
+    </section>  
+    <!-- END SECTION: MY UX PROCESS -->
+
+    <!-- BEGIN SECTION: MY TOOLBOX -->
+    <section class="grid-x aboutSection">
+        <!-- SECTION TAG -->
+        <div class="large-6 cell sectionTag">
+             <img data-interchange="[images/about/sectionTags_smallScreens/about-tag-3.png, small], [images/about/sectionTags_mediumUp/about-tag3.png, large]" alt="Tag for section 2: My TOOLBOX">
+        </div>
+        <!-- TEXT -->                    
+        <div class="large-6 cell bodyText">
+            <h4 class="text-left aquaText">Section Title</h4>
+            <p class="text-left">This is a two-paragraph description of the tools and software that I use throughout my UX process, using examples from experience and past work. Try to link to case studies wherever possible. Try to use images. Make sure to use highlighted text, and potentially include a quote or special area for key takeaways.<br><br>Lorem ipsum dolor sit amet, simul dolore mediocrem cu qui, mea volumus vivendum at. Probo error ubique ex eum, pro novum congue no, an vim brute exerci melius. Eum ut omnis homero dolores. Te nec quem graeco temporibus. Natum detracto albucius ad quo.Ex ius tation ridens. Est modus congue dolores te. Vis omnes graeci volumus ad. Choro phaedrum ei eam, sea et exerci noster evertitur.</p>
+        </div>
+    </section>  
+    <!-- END SECTION: MY TOOLBOX -->
+</main>
+<!-- END MAIN -->       

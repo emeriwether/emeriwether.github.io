@@ -1,13 +1,3 @@
-/* SITE-WIDE STYLING */
-.aquaText {
-    color: #1399AA;
-}
-
-.coralText {
-    color: #E14658;
-}
-
-
 /* PAGE SPECIFIC STYLING */
 body {
     background: #EBEDF3;
@@ -60,15 +50,15 @@ header h3 {
 }
 
 /* COLLAGE MODALS */
-.card {
+aside .card {
     border: 0;
 }
 
-.card-section {
+aside .card-section {
     padding-left: 0;
 }
 
-.card img {
+aside .card img {
     width: 100%;
     height: auto;
     padding-top: 1.5em;
@@ -105,6 +95,7 @@ header h3 {
     .aboutSection {
         padding: 3em 5.5em 0 5.5em;
     }
+    
     .sectionTag {
         padding-left: 1em;
         max-width: 75%;
