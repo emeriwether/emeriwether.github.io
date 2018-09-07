@@ -16,11 +16,11 @@ main .card {
     margin-bottom: 2.5em;
 }
 
-.card img {
+main .card img {
     width: 100%;
 }
 
-.card p:first-child {
+main .card p:first-child {
     font-size: 0.8em;
 }
 
