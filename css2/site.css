@@ -1,4 +1,8 @@
 /* SITE WIDE STYLING */
+body {
+    background-color: #EBEDF3;
+}
+
 .aquaText {
     color: #1399AA;
 }
