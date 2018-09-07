@@ -16,7 +16,7 @@ main {
     width: 100%;
 }
 
-.card p {
+.card p:first-child {
     color: #4A4A4A;
     font-size: 0.8em;
 }
