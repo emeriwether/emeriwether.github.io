@@ -1,35 +1,4 @@
 /***********************/
-/* BEGIN GLOBAL STYLING */
-body {
-    background-color: #EBEDF3;
-}
- 
-.indentText {
-    padding-left: 35px;
-}
-
-.italicText {
-    font-style: italic;
-}
-
-.linkText {
-    color: #1399AA;
-    text-decoration: underline;
-}
-
-.coralText {
-    color: #E14658;
-}
-
-.aquaText {
-    color: #1399AA;
-}
-
-/* END GLOBAL STYLING */
-/***********************/
-
-
-/***********************/
 /* BEGIN HEADER STYLING */
 header {
     background: #22252C;
