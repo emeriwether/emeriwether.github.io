@@ -1,63 +1,36 @@
-<!doctype html>
+<!-- RESPONSIVE NAVIGATION FOR SMALL SCREENS, REPLACES TOP-BAR-RIGHT BELOW -->
+<div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+    <div class="title-bar-left">
+        <a href="/home.html"><img src="images/logo.png" id="smallScreenLogo"></a>
+    </div>
+    <div class="title-bar-right">
+        <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+    </div>            
+</div>
 
-<html class="no-js" lang="en" dir="ltr">
-    
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Cabin:700|Roboto+Condensed:400,400i,700" rel="stylesheet">
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Eleanor Meriwether">
-        <title>Eleanor Meriwether - User Experience Designer</title>
-        <link rel="stylesheet" href="css2/foundation.css">
-        <link rel="stylesheet" href="css2/navigation.css">
-    </head>
-    
-    <body>                       
-        
-        <!-- RESPONSIVE NAVIGATION FOR SMALL SCREENS, REPLACES TOP-BAR-RIGHT BELOW -->
-        <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
-            <div class="title-bar-left">
-                <a href="/home.html"><img src="images/logo.png" id="smallScreenLogo"></a>
-            </div>
-            <div class="title-bar-right">
-                <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
-            </div>            
-        </div>
-
-        
-        <!-- RESPONSIVE NAVIGATION FOR MEDIUM & UP SCREENS -->
-        <nav class="top-bar">
-          <!-- LOGO ON LEFT-HAND-SIDE, VISIBLE FOR MEDIUM & UP SCREENS-->
-          <div class="top-bar-left show-for-medium">
-            <ul class="menu">
-              <li><a href="/home.html"><img src="images/logo.png" id="mediumUpLogo"></a></li>
-            </ul>
-          </div>    
-          <!-- NAVIGATION LINKS, SHOWS FOR MEDIUM & UP, IS REPLACED BY TITLE-BAR FOR SMALL SCREENS -->
-          <div class="top-bar-right" id="responsive-menu">
-            <ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
-              <li class="is-active">
-                <a href="/home.html">WORK</a>
-                <ul class="menu vertical">
-                  <li><a href="#" class="subnavText">Project 1: Designing a Salon Website</a></li>
-                  <li><a href="/project.html" class="subnavText">Project 2: Redesigning a Case Study</a></li>
-                  <li><a href="#" class="subnavText">Project 3: Designing an Online Forum</a></li>
-                  <li><a href="#" class="subnavText">Project 4: Redesigning a Nonprofit Website</a></li>
-                  <li><a href="#" class="subnavText">Project 5: Designing a Mobile App</a></li>                    
-                </ul>
-              </li>
-              <li><a href="/about.html">ABOUT ME</a></li>
-              <li><a href="#footer" data-smooth-scroll>CONTACT</a></li>
-            </ul>
-            </div>
-        </nav>
-
-    
-        <script src="js2/vendor/jquery.js"></script>
-        <script src="js2/vendor/what-input.js"></script>
-        <script src="js2/vendor/foundation.min.js"></script>
-        <script src="js2/app.js"></script>
-    </body>
-
-</html>
+<!-- RESPONSIVE NAVIGATION FOR MEDIUM & UP SCREENS -->
+<nav class="top-bar">
+  <!-- LOGO ON LEFT-HAND-SIDE, VISIBLE FOR MEDIUM & UP SCREENS-->
+  <div class="top-bar-left show-for-medium">
+    <ul class="menu">
+      <li><a href="/home.html"><img src="images/logo.png" id="mediumUpLogo"></a></li>
+    </ul>
+  </div>    
+  <!-- NAVIGATION LINKS, SHOWS FOR MEDIUM & UP, IS REPLACED BY TITLE-BAR FOR SMALL SCREENS -->
+  <div class="top-bar-right" id="responsive-menu">
+    <ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
+      <li class="is-active">
+        <a href="/home.html">WORK</a>
+        <ul class="menu vertical">
+          <li><a href="#" class="subnavText">Project 1: Designing a Salon Website</a></li>
+          <li><a href="/project.html" class="subnavText">Project 2: Redesigning a Case Study</a></li>
+          <li><a href="#" class="subnavText">Project 3: Designing an Online Forum</a></li>
+          <li><a href="#" class="subnavText">Project 4: Redesigning a Nonprofit Website</a></li>
+          <li><a href="#" class="subnavText">Project 5: Designing a Mobile App</a></li>                    
+        </ul>
+      </li>
+      <li><a href="/about.html">ABOUT ME</a></li>
+      <li><a href="#footer" data-smooth-scroll>CONTACT</a></li>
+    </ul>
+    </div>
+</nav>
