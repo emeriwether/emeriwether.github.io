@@ -18,3 +18,11 @@ p, a {
     font-weight: 400;
     color: #4A4A4A;
 }
+
+nav a {
+    color: #EBEDF3;
+}
+
+footer p, footer a {
+    color: #EBEDF3;
+}
