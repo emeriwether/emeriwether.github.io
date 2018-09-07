@@ -109,11 +109,11 @@ section p {
     max-width: 80%;
 }
 
-.stat {
+main .stat {
     font-size: 1.7rem;
 }
 
-.card {
+main .card {
     background: #EBEDF3;
     border: 0;
     padding: 0 0.55em;
