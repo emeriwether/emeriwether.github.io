@@ -10,27 +10,33 @@
 
 <!-- RESPONSIVE NAVIGATION FOR MEDIUM & UP SCREENS -->
 <nav class="top-bar">
+    
   <!-- LOGO ON LEFT-HAND-SIDE, VISIBLE FOR MEDIUM & UP SCREENS-->
   <div class="top-bar-left show-for-medium">
     <ul class="menu">
       <li><a href="/home.html"><img src="images/logo.png" id="mediumUpLogo"></a></li>
     </ul>
-  </div>    
+  </div>  
+    
   <!-- NAVIGATION LINKS, SHOWS FOR MEDIUM & UP, IS REPLACED BY TITLE-BAR FOR SMALL SCREENS -->
   <div class="top-bar-right" id="responsive-menu">
     <ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
-      <li class="is-active">
-        <a href="/home.html">WORK</a>
+      <li>
+        <a href="/home.html" {% if page.url == "/home.html" %}class="is-active"{% endif %}>WORK</a>
         <ul class="menu vertical">
           <li><a href="#" class="subnavText">Project 1: Designing a Salon Website</a></li>
           <li><a href="/project.html" class="subnavText">Project 2: Redesigning a Case Study</a></li>
           <li><a href="#" class="subnavText">Project 3: Designing an Online Forum</a></li>
           <li><a href="#" class="subnavText">Project 4: Redesigning a Nonprofit Website</a></li>
-          <li><a href="#" class="subnavText">Project 5: Designing a Mobile App</a></li>                    
+          <li><a href="#" class="subnavText">Project 5: Designing a Mobile App</a></li>           
         </ul>
       </li>
       <li><a href="/about.html">ABOUT ME</a></li>
       <li><a href="#footer" data-smooth-scroll>CONTACT</a></li>
     </ul>
-    </div>
+  </div>
+    
 </nav>
+
+
+class="is-active"
