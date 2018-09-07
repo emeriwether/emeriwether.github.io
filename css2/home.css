@@ -2,6 +2,10 @@ header {
     padding: 3em 2em 5em 2em;
 }
 
+.callout {
+    border: 0;
+}
+
 main {
     padding: 0em 2em 2em 2em;
 }
