@@ -3553,21 +3553,7 @@ select {
   content: '';
   border-bottom-width: 0;
   border-top-style: solid;
-    
-    {% assign links = site.data.navigation %}
-    {% for link in links %}
-      {% if page.url contains /home.html %}
-            border-color: #000 transparent transparent;
-      {% elsif link.sublinks %}
-            {% for sublink in link.sublinks %}
-                {% if page.url contains sublink.url %}
-                    border-color: #1399AA transparent transparent;
-                {% endif %}
-            {% endfor %}
-      {% else %}
-        border-color: #d4ABF8 transparent transparent;
-      {% endif %}
-    {% endfor %}
+  border-color: #d4ABF8 transparent transparent;
   left: 5px;
   margin-top: -3px; }
 
@@ -3644,22 +3630,7 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
-      
-    {% assign links = site.data.navigation %}
-    {% for link in links %}
-      {% if page.url contains /home.html %}
-            border-color: #fff transparent transparent;
-      {% elsif link.sublinks %}
-            {% for sublink in link.sublinks %}
-                {% if page.url contains sublink.url %}
-                    border-color: #1399AA transparent transparent;
-                {% endif %}
-            {% endfor %}
-      {% else %}
-        border-color: #d4ABF8 transparent transparent;
-      {% endif %}
-    {% endfor %}
-
+    border-color: #000 transparent transparent;
     left: 60px;
     margin-top: -3px; }
   .dropdown.menu.medium-vertical > li .is-dropdown-submenu {
