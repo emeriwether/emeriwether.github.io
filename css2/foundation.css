@@ -3553,7 +3553,21 @@ select {
   content: '';
   border-bottom-width: 0;
   border-top-style: solid;
-  border-color: #EBEDF3 transparent transparent;
+    
+    {% assign links = site.data.navigation %}
+    {% for link in links %}
+      {% if page.url contains /home.html %}
+            border-color: #d4ABF8 transparent transparent;
+      {% elsif link.sublinks %}
+            {% for sublink in link.sublinks %}
+                {% if page.url contains sublink.url %}
+                    border-color: #1399AA transparent transparent;
+                {% endif %}
+            {% endfor %}
+      {% else %}
+        border-color: #EBEDF3 transparent transparent;
+      {% endif %}
+    {% endfor %}
   left: 5px;
   margin-top: -3px; }
 
