@@ -27,7 +27,7 @@
         {% assign class = nil %}
         {% if page.url contains link.url %}
           {% assign class= 'is-active' %}
-        {% elseif page.url contains sublink.url %}
+        {% elsif page.url contains sublink.url %}
             {% assign class='is-active' %}
         {% endif %}
         {% if link.sublinks %}
