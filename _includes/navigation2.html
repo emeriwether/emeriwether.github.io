@@ -25,7 +25,7 @@
       {% assign links = site.data.navigation %}
       {% for link in links %}
         {% assign class = nil %}
-        {% if page.url contains link.url %}
+        {% if page.url contains link.url or link.sublinks %}
           {% assign class= 'is-active' %}
         {% endif %}
         {% if link.sublinks %}
@@ -35,10 +35,6 @@
               {% for sublink in link.sublinks %}
                 {% if page.url contains sublink.url %}
                     {% assign sublink-class = 'is-sublink-active' %}
-                    {% case link.url %}
-                        {% when /home.html %}
-                            {% assign class="is-active" %}
-                    {% endcase %}
                 {% else %}
                     {% assign sublink-class = nil %}
                 {% endif %}
