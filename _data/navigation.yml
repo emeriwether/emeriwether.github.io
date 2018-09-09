@@ -14,4 +14,4 @@
 - title: "About Me"
   url: /about.html
 - title: Contact
-  url: #footer
+  url: "{{ site.baseurl }}{{ link.url }}#footer"
