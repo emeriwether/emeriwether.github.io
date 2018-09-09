@@ -3633,7 +3633,7 @@ select {
       
     {% assign links = site.data.navigation %}
     {% for link in links %}
-      {% if page.url == /home.html %}
+      {% if page.url contains /home.html %}
             border-color: #1399AA transparent transparent;
       {% elsif link.sublinks %}
             {% for sublink in link.sublinks %}
