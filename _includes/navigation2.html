@@ -28,9 +28,6 @@
         {% if page.url contains link.url %}
           {% assign class= 'is-active' %}
         {% endif %}
-        {% if link.sublinks and page.url contains sublink.url %}
-            {% assign class= 'is-active' %}
-        {% endif %}
         {% if link.sublinks %}
           <li class="{{ class }}">
             <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
@@ -38,6 +35,10 @@
               {% for sublink in link.sublinks %}
                 {% if page.url contains sublink.url %}
                     {% assign sublink-class = 'is-sublink-active' %}
+                    {% case link.url %}
+                        {% when /home.html %}
+                            {% assign class="is-active" %}
+                    {% endcase %}
                 {% else %}
                     {% assign sublink-class = nil %}
                 {% endif %}
