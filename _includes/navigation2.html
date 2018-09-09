@@ -26,11 +26,11 @@
       {% for link in links %}
         {% assign class = nil %}
         {% if page.url contains link.url %}
-          {% assign class= 'active' %}
+          {% assign class= 'active-link' %}
         {% elsif link.sublinks %}
             {% for sublink in link.sublinks %}
                 {% if page.url contains sublink.url %}
-                    {% assign class= 'active' %}
+                    {% assign class= 'active-link' %}
                 {% endif %}
             {% endfor %}
         {% endif %}
@@ -40,7 +40,7 @@
             <ul class="menu vertical">
               {% for sublink in link.sublinks %}
                 {% if page.url contains sublink.url %}
-                    {% assign sublink-class = 'sublink-active' %}
+                    {% assign sublink-class = 'sublink-active-link' %}
                 {% else %}
                     {% assign sublink-class = nil %}
                 {% endif %}
