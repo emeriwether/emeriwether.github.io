@@ -3557,7 +3557,7 @@ select {
     {% assign links = site.data.navigation %}
     {% for link in links %}
       {% if page.url contains /home.html %}
-            border-color: #d4ABF8 transparent transparent;
+            border-color: #000 transparent transparent;
       {% elsif link.sublinks %}
             {% for sublink in link.sublinks %}
                 {% if page.url contains sublink.url %}
@@ -3565,7 +3565,7 @@ select {
                 {% endif %}
             {% endfor %}
       {% else %}
-        border-color: #EBEDF3 transparent transparent;
+        border-color: #d4ABF8 transparent transparent;
       {% endif %}
     {% endfor %}
   left: 5px;
@@ -3648,7 +3648,7 @@ select {
     {% assign links = site.data.navigation %}
     {% for link in links %}
       {% if page.url contains /home.html %}
-            border-color: #d4ABF8 transparent transparent;
+            border-color: #fff transparent transparent;
       {% elsif link.sublinks %}
             {% for sublink in link.sublinks %}
                 {% if page.url contains sublink.url %}
@@ -3656,7 +3656,7 @@ select {
                 {% endif %}
             {% endfor %}
       {% else %}
-        border-color: #EBEDF3 transparent transparent;
+        border-color: #d4ABF8 transparent transparent;
       {% endif %}
     {% endfor %}
 
