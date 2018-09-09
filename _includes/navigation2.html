@@ -27,8 +27,12 @@
         {% assign class = nil %}
         {% if page.url contains link.url %}
           {% assign class= 'is-active' %}
-        {% elsif link.sublinks and page.url contains sublink.url %}
-            {% assign class= 'is-active' %}
+        {% elsif link.sublinks %}
+            {% for sublink in link.sublink %}
+                {% if page.url contains sublink.url %}
+                    {% assign class= 'is-active' %}
+                {% endif %}
+            {% endfor %}
         {% endif %}
         {% if link.sublinks %}
           <li class="{{ class }}">
