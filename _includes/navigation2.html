@@ -35,7 +35,7 @@
               {% for sublink in link.sublinks %}
                 {% if page.url contains sublink.url %}
                     {% assign sublink-class = 'is-sublink-active' %}
-                    {% assign link.url class='is-active' %}
+                    {% assign class='is-active' %}
                 {% else %}
                     {% assign sublink-class = nil %}
                 {% endif %}
