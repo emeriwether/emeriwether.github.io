@@ -21,6 +21,8 @@
   <!-- NAVIGATION LINKS, SHOWS FOR MEDIUM & UP, IS REPLACED BY TITLE-BAR FOR SMALL SCREENS -->
   <div class="top-bar-right" id="responsive-menu">
     <ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
+      
+      <!-- static version of nav, testing replacement:
       <li>
         <a href="/home.html" {% if page.url == "/home.html" %}class="is-active"{% endif %}>WORK</a>
         <ul class="menu vertical">
@@ -33,10 +35,30 @@
       </li>
       <li><a href="/about.html" {% if page.url == "/about.html" %}class="is-active"{% endif %}>ABOUT ME</a></li>
       <li><a href="#footer" data-smooth-scroll>CONTACT</a></li>
+      -->
+        
+      <!-- testing dynamic navigation -->
+      {% assign links = site.data.navigation %}
+      {% for link in links %}
+        {% assign class = nil %}
+        {% if page.url contains link.url %}
+          {% assign class= 'active %}
+        {% endif %}
+        {% if link.sublinks %}
+          <li class="{{ class }}">
+            <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+            <ul class="menu vertical">
+              {% for sublink in link.sublinks %}
+                <li><a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+        {% else %}
+            <li class="{{ class }}"><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+          
     </ul>
   </div>
     
 </nav>
-
-
-class="is-active"
