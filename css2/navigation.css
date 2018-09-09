@@ -2,7 +2,7 @@ nav a {
     color: #EBEDF3;
 }
 
-nav .active-link, nav .sublink-active-link {
+a .active-link, a .sublink-active-link {
     color: #1399AA;
     text-decoration: none;
 }
