@@ -2,6 +2,10 @@ nav a {
     color: #EBEDF3;
 }
 
+nav a .is-active, nav a is-sublink-active {
+    color: #1399AA;
+}
+
 #smallScreenLogo {
     max-width: 14em;
     max-height: auto;
