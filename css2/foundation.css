@@ -3630,7 +3630,7 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
-      {% if page.url contains "com" %}
+      {% if 1 == 1 %}
         border-color: #000 transparent transparent;
       {% else %}
         border-color: #71EE71 transparent transparent;
