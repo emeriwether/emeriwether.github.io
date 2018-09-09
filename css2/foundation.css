@@ -3312,7 +3312,7 @@ select {
           align-self: stretch;
       margin-bottom: 0.25rem;
       text-align: center; }
-  .menu .is-active > a {
+  .menu .is-active > a,  .menu .is-sublink-active > a  {
     text-decoration: none;
     color: #1399AA;
     font-weight: 700;}
@@ -3560,7 +3560,7 @@ select {
   [data-whatinput='mouse'] .dropdown.menu a {
     outline: 0; }
 
-.dropdown.menu .is-active > a {
+.dropdown.menu .is-active > a, .dropdown.menu .is-sublink-active > a {
   background: transparent;
   color: #1399AA; }
 
