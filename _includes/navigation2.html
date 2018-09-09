@@ -49,7 +49,7 @@
             <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
             <ul class="menu vertical">
               {% for sublink in link.sublinks %}
-                <li><a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
+                <li class="{{ class }}"><a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
               {% endfor %}
             </ul>
           </li>
