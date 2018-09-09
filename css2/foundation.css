@@ -3630,7 +3630,11 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
-    border-color: #000 transparent transparent;
+      {% if page.url contains /home.html %}
+        border-color: #000 transparent transparent;
+      {% else %}
+        border-color: #3A1 transparent transparent;
+      {% endif %}
     left: 60px;
     margin-top: -3px; }
   .dropdown.menu.medium-vertical > li .is-dropdown-submenu {
