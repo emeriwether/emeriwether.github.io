@@ -2,7 +2,7 @@ nav a {
     color: #EBEDF3;
 }
 
-li .active-link, li .sublink-active-link {
+.active-link, .sublink-active-link {
     color: #1399AA;
     text-decoration: none;
 }
