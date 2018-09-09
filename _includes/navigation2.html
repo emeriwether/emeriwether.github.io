@@ -35,8 +35,8 @@
             {% endfor %}
         {% endif %}
         {% if link.sublinks %}
-          <li class="{{ class }}">
-            <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+          <li>
+            <a class="{{ class }}" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
             <ul class="menu vertical">
               {% for sublink in link.sublinks %}
                 {% if page.url contains sublink.url %}
@@ -44,7 +44,7 @@
                 {% else %}
                     {% assign sublink-class = nil %}
                 {% endif %}
-                <li class="{{ sublink-class }}"><a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
+                <li ><a class="{{ sublink-class }}" href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
               {% endfor %}
             </ul>
           </li>
