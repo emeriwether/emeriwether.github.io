@@ -3630,8 +3630,8 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
-    border-color: #EBEDF3 transparent transparent;
-    left: 5px;
+    border-color: #1399AA transparent transparent;
+    left: 60px;
     margin-top: -3px; }
   .dropdown.menu.medium-vertical > li .is-dropdown-submenu {
     top: 0; }
