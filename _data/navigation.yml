@@ -2,14 +2,14 @@
   url: /home.html
   sublinks:
   - title: "Project 1: Designing a Salon Website"
-    url: /home.html
+    url: /projectA.html
   - title: "Project 2: Redesigning a Case Study"
     url: /project.html
   - title: "Project 3: Designing an Online Forum"
-    url: /home.html
+    url: /projectC.html
   - title: "Project 4: Redesigning a Nonprofit Website"
-    url: /home.html
+    url: /projectD.html
   - title: "Project 5: Designing a Mobile App"
-    url: /home.html    
+    url: /projectE.html    
 - title: "About Me"
   url: /about.html
