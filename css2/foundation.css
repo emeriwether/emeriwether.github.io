@@ -3630,7 +3630,7 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
-      {% if {{ page.url }} == "https://emeriwether.com/home.html" %}
+      {% if {{ site.url }} == "https://emeriwether.com/home.html" %}
         border-color: #aaa122 transparent transparent;
       {% else %}
         border-color: #128812 transparent transparent;
