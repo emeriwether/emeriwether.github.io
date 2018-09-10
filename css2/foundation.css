@@ -3632,9 +3632,9 @@ select {
     border-top-style: solid;
       {% if page.url contains "home" %}
         border-color: #fff transparent transparent;
-        {{ page.url }}
       {% else %}
         border-color: #bc3447 transparent transparent;
+        {{ page.url }}
       {% endif %}
     left: 60px;
     margin-top: -3px; }
