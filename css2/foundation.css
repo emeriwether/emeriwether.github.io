@@ -3630,10 +3630,10 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
-      {% if page.url contains "home" %}
+      {% if page.url %}
         border-color: #fff transparent transparent;
       {% else %}
-        border-color: #bc3447 transparent transparent;
+        border-color: #1399AA transparent transparent;
         {{ page.url }}
       {% endif %}
     left: 60px;
