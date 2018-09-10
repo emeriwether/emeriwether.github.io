@@ -3630,7 +3630,7 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
-      {% if {{ site.url }} %}
+      {% if site.url %}
         border-color: #aaa122 transparent transparent;
       {% else %}
         border-color: #128812 transparent transparent;
