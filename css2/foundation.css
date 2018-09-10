@@ -3630,11 +3630,10 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
-      {% if page.url %}
-        border-color: #fff transparent transparent;
+      {% if page.url == "/home.html" %}
+        border-color: #000 transparent transparent;
       {% else %}
         border-color: #1399AA transparent transparent;
-        {{ page.url }}
       {% endif %}
     left: 60px;
     margin-top: -3px; }
