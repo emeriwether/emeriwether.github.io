@@ -3632,11 +3632,11 @@ select {
     border-top-style: solid;
       .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a {
          content: " (" attr(href) ")";
-      };
+      }
       {% if page.url == "/home.html" %}
         border-color: #000 transparent transparent;
       {% else %}
-        border-color: #e14658 transparent transparent;
+        border-color: #1399aa transparent transparent;
         content: " (" attr({{page.url}}) ")";
       {% endif %}
     left: 60px;
