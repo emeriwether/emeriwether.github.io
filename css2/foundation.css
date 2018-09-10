@@ -3633,7 +3633,7 @@ select {
       {% if page.url == "/home.html" %}
         border-color: #000 transparent transparent;
       {% else %}
-        border-color: #1399aa transparent transparent;
+        border-color: #e14658 transparent transparent;
         content: " (" attr({{site.url}}) ")";
       {% endif %}
     left: 60px;
