@@ -3630,10 +3630,13 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
+      .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a {
+         content: " (" attr(href) ")";
+      };
       {% if page.url == "/home.html" %}
         border-color: #000 transparent transparent;
       {% else %}
-        border-color: #2c77ef transparent transparent;
+        border-color: #e14658 transparent transparent;
         content: " (" attr({{page.url}}) ")";
       {% endif %}
     left: 60px;
