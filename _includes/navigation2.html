@@ -20,7 +20,7 @@
     
   <!-- NAVIGATION LINKS, SHOWS FOR MEDIUM & UP, IS REPLACED BY TITLE-BAR FOR SMALL SCREENS -->
   <div class="top-bar-right" id="responsive-menu">
-    <ul class="vertical medium-horizontal menu accordion-menu" data-submenu-toggle="true" data-responsive-menu="accordion medium-dropdown">
+    <ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
       
       {% assign links = site.data.navigation %}
       {% for link in links %}
@@ -39,6 +39,9 @@
             <a class="{{ class }}" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
             <ul class="menu vertical">
               {% for sublink in link.sublinks %}
+                {% if sublink.title == "Project Gallery" %}
+                    {% assign class= "show-for-small-only" %}
+                {% endif %}
                 {% if page.url contains sublink.url %}
                     {% assign sublink-class = 'sublink-active-link' %}
                 {% else %}

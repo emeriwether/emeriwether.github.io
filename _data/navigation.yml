@@ -1,6 +1,8 @@
 - title: Work
   url: /home.html
   sublinks:
+  - title: "Project Gallery"
+    url: /home.html
   - title: "Project 1: Designing a Salon Website"
     url: /projectA.html
   - title: "Project 2: Redesigning a Case Study"
