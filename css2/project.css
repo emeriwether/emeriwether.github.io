@@ -5,6 +5,10 @@ header {
     padding: 2.5em 0;
 }
 
+.projectNav {
+    background-color: #EBEDF3;
+}
+
 #headerText {
     padding: 0 2.5em 0 2.5em;
     margin: 0 0;
