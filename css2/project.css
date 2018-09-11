@@ -18,7 +18,7 @@ header {
     #computer-empty {
         overflow: hidden;
         position: relative;
-        width: 540px;
+        width: 20em;
     }
 
     #computer-screen {
