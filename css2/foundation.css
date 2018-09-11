@@ -2895,7 +2895,7 @@ select {
     margin-top: -3px;
     right: 1rem; }
 
-  .accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a.sublink-active-link::after {    
+  .accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a.active-link::after {    
     display: block;
     width: 0;
     height: 0;
