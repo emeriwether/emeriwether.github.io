@@ -2952,6 +2952,7 @@ select {
   cursor: pointer;
   width: 40px;
   height: 40px; }
+
   .submenu-toggle::after {
     display: block;
     width: 0;
@@ -2960,7 +2961,33 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
-    border-color: #000 transparent transparent;
+    border-color: #EBEDF3 transparent transparent;
+    top: 0;
+    bottom: 0;
+    margin: auto; }
+
+  .submenu-toggle.active-link::after {
+    display: block;
+    width: 0;
+    height: 0;
+    border: inset 6px;
+    content: '';
+    border-bottom-width: 0;
+    border-top-style: solid;
+    border-color: #1399AA transparent transparent;
+    top: 0;
+    bottom: 0;
+    margin: auto; }
+
+  .submenu-toggle:hover::after {
+    display: block;
+    width: 0;
+    height: 0;
+    border: inset 6px;
+    content: '';
+    border-bottom-width: 0;
+    border-top-style: solid;
+    border-color: #E14658 transparent transparent;
     top: 0;
     bottom: 0;
     margin: auto; }
