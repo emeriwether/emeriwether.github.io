@@ -2880,6 +2880,7 @@ select {
 
 .accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a {
   position: relative; }
+  
   .accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a::after {
     display: block;
     width: 0;
@@ -2888,7 +2889,35 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
+    border-color: #EBEDF3 transparent transparent;
+    position: absolute;
+    top: 50%;
+    margin-top: -3px;
+    right: 1rem; }
+
+  .accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a.sublink-active-link::after {    
+    display: block;
+    width: 0;
+    height: 0;
+    border: inset 6px;
+    content: '';
+    border-bottom-width: 0;
+    border-top-style: solid;
     border-color: #1399AA transparent transparent;
+    position: absolute;
+    top: 50%;
+    margin-top: -3px;
+    right: 1rem; }
+
+  .accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a:hover::after {    
+    display: block;
+    width: 0;
+    height: 0;
+    border: inset 6px;
+    content: '';
+    border-bottom-width: 0;
+    border-top-style: solid;
+    border-color: #E14658 transparent transparent;
     position: absolute;
     top: 50%;
     margin-top: -3px;
