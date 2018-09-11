@@ -13,3 +13,7 @@ footer a, footer p {
     padding-left: 2em;
     font-size: 0.875em;
 }
+
+#copyright {
+    padding-top: 2em;
+}
