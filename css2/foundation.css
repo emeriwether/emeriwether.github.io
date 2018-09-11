@@ -3621,7 +3621,13 @@ select {
     left: 0; }
   .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a {
     position: relative;
-    padding-right: 1.5rem; }
+    padding-right: 1.5rem;
+    color: #EBEDF3; }
+    
+  .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.active-link {
+    color: #1399AA; }
+  .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a:hover {
+    color: #E14658; }
     
     
   .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.active-link::after {
