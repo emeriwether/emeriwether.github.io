@@ -3632,7 +3632,7 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;        
-    border-color: #000 transparent transparent;
+    border-color: #1399AA transparent transparent;
     left: 60px;
     margin-top: -3px; }
     
@@ -3644,7 +3644,7 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;        
-    border-color: #fff transparent transparent;
+    border-color: #EBEDF3 transparent transparent;
     left: 60px;
     margin-top: -3px; }
     
