@@ -253,6 +253,10 @@ main .card {
         #headerText {
             padding: 0 3em;
         }
+        
+        #computer-empty {
+            width: 30em;
+        }
         /* END HEADER STYLING */
         /***********************/
         
