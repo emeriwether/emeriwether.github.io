@@ -28,7 +28,7 @@
 .monitor {
   padding: 4%;
   position:relative;
-  background: #bbb;
+  background: #aaa;
   border-radius: 10px;
   height: 100%;
 }
@@ -77,7 +77,7 @@
   content:'';
   display: block;
   height: 88%;
-  background: #bbb;
+  background: #aaa;
   position: absolute;
   right: 0;
   top: 6%;
