@@ -15,25 +15,50 @@ header {
     padding: 1em 1.5em 0 2em;
 }
 
-            #beforeAfterFrame {
-                background-size: contain;
-                background-repeat: no-repeat;
-                width: 100%;
-                height: auto;
-            }
+    #computer-empty {
+        overflow: hidden;
+        position: relative;
+        width: 540px;
+    }
 
-            #beforeAfterContainer {
-                overflow: scroll;
-                height: 10em;
-                padding-top: 0.8em;
-                padding-left: 0.78em;
-                padding-right: 8.5em;
-            }
+    #computer-screen {
+        overflow: hidden;
+        position: absolute;
+        height: 247px;
+        width: 445px;
+        left: 50px;
+        top: 20px;
+    }
 
-            #beforeAfterContainer img {
-                width: 80%;
-                height: auto;
-            }
+    .screen-landing {
+        left: 0;
+        line-height: 0;
+        position: absolute;
+        width: 100%;
+        transition: all 6s;
+        -o-transition: all 6s;
+        -ms-transition: all 6s;
+        -moz-transition: all 6s;
+        -webkit-transition: all 6s;    
+    }
+
+    .screen-landing:hover {
+        cursor: pointer;
+        margin-top: -1036px;
+    }
+
+    img {
+        max-width: 100%;
+        width: auto\9;
+        height: auto;
+        vertical-align: middle;
+        border: 0;
+        -ms-interpolation-mode: bicubic;
+    }
+
+    .computer-empty img.computer {
+        width: 100%;
+    }
 
 
 .sectionUnderline {
