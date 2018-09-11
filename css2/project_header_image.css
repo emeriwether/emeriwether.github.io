@@ -1,5 +1,9 @@
-/* Responsive monitor with scrollable image from: https://codepen.io/sergep/pen/vkaFt */
+#headerToggle {
+    padding-top: 5em;
+}
 
+/* BEGIN BEFORE AND AFTER IMAGE */
+/* Responsive monitor with scrollable image from: https://codepen.io/sergep/pen/vkaFt */
 /* Transition definition */
 .container {
   -webkit-transition: width 0.4s ease, height 0.4s ease;
@@ -170,6 +174,10 @@
   .monitor-stand {
     border-top: 12px solid #D1D3D6;
   }
+    
+  #headerToggle {
+    padding-top: 7em;
+  }
 }
 
 /* 480px and less ------------------------------ */
@@ -187,6 +195,10 @@
 
   .monitor-stand {
     border-top: 8px solid #D1D3D6;
+  }
+    
+  #headerToggle {
+    padding-top: 6em;
   }
 }
 
