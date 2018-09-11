@@ -30,7 +30,7 @@ header {
         top: 20px;
     }
 
-    .screen-landing {
+    #screen-landing {
         left: 0;
         line-height: 0;
         position: absolute;
@@ -42,7 +42,7 @@ header {
         -webkit-transition: all 6s;    
     }
 
-    .screen-landing:hover {
+    #screen-landing:hover {
         cursor: pointer;
         margin-top: -1036px;
     }
@@ -56,7 +56,7 @@ header {
         -ms-interpolation-mode: bicubic;
     }
 
-    .computer-empty img.computer {
+    #computer-empty img#computer {
         width: 100%;
     }
 
