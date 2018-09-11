@@ -124,10 +124,6 @@
 
 /* 1200px and less ------------------------------ */
 @media (max-width: 1200px) {
-  body {
-    background: #5D9CEC;
-  }
-
   .container {
     width: 800px;
     height: 466px;
@@ -145,10 +141,6 @@
 
 /* 992px and less ------------------------------ */
 @media (max-width: 992px) {
-  body {
-    background: #2ecc71;
-  }
-
   .container {
     width: 600px;
     height: 350px;
@@ -166,10 +158,6 @@
 
 /* 768px and less ------------------------------ */
 @media (max-width: 768px) {
-  body {
-    background: #AC92EC ;
-  }
-
   .container,
   .container:hover {
     width: 450px;
@@ -183,10 +171,6 @@
 
 /* 480px and less ------------------------------ */
 @media (max-width: 480px) {
-  body {
-    background: #FFCE54 ;
-  }
-
   .container,
   .container:hover {
     width: 300px;
@@ -200,15 +184,4 @@
 
 /* 320px and less ------------------------------ */
 @media (max-width: 320px) {
-  body {
-    background: #ED5565;
-  }
-
-  span {
-    display: none;
-  }
-
-  .oops {
-    display: block;
-  }
 }
