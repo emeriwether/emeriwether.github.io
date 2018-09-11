@@ -3697,7 +3697,7 @@ select {
     border-bottom-width: 0;
     border-top-style: solid;        
     border-color: #1399AA transparent transparent;
-    left: 60px;
+    left: 3.75em;
     margin-top: -3px; }
     
   .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after {
@@ -3709,7 +3709,7 @@ select {
     border-bottom-width: 0;
     border-top-style: solid;        
     border-color: #EBEDF3 transparent transparent;
-    left: 60px;
+    left: 3.75em;
     margin-top: -3px; }
     
   .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a:hover::after {
@@ -3721,7 +3721,7 @@ select {
     border-bottom-width: 0;
     border-top-style: solid;        
     border-color: #E14658 transparent transparent;
-    left: 60px;
+    left: 3.75em;
     margin-top: -3px; }
     
     
