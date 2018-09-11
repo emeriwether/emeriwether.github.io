@@ -24,7 +24,7 @@
 .monitor {
   padding: 4%;
   position:relative;
-  background: #888;
+  background: #bbb;
   border-radius: 10px;
   height: 100%;
 }
@@ -33,7 +33,7 @@
 .monitor:before {
   content: "";
   display: block;
-  background: #E6E9ED;
+  background: #333;
   position: absolute;
   padding: 0.8%;
   margin-right: -0.4%;
@@ -46,7 +46,7 @@
 .monitor:after {
   content: "";
   display: block;
-  background: #AAB2BD;
+  background: #333;
   position: absolute;
   padding: 1%;
   border-radius: 10%;
