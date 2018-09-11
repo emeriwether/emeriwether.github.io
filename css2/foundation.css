@@ -3622,22 +3622,21 @@ select {
   .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a {
     position: relative;
     padding-right: 1.5rem; }
-  .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after {
+    
+    
+  .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.is-active::after {
     display: block;
     width: 0;
     height: 0;
     border: inset 6px;
     content: '';
     border-bottom-width: 0;
-    border-top-style: solid;
-      {% if page.url == "/home.html" %}
-        border-color: #000 transparent transparent;
-      {% else %}
-        border-color: #e14658 transparent transparent;
-        content: " (" attr({{site.url}}) ")";
-      {% endif %}
+    border-top-style: solid;        
+    border-color: #000 transparent transparent;
     left: 60px;
     margin-top: -3px; }
+    
+    
   .dropdown.menu.medium-vertical > li .is-dropdown-submenu {
     top: 0; }
   .dropdown.menu.medium-vertical > li.opens-left > .is-dropdown-submenu {
