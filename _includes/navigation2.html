@@ -39,7 +39,7 @@
             <a class="{{ class }}" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
             <ul class="menu vertical">
               {% for sublink in link.sublinks %}
-                {% if sublink.title == "Project Gallery" %}
+                {% if sublink.url contains "/home.html" %}
                     {% assign class= "show-for-small-only" %}
                 {% endif %}
                 {% if page.url contains sublink.url %}
