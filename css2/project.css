@@ -56,7 +56,7 @@ header {
         -ms-interpolation-mode: bicubic;
     }
 
-    #computer-empty img#computer {
+    #computer-empty #computer {
         width: 100%;
     }
 
