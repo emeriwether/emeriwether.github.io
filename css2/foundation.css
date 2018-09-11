@@ -2960,7 +2960,7 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
-    border-color: #1779ba transparent transparent;
+    border-color: #000 transparent transparent;
     top: 0;
     bottom: 0;
     margin: auto; }
