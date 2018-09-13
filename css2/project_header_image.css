@@ -14,21 +14,21 @@
 
 /* The container that defines the dimenions of the monitor - used in media queries */
 .container {
-  width: 900px;
-  height: 525px;
+  width: 56.250em;
+  height: 32.813em;
 }
 
 .container:hover {
-  width: 950px;
-  height: 555px;
+  width: 59.375em;
+  height: 34.688em;
 }
 
-/* Black monitor outline */
+/* Monitor outline */
 .monitor {
   padding: 4%;
-  position:relative;
+  position: relative;
   background: #aaa;
-  border-radius: 10px;
+  border-radius: 0.625em;
   height: 100%;
 }
 
@@ -112,7 +112,7 @@
   width: 200%;
   margin-left: -50%;
   margin-top: 29%;
-  border-radius: 5px;
+  border-radius: 0.313em;
 }
 
 /* Shadow */
@@ -128,56 +128,9 @@
   border-radius: 50%;
 }
 
-/* 1200px and less ------------------------------ */
-@media (max-width: 1200px) {
-  .container {
-    width: 800px;
-    height: 466px;
-  }
 
-  .container:hover {
-    width: 820px;
-    height: 477px;
-  }
-
-  .monitor-stand {
-    border-top: 20px solid #D1D3D6;
-  }
-}
-
-/* 992px and less ------------------------------ */
-@media (max-width: 992px) {
-  .container {
-    width: 600px;
-    height: 350px;
-  }
-
-  .container:hover {
-    width: 615px;
-    height: 358px;
-  }
-
-  .monitor-stand {
-    border-top: 15px solid #D1D3D6;
-  }
-}
-
-/* 768px and less ------------------------------ */
-@media (max-width: 768px) {
-  .container,
-  .container:hover {
-    width: 450px;
-    height: 262px;
-  }
-
-  .monitor-stand {
-    border-top: 12px solid #D1D3D6;
-  }
-    
-  #headerToggle {
-    padding-top: 7em;
-  }
-}
+/* 320px and less ------------------------------ */
+@media (max-width: 320px) {}
 
 /* 480px and less ------------------------------ */
 @media (max-width: 480px) {
@@ -201,5 +154,53 @@
   }
 }
 
-/* 320px and less ------------------------------ */
-@media (max-width: 320px) {}
+/* 768px and less ------------------------------ */
+@media (max-width: 768px) {
+  .container,
+  .container:hover {
+    width: 450px;
+    height: 262px;
+  }
+
+  .monitor-stand {
+    border-top: 12px solid #D1D3D6;
+  }
+    
+  #headerToggle {
+    padding-top: 7em;
+  }
+}
+
+/* 992px and less ------------------------------ */
+@media (max-width: 992px) {
+  .container {
+    width: 600px;
+    height: 350px;
+  }
+
+  .container:hover {
+    width: 615px;
+    height: 358px;
+  }
+
+  .monitor-stand {
+    border-top: 15px solid #D1D3D6;
+  }
+}
+
+/* 1200px and less ------------------------------ */
+@media (max-width: 1200px) {
+  .container {
+    width: 800px;
+    height: 466px;
+  }
+
+  .container:hover {
+    width: 820px;
+    height: 477px;
+  }
+
+  .monitor-stand {
+    border-top: 20px solid #D1D3D6;
+  }
+}
