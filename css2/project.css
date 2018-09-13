@@ -10,7 +10,7 @@
     padding: 0 0.5em;
     font-size: 0.875em;
     color: #29394b;
-    max-widht: 10em;
+    max-width: 10em;
 }
 
 .rwd-break {
@@ -19,6 +19,11 @@
 
 .button {
     max-width: 10em;
+}
+
+.returnToHome {
+    color: #E14658;
+    font-size:
 }
 /* END PROJECT NAVIGATION STYLING */
 /***********************/
