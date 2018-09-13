@@ -9,6 +9,7 @@
     font-family: "Roboto Condensed";
     padding: 0 0.5em;
     font-size: 0.875em;
+    color: #29394b;
 }
 
 .rwd-break {
@@ -217,6 +218,10 @@ main .card {
 
     /* MEDIUM AND UP */
     @media screen and (min-width: 40em) {
+        .projectNav {
+            padding: 2em 3em 1em 3em;
+        }
+        
         .rwd-break {
             display: none;
         }    
