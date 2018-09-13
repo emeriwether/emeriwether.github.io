@@ -22,6 +22,10 @@
     font-family: "Roboto Condensed";
     padding-bottom: 1em;
 }
+
+.projectNav .button {
+    max-width: 7.813em;
+}
 /* END PROJECT NAVIGATION STYLING */
 /***********************/
 
