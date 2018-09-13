@@ -219,7 +219,7 @@ main .card {
     /* MEDIUM AND UP */
     @media screen and (min-width: 40em) {
         .projectNav {
-            padding: 2em 3em 1em 3em;
+            padding: 2em 4em 1em 4em;
         }
         
         .rwd-break {
