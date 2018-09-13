@@ -1,8 +1,16 @@
-
+/***********************/
+/* BEGIN PROJECT NAVIGATION STYLING */
 .projectNav {
     background-color: #EBEDF3;
     padding: 2em 0em;
 }
+
+.projectNav p {
+    font-family: "Roboto Condensed";
+}
+/* END PROJECT NAVIGATION STYLING */
+/***********************/
+
 
 /***********************/
 /* BEGIN HEADER STYLING */
