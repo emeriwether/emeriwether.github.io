@@ -16,7 +16,6 @@
 .container {
   width: 900px;
   height: 525px;
-  justify-content: center;
 }
 
 .container:hover {
