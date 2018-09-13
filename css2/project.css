@@ -15,6 +15,10 @@
 .rwd-break {
     display: block;
 }
+
+.button {
+    max-width: 4em;
+}
 /* END PROJECT NAVIGATION STYLING */
 /***********************/
 
