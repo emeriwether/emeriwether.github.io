@@ -61,3 +61,8 @@ body {
         font-weight: 400;
         color: #2A2A2A;
     }
+
+    .button {
+        color: #EBEDF3;
+        background-color: #22252C;
+    }
