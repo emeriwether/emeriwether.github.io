@@ -223,10 +223,6 @@ main .card {
 
     /* MEDIUM AND UP */
     @media screen and (min-width: 40em) {
-        .projectNav {
-            padding: 2em 6em 1em 6em;
-        }
-        
         .rwd-break {
             display: none;
         }    
@@ -254,10 +250,6 @@ main .card {
 
     /* LARGE AND UP */
     @media screen and (min-width: 64em) {
-        .projectNav {
-            padding: 2em 10em 1em 10em;
-        }
-        
         /***********************/
         /* BEGIN HEADER STYLING */
         #headerText {
