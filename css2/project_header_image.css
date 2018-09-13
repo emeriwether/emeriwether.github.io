@@ -16,7 +16,7 @@
 .container {
   width: 900px;
   height: 525px;
-  margin: 0 auto;
+  margin: 0 0;
 }
 
 .container:hover {
@@ -198,10 +198,9 @@
   }
     
   #headerToggle {
-    padding-top: 6em;
+    padding-top: 6.5em;
   }
 }
 
 /* 320px and less ------------------------------ */
-@media (max-width: 320px) {
-}
+@media (max-width: 320px) {}
