@@ -230,6 +230,10 @@ main .card {
             display: none;
         }    
         
+        .projectNav {
+            padding: 1em 4em;
+        }
+        
         /***********************/
         /* BEGIN HEADER STYLING */
         header {
