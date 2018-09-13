@@ -18,6 +18,11 @@ main .card {
     box-shadow: 6px 7px 10px 3px #B5B5B5;
     background: #FFFFFF;
     margin-bottom: 2.5em;
+    transition: transform .2s;
+}
+
+main .card:hover {
+    transform: scale(1.1);
 }
 
 main .card img {
