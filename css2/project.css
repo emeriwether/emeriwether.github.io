@@ -1,12 +1,17 @@
+
+.projectNav {
+    background-color: #EBEDF3;
+}
+
+.projectNav button {
+    padding: 2em 2em;
+}
+
 /***********************/
 /* BEGIN HEADER STYLING */
 header {
     background: #22252C;
     padding: 2.5em 0;
-}
-
-.projectNav {
-    background-color: #EBEDF3;
 }
 
 #headerText {
