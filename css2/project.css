@@ -10,6 +10,10 @@
     padding: 0 0.5em;
     font-size: 0.875em;
 }
+
+.rwd-break {
+    display: block;
+}
 /* END PROJECT NAVIGATION STYLING */
 /***********************/
 
@@ -208,8 +212,15 @@ main .card {
 
 /***********************/
 /* BEGIN MEDIA QUERIES */
+    /* SMALL ONLY */
+    @media screen and (max-width: 39.9375em) {}
+
     /* MEDIUM AND UP */
     @media screen and (min-width: 40em) {
+        .rwd-break {
+            display: none;
+        }    
+        
         /***********************/
         /* BEGIN HEADER STYLING */
         header {
