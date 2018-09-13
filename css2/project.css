@@ -10,6 +10,7 @@
     padding: 0 0.5em;
     font-size: 0.875em;
     color: #29394b;
+    max-widht: 10em;
 }
 
 .rwd-break {
@@ -17,7 +18,7 @@
 }
 
 .button {
-    max-width: 8em;
+    max-width: 10em;
 }
 /* END PROJECT NAVIGATION STYLING */
 /***********************/
