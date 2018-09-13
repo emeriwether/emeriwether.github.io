@@ -257,6 +257,9 @@ main .card {
 
     /* LARGE AND UP */
     @media screen and (min-width: 64em) {
+        .projectNav {
+            padding: 1em 8em;
+        }
         /***********************/
         /* BEGIN HEADER STYLING */
         #headerText {
