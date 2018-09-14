@@ -180,7 +180,7 @@
 }
 
 /* 480px and less ------------------------------ */
-@media (max-width: 480px) {
+@media (max-width: 535px) {
   .container,
   .container:hover {
     width: 300px;
