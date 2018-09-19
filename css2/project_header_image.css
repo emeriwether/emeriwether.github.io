@@ -149,8 +149,8 @@
 /* 1200px and less ------------------------------ */
 @media (max-width: 1200px) {
   .container {
-    width: 800px;
-    height: 466px;
+    width: 525px;
+    height: 305.8125px;
   }
 
   .container:hover {
