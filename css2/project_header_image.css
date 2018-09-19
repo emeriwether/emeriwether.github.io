@@ -168,6 +168,10 @@
       padding-top: 1em;
   }
 
+    #headerToggle {
+        padding-top: 10em;
+    }
+    
   .container:hover {
     width: 615px;
     height: 358px;
