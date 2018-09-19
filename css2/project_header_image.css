@@ -1,8 +1,3 @@
-#headerToggle {
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
 #headerImage {
     padding-top: 1em;
     padding-left: 2.5em;
@@ -143,11 +138,19 @@
         padding-left: 2.5em;
         padding-right: 0;
     }
+    
+    #headerToggle {
+        padding-top: 6em;
+    }
 }
 
 
 /* 1200px and less ------------------------------ */
 @media (max-width: 1200px) {
+    #headerToggle {
+        padding-top: 9em;
+    }
+    
   .container {
     width: 525px;
     height: 305.8125px;
@@ -189,6 +192,11 @@
     
     #headerImage {
         padding-bottom: 8em;
+    }
+    
+    #headerToggle {
+        padding-top: 1em;
+        padding-bottom: 1em;
     }
 }
 
