@@ -180,8 +180,30 @@
   }
 }
 
-/* 480px and less ------------------------------ */
+/* 535px and less ------------------------------ */
 @media (max-width: 535px) {
+  .container,
+  .container:hover {
+    width: 400px;
+    height: 232.8888px;
+  }
+    
+    /* Scrollable section inside the screen */
+    .content {
+      width: calc(100%);
+    }
+
+  .monitor-stand {
+    border-top: 10.666px solid #D1D3D6;
+  }
+    
+  #headerToggle {
+    padding-top: 6.5em;
+  }
+}
+
+/* 480px and less ------------------------------ */
+@media (max-width: 480px) {
   .container,
   .container:hover {
     width: 300px;
@@ -198,7 +220,7 @@
   }
     
   #headerToggle {
-    padding-top: 6.5em;
+    padding-top: 6em;
   }
 }
 
