@@ -146,8 +146,8 @@
     }
 }
 
-/* 1400px and less ------------------------------ */
-@media (max-width: 1400px) {
+/* 1425px and less ------------------------------ */
+@media (max-width: 1425px) {
     #headerToggle {
         padding-top: 10.5em;
     }
