@@ -154,12 +154,29 @@
   }
 
   .container:hover {
-    width: 820px;
-    height: 477px;
+    width: 538.125px;
+    height: 313.03125px;
   }
 
   .monitor-stand {
-    border-top: 20px solid #D1D3D6;
+    border-top: 13.125px solid #D1D3D6;
+  }
+}
+
+/* 1190px and less ------------------------------ */
+@media (max-width: 1190px) {
+  .container {
+    width: 500px;
+    height: 291.25px;
+  }
+
+  .container:hover {
+    width: 512.5px;
+    height: 298.125px;
+  }
+
+  .monitor-stand {
+    border-top: 12.5px solid #D1D3D6;
   }
 }
 
