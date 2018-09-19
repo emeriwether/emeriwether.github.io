@@ -1,9 +1,10 @@
 #headerToggle {
-    padding-top: .5em;
+    padding-top: 1em;
     padding-bottom: 1em;
 }
 
 #headerImage {
+    padding-top: 1em;
     padding-left: 2.5em;
     padding-right: 2.5em;
 }
@@ -167,6 +168,10 @@
     .container, 
     .container:hover {
         padding-top: 1em;
+    }
+    
+    #headerImage {
+        padding-bottom: 8em;
     }
 }
 
