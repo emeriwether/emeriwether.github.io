@@ -157,11 +157,13 @@
   .container {
     width: 600px;
     height: 350px;
+      padding-top: 1em;
   }
 
   .container:hover {
     width: 615px;
     height: 358px;
+      padding-top: 1em;
   }
 
   .monitor-stand {
@@ -175,7 +177,6 @@
   .container:hover {
     width: 450px;
     height: 262px;
-    padding-top: 1em;
   }
 
   .monitor-stand {
