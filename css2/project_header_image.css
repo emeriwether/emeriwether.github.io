@@ -188,6 +188,27 @@
   }
 }
 
+/* 1375px and less ------------------------------ */
+@media (max-width: 1375px) {
+    #headerToggle {
+        padding-top: calc(0.94 * 10.5em);
+    }
+    
+  .container {
+    width: calc(0.94 * 650px);
+    height: calc(0.94* 378.625px);
+  }
+
+  .container:hover {
+    width: calc(0.94 * 666.25px);
+    height: calc(0.94 * 387.5625px);
+  }
+
+  .monitor-stand {
+    border-top: calc(0.94 * 16.25px) solid #D1D3D6;
+  }
+}
+
 /* 1280px and less ------------------------------ */
 @media (max-width: 1280px) {
     #headerToggle {
