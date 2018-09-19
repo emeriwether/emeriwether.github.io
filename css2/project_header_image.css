@@ -135,6 +135,15 @@
 
 /***********************/
 /* BEGIN MEDIA QUERIES */
+/* LARGE AND UP (>= 1024px) */
+@media screen and (min-width: 64em) {
+    #headerImage {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
 /* 1200px and less ------------------------------ */
 @media (max-width: 1200px) {
   .container {
@@ -154,6 +163,11 @@
 
 /* 1023px and less ------------------------------ */
 @media (max-width: 1023px) {
+    .container, 
+    .container:hover {
+        padding-top: 1em;
+    }
+    
     #headerToggle {
         padding-top: 13em;
         padding-bottom: 1em;
@@ -165,7 +179,6 @@
   .container {
     width: 600px;
     height: 350px;
-      padding-top: 1em;
   }
 
     #headerToggle {
@@ -175,7 +188,6 @@
   .container:hover {
     width: 615px;
     height: 358px;
-      padding-top: 1em;
   }
 
   .monitor-stand {
@@ -246,16 +258,6 @@
 
 /* 320px and less ------------------------------ */
 @media (max-width: 320px) {}
-
-
-
-   /* LARGE AND UP */
-    @media screen and (min-width: 64em) {
-        #headerImage {
-            padding-left: 0;
-            padding-right: 0;
-        }
-    }
 
 /* END MEDIA QUERIES */
 /***********************/
