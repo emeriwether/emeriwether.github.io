@@ -152,6 +152,14 @@
   }
 }
 
+/* 1023px and less ------------------------------ */
+@media (max-width: 1023px) {
+    #headerToggle {
+        padding-top: 13em;
+        padding-bottom: 1em;
+    }
+}
+
 /* 992px and less ------------------------------ */
 @media (max-width: 992px) {
   .container {
