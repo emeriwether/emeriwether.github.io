@@ -133,6 +133,8 @@
   border-radius: 50%;
 }
 
+/***********************/
+/* BEGIN MEDIA QUERIES */
 /* 1200px and less ------------------------------ */
 @media (max-width: 1200px) {
   .container {
@@ -231,3 +233,16 @@
 
 /* 320px and less ------------------------------ */
 @media (max-width: 320px) {}
+
+
+
+   /* LARGE AND UP */
+    @media screen and (min-width: 64em) {
+        #headerImage {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+/* END MEDIA QUERIES */
+/***********************/
