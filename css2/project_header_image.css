@@ -6,7 +6,6 @@
 #headerImage {
     padding-left: 2.5em;
     padding-right: 2.5em;
-    padding-bottom: 4em;
 }
 
 /* BEGIN BEFORE AND AFTER IMAGE */
@@ -186,6 +185,10 @@
   .monitor-stand {
     border-top: 15px solid #D1D3D6;
   }
+    
+    #headerImage {
+        padding-bottom: 6em;
+    }
 }
 
 /* 768px and less ------------------------------ */
@@ -196,6 +199,10 @@
     height: 262px;
   }
 
+    #headerImage {
+        padding-bottom: 4em;
+    }    
+    
   .monitor-stand {
     border-top: 12px solid #D1D3D6;
   }
