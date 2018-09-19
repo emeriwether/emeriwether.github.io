@@ -91,15 +91,6 @@
   width: 100%;
 }
 
-/* Stand */
-.monitor-stand {
-  position: relative;
-  margin: 0 auto;
-  height: 17%;
-  width: 20%;
-  background: #F3F3F4;
-}
-
 /* Shadow on stand - have to set manually since border-top doesn't support % :( */
 .monitor-stand {
   border-top: 24px solid #D1D3D6;
@@ -141,6 +132,15 @@
     
     #headerToggle {
         padding-top: 6em;
+    }
+    
+    /* Stand */
+    .monitor-stand {
+      position: relative;
+      margin: 0 auto;
+      height: 15%;
+      width: 20%;
+      background: #F3F3F4;
     }
 }
 
@@ -188,6 +188,15 @@
     .container, 
     .container:hover {
         padding-top: 1em;
+    }
+    
+    /* Stand */
+    .monitor-stand {
+      position: relative;
+      margin: 0 auto;
+      height: 17%;
+      width: 20%;
+      background: #F3F3F4;
     }
     
     #headerImage {
