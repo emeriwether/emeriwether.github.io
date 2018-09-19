@@ -124,6 +124,29 @@
 /***********************/
 /* BEGIN MEDIA QUERIES */
 
+/* LARGE AND UP (>= 1024px) */
+@media screen and (min-width: 64em) {
+    #headerImage {
+        padding-left: 2.5em;
+        padding-right: 1em;
+    }
+    
+    #headerToggle {
+        padding-top: 6em;
+    }
+    
+    /* Stand */
+    .monitor-stand {
+      position: relative;
+      margin: 0 auto;
+      height: 15%;
+      width: 20%;
+      background: #F3F3F4;
+    }
+}
+
+
+
 /* 1200px and less ------------------------------ */
 @media (max-width: 1200px) {
     #headerToggle {
@@ -179,26 +202,23 @@
   }
 }
 
-/* LARGE AND UP (>= 1024px) */
-@media screen and (min-width: 64em) {
-    #headerImage {
-        padding-left: 2.5em;
-        padding-right: 1em;
-    }
-    
-    #headerToggle {
-        padding-top: 6em;
-    }
-    
-    /* Stand */
-    .monitor-stand {
-      position: relative;
-      margin: 0 auto;
-      height: 15%;
-      width: 20%;
-      background: #F3F3F4;
-    }
+/* 1100px and less ------------------------------ */
+@media (max-width: 1100px) {
+  .container {
+    width: 450px;
+    height: 262.125px;
+  }
+
+  .container:hover {
+    width: 461.25px;
+    height: 268.3125px;
+  }
+
+  .monitor-stand {
+    border-top: 11.25px solid #D1D3D6;
+  }
 }
+
 
 /*~~~~~~~ MEDIUM AND SMALL BELOW ~~~~~~~~*/
 
