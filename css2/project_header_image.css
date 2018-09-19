@@ -167,6 +167,27 @@
   }
 }
 
+/* 1250px and less ------------------------------ */
+@media (max-width: 1250px) {
+    #headerToggle {
+        padding-top: 9.5em;
+    }
+    
+  .container {
+    width: 550px;
+    height: 320.375px;
+  }
+
+  .container:hover {
+    width: 563.75px;
+    height: 327.9375px;
+  }
+
+  .monitor-stand {
+    border-top: 13.75px solid #D1D3D6;
+  }
+}
+
 /* 1200px and less ------------------------------ */
 @media (max-width: 1200px) {
     #headerToggle {
