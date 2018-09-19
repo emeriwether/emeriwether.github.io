@@ -146,8 +146,8 @@
     }
 }
 
-/* 1290px and less ------------------------------ */
-@media (max-width: 1290px) {
+/* 1280px and less ------------------------------ */
+@media (max-width: 1280px) {
     #headerToggle {
         padding-top: 10em;
     }
@@ -167,8 +167,8 @@
   }
 }
 
-/* 1250px and less ------------------------------ */
-@media (max-width: 1250px) {
+/* 1240px and less ------------------------------ */
+@media (max-width: 1240px) {
     #headerToggle {
         padding-top: 9.5em;
     }
