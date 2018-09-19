@@ -170,21 +170,21 @@
 /* 1400px and less ------------------------------ */
 @media (max-width: 1400px) {
     #headerToggle {
-        padding-top: calc(98% * 10.5em);
+        padding-top: calc(0.98 * 10.5em);
     }
     
   .container {
-    width: calc(98% * 650px);
-    height: calc(98% * 378.625px);
+    width: calc(0.98 * 650px);
+    height: calc(0.98* 378.625px);
   }
 
   .container:hover {
-    width: calc(98% * 666.25px);
-    height: calc(98% * 387.5625px);
+    width: calc(0.98 * 666.25px);
+    height: calc(0.98 * 387.5625px);
   }
 
   .monitor-stand {
-    border-top: calc(98% * 16.25px) solid #D1D3D6;
+    border-top: calc(0.98 * 16.25px) solid #D1D3D6;
   }
 }
 
