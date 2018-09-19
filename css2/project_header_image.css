@@ -168,6 +168,7 @@
   .container:hover {
     width: 450px;
     height: 262px;
+    padding-top: 1em;
   }
 
   .monitor-stand {
