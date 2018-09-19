@@ -219,6 +219,23 @@
   }
 }
 
+/* 1060px and less ------------------------------ */
+@media (max-width: 1060px) {
+  .container {
+    width: 425px;
+    height: 247.5625px;
+  }
+
+  .container:hover {
+    width: 435.625px;
+    height: 253.40625px;
+  }
+
+  .monitor-stand {
+    border-top: 10.625px solid #D1D3D6;
+  }
+}
+
 
 /*~~~~~~~ MEDIUM AND SMALL BELOW ~~~~~~~~*/
 
