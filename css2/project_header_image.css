@@ -2,6 +2,11 @@
     padding-top: 5em;
 }
 
+#headerImage {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+}
+
 /* BEGIN BEFORE AND AFTER IMAGE */
 /* Responsive monitor with scrollable image from: https://codepen.io/sergep/pen/vkaFt */
 /* Transition definition */
