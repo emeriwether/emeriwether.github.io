@@ -146,24 +146,87 @@
     }
 }
 
-/* 1625px and less ------------------------------ */
-@media (max-width: 1625px) {
+/* 1800px and less ------------------------------ */
+@media (max-width: 1800px) {
     #headerToggle {
-        padding-top: calc(1.16 * 10.5em);
+        padding-top: calc(1.30 * 10.5em);
     }
     
   .container {
-    width: calc(1.16 * 650px);
-    height: calc(1.16 * 378.625px);
+    width: calc(1.30 * 650px);
+    height: calc(1.30 * 378.625px);
   }
 
   .container:hover {
-    width: calc(1.16 * 666.25px);
-    height: calc(1.16 * 387.5625px);
+    width: calc(1.30 * 666.25px);
+    height: calc(1.30 * 387.5625px);
   }
 
   .monitor-stand {
-    border-top: calc(1.16 * 16.25px) solid #D1D3D6;
+    border-top: calc(1.30 * 16.25px) solid #D1D3D6;
+  }
+}
+
+/* 1775px and less ------------------------------ */
+@media (max-width: 1775px) {
+    #headerToggle {
+        padding-top: calc(1.28 * 10.5em);
+    }
+    
+  .container {
+    width: calc(1.28 * 650px);
+    height: calc(1.28 * 378.625px);
+  }
+
+  .container:hover {
+    width: calc(1.28 * 666.25px);
+    height: calc(1.28 * 387.5625px);
+  }
+
+  .monitor-stand {
+    border-top: calc(1.28 * 16.25px) solid #D1D3D6;
+  }
+}
+
+/* 1750px and less ------------------------------ */
+@media (max-width: 1750px) {
+    #headerToggle {
+        padding-top: calc(1.26 * 10.5em);
+    }
+    
+  .container {
+    width: calc(1.26 * 650px);
+    height: calc(1.26 * 378.625px);
+  }
+
+  .container:hover {
+    width: calc(1.26 * 666.25px);
+    height: calc(1.26 * 387.5625px);
+  }
+
+  .monitor-stand {
+    border-top: calc(1.26 * 16.25px) solid #D1D3D6;
+  }
+}
+
+/* 1725px and less ------------------------------ */
+@media (max-width: 1725px) {
+    #headerToggle {
+        padding-top: calc(1.24 * 10.5em);
+    }
+    
+  .container {
+    width: calc(1.24 * 650px);
+    height: calc(1.24 * 378.625px);
+  }
+
+  .container:hover {
+    width: calc(1.24 * 666.25px);
+    height: calc(1.24 * 387.5625px);
+  }
+
+  .monitor-stand {
+    border-top: calc(1.24 * 16.25px) solid #D1D3D6;
   }
 }
 
