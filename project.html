@@ -86,8 +86,8 @@ css: /css2/project.css
                         <div class="small-4 cell switch large" id="headerToggle">
                           <input class="switch-input" id="largeSwitch" type="checkbox" name="largeSwitch">
                           <label class="switch-paddle" for="largeSwitch">
-                            <span class="switch-active" aria-hidden="true">AFTER</span>
-                            <span class="switch-inactive" aria-hidden="true">BEFORE</span> 
+                            <span class="switch-active" data-toggle="newPortfolio" aria-hidden="true">AFTER</span>
+                            <span class="switch-inactive" data-toggle="oldPortfolio" aria-hidden="true">BEFORE</span> 
                           </label>
                         </div> 
                         
@@ -102,7 +102,8 @@ css: /css2/project.css
                               <div class="monitor">
                                 <div class="screen">
                                   <div class="content">
-                                    <img id="oldPortfolio" src="/images/project2/oldPortfolio.jpg" />
+                                    <img id="oldPortfolio" data-toggler=".hide" src="/images/project2/oldPortfolio.jpg" />
+                                    <img id="newPortfolio" data-toggler=".hide" src="/images/project2/oldPortfolio.jpg" />
                                   </div>
                                 </div>
                               </div>
