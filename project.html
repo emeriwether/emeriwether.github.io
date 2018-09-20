@@ -86,8 +86,8 @@ css: /css2/project.css
                         <div class="small-4 cell switch large" id="headerToggle">
                           <input class="switch-input" id="largeSwitch" type="checkbox" name="largeSwitch">
                           <label class="switch-paddle" for="largeSwitch">
-                            <span class="switch-active" aria-hidden="true"  onclick="changeImage()">AFTER</span>
-                            <span class="switch-inactive" aria-hidden="true"  onclick="changeImage()">BEFORE</span> 
+                            <span class="switch-active" aria-hidden="true"  onclick="changeImage('/images/project2/newPortfolio.jpeg');">AFTER</span>
+                            <span class="switch-inactive" aria-hidden="true"  onclick="changeImage('/images/project2/oldPortfolio.jpg');">BEFORE</span> 
                           </label>
                         </div> 
                         
@@ -102,7 +102,7 @@ css: /css2/project.css
                               <div class="monitor">
                                 <div class="screen">
                                   <div class="content">
-                                    <img id="myImage" src="/images/project2/oldPortfolio.jpg" />
+                                    <img id="imageReplace" src="/images/project2/oldPortfolio.jpg" />
                                   </div>
                                 </div>
                               </div>
@@ -283,17 +283,8 @@ css: /css2/project.css
 </main>
 <!-- END MAIN -->
 
-<script>
-    var index = 0;
-    var imageList = ['/images/project2/oldPortfolio.jpg', '/images/project2/newPortfolio.jpeg'];
-
-    function changeImage() {
-    index = index + 1;
-    if (index == imageList.length) {
-     index = 0;
+<script type="text/javascript">
+    function changeImage(element) {
+        document.getElementById('imageReplace').src = element;
     }
-    var image1 = document.getElementById("myImage");
-    image1.src = imageList[index];
-    }
-
 </script>
