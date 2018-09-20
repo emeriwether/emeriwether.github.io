@@ -146,6 +146,90 @@
     }
 }
 
+/* 2000px and less ------------------------------ */
+@media (max-width: 2000px) {
+    #headerToggle {
+        padding-top: calc(1.46 * 10.5em);
+    }
+    
+  .container {
+    width: calc(1.46 * 650px);
+    height: calc(1.46 * 378.625px);
+  }
+
+  .container:hover {
+    width: calc(1.46 * 666.25px);
+    height: calc(1.46 * 387.5625px);
+  }
+
+  .monitor-stand {
+    border-top: calc(1.46 * 16.25px) solid #D1D3D6;
+  }
+}
+
+/* 1975px and less ------------------------------ */
+@media (max-width: 1975px) {
+    #headerToggle {
+        padding-top: calc(1.44 * 10.5em);
+    }
+    
+  .container {
+    width: calc(1.44 * 650px);
+    height: calc(1.44 * 378.625px);
+  }
+
+  .container:hover {
+    width: calc(1.44 * 666.25px);
+    height: calc(1.44 * 387.5625px);
+  }
+
+  .monitor-stand {
+    border-top: calc(1.44 * 16.25px) solid #D1D3D6;
+  }
+}
+
+/* 1950px and less ------------------------------ */
+@media (max-width: 1950px) {
+    #headerToggle {
+        padding-top: calc(1.42 * 10.5em);
+    }
+    
+  .container {
+    width: calc(1.42 * 650px);
+    height: calc(1.42 * 378.625px);
+  }
+
+  .container:hover {
+    width: calc(1.42 * 666.25px);
+    height: calc(1.42 * 387.5625px);
+  }
+
+  .monitor-stand {
+    border-top: calc(1.42 * 16.25px) solid #D1D3D6;
+  }
+}
+
+/* 1925px and less ------------------------------ */
+@media (max-width: 1925px) {
+    #headerToggle {
+        padding-top: calc(1.40 * 10.5em);
+    }
+    
+  .container {
+    width: calc(1.40 * 650px);
+    height: calc(1.40 * 378.625px);
+  }
+
+  .container:hover {
+    width: calc(1.40 * 666.25px);
+    height: calc(1.40 * 387.5625px);
+  }
+
+  .monitor-stand {
+    border-top: calc(1.40 * 16.25px) solid #D1D3D6;
+  }
+}
+
 /* 1900px and less ------------------------------ */
 @media (max-width: 1900px) {
     #headerToggle {
