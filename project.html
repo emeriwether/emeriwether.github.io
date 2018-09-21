@@ -306,8 +306,18 @@ css: /css2/project.css
     }
         
     function showImage(n) {
-        document.getElementsByClassName(shown).style.display = 'none';
-        document.getElementsByClassName(n).style.display = 'block';
+        var x = document.getElementsByClassName(shown);
+        var i;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        
+        var y = document.getElementsByClassName(n);
+        var j;
+        for (j = 0; j < y.length; j++) {
+            y[j].style.display = "block";
+        }
+
         shown = n;
     }
     
