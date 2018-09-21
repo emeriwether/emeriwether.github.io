@@ -1174,13 +1174,13 @@
     .container, 
     .container:hover {
         padding-top: 1.5em;
-        width: calc(0.85 * 650px);
-        height: calc(0.85 * 378.625px);
+        width: calc(1.00 * 650px);
+        height: calc(1.00 * 378.625px);
     }
     
     /* Stand */
     .monitor-stand {
-      border-top: calc(0.85 * 16.25px) solid #D1D3D6;
+      border-top: calc(1.00 * 16.25px) solid #D1D3D6;
       position: relative;
       margin: 0 auto;
       height: 17%;
@@ -1197,12 +1197,12 @@
     
     .container, 
     .container:hover {
-        width: calc(0.84 * 650px);
-        height: calc(0.84 * 378.625px);
+        width: calc(0.99 * 650px);
+        height: calc(0.99 * 378.625px);
     }
 
     .monitor-stand {
-        border-top: calc(0.84 * 16.25px) solid #D1D3D6;
+        border-top: calc(0.99 * 16.25px) solid #D1D3D6;
     }
     
 
@@ -1212,12 +1212,12 @@
 @media (max-width: 975px) {
     .container, 
     .container:hover {
-        width: calc(0.83 * 650px);
-        height: calc(0.83 * 378.625px);
+        width: calc(0.98 * 650px);
+        height: calc(0.98 * 378.625px);
     }
 
     .monitor-stand {
-        border-top: calc(0.83 * 16.25px) solid #D1D3D6;
+        border-top: calc(0.98 * 16.25px) solid #D1D3D6;
     }
 }
 
