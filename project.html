@@ -114,8 +114,8 @@ css: /css2/project.css
                               <div class="monitor">
                                 <div class="screen">
                                   <div class="content">
-                                    <img id="oldPortfolioImage" class="portfolioBeforeAfter" src="/images/project2/oldPortfolio.jpg" />
-                                    <img id="newPortfolioImage" class="portfolioBeforeAfter" src="/images/project2/newPortfolio.jpeg" />
+                                    <img id="oldPortfolioImage" class="portfolioBeforeAfter" src="/images/project2/oldPortfolio.jpg" >
+                                    <img id="newPortfolioImage" class="portfolioBeforeAfter" src="/images/project2/newPortfolio.jpeg" style="display:none;">
                                   </div>
                                 </div>
                               </div>
@@ -297,6 +297,22 @@ css: /css2/project.css
 <!-- END MAIN -->
 
 <script>
+    var shown = oldPortfolioImage
+    
+    if(document.getElementById('largeSwitch').checked) {
+        showImage(newPortfolioImage);
+    }
+    else {
+        showImage(oldPortfolioImage);
+    }
+    
+    function showImage(n) {
+        document.getElementById(shown).style.display = "none";
+        document.getElementById(n).style.display = "block";
+        shown = n;
+    }
+    
+    
     $(function(){
         if ($("#before").is(":checked")) {
             $("#newPortfolioImage").hide()
@@ -321,4 +337,5 @@ css: /css2/project.css
             $("#oldPortfolioImage").show()        
         }
     });
+
 </script>
