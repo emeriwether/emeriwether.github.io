@@ -297,13 +297,9 @@ css: /css2/project.css
     }
     
     function toggleImagesSmall() {   
-        console.log("inside toggleImagesSmall function");
         if (document.getElementById('smallSwitch').checked) {
-            console.log("smallSwitch is checked");
-            console.log(document.getElementById(shown));
             showImage("newPortfolioImage");
         } else {
-            console.log("smallSwitch is NOT checked");
             showImage("oldPortfolioImage");
         }
     }
