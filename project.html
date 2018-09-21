@@ -83,7 +83,6 @@ css: /css2/project.css
                 <div class="cell large-order-2 ">
                     <div class="grid-x align-center">
                         
-                        <!--
                         <div class="small-4 cell switch large" id="headerToggle">
                           <input class="switch-input" id="largeSwitch" type="checkbox" name="largeSwitch">
                           <label class="switch-paddle" for="largeSwitch">
@@ -91,8 +90,8 @@ css: /css2/project.css
                             <span class="switch-inactive" aria-hidden="true">BEFORE</span> 
                           </label>
                         </div>
-                        -->
                         
+                        <!--
                         <div class="small-4 cell large switch" id="headerToggle">
                             
                             <input class="switch-input" id="before" name="largeSwitch" type="radio">
@@ -102,6 +101,7 @@ css: /css2/project.css
                             <label class="switch-paddle" for="after" onclick="">AFTER</label>
                         
                         </div>
+                        -->
                         
                     </div>
                 </div>
@@ -308,6 +308,17 @@ css: /css2/project.css
         }
         else {
             $("#oldPortfolioImage").show()
+        }
+    });
+    
+    $(function(){
+        if ($("#largeSwitch").is(":checked")) {
+            $("#newPortfolioImage").hide()
+            $("#oldPortfolioImage").show()
+        }
+        else {
+            $("#newPortfolioImage").hide()
+            $("#oldPortfolioImage").show()        
         }
     });
 </script>
