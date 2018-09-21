@@ -313,6 +313,8 @@ css: /css2/project.css
         
     function showImage(n) {
         console.log("inside the funciton showImage");
+        console.log(document.getElementById(n));
+        console.log(document.getElementById(shown));
         document.getElementById(shown).style.display = 'none';
         document.getElementById(n).style.display = 'block';
         shown = n;
