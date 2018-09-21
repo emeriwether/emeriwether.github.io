@@ -486,188 +486,106 @@
   }
 }
 
+/* GAP IN CALC MULTIPLIER? */
+
 /* 1700px and less ------------------------------ */
 @media (max-width: 1700px) {
     #headerToggle {
-        padding-top: calc(1.22 * 10.5em);
+        padding-top: calc(1.10 * 10.5em);
     }
     
   .container {
-    width: calc(1.22 * 650px);
-    height: calc(1.22 * 378.625px);
+    width: calc(1.10 * 650px);
+    height: calc(1.10 * 378.625px);
   }
 
   .container:hover {
-    width: calc(1.22 * 666.25px);
-    height: calc(1.22 * 387.5625px);
+    width: calc(1.10 * 666.25px);
+    height: calc(1.10 * 387.5625px);
   }
 
   .monitor-stand {
-    border-top: calc(1.22 * 16.25px) solid #D1D3D6;
+    border-top: calc(1.10 * 16.25px) solid #D1D3D6;
   }
 }
 
 /* 1675px and less ------------------------------ */
 @media (max-width: 1675px) {
     #headerToggle {
-        padding-top: calc(1.21 * 10.5em);
+        padding-top: calc(1.09 * 10.5em);
     }
     
   .container {
-    width: calc(1.21 * 650px);
-    height: calc(1.21 * 378.625px);
+    width: calc(1.09 * 650px);
+    height: calc(1.09 * 378.625px);
   }
 
   .container:hover {
-    width: calc(1.21 * 666.25px);
-    height: calc(1.21 * 387.5625px);
+    width: calc(1.09 * 666.25px);
+    height: calc(1.09 * 387.5625px);
   }
 
   .monitor-stand {
-    border-top: calc(1.21 * 16.25px) solid #D1D3D6;
+    border-top: calc(1.09 * 16.25px) solid #D1D3D6;
   }
 }
 
 /* 1650px and less ------------------------------ */
 @media (max-width: 1650px) {
     #headerToggle {
-        padding-top: calc(1.20 * 10.5em);
+        padding-top: calc(1.08 * 10.5em);
     }
     
   .container {
-    width: calc(1.20 * 650px);
-    height: calc(1.20 * 378.625px);
+    width: calc(1.08 * 650px);
+    height: calc(1.08 * 378.625px);
   }
 
   .container:hover {
-    width: calc(1.20 * 666.25px);
-    height: calc(1.20 * 387.5625px);
+    width: calc(1.08 * 666.25px);
+    height: calc(1.08 * 387.5625px);
   }
 
   .monitor-stand {
-    border-top: calc(1.20 * 16.25px) solid #D1D3D6;
+    border-top: calc(1.08 * 16.25px) solid #D1D3D6;
   }
 }
 
 /* 1625px and less ------------------------------ */
 @media (max-width: 1625px) {
     #headerToggle {
-        padding-top: calc(1.19 * 10.5em);
+        padding-top: calc(1.07 * 10.5em);
     }
     
   .container {
-    width: calc(1.19 * 650px);
-    height: calc(1.19 * 378.625px);
+    width: calc(1.07 * 650px);
+    height: calc(1.07 * 378.625px);
   }
 
   .container:hover {
-    width: calc(1.19 * 666.25px);
-    height: calc(1.19 * 387.5625px);
+    width: calc(1.07 * 666.25px);
+    height: calc(1.07 * 387.5625px);
   }
 
   .monitor-stand {
-    border-top: calc(1.19 * 16.25px) solid #D1D3D6;
+    border-top: calc(1.07 * 16.25px) solid #D1D3D6;
   }
 }
 
 /* 1600px and less ------------------------------ */
 @media (max-width: 1600px) {
     #headerToggle {
-        padding-top: calc(1.18 * 10.5em);
+        padding-top: calc(1.06 * 10.5em);
     }
     
   .container {
-    width: calc(1.18 * 650px);
-    height: calc(1.18 * 378.625px);
+    width: calc(1.06 * 650px);
+    height: calc(1.06 * 378.625px);
   }
 
   .container:hover {
-    width: calc(1.18 * 666.25px);
-    height: calc(1.18 * 387.5625px);
-  }
-
-  .monitor-stand {
-    border-top: calc(1.18 * 16.25px) solid #D1D3D6;
-  }
-}
-
-/* 1575px and less ------------------------------ */
-@media (max-width: 1575px) {
-    #headerToggle {
-        padding-top: calc(1.17 * 10.5em);
-    }
-    
-  .container {
-    width: calc(1.17 * 650px);
-    height: calc(1.17 * 378.625px);
-  }
-
-  .container:hover {
-    width: calc(1.17 * 666.25px);
-    height: calc(1.17 * 387.5625px);
-  }
-
-  .monitor-stand {
-    border-top: calc(1.17 * 16.25px) solid #D1D3D6;
-  }
-}
-
-/* 1550px and less ------------------------------ */
-@media (max-width: 1550px) {
-    #headerToggle {
-        padding-top: calc(1.16 * 10.5em);
-    }
-    
-  .container {
-    width: calc(1.16 * 650px);
-    height: calc(1.16 * 378.625px);
-  }
-
-  .container:hover {
-    width: calc(1.16 * 666.25px);
-    height: calc(1.16 * 387.5625px);
-  }
-
-  .monitor-stand {
-    border-top: calc(1.16 * 16.25px) solid #D1D3D6;
-  }
-}
-
-/* 1525px and less ------------------------------ */
-@media (max-width: 1525px) {
-    #headerToggle {
-        padding-top: calc(1.15 * 10.5em);
-    }
-    
-  .container {
-    width: calc(1.15 * 650px);
-    height: calc(1.15 * 378.625px);
-  }
-
-  .container:hover {
-    width: calc(1.15 * 666.25px);
-    height: calc(1.15 * 387.5625px);
-  }
-
-  .monitor-stand {
-    border-top: calc(1.15 * 16.25px) solid #D1D3D6;
-  }
-}
-
-/* 1500px and less ------------------------------ */
-@media (max-width: 1500px) {
-    #headerToggle {
-        padding-top: calc(1.14 * 10.5em);
-    }
-    
-  .container {
-    width: calc(1.14 * 650px);
-    height: calc(1.14 * 378.625px);
-  }
-
-  .container:hover {
-    width: calc(1.14 * 666.25px);
-    height: calc(1.14 * 387.5625px);
+    width: calc(1.06 * 666.25px);
+    height: calc(1.06 * 387.5625px);
   }
 
   .monitor-stand {
@@ -675,20 +593,41 @@
   }
 }
 
-/* 1475px and less ------------------------------ */
-@media (max-width: 1475px) {
+/* 1575px and less ------------------------------ */
+@media (max-width: 1575px) {
     #headerToggle {
-        padding-top: calc(1.13 * 10.5em);
+        padding-top: calc(1.05 * 10.5em);
     }
     
   .container {
-    width: calc(1.13 * 650px);
-    height: calc(1.13 * 378.625px);
+    width: calc(1.05 * 650px);
+    height: calc(1.05 * 378.625px);
   }
 
   .container:hover {
-    width: calc(1.13 * 666.25px);
-    height: calc(1.13 * 387.5625px);
+    width: calc(1.05 * 666.25px);
+    height: calc(1.05 * 387.5625px);
+  }
+
+  .monitor-stand {
+    border-top: calc(1.05 * 16.25px) solid #D1D3D6;
+  }
+}
+
+/* 1550px and less ------------------------------ */
+@media (max-width: 1550px) {
+    #headerToggle {
+        padding-top: calc(1.04 * 10.5em);
+    }
+    
+  .container {
+    width: calc(1.04 * 650px);
+    height: calc(1.04 * 378.625px);
+  }
+
+  .container:hover {
+    width: calc(1.04 * 666.25px);
+    height: calc(1.04 * 387.5625px);
   }
 
   .monitor-stand {
@@ -696,28 +635,89 @@
   }
 }
 
-/* 1450px and less ------------------------------ */
-@media (max-width: 1450px) {
+/* 1525px and less ------------------------------ */
+@media (max-width: 1525px) {
     #headerToggle {
-        padding-top: calc(1.12 * 10.5em);
+        padding-top: calc(1.03 * 10.5em);
     }
     
   .container {
-    width: calc(1.12 * 650px);
-    height: calc(1.12 * 378.625px);
+    width: calc(1.03 * 650px);
+    height: calc(1.03 * 378.625px);
   }
 
   .container:hover {
-    width: calc(1.12 * 666.25px);
-    height: calc(1.12 * 387.5625px);
+    width: calc(1.03 * 666.25px);
+    height: calc(1.03 * 387.5625px);
   }
 
   .monitor-stand {
-    border-top: calc(1.12 * 16.25px) solid #D1D3D6;
+    border-top: calc(1.03 * 16.25px) solid #D1D3D6;
   }
 }
 
-/* GAP IN CALC MULTIPLIER? */
+/* 1500px and less ------------------------------ */
+@media (max-width: 1500px) {
+    #headerToggle {
+        padding-top: calc(1.02 * 10.5em);
+    }
+    
+  .container {
+    width: calc(1.02 * 650px);
+    height: calc(1.02 * 378.625px);
+  }
+
+  .container:hover {
+    width: calc(1.02 * 666.25px);
+    height: calc(1.02 * 387.5625px);
+  }
+
+  .monitor-stand {
+    border-top: calc(1.02 * 16.25px) solid #D1D3D6;
+  }
+}
+
+/* 1475px and less ------------------------------ */
+@media (max-width: 1475px) {
+    #headerToggle {
+        padding-top: calc(1.01 * 10.5em);
+    }
+    
+  .container {
+    width: calc(1.01 * 650px);
+    height: calc(1.01 * 378.625px);
+  }
+
+  .container:hover {
+    width: calc(1.01 * 666.25px);
+    height: calc(1.01 * 387.5625px);
+  }
+
+  .monitor-stand {
+    border-top: calc(1.01 * 16.25px) solid #D1D3D6;
+  }
+}
+
+/* 1450px and less ------------------------------ */
+@media (max-width: 1450px) {
+    #headerToggle {
+        padding-top: calc(1.00 * 10.5em);
+    }
+    
+  .container {
+    width: calc(1.00 * 650px);
+    height: calc(1.00 * 378.625px);
+  }
+
+  .container:hover {
+    width: calc(1.00 * 666.25px);
+    height: calc(1.00 * 387.5625px);
+  }
+
+  .monitor-stand {
+    border-top: calc(1.00 * 16.25px) solid #D1D3D6;
+  }
+}
 
 /* 1425px and less ------------------------------ */
 @media (max-width: 1425px) {
@@ -1076,7 +1076,7 @@
   }
 }
 
-/*~~~~~~~ MEDIUM AND SMALL BELOW ~~~~~~~~*/
+/* ~~~~~~~ MEDIUM AND SMALL BELOW ~~~~~~~~ */
 
 /* 1023px and less ------------------------------ */
 @media (max-width: 1023px) {
