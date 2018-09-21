@@ -301,7 +301,7 @@ css: /css2/project.css
     var shown = oldPortfolioImage;
     
     function toggleImages() {
-        if(document.getElementById('largeSwitch').checked) {
+        if (document.getElementById('largeSwitch').checked) {
             showImage(newPortfolioImage);
             console.log("largeSwitch is checked");
         }
@@ -313,8 +313,8 @@ css: /css2/project.css
         
     function showImage(n) {
         console.log("inside the funciton showImage");
-        document.getElementById(shown).style.display = "none";
-        document.getElementById(n).style.display = "block";
+        document.getElementById(shown).style.display = 'none';
+        document.getElementById(n).style.display = 'block';
         shown = n;
     }
     
