@@ -301,6 +301,10 @@ css: /css2/project.css
     var shown = oldPortfolioImage;
     
     function toggleImages() {
+        console.log("inside toggleImages, n's value is:");
+        console.log(document.getElementById(n));
+        console.log("inside toggleImages, shown's value is:");
+        console.log(document.getElementById(shown));
         if (document.getElementById('largeSwitch').checked) {
             showImage(newPortfolioImage);
             console.log("largeSwitch is checked");
