@@ -1042,7 +1042,7 @@
     
   .container {
     width: calc(0.69 * 650px);
-    height: calc(0.84 * 378.625px);
+    height: calc(0.69 * 378.625px);
   }
 
   .container:hover {
