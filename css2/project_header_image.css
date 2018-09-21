@@ -974,42 +974,42 @@
 /* 1125px and less ------------------------------ */
 @media (max-width: 1125px) {
     .headerToggle {
-        padding-top: calc(0.87 * 10.5em);
+        padding-top: calc(0.73 * 10.5em);
     }
     
   .container {
-    width: calc(0.87 * 650px);
-    height: calc(0.87 * 378.625px);
+    width: calc(0.73 * 650px);
+    height: calc(0.73 * 378.625px);
   }
 
   .container:hover {
-    width: calc(0.87 * 666.25px);
-    height: calc(0.87 * 387.5625px);
+    width: calc(0.73 * 666.25px);
+    height: calc(0.73 * 387.5625px);
   }
 
   .monitor-stand {
-    border-top: calc(0.87 * 16.25px) solid #D1D3D6;
+    border-top: calc(0.73 * 16.25px) solid #D1D3D6;
   }
 }
 
 /* 1100px and less ------------------------------ */
 @media (max-width: 1100px) {
     .headerToggle {
-        padding-top: calc(0.86 * 10.5em);
+        padding-top: calc(0.72 * 10.5em);
     }
     
   .container {
-    width: calc(0.86 * 650px);
-    height: calc(0.86 * 378.625px);
+    width: calc(0.72 * 650px);
+    height: calc(0.72 * 378.625px);
   }
 
   .container:hover {
-    width: calc(0.86 * 666.25px);
-    height: calc(0.86 * 387.5625px);
+    width: calc(0.72 * 666.25px);
+    height: calc(0.72 * 387.5625px);
   }
 
   .monitor-stand {
-    border-top: calc(0.86 * 16.25px) solid #D1D3D6;
+    border-top: calc(0.72 * 16.25px) solid #D1D3D6;
   }
 }
 
