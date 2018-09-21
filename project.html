@@ -54,9 +54,8 @@ css: /css2/project.css
                 
                 <!-- TOGGLE -->
                 <div class="switch large small-4 cell large-order-2" id="headerToggle">
-                  <input class="switch-input" id="smallSwitch" type="checkbox" name="smallSwitch">
+                  <input class="switch-input" id="smallSwitch" type="checkbox" name="smallSwitch" onchange="toggleImagesSmall();">
                   <label class="switch-paddle" for="smallSwitch">
-                    <span class="show-for-sr"></span>
                     <span class="switch-active" aria-hidden="true">AFTER</span>
                     <span class="switch-inactive" aria-hidden="true">BEFORE</span> 
                   </label>
@@ -84,7 +83,7 @@ css: /css2/project.css
                     <div class="grid-x align-center">
                         
                         <div class="small-4 cell switch large" id="headerToggle">
-                          <input class="switch-input" id="largeSwitch" type="checkbox" name="largeSwitch" onchange="toggleImages();">
+                          <input class="switch-input" id="largeSwitch" type="checkbox" name="largeSwitch" onchange="toggleImagesLarge();">
                           <label class="switch-paddle" for="largeSwitch">
                             <span class="switch-active" aria-hidden="true">AFTER</span>
                             <span class="switch-inactive" aria-hidden="true">BEFORE</span> 
@@ -288,8 +287,16 @@ css: /css2/project.css
     var shown = "oldPortfolioImage";
     var n = "";
  
-    function toggleImages() {        
+    function toggleImagesLarge() {        
         if (document.getElementById('largeSwitch').checked) {
+            showImage("newPortfolioImage");
+        } else {
+            showImage("oldPortfolioImage");
+        }
+    }
+    
+    function toggleImagesSmall() {        
+        if (document.getElementById('smallSwitch').checked) {
             showImage("newPortfolioImage");
         } else {
             showImage("oldPortfolioImage");
