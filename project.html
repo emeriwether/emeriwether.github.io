@@ -296,27 +296,16 @@ css: /css2/project.css
 </main>
 <!-- END MAIN -->
 
-<script>
-    console.log("inside js console");
-    
+<script>    
     var shown = "oldPortfolioImage";
-    console.log("in the beginning, shown's value is:");
-    console.log(document.getElementById(shown));
-    
     var n = "";
-    console.log("in the beginning, n's value is:");
-    console.log(document.getElementById(n));
+
     
-    function toggleImages() {
-        console.log("inside toggleImages, shown's value is:");
-        console.log(document.getElementById(shown));
-        
+    function toggleImages() {        
         if (document.getElementById('largeSwitch').checked) {
-            console.log("largeSwitch is checked");
             showImage("newPortfolioImage");
         }
         else {
-            console.log("largeSwitch is NOT checked");
             showImage("oldPortfolioImage");
         }
     }
