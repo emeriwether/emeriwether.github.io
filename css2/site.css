@@ -28,6 +28,10 @@ body {
     background-color: #EBEDF3;
 }
 
+.hide {
+    display: none;
+}
+
     /* FONT STYLING */
     .aquaText {
         color: #1399AA;
