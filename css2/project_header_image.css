@@ -486,26 +486,24 @@
   }
 }
 
-/* GAP IN CALC MULTIPLIER? */
-
 /* 1700px and less ------------------------------ */
 @media (max-width: 1700px) {
     .headerToggle {
-        padding-top: calc(1.10 * 10.5em);
+        padding-top: calc(1.15 * 10.5em);
     }
     
   .container {
-    width: calc(1.10 * 650px);
-    height: calc(1.10 * 378.625px);
+    width: calc(1.15 * 650px);
+    height: calc(1.15 * 378.625px);
   }
 
   .container:hover {
-    width: calc(1.10 * 666.25px);
-    height: calc(1.10 * 387.5625px);
+    width: calc(1.15 * 666.25px);
+    height: calc(1.15 * 387.5625px);
   }
 
   .monitor-stand {
-    border-top: calc(1.10 * 16.25px) solid #D1D3D6;
+    border-top: calc(1.15 * 16.25px) solid #D1D3D6;
   }
 }
 
