@@ -298,20 +298,26 @@ css: /css2/project.css
 
 <script>
     console.log("inside js console");
-    var shown = oldPortfolioImage;
+    
+    var shown = "oldPortfolioImage";
     console.log("in the beginning, shown's value is:");
     console.log(document.getElementById(shown));
+    
+    var n = "";
+    console.log("in the beginning, n's value is:");
+    console.log(document.getElementById(n));
     
     function toggleImages() {
         console.log("inside toggleImages, shown's value is:");
         console.log(document.getElementById(shown));
+        
         if (document.getElementById('largeSwitch').checked) {
             console.log("largeSwitch is checked");
-            showImage(newPortfolioImage);
+            showImage("newPortfolioImage");
         }
         else {
             console.log("largeSwitch is NOT checked");
-            showImage(oldPortfolioImage);
+            showImage("oldPortfolioImage");
         }
     }
         
@@ -319,6 +325,7 @@ css: /css2/project.css
         console.log("inside the funciton showImage");
         console.log(document.getElementById(n));
         console.log(document.getElementById(shown));
+        
         document.getElementById(shown).style.display = 'none';
         document.getElementById(n).style.display = 'block';
         shown = n;
