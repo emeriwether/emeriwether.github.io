@@ -68,6 +68,7 @@ css: /css2/project.css
                         <div class="screen">
                           <div class="content">
                             <img src="/images/project2/oldPortfolio.jpg" />
+                            <img id="newPortfolioImage" src="/images/project2/newPortfolio.jpeg">
                           </div>
                         </div>
                       </div>
@@ -299,6 +300,7 @@ css: /css2/project.css
         console.log("inside toggleImagesSmall function");
         if (document.getElementById('smallSwitch').checked) {
             console.log("smallSwitch is checked");
+            console.log(document.getElementById(shown));
             showImage("newPortfolioImage");
         } else {
             console.log("smallSwitch is NOT checked");
