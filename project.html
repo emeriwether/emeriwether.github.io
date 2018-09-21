@@ -299,22 +299,16 @@ css: /css2/project.css
 <script>    
     var shown = "oldPortfolioImage";
     var n = "";
-
-    
+ 
     function toggleImages() {        
         if (document.getElementById('largeSwitch').checked) {
             showImage("newPortfolioImage");
-        }
-        else {
+        } else {
             showImage("oldPortfolioImage");
         }
     }
         
     function showImage(n) {
-        console.log("inside the funciton showImage");
-        console.log(document.getElementById(n));
-        console.log(document.getElementById(shown));
-        
         document.getElementById(shown).style.display = 'none';
         document.getElementById(n).style.display = 'block';
         shown = n;
