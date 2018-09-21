@@ -84,7 +84,7 @@ css: /css2/project.css
                     <div class="grid-x align-center">
                         
                         <div class="small-4 cell switch large" id="headerToggle">
-                          <input class="switch-input" id="largeSwitch" type="checkbox" name="largeSwitch">
+                          <input class="switch-input" id="largeSwitch" type="checkbox" name="largeSwitch" onchange="toggleImages();">
                           <label class="switch-paddle" for="largeSwitch">
                             <span class="switch-active" aria-hidden="true">AFTER</span>
                             <span class="switch-inactive" aria-hidden="true">BEFORE</span> 
@@ -114,8 +114,8 @@ css: /css2/project.css
                               <div class="monitor">
                                 <div class="screen">
                                   <div class="content">
-                                    <img id="oldPortfolioImage" class="portfolioBeforeAfter" src="/images/project2/oldPortfolio.jpg" >
-                                    <img id="newPortfolioImage" class="portfolioBeforeAfter" src="/images/project2/newPortfolio.jpeg" style="display:none;">
+                                    <img id="oldPortfolioImage" src="/images/project2/oldPortfolio.jpg" >
+                                    <img id="newPortfolioImage" src="/images/project2/newPortfolio.jpeg" style="display:none;">
                                   </div>
                                 </div>
                               </div>
@@ -297,15 +297,17 @@ css: /css2/project.css
 <!-- END MAIN -->
 
 <script>
-    var shown = oldPortfolioImage
+    var shown = oldPortfolioImage;
     
-    if(document.getElementById('largeSwitch').checked) {
-        showImage(newPortfolioImage);
+    function toggleImages() {
+        if(document.getElementById('largeSwitch').checked) {
+            showImage(newPortfolioImage);
+        }
+        else {
+            showImage(oldPortfolioImage);
+        }
     }
-    else {
-        showImage(oldPortfolioImage);
-    }
-    
+        
     function showImage(n) {
         document.getElementById(shown).style.display = "none";
         document.getElementById(n).style.display = "block";
