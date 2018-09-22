@@ -8,7 +8,7 @@
 	.st2{fill:#0099AB;}
 	.st3{fill:#E14658;}
 	.st4{font-family:'RobotoCondensed-Bold';}
-	.st5{font-size:12px;}
+	.st5{font-size:14px;}
 </style>
 <g id="Layer_3">
 	<g>
@@ -586,19 +586,6 @@
 				L251.2,44.2z"/>
 		</g>
 	</g>
-</g>
-<g id="Layer_2">
-	<text transform="matrix(0.9397 0.342 -0.342 0.9397 24.1356 40.6601)" class="st3 st4 st5">C</text>
-	<text transform="matrix(0.9659 0.2588 -0.2588 0.9659 52.1355 48.66)" class="st3 st4 st5">A</text>
-	<text transform="matrix(0.9903 0.1392 -0.1392 0.9903 83.1356 54.6599)" class="st3 st4 st5">S</text>
-	<text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 114.1359 57.6603)" class="st3 st4 st5">E</text>
-	<text transform="matrix(1 0 0 1 171.1358 59.6601)" class="st3 st4 st5">S</text>
-	<text transform="matrix(0.9994 -3.489950e-02 3.489950e-02 0.9994 202.1358 59.6602)" class="st3 st4 st5">T</text>
-	<text transform="matrix(0.9998 1.745241e-02 -1.745241e-02 0.9998 229.1359 60.6602)" class="st3 st4 st5">U</text>
-	<text transform="matrix(0.9976 -6.975648e-02 6.975648e-02 0.9976 260.136 60.6603)" class="st3 st4 st5">D</text>
-	<text transform="matrix(0.9925 -0.1219 0.1219 0.9925 292.1362 57.6605)" class="st3 st4 st5">I</text>
-	<text transform="matrix(0.9511 -0.309 0.309 0.9511 319.136 52.6604)" class="st3 st4 st5">E</text>
-	<text transform="matrix(0.8746 -0.4848 0.4848 0.8746 347.1361 44.6603)" class="st3 st4 st5">S</text>
 	<g>
 		<g>
 			<path class="st1" d="M286.8,45c0.1,0,0.2,0,0.2,0c0.1,0,0.1-1,0-1c-0.1,0-0.2,0-0.2,0C286.8,44,286.8,45,286.8,45L286.8,45z"/>
@@ -634,5 +621,18 @@
 				C305.4,39.9,305.5,40.9,305.5,40.9L305.5,40.9z"/>
 		</g>
 	</g>
+</g>
+<g id="Layer_2">
+	<text transform="matrix(0.9397 0.342 -0.342 0.9397 23.1356 40.6601)" class="st3 st4 st5">C</text>
+	<text transform="matrix(0.9659 0.2588 -0.2588 0.9659 52.1355 49.66)" class="st3 st4 st5">A</text>
+	<text transform="matrix(0.9903 0.1392 -0.1392 0.9903 83.1356 55.6599)" class="st3 st4 st5">S</text>
+	<text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 114.1359 58.6603)" class="st3 st4 st5">E</text>
+	<text transform="matrix(1 0 0 1 171.1358 60.6601)" class="st3 st4 st5">S</text>
+	<text transform="matrix(0.9994 -3.489950e-02 3.489950e-02 0.9994 202.1358 60.6602)" class="st3 st4 st5">T</text>
+	<text transform="matrix(0.9998 1.745241e-02 -1.745241e-02 0.9998 228.1359 60.6602)" class="st3 st4 st5">U</text>
+	<text transform="matrix(0.9976 -6.975648e-02 6.975648e-02 0.9976 260.136 60.6603)" class="st3 st4 st5">D</text>
+	<text transform="matrix(0.9925 -0.1219 0.1219 0.9925 292.1362 58.6605)" class="st3 st4 st5">I</text>
+	<text transform="matrix(0.9511 -0.309 0.309 0.9511 319.136 52.6604)" class="st3 st4 st5">E</text>
+	<text transform="matrix(0.8746 -0.4848 0.4848 0.8746 347.1361 44.6603)" class="st3 st4 st5">S</text>
 </g>
 </svg>
