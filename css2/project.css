@@ -225,15 +225,7 @@ main .card {
     @media screen and (max-width: 39.9375em) { }
 
     /* MEDIUM AND UP */
-    @media screen and (min-width: 40em) {
-        .projectHeader {
-            padding: 0 2em 0 2em;
-        }
-        
-        .mainContent {
-            padding: 0 2em 3em 2em;
-        }
-        
+    @media screen and (min-width: 40em) {        
         .rwd-break {
             display: none;
         }    
@@ -245,7 +237,7 @@ main .card {
         /***********************/
         /* BEGIN HEADER STYLING */
         header {
-            padding: 3.5em 0;
+            padding: 3.5em 2em;
         }
         
         #headerText {
@@ -258,6 +250,10 @@ main .card {
         /* BEGIN SECTION STYLING */
         section {
             padding: 1.50em 3.125em 0 3.125em;
+        }
+        
+        .mainContent {
+            padding: 0 2em 3em 2em;
         }
         /* END SECTION STYLING */
         /***********************/
