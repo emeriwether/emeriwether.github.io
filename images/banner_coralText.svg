@@ -11,9 +11,7 @@
 	.st5{fill:#1399AA;}
 	.st6{fill:#E14658;}
 	.st7{font-family:'AppleCasual';}
-	.st8{font-size:16px;}
-	.st9{font-size:15px;}
-	.st10{font-size:13px;}
+	.st8{font-size:14px;}
 </style>
 <g id="Layer_5" class="st0">
 	<rect x="4.5" y="4.5" class="st1" width="367" height="62"/>
@@ -949,15 +947,20 @@
 </g>
 <g id="Layer_2">
 	<text transform="matrix(0.9397 0.342 -0.342 0.9397 23.1356 40.6601)" class="st6 st7 st8">C</text>
-	<text transform="matrix(0.9659 0.2588 -0.2588 0.9659 52.1355 49.66)" class="st6 st7 st9">A</text>
+	<text transform="matrix(0.9659 0.2588 -0.2588 0.9659 52.1355 49.66)" class="st6 st7 st8">A</text>
 	<text transform="matrix(0.9903 0.1392 -0.1392 0.9903 83.1356 55.6599)" class="st6 st7 st8">S</text>
 	<text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 114.1359 58.6603)" class="st6 st7 st8">E</text>
 	<text transform="matrix(1 0 0 1 171.1358 60.6601)" class="st6 st7 st8">S</text>
 	<text transform="matrix(0.9994 -3.489950e-02 3.489950e-02 0.9994 202.1358 60.6602)" class="st6 st7 st8">T</text>
 	<text transform="matrix(0.9998 1.745241e-02 -1.745241e-02 0.9998 228.1359 60.6602)" class="st6 st7 st8">U</text>
 	<text transform="matrix(0.9976 -6.975648e-02 6.975648e-02 0.9976 260.136 60.6603)" class="st6 st7 st8">D</text>
-	<text transform="matrix(0.9925 -0.1219 0.1219 0.9925 292.1362 57.6605)" class="st6 st7 st9">I</text>
-	<text transform="matrix(0.9511 -0.309 0.309 0.9511 318.136 52.6604)" class="st6 st7 st10">E</text>
-	<text transform="matrix(0.8746 -0.4848 0.4848 0.8746 346.1361 44.6603)" class="st6 st7 st10">S</text>
+	<text transform="matrix(0.9925 -0.1219 0.1219 0.9925 292.1362 57.6605)" class="st6 st7 st8">I</text>
+	<text transform="matrix(0.9511 -0.309 0.309 0.9511 319.136 52.6604)" class="st6 st7 st8">E</text>
+	<text transform="matrix(0.8746 -0.4848 0.4848 0.8746 347.1361 44.6603)" class="st6 st7 st8">S</text>
+	<g>
+		<g>
+			<path class="st6" d="M359.4,84.1c0.6,0,0.6-1,0-1C358.7,83.1,358.7,84.1,359.4,84.1L359.4,84.1z"/>
+		</g>
+	</g>
 </g>
 </svg>
