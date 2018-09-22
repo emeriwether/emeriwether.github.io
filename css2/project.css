@@ -261,10 +261,6 @@ main .card {
 
     /* LARGE AND UP */
     @media screen and (min-width: 64em) {
-        .mainContent {
-            padding: 0 0 3em 0;
-        }
-        
         .projectNav {
             padding: 1em 14em;
         }
@@ -279,6 +275,11 @@ main .card {
            
         /***********************/
         /* BEGIN SECTION STYLING */
+        .mainContent {
+            padding-bottom: 3em;
+        }
+        
+        
         section {
             padding: 1.50em 0 0 0;
             margin: 0 0 0 0;
