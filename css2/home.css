@@ -9,7 +9,7 @@ header {
 #sectionDivider {
     width: 100%;
     height: auto;
-    padding: 2em 0;
+    padding: 1em 0 2em 0;
 }
 
 header h1 {
