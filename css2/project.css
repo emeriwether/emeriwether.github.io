@@ -81,7 +81,7 @@ header p {
 /* BEGIN SECTION STYLING */
 .mainContent {
     max-width: 115rem;
-    padding: 0 2em 3em 2em;
+    padding: 0 1em 3em 1em;
 }
 
 section {
@@ -226,6 +226,10 @@ main .card {
 
     /* MEDIUM AND UP */
     @media screen and (min-width: 40em) {
+        .mainContent {
+            padding: 0 3em 3em 3em;
+        }
+        
         .rwd-break {
             display: none;
         }    
