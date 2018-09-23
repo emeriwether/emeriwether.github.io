@@ -1021,14 +1021,10 @@
         height: calc(1.00 * 378.625px);
     }
     
-    /* Stand */
+    /* Adjust monitor-stand height to reach base for med & small screens */
     .monitor-stand {
       border-top: calc(1.00 * 16.25px) solid #D1D3D6;
-      /*position: relative;
-      margin: 0 auto;
       height: 17%;
-      width: 20%;
-      background: #F3F3F4;*/
     }
 }
 
