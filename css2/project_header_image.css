@@ -146,8 +146,7 @@
 
 /* LARGE AND UP (>= 1024px) */
 @media screen and (min-width: 64em) {
-    .headerImage {
-        padding-left: 2.5em;
+    #headerImage {
         padding-right: 1em;
     }
     
