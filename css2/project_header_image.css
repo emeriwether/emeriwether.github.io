@@ -102,6 +102,10 @@
 /* Shadow on stand - have to set manually since border-top doesn't support % :( */
 .monitor-stand {
   border-top: 24px solid #D1D3D6;
+  margin: 0 auto;
+  height: 10%;
+  width: 20%;
+  background: #F3F3F4;
 }
 
 /* Bottom of stand */
@@ -138,8 +142,6 @@
 /* BEGIN MEDIA QUERIES */
 
 /* ~~~~~ FOUNDATION MEDIA QUERIES ~~~~~ */
-/* MEDIUM AND UP */
-@media screen and (min-width: 40em) { }
 
 /* LARGE AND UP (>= 1024px) */
 @media screen and (min-width: 64em) {
