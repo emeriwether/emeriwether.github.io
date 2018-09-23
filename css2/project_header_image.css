@@ -1165,7 +1165,7 @@
 /* 750px and less ------------------------------ */
 @media (max-width: 750px) {
     #headerImage {
-        padding-bottom: 4em;
+        padding-bottom: 6em;
     }    
     
     .container, 
@@ -1238,6 +1238,10 @@
 
 /* 639px and less ------------------------------ */
 @media (max-width: 639px) {
+    #headerImage {
+        padding-bottom: 5em;
+    }
+    
     .container, 
     .container:hover {
         width: calc(0.68 * 650px);
@@ -1349,6 +1353,10 @@
 
 /* 450px and less ------------------------------ */
 @media (max-width: 450px) {
+    #headerImage {
+        padding-bottom: 4em;
+    }
+    
     .container, 
     .container:hover {
         width: calc(0.52 * 650px);
@@ -1388,6 +1396,10 @@
 
 /* 375px and less ------------------------------ */
 @media (max-width: 375px) {
+    #headerImage {
+        padding-bottom: 3em;
+    }
+    
     .container, 
     .container:hover {
         width: calc(0.42 * 650px);
