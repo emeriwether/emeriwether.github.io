@@ -152,10 +152,11 @@
 @media (max-width: 3000px) {
     #headerImage {
         padding-left: 33em;
+        padding-bottom: 10em;
     }
     
     .headerToggle {
-        padding-left: 5em;
+        padding-left: 6em;
     }
     
   .container {
@@ -291,6 +292,7 @@
 @media (max-width: 2000px) {
     #headerImage {
         padding-left: 5em;
+        padding-bottom: 8em;
     }
     
   .container {
