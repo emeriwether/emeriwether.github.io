@@ -755,7 +755,7 @@
   }
 
   .monitor-stand {
-    border-top: calc(0.97 * 16.25px) solid #D1D3D6;
+    border-top: calc(0.93 * 16.25px) solid #D1D3D6;
   }
 }
 
@@ -772,7 +772,7 @@
   }
 
   .monitor-stand {
-    border-top: calc(0.96 * 16.25px) solid #D1D3D6;
+    border-top: calc(0.91 * 16.25px) solid #D1D3D6;
   }
 }
 
@@ -780,7 +780,7 @@
 @media (max-width: 1325px) {
   .container {
     width: calc(0.89 * 650px);
-    height: calc(0.90* 378.625px);
+    height: calc(0.89 * 378.625px);
   }
 
   .container:hover {
