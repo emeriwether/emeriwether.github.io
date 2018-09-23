@@ -1009,7 +1009,8 @@
         padding-bottom: 6em;
     }
     
-    .container {
+    .container, 
+    .container:hover {
         padding-top: 1.5em;
         width: calc(1.00 * 650px);
         height: calc(1.00 * 378.625px);
@@ -1032,7 +1033,8 @@
         padding-bottom: 5em;
     }
     
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.99 * 650px);
         height: calc(0.99 * 378.625px);
     }
@@ -1046,7 +1048,8 @@
 
 /* 975px and less ------------------------------ */
 @media (max-width: 975px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.98 * 650px);
         height: calc(0.98 * 378.625px);
     }
@@ -1058,7 +1061,8 @@
 
 /* 950px and less ------------------------------ */
 @media (max-width: 950px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.97 * 650px);
         height: calc(0.97 * 378.625px);
     }
@@ -1070,7 +1074,8 @@
 
 /* 925px and less ------------------------------ */
 @media (max-width: 925px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.96 * 650px);
         height: calc(0.96 * 378.625px);
     }
@@ -1082,7 +1087,8 @@
 
 /* 900px and less ------------------------------ */
 @media (max-width: 900px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.95 * 650px);
         height: calc(0.95 * 378.625px);
     }
@@ -1107,7 +1113,8 @@
 
 /* 850px and less ------------------------------ */
 @media (max-width: 850px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.93 * 650px);
         height: calc(0.93 * 378.625px);
     }
@@ -1119,7 +1126,8 @@
 
 /* 825px and less ------------------------------ */
 @media (max-width: 825px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.92 * 650px);
         height: calc(0.92 * 378.625px);
     }
@@ -1131,7 +1139,8 @@
 
 /* 800px and less ------------------------------ */
 @media (max-width: 800px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.91 * 650px);
         height: calc(0.91 * 378.625px);
     }
@@ -1143,7 +1152,8 @@
 
 /* 775px and less ------------------------------ */
 @media (max-width: 775px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.90 * 650px);
         height: calc(0.90 * 378.625px);
     }
@@ -1159,7 +1169,8 @@
         padding-bottom: 4em;
     }    
     
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.89 * 650px);
         height: calc(0.89 * 378.625px);
     }
@@ -1171,7 +1182,8 @@
 
 /* 725px and less ------------------------------ */
 @media (max-width: 725px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.88 * 650px);
         height: calc(0.88 * 378.625px);
     }
@@ -1183,7 +1195,8 @@
 
 /* 700px and less ------------------------------ */
 @media (max-width: 700px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.87 * 650px);
         height: calc(0.87 * 378.625px);
     }
@@ -1208,7 +1221,8 @@
 
 /* 650px and less ------------------------------ */
 @media (max-width: 650px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.85 * 650px);
         height: calc(0.85 * 378.625px);
     }
@@ -1225,7 +1239,8 @@
 
 /* 639px and less ------------------------------ */
 @media (max-width: 639px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.72 * 650px);
         height: calc(0.72 * 378.625px);
     }
@@ -1244,7 +1259,8 @@
     }
     */
     
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.60 * 650px);
         height: calc(0.60 * 378.625px);
     }
@@ -1256,7 +1272,8 @@
 
 /* 600px and less ------------------------------ */
 @media (max-width: 600px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.58 * 650px);
         height: calc(0.58 * 378.625px);
     }
@@ -1268,7 +1285,8 @@
 
 /* 575px and less ------------------------------ */
 @media (max-width: 575px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.56 * 650px);
         height: calc(0.56 * 378.625px);
     }
@@ -1280,7 +1298,8 @@
 
 /* 550px and less ------------------------------ */
 @media (max-width: 550px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.68 * 650px);
         height: calc(0.68 * 378.625px);
     }
@@ -1292,7 +1311,8 @@
 
 /* 525px and less ------------------------------ */
 @media (max-width: 525px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.54 * 650px);
         height: calc(0.54 * 378.625px);
     }
@@ -1304,7 +1324,8 @@
 
 /* 500px and less ------------------------------ */
 @media (max-width: 500px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.52 * 650px);
         height: calc(0.52 * 378.625px);
     }
@@ -1316,7 +1337,8 @@
 
 /* 475px and less ------------------------------ */
 @media (max-width: 475px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.50 * 650px);
         height: calc(0.50 * 378.625px);
     }
@@ -1328,7 +1350,8 @@
 
 /* 450px and less ------------------------------ */
 @media (max-width: 450px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.48 * 650px);
         height: calc(0.48 * 378.625px);
     }
@@ -1340,7 +1363,8 @@
 
 /* 425px and less ------------------------------ */
 @media (max-width: 425px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.46 * 650px);
         height: calc(0.46 * 378.625px);
     }
@@ -1352,7 +1376,8 @@
 
 /* 400px and less ------------------------------ */
 @media (max-width: 400px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.44 * 650px);
         height: calc(0.44 * 378.625px);
     }
@@ -1364,7 +1389,8 @@
 
 /* 375px and less ------------------------------ */
 @media (max-width: 375px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.42 * 650px);
         height: calc(0.42 * 378.625px);
     }
@@ -1376,7 +1402,8 @@
 
 /* 350px and less ------------------------------ */
 @media (max-width: 350px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.40 * 650px);
         height: calc(0.40 * 378.625px);
     }
@@ -1388,7 +1415,8 @@
 
 /* 325px and less ------------------------------ */
 @media (max-width: 325px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.38 * 650px);
         height: calc(0.38 * 378.625px);
     }
@@ -1400,7 +1428,8 @@
 
 /* 300px and less ------------------------------ */
 @media (max-width: 300px) {
-    .container {
+    .container, 
+    .container:hover {
         width: calc(0.36 * 650px);
         height: calc(0.36 * 378.625px);
     }
