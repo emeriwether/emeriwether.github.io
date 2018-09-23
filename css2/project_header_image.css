@@ -1,5 +1,6 @@
 .headerToggle {
     font-family: "Roboto Condensed";
+    padding-top: 1em;
 }
 
 #headerImage {
@@ -127,6 +128,14 @@
 /***********************/
 /* BEGIN MEDIA QUERIES */
 
+/* ~~~~~ FOUNDATION MEDIA QUERIES ~~~~~ */
+/* MEDIUM AND UP */
+@media screen and (min-width: 40em) {
+    #headerToggle {
+        padding-top: 0;
+    }
+}
+
 /* LARGE AND UP (>= 1024px) */
 @media screen and (min-width: 64em) {
     .headerImage {
@@ -148,6 +157,8 @@
     }
 }
 
+
+/* ~~~~ SPECIAL MEDIA QUERIES FOR RESPONSIVE & INTERACTIVE HEADER IMAGE ~~~~ */
 /* 3000px and less ------------------------------ */
 @media (max-width: 3000px) {
     #headerImage {
