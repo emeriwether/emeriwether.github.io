@@ -1005,7 +1005,7 @@
 /* 1023px and less ------------------------------ */
 @media (max-width: 1023px) {    
     #headerImage {
-        padding-bottom: 6em;
+        padding-bottom: 7em;
     }
     
     .container, 
@@ -1028,10 +1028,6 @@
 
 /* 1000px and less ------------------------------ */
 @media (max-width: 1000px) {
-    #headerImage {
-        padding-bottom: 5em;
-    }
-    
     .container, 
     .container:hover {
         width: calc(0.99 * 650px);
