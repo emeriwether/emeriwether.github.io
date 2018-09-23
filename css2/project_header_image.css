@@ -1240,12 +1240,12 @@
 @media (max-width: 639px) {
     .container, 
     .container:hover {
-        width: calc(0.72 * 650px);
-        height: calc(0.72 * 378.625px);
+        width: calc(0.68 * 650px);
+        height: calc(0.68 * 378.625px);
     }
 
     .monitor-stand {
-        border-top: calc(0.72 * 16.25px) solid #D1D3D6;
+        border-top: calc(0.68 * 16.25px) solid #D1D3D6;
     }
 }
 
@@ -1260,6 +1260,45 @@
     
     .container, 
     .container:hover {
+        width: calc(0.66 * 650px);
+        height: calc(0.66 * 378.625px);
+    }
+
+    .monitor-stand {
+        border-top: calc(0.66 * 16.25px) solid #D1D3D6;
+    }
+}
+
+/* 600px and less ------------------------------ */
+@media (max-width: 600px) {
+    .container, 
+    .container:hover {
+        width: calc(0.64 * 650px);
+        height: calc(0.64 * 378.625px);
+    }
+
+    .monitor-stand {
+        border-top: calc(0.64 * 16.25px) solid #D1D3D6;
+    }
+}
+
+/* 575px and less ------------------------------ */
+@media (max-width: 575px) {
+    .container, 
+    .container:hover {
+        width: calc(0.62 * 650px);
+        height: calc(0.62 * 378.625px);
+    }
+
+    .monitor-stand {
+        border-top: calc(0.62 * 16.25px) solid #D1D3D6;
+    }
+}
+
+/* 550px and less ------------------------------ */
+@media (max-width: 550px) {
+    .container, 
+    .container:hover {
         width: calc(0.60 * 650px);
         height: calc(0.60 * 378.625px);
     }
@@ -1269,8 +1308,8 @@
     }
 }
 
-/* 600px and less ------------------------------ */
-@media (max-width: 600px) {
+/* 525px and less ------------------------------ */
+@media (max-width: 525px) {
     .container, 
     .container:hover {
         width: calc(0.58 * 650px);
@@ -1282,8 +1321,8 @@
     }
 }
 
-/* 575px and less ------------------------------ */
-@media (max-width: 575px) {
+/* 500px and less ------------------------------ */
+@media (max-width: 500px) {
     .container, 
     .container:hover {
         width: calc(0.56 * 650px);
@@ -1295,21 +1334,8 @@
     }
 }
 
-/* 550px and less ------------------------------ */
-@media (max-width: 550px) {
-    .container, 
-    .container:hover {
-        width: calc(0.68 * 650px);
-        height: calc(0.68 * 378.625px);
-    }
-
-    .monitor-stand {
-        border-top: calc(0.68 * 16.25px) solid #D1D3D6;
-    }
-}
-
-/* 525px and less ------------------------------ */
-@media (max-width: 525px) {
+/* 475px and less ------------------------------ */
+@media (max-width: 475px) {
     .container, 
     .container:hover {
         width: calc(0.54 * 650px);
@@ -1321,8 +1347,8 @@
     }
 }
 
-/* 500px and less ------------------------------ */
-@media (max-width: 500px) {
+/* 450px and less ------------------------------ */
+@media (max-width: 450px) {
     .container, 
     .container:hover {
         width: calc(0.52 * 650px);
@@ -1334,8 +1360,8 @@
     }
 }
 
-/* 475px and less ------------------------------ */
-@media (max-width: 475px) {
+/* 425px and less ------------------------------ */
+@media (max-width: 425px) {
     .container, 
     .container:hover {
         width: calc(0.50 * 650px);
@@ -1347,8 +1373,8 @@
     }
 }
 
-/* 450px and less ------------------------------ */
-@media (max-width: 450px) {
+/* 400px and less ------------------------------ */
+@media (max-width: 400px) {
     .container, 
     .container:hover {
         width: calc(0.48 * 650px);
@@ -1357,32 +1383,6 @@
 
     .monitor-stand {
         border-top: calc(0.48 * 16.25px) solid #D1D3D6;
-    }
-}
-
-/* 425px and less ------------------------------ */
-@media (max-width: 425px) {
-    .container, 
-    .container:hover {
-        width: calc(0.46 * 650px);
-        height: calc(0.46 * 378.625px);
-    }
-
-    .monitor-stand {
-        border-top: calc(0.46 * 16.25px) solid #D1D3D6;
-    }
-}
-
-/* 400px and less ------------------------------ */
-@media (max-width: 400px) {
-    .container, 
-    .container:hover {
-        width: calc(0.44 * 650px);
-        height: calc(0.44 * 378.625px);
-    }
-
-    .monitor-stand {
-        border-top: calc(0.44 * 16.25px) solid #D1D3D6;
     }
 }
 
