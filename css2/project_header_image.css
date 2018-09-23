@@ -99,13 +99,18 @@
   width: 100%;
 }
 
-/* Shadow on stand - have to set manually since border-top doesn't support % :( */
+/* Stand */
 .monitor-stand {
-  border-top: 24px solid #D1D3D6;
+  position: relative;
   margin: 0 auto;
   height: 10%;
   width: 20%;
   background: #F3F3F4;
+}
+
+/* Shadow on stand - have to set manually since border-top doesn't support % :( */
+.monitor-stand {
+  border-top: 24px solid #D1D3D6;
 }
 
 /* Bottom of stand */
