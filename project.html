@@ -47,22 +47,39 @@ css: /css2/project.css
         
         <!-- HEADER IMAGE -->
         <div class="large-6 cell large-order-1" id="headerImage">
-            
-            <div class="grid-x hide-for-large">
                 
-                <h4 class="text-left cell headerSectionLabel">Results: Before and After the Redesign</h4>
-                
-                <!-- TOGGLE SMALL -->
-                <div class="small-4 cell large switch headerToggle">
+            <h4 class="text-left cell headerSectionLabel hide-for-large">Results: Before and After the Redesign</h4>
+
+            <!-- TOGGLE -->
+            <div class="cell">
+
+                <!-- SMALL & MED -->
+                <div class="small-4 cell large switch headerToggle hide-for-large">
                   <input class="switch-input" id="smallSwitch" type="checkbox" name="smallSwitch" onchange="toggleImagesSmall();">
                   <label class="switch-paddle" for="smallSwitch">
                     <span class="switch-active" aria-hidden="true">AFTER</span>
                     <span class="switch-inactive" aria-hidden="true">BEFORE</span> 
                   </label>
-                </div>    
+                </div>
+
+                <!-- LARGE -->
+                <div class="grid-x align-center show-for-large">   
+                    <div class="small-4 cell large switch headerToggle">
+                      <input class="switch-input" id="largeSwitch" type="checkbox" name="largeSwitch" onchange="toggleImagesLarge();">
+                      <label class="switch-paddle" for="largeSwitch">
+                        <span class="switch-active" aria-hidden="true">AFTER</span>
+                        <span class="switch-inactive" aria-hidden="true">BEFORE</span> 
+                      </label>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- BEFORE & AFTER IMAGE -->
+            <div class="cell">
                 
-                <!-- BEFORE & AFTER IMAGE SMALL -->
-                <div class="small-10 large-12 cell">
+                <!-- SMALL & MED -->
+                <div class="small-10 large-12 cell hide-for-large">
                     <div class="container">
                       <div class="monitor">
                         <div class="screen">
@@ -75,49 +92,30 @@ css: /css2/project.css
                       <div class="monitor-stand"></div>
                     </div> 
                 </div>
+                
+                <!-- LARGE -->
+                <div class="grid-x align-center show-for-large">
+                    <div class="small-10 large-12 cell">
+                        <div class="container">
+                          <div class="monitor">
+                            <div class="screen">
+                              <div class="content">
+                                <img class="oldPortfolioImage" src="/images/project2/oldPortfolio.jpg" >
+                                <img class="newPortfolioImage" src="/images/project2/newPortfolio.jpeg">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="monitor-stand"></div>
+                        </div> 
+                    </div>
+                </div>
+                        
             </div>
             
-            <div class="grid-x show-for-large">
+            
+         </div>
                 
-                <!-- TOGGLE MED & LG-->
-                <div class="cell">
-                    <div class="grid-x align-center">
-                        
-                        <div class="small-4 cell large switch headerToggle">
-                          <input class="switch-input" id="largeSwitch" type="checkbox" name="largeSwitch" onchange="toggleImagesLarge();">
-                          <label class="switch-paddle" for="largeSwitch">
-                            <span class="switch-active" aria-hidden="true">AFTER</span>
-                            <span class="switch-inactive" aria-hidden="true">BEFORE</span> 
-                          </label>
-                        </div>
-                        
-                    </div>
-                </div>
-                
-                <!-- BEFORE & AFTER IMAGE MED & LG -->
-                <div class="cell">
-                    <div class="grid-x align-center">
-                        
-                        <div class="small-10 large-12 cell">
-                            <div class="container">
-                              <div class="monitor">
-                                <div class="screen">
-                                  <div class="content">
-                                    <img class="oldPortfolioImage" src="/images/project2/oldPortfolio.jpg" >
-                                    <img class="newPortfolioImage" src="/images/project2/newPortfolio.jpeg">
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="monitor-stand"></div>
-                            </div> 
-                        </div>
-                        
-                    </div>
-                </div>
-                
-            </div>            
-        </div>
-    </div>
+    </div>            
 </header>
 <!-- END HEADER-->
 
