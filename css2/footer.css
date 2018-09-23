@@ -3,10 +3,13 @@ footer {
   padding: 2em;
 }
 
-footer p {
+footer a, footer p {
     color: #EBEDF3;
     font-family: "Roboto Condensed";
     font-weight: 700;
+}
+
+footer p {
     font-size: 2em;
 }
 
