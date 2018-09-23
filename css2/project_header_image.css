@@ -139,9 +139,7 @@
 /* ~~~~~ FOUNDATION MEDIA QUERIES ~~~~~ */
 /* MEDIUM AND UP */
 @media screen and (min-width: 40em) {
-    .headerToggle {
-        padding-top: 0;
-    }
+
 }
 
 /* LARGE AND UP (>= 1024px) */
@@ -151,6 +149,7 @@
     }
     
     .headerToggle {
+        padding-top: 0;
         padding-left: 5%;
     }
     
