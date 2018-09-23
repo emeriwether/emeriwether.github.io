@@ -32,7 +32,7 @@
   height: 555px;
 }
 
-/* Black monitor outline */
+/* Silver monitor outline */
 .monitor {
   padding: 4%;
   position:relative;
@@ -81,6 +81,7 @@
   position: relative;
 }
 
+/* Right side of silver screen */
 .screen:after {
   content:'';
   display: block;
@@ -138,9 +139,7 @@
 
 /* ~~~~~ FOUNDATION MEDIA QUERIES ~~~~~ */
 /* MEDIUM AND UP */
-@media screen and (min-width: 40em) {
-
-}
+@media screen and (min-width: 40em) { }
 
 /* LARGE AND UP (>= 1024px) */
 @media screen and (min-width: 64em) {
@@ -153,14 +152,14 @@
         padding-left: 5%;
     }
     
-    /* Stand */
+    /* Stand
     .monitor-stand {
       position: relative;
       margin: 0 auto;
       height: 15%;
       width: 20%;
       background: #F3F3F4;
-    }
+    }  */
 }
 
 
@@ -1018,11 +1017,11 @@
     /* Stand */
     .monitor-stand {
       border-top: calc(1.00 * 16.25px) solid #D1D3D6;
-      position: relative;
+      /*position: relative;
       margin: 0 auto;
       height: 17%;
       width: 20%;
-      background: #F3F3F4;
+      background: #F3F3F4;*/
     }
 }
 
