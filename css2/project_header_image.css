@@ -8,6 +8,9 @@
     padding-right: 2.5em;
 }
 
+
+
+
 /* BEGIN BEFORE AND AFTER IMAGE */
 /* Responsive monitor with scrollable image from: https://codepen.io/sergep/pen/vkaFt */
 /* Transition definition */
@@ -125,13 +128,18 @@
   border-radius: 50%;
 }
 
+
+
+
+
+
 /***********************/
 /* BEGIN MEDIA QUERIES */
 
 /* ~~~~~ FOUNDATION MEDIA QUERIES ~~~~~ */
 /* MEDIUM AND UP */
 @media screen and (min-width: 40em) {
-    #headerToggle {
+    .headerToggle {
         padding-top: 0;
     }
 }
@@ -158,6 +166,9 @@
 }
 
 
+
+
+
 /* ~~~~ SPECIAL MEDIA QUERIES FOR RESPONSIVE & INTERACTIVE HEADER IMAGE ~~~~ */
 /* 3000px and less ------------------------------ */
 @media (max-width: 3000px) {
@@ -166,21 +177,17 @@
         padding-bottom: 10em;
     }
     
-    .headerToggle {
-        padding-left: 6em;
-    }
-    
-  .container {
+    .container {
     width: calc(1.38 * 650px);
     height: calc(1.38 * 378.625px);
   }
 
-  .container:hover {
+    .container:hover {
     width: calc(1.38 * 666.25px);
     height: calc(1.38 * 387.5625px);
   }
 
-  .monitor-stand {
+    .monitor-stand {
     border-top: calc(1.38 * 16.25px) solid #D1D3D6;
   }
 }
@@ -992,17 +999,15 @@
   }
 }
 
+
+
+
 /* ~~~~~~~ MEDIUM BELOW ~~~~~~~~ */
 
 /* 1023px and less ------------------------------ */
 @media (max-width: 1023px) {    
     #headerImage {
         padding-bottom: 6em;
-    }
-    
-    .headerToggle {
-        padding-bottom: 1em;
-        padding-left: 0;
     }
     
     .container {
@@ -1213,6 +1218,9 @@
         border-top: calc(0.85 * 16.25px) solid #D1D3D6;
     }
 }
+
+
+
 
 /* ~~~~~~~ SMALL BELOW ~~~~~~~~ */
 
