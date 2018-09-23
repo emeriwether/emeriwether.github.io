@@ -458,7 +458,7 @@
 /* 1800px and less ------------------------------ */
 @media (max-width: 1800px) {
     #headerImage {
-        padding-left: 2.5em;
+        padding-left: 3em;
     }    
 
   .container {
