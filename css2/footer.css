@@ -26,6 +26,7 @@ footer img {
 #footerEmail {
     padding-left: 2em;
     font-size: 1.2em;
+    display: block;
 }
 
 #copyright {
@@ -42,6 +43,7 @@ footer img {
 
     #footerEmail {
         font-size: 1.4em;
+        display: initial;
     }
 
     #copyright {
