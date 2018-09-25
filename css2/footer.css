@@ -50,6 +50,10 @@ footer img {
     .rwd-break {
         display: none;
     }         
+
+    footer img {
+        padding-top: 0;
+    }
 }
 
 /* Large and up */
