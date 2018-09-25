@@ -9,8 +9,17 @@ footer a, footer p {
     font-weight: 700;
 }
 
+/* RESPONSIVE LINE BREAK STYLING */
+.rwd-break {
+    display: block;
+}
+
 footer p {
     font-size: 1.4em;
+}
+
+footer img {
+    padding-top: 1em;
 }
 
 #footerEmail {
@@ -37,6 +46,10 @@ footer p {
     #copyright {
         font-size: 1em;
     }
+        
+    .rwd-break {
+        display: none;
+    }         
 }
 
 /* Large and up */
