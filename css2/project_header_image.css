@@ -386,7 +386,7 @@
 /* 1900px and less ------------------------------ */
 @media (max-width: 1900px) {
     #headerImage {
-        padding-left: 4em;
+        padding-left: 6em;
     }
     
   .container {
@@ -458,7 +458,7 @@
 /* 1800px and less ------------------------------ */
 @media (max-width: 1800px) {
     #headerImage {
-        padding-left: 3.5em;
+        padding-left: 4em;
     }    
 
   .container {
