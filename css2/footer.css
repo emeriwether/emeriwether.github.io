@@ -28,7 +28,7 @@ footer img:hover {
 }
 
 #footerEmail {
-    padding-left: 2em;
+    padding-top: 1em;
     font-size: 1.2em;
     display: block;
 }
@@ -48,6 +48,7 @@ footer img:hover {
     #footerEmail {
         font-size: 1.4em;
         display: initial;
+        padding-left: 2em;
     }
 
     #copyright {
