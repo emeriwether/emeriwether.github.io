@@ -19,6 +19,7 @@ footer p {
 }
 
 #linkedInIcon {
+    display: block;
     width: 3px;
     height: auto;
     background: url('/images/linkedin_aqua.svg');
