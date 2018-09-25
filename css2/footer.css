@@ -23,6 +23,10 @@ footer img {
     height: auto;
 }
 
+footer img:hover {
+    color: #E14658;
+}
+
 #footerEmail {
     padding-left: 2em;
     font-size: 1.2em;
