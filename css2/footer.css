@@ -19,7 +19,8 @@ footer p {
 }
 
 footer img {
-    padding-top: 1em;
+    width: 35px;
+    height: auto;
 }
 
 #footerEmail {
