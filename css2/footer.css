@@ -58,8 +58,7 @@ footer img {
 
 /* Large and up */
 @media screen and (min-width: 64em) {
-    @media screen and (min-width: 40em) {
-        footer p {
+    footer p {
         font-size: 2em;
     }
 
@@ -69,6 +68,11 @@ footer img {
 
     #copyright {
         font-size: 1em;
+    }
+    
+    footer img {
+        width: 42px;
+        height: auto;
     }
     
 }
