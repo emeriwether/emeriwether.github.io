@@ -18,13 +18,16 @@ footer p {
     font-size: 1.4em;
 }
 
-footer img {
-    width: 35px;
+#linkedInIcon {
+    width: 3px;
     height: auto;
+    background: url('/images/linkedin_aqua.svg');
+    background-size: 35px auto;
 }
 
-footer img:hover {
-    fill: #E14658;
+#linkedInIcon:hover {
+    background: url('/images/linkedin_coral.svg');
+    background-size: 35px auto;
 }
 
 #footerEmail {
@@ -40,7 +43,7 @@ footer img:hover {
 }
 
 /* Medium and up */
-    @media screen and (min-width: 40em) {
+@media screen and (min-width: 40em) {
         footer p {
         font-size: 1.8em;
     }
@@ -59,7 +62,7 @@ footer img:hover {
         display: none;
     }         
 
-    footer img {
+    #linkedInIcon {
         padding-top: 0;
     }
 }
@@ -78,9 +81,10 @@ footer img:hover {
         font-size: 1em;
     }
     
-    footer img {
+    #linkedInIcon {
         width: 42px;
         height: auto;
+        background-size: 42px auto;
     }
     
 }
