@@ -111,7 +111,7 @@ section p {
 
 .statsIcon {
     padding: 1.25em 0 1em 0;
-    max-width: 80%;
+    width: 50%;
 }
 
 main .stat {
@@ -255,6 +255,10 @@ main .card {
         
         .mainContent {
             padding: 0 2em 3em 2em;
+        }
+        
+        .statsIcon {
+            width: 30%;
         }
         /* END SECTION STYLING */
         /***********************/
