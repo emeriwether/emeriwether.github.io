@@ -581,23 +581,6 @@
 /* 1625px and less ------------------------------ */
 @media (max-width: 1625px) {
   .container {
-    width: calc(1.09 * 650px);
-    height: calc(1.09 * 378.625px);
-  }
-
-  .container:hover {
-    width: calc(1.09 * 682.90625px);
-    height: calc(1.09 * 397.2515625px);
-  }
-
-  .monitor-stand {
-    border-top: calc(1.09 * 16.25px) solid #D1D3D6;
-  }
-}
-
-/* 1600px and less ------------------------------ */
-@media (max-width: 1600px) {
-  .container {
     width: calc(1.08 * 650px);
     height: calc(1.08 * 378.625px);
   }
@@ -612,8 +595,8 @@
   }
 }
 
-/* 1575px and less ------------------------------ */
-@media (max-width: 1575px) {
+/* 1600px and less ------------------------------ */
+@media (max-width: 1600px) {
   .container {
     width: calc(1.06 * 650px);
     height: calc(1.06 * 378.625px);
@@ -629,8 +612,8 @@
   }
 }
 
-/* 1550px and less ------------------------------ */
-@media (max-width: 1550px) {
+/* 1575px and less ------------------------------ */
+@media (max-width: 1575px) {
   .container {
     width: calc(1.04 * 650px);
     height: calc(1.04 * 378.625px);
@@ -646,25 +629,8 @@
   }
 }
 
-/* 1525px and less ------------------------------ */
-@media (max-width: 1525px) {
-  .container {
-    width: calc(1.03 * 650px);
-    height: calc(1.03 * 378.625px);
-  }
-
-  .container:hover {
-    width: calc(1.03 * 682.90625px);
-    height: calc(1.03 * 397.2515625px);
-  }
-
-  .monitor-stand {
-    border-top: calc(1.03 * 16.25px) solid #D1D3D6;
-  }
-}
-
-/* 1500px and less ------------------------------ */
-@media (max-width: 1500px) {
+/* 1550px and less ------------------------------ */
+@media (max-width: 1550px) {
   .container {
     width: calc(1.02 * 650px);
     height: calc(1.02 * 378.625px);
@@ -680,8 +646,8 @@
   }
 }
 
-/* 1475px and less ------------------------------ */
-@media (max-width: 1475px) {
+/* 1525px and less ------------------------------ */
+@media (max-width: 1525px) {
   .container {
     width: calc(1.00 * 650px);
     height: calc(1.00 * 378.625px);
@@ -697,8 +663,8 @@
   }
 }
 
-/* 1450px and less ------------------------------ */
-@media (max-width: 1450px) {
+/* 1500px and less ------------------------------ */
+@media (max-width: 1500px) {
   .container {
     width: calc(0.98 * 650px);
     height: calc(0.98 * 378.625px);
@@ -714,8 +680,8 @@
   }
 }
 
-/* 1425px and less ------------------------------ */
-@media (max-width: 1425px) {
+/* 1475px and less ------------------------------ */
+@media (max-width: 1475px) {
   .container {
     width: calc(0.96 * 650px);
     height: calc(0.96 * 378.625px);
@@ -731,8 +697,8 @@
   }
 }
 
-/* 1400px and less ------------------------------ */
-@media (max-width: 1400px) {
+/* 1450px and less ------------------------------ */
+@media (max-width: 1450px) {
   .container {
     width: calc(0.94 * 650px);
     height: calc(0.94 * 378.625px);
@@ -748,8 +714,8 @@
   }
 }
 
-/* 1375px and less ------------------------------ */
-@media (max-width: 1375px) {
+/* 1425px and less ------------------------------ */
+@media (max-width: 1425px) {
   .container {
     width: calc(0.92 * 650px);
     height: calc(0.92 * 378.625px);
@@ -765,8 +731,8 @@
   }
 }
 
-/* 1350px and less ------------------------------ */
-@media (max-width: 1350px) {
+/* 1400px and less ------------------------------ */
+@media (max-width: 1400px) {
   .container {
     width: calc(0.90 * 650px);
     height: calc(0.90 * 378.625px);
@@ -782,8 +748,8 @@
   }
 }
 
-/* 1325px and less ------------------------------ */
-@media (max-width: 1325px) {
+/* 1375px and less ------------------------------ */
+@media (max-width: 1375px) {
   .container {
     width: calc(0.88 * 650px);
     height: calc(0.88 * 378.625px);
@@ -799,8 +765,8 @@
   }
 }
 
-/* 1300px and less ------------------------------ */
-@media (max-width: 1300px) {
+/* 1350px and less ------------------------------ */
+@media (max-width: 1350px) {
   .container {
     width: calc(0.86 * 650px);
     height: calc(0.86 * 378.625px);
@@ -816,8 +782,8 @@
   }
 }
 
-/* 1275px and less ------------------------------ */
-@media (max-width: 1275px) {
+/* 1325px and less ------------------------------ */
+@media (max-width: 1325px) {
   .container {
     width: calc(0.84 * 650px);
     height: calc(0.84 * 378.625px);
@@ -833,8 +799,8 @@
   }
 }
 
-/* 1250px and less ------------------------------ */
-@media (max-width: 1250px) {
+/* 1300px and less ------------------------------ */
+@media (max-width: 1300px) {
   .container {
     width: calc(0.82 * 650px);
     height: calc(0.82 * 378.625px);
@@ -850,8 +816,8 @@
   }
 }
 
-/* 1225px and less ------------------------------ */
-@media (max-width: 1225px) {
+/* 1275px and less ------------------------------ */
+@media (max-width: 1275px) {
   .container {
     width: calc(0.80 * 650px);
     height: calc(0.80 * 378.625px);
@@ -867,8 +833,25 @@
   }
 }
 
-/* 1200px and less ------------------------------ */
-@media (max-width: 1200px) {  
+/* 1250px and less ------------------------------ */
+@media (max-width: 1250px) {
+  .container {
+    width: calc(0.78 * 650px);
+    height: calc(0.78 * 378.625px);
+  }
+
+  .container:hover {
+    width: calc(0.78 * 682.90625px);
+    height: calc(0.78 * 397.2515625px);
+  }
+
+  .monitor-stand {
+    border-top: calc(0.78 * 16.25px) solid #D1D3D6;
+  }
+}
+
+/* 1225px and less ------------------------------ */
+@media (max-width: 1225px) {
   .container {
     width: calc(0.76 * 650px);
     height: calc(0.76 * 378.625px);
@@ -884,8 +867,8 @@
   }
 }
 
-/* 1175px and less ------------------------------ */
-@media (max-width: 1175px) { 
+/* 1200px and less ------------------------------ */
+@media (max-width: 1200px) {  
   .container {
     width: calc(0.74 * 650px);
     height: calc(0.74 * 378.625px);
@@ -901,8 +884,8 @@
   }
 }
 
-/* 1150px and less ------------------------------ */
-@media (max-width: 1150px) {
+/* 1175px and less ------------------------------ */
+@media (max-width: 1175px) { 
   .container {
     width: calc(0.72 * 650px);
     height: calc(0.72 * 378.625px);
@@ -918,25 +901,8 @@
   }
 }
 
-/* 1125px and less ------------------------------ */
-@media (max-width: 1125px) {
-  .container {
-    width: calc(0.73 * 650px);
-    height: calc(0.73 * 378.625px);
-  }
-
-  .container:hover {
-    width: calc(0.73 * 682.90625px);
-    height: calc(0.73 * 397.2515625px);
-  }
-
-  .monitor-stand {
-    border-top: calc(0.73 * 16.25px) solid #D1D3D6;
-  }
-}
-
-/* 1100px and less ------------------------------ */
-@media (max-width: 1100px) {
+/* 1150px and less ------------------------------ */
+@media (max-width: 1150px) {
   .container {
     width: calc(0.70 * 650px);
     height: calc(0.70 * 378.625px);
@@ -952,8 +918,8 @@
   }
 }
 
-/* 1075px and less ------------------------------ */
-@media (max-width: 1075px) {
+/* 1125px and less ------------------------------ */
+@media (max-width: 1125px) {
   .container {
     width: calc(0.68 * 650px);
     height: calc(0.68 * 378.625px);
@@ -969,8 +935,8 @@
   }
 }
 
-/* 1050px and less ------------------------------ */
-@media (max-width: 1050px) {
+/* 1100px and less ------------------------------ */
+@media (max-width: 1100px) {
   .container {
     width: calc(0.66 * 650px);
     height: calc(0.66 * 378.625px);
@@ -986,8 +952,8 @@
   }
 }
 
-/* 1025px and less ------------------------------ */
-@media (max-width: 1025px) {
+/* 1075px and less ------------------------------ */
+@media (max-width: 1075px) {
   .container {
     width: calc(0.64 * 650px);
     height: calc(0.64 * 378.625px);
@@ -1000,6 +966,40 @@
 
   .monitor-stand {
     border-top: calc(0.64 * 16.25px) solid #D1D3D6;
+  }
+}
+
+/* 1050px and less ------------------------------ */
+@media (max-width: 1050px) {
+  .container {
+    width: calc(0.62 * 650px);
+    height: calc(0.62 * 378.625px);
+  }
+
+  .container:hover {
+    width: calc(0.62 * 682.90625px);
+    height: calc(0.62 * 397.2515625px);
+  }
+
+  .monitor-stand {
+    border-top: calc(0.62 * 16.25px) solid #D1D3D6;
+  }
+}
+
+/* 1025px and less ------------------------------ */
+@media (max-width: 1025px) {
+  .container {
+    width: calc(0.60 * 650px);
+    height: calc(0.60 * 378.625px);
+  }
+
+  .container:hover {
+    width: calc(0.60 * 682.90625px);
+    height: calc(0.60 * 397.2515625px);
+  }
+
+  .monitor-stand {
+    border-top: calc(0.60 * 16.25px) solid #D1D3D6;
   }
 }
 
