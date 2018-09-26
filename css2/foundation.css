@@ -2310,6 +2310,7 @@ ul.no-bullet, ol.no-bullet {
   .print-break-inside {
     page-break-inside: auto; } }
 
+/* button styling modified, based on mozilla-like button styling from https://codepen.io/slimsmearlapp/pen/HJgFG */
 .button {
   display: inline-block;
   vertical-align: middle;

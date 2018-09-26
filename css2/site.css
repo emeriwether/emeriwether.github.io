@@ -66,6 +66,7 @@ body {
         color: #2A2A2A;
     }
 
+    /* mozilla-like button styling from https://codepen.io/slimsmearlapp/pen/HJgFG */
     .button {
         color: #EBEDF3;
         background: linear-gradient(to bottom, #29394B 0%,#1d2835 100%);
