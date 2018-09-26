@@ -2313,14 +2313,18 @@ ul.no-bullet, ol.no-bullet {
 .button {
   display: inline-block;
   vertical-align: middle;
+  position: relative;
   margin: 0 0 1rem 0;
   font-family: inherit;
   padding: 0.85em 1em;
   -webkit-appearance: none;
-  border: 1px solid transparent;
-  border-radius: 0;
+  border: none;
+  border-radius: 5px;
+  border-bottom: 4px solid #4d6b8d;
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
   font-size: 0.9rem;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+  box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2);
   line-height: 1;
   text-align: center;
   cursor: pointer;
@@ -2328,6 +2332,50 @@ ul.no-bullet, ol.no-bullet {
   color: #EBEDF3; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
+
+.button:active{
+  box-shadow: 0px 2px 0px 0px rgba(0,0,0,.2);
+  top: 1px;
+}
+
+.button:after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  border-top: 20px solid #1399aa;
+  border-bottom: 20px solid #1399aa;
+  border-left: 16px solid transparent;
+  border-right: 20px solid #1399aa;
+  position: absolute;
+  opacity: 0.6; 
+  right: 0;
+  top: 0;
+  border-radius: 0 5px 5px 0;
+}
+
+.button.back {
+  text-align: right;
+  padding-right: 12px;
+  box-sizing: border-box;
+}
+
+.button.back:after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  border-top: 20px solid #1399aa;
+  border-bottom: 20px solid #1399aa;
+  border-right: 16px solid transparent;
+  border-left: 20px solid #1399aa;
+  position: absolute;
+  opacity: 0.6; 
+  left: 0;
+  top: 0;
+  border-radius: 5px 0 0 5px;    
+}
+
   .button:hover, .button:focus {
     background-color: #14679e;
     color: #fefefe; }

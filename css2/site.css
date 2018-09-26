@@ -68,5 +68,5 @@ body {
 
     .button {
         color: #EBEDF3;
-        background-color: #29394B;
+        background: linear-gradient(to bottom, #29394B 0%,#1d2835 100%);
     }
