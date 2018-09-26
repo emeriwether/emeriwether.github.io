@@ -1,38 +1,4 @@
 /***********************/
-/* BEGIN PROJECT NAVIGATION STYLING */
-.projectNav {
-    background-color: #EBEDF3;
-    padding: 1em 2em;
-}
-
-.projectNav p {
-    font-family: "Roboto Condensed";
-    padding: 0 0.5em;
-    font-size: 0.875em;
-    color: #29394b;
-    max-width: 10em;
-}
-
-/* RESPONSIVE LINE BREAK STYLING */
-.rwd-break {
-    display: block;
-}
-
-.returnToHome {
-    color: #E14658;
-    font-size: 0.875em;
-    font-family: "Roboto Condensed";
-    padding-bottom: 1em;
-}
-
-.projectNav .button {
-    max-width: 9.5em;
-}
-/* END PROJECT NAVIGATION STYLING */
-/***********************/
-
-
-/***********************/
 /* BEGIN HEADER STYLING */
 header {
     background: #22252C;
@@ -228,13 +194,6 @@ main .card {
 
     /* MEDIUM AND UP */
     @media screen and (min-width: 40em) {        
-        .rwd-break {
-            display: none;
-        }    
-        
-        .projectNav {
-            padding: 1em 5em;
-        }
         
         /***********************/
         /* BEGIN HEADER STYLING */
@@ -267,9 +226,7 @@ main .card {
 
     /* LARGE AND UP */
     @media screen and (min-width: 64em) {
-        .projectNav {
-            padding: 1em 14em;
-        }
+
         /***********************/
         /* BEGIN HEADER STYLING */
         #headerText {
