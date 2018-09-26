@@ -21,10 +21,10 @@ footer p {
 #linkedInIcon {
     display: block;
     text-indent: -9999px;
-    width: 3px;
-    height: auto;
+    width: 35px;
+    height: 35px;
     background: url('/images/linkedin_aqua.svg');
-    background-size: 35px auto;
+    background-size: 35px 35px;
 }
 
 #linkedInIcon:hover {
@@ -84,8 +84,8 @@ footer p {
     
     #linkedInIcon {
         width: 42px;
-        height: auto;
-        background-size: 42px auto;
+        height: 42px;
+        background-size: 42px 42px;
     }
     
 }
