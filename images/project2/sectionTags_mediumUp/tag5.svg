@@ -6,7 +6,7 @@
 	.st0{fill:#1399AA;}
 	.st1{fill:#29394B;}
 	.st2{fill:#FFFFFF;}
-	.st3{font-family:'Roboto-Bold';}
+	.st3{font-family:'RobotoCondensed-Bold';}
 	.st4{font-size:22px;}
 </style>
 <title>tag5</title>
@@ -23,7 +23,5 @@
 	<path class="st1" d="M297.3,2.8c0.8,0,1.5-0.7,1.5-1.5s-0.7-1.5-1.5-1.5s-1.5,0.7-1.5,1.5S296.4,2.8,297.3,2.8z"/>
 	<path class="st1" d="M297.1,46.2c0.8,0,1.5-0.7,1.5-1.5s-0.7-1.5-1.5-1.5s-1.5,0.7-1.5,1.5S296.3,46.2,297.1,46.2z"/>
 </g>
-<g id="Layer_2_1_">
-	<text transform="matrix(1 0 0 1 49.96 29.58)" class="st2 st3 st4">TESTING, ROUND 2</text>
-</g>
+<text transform="matrix(1 0 0 1 49.154 29.6265)" class="st2 st3 st4">TESTING, ROUND 2</text>
 </svg>

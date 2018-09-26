@@ -6,9 +6,8 @@
 	.st0{fill:#1399AA;}
 	.st1{fill:#29394B;}
 	.st2{fill:#FFFFFF;}
-	.st3{font-family:'Roboto-Bold';}
+	.st3{font-family:'RobotoCondensed-Bold';}
 	.st4{font-size:22px;}
-	.st5{letter-spacing:-1;}
 </style>
 <g id="Layer_1_1_">
 	<path class="st0" d="M18,0H0l24,23.1c0,0,0,0,0,0L0,46.3h18l23-23.1L18,0z"/>
@@ -23,11 +22,5 @@
 	<path class="st1" d="M297.3,2.8c0.8,0,1.5-0.7,1.5-1.5s-0.7-1.5-1.5-1.5s-1.5,0.7-1.5,1.5S296.4,2.8,297.3,2.8z"/>
 	<path class="st1" d="M297.1,46.2c0.8,0,1.5-0.7,1.5-1.5s-0.7-1.5-1.5-1.5s-1.5,0.7-1.5,1.5S296.3,46.2,297.1,46.2z"/>
 </g>
-<g id="Layer_2_1_">
-	<text transform="matrix(1 0 0 1 49.96 29.58)" class="st2 st3 st4">UNDERS</text>
-	<text transform="matrix(1 0 0 1 123.29 29.58)" class="st2 st3 st4 st5">T</text>
-	<text transform="matrix(1 0 0 1 133.94 29.58)" class="st2 st3 st4">ANDING</text>
-	<text transform="matrix(1 0 0 1 205.27 29.58)" class="st2 st3 st4"> </text>
-	<text transform="matrix(1 0 0 1 209.7 29.58)" class="st2 st3 st4">THE USER</text>
-</g>
+<text transform="matrix(1 0 0 1 50.145 29.8701)" class="st2 st3 st4">UNDERSTANDING THE USER</text>
 </svg>

@@ -6,9 +6,8 @@
 	.st0{fill:#1399AA;}
 	.st1{fill:#29394B;}
 	.st2{fill:#FFFFFF;}
-	.st3{font-family:'Roboto-Bold';}
+	.st3{font-family:'RobotoCondensed-Bold';}
 	.st4{font-size:22px;}
-	.st5{letter-spacing:-1;}
 </style>
 <g id="Layer_1_1_">
 	<polygon class="st0" points="18,0 0,0 24,23.1 0,46.3 18,46.3 41,23.1 	"/>
@@ -23,13 +22,5 @@
 	<path class="st1" d="M297.3,2.8c0.8,0,1.5-0.7,1.5-1.5s-0.7-1.5-1.5-1.5s-1.5,0.7-1.5,1.5S296.4,2.8,297.3,2.8z"/>
 	<path class="st1" d="M297.1,46.2c0.8,0,1.5-0.7,1.5-1.5s-0.7-1.5-1.5-1.5s-1.5,0.7-1.5,1.5S296.3,46.2,297.1,46.2z"/>
 </g>
-<g id="Layer_2_1_">
-	<text transform="matrix(1 0 0 1 49.96 29.58)" class="st2 st3 st4 st5">T</text>
-	<text transform="matrix(1 0 0 1 60.62 29.58)" class="st2 st3 st4">AKE</text>
-	<text transform="matrix(1 0 0 1 96.72 29.58)" class="st2 st3 st4">A</text>
-	<text transform="matrix(1 0 0 1 109.44 29.58)" class="st2 st3 st4">W</text>
-	<text transform="matrix(1 0 0 1 125.46 29.58)" class="st2 st3 st4 st5">A</text>
-	<text transform="matrix(1 0 0 1 136.98 29.58)" class="st2 st3 st4">Y</text>
-	<text transform="matrix(1 0 0 1 148.75 29.58)" class="st2 st3 st4">S</text>
-</g>
+<text transform="matrix(1 0 0 1 49.7601 29.6016)" class="st2 st3 st4">TAKEAWAYS</text>
 </svg>
