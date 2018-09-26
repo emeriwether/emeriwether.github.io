@@ -89,4 +89,11 @@ footer p {
         background-size: 42px 42px;
     }
     
+    #linkedInIcon:hover {
+        background: url('/images/linkedin_coral.svg');
+        width: 42px;
+        height: 42px;
+        background-size: 42px 42px;
+    }
+    
 }
