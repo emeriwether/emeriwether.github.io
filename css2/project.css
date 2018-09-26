@@ -112,6 +112,7 @@ section p {
 .statsIcon {
     padding: 1.25em 0 1em 0;
     width: 50%;
+    margin: auto;
 }
 
 main .stat {
