@@ -6,8 +6,13 @@ header {
     padding: 3em 2em 4em 2em;
 }
 
+
+header h1 {
+    font-size: 2em;
+}
+
 header h2 {
-    font-size: 1.8em;
+    font-size: 1.65em;
 }
 
 #sectionDivider {
@@ -18,15 +23,11 @@ header h2 {
 
 #featuredLabel {
     position: absolute;
-    padding: 2% 2.65em;
+    padding: 2% 2em;
 }
 
 #featuredLabel h2 {
     color: #1399AA;
-}
-
-header h1 {
-    font-size: 2em;
 }
 
 main {
