@@ -17,6 +17,7 @@ header {
 }
 
 #featuredImage {
+    background-image: url(/images/placeholder_Thumbnail.jpg);
     position: relative;
 }
 
