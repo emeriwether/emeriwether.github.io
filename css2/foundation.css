@@ -3231,7 +3231,7 @@ select {
   display: -ms-flexbox;
   display: flex;
   padding: 1rem;
-  background: #e6e6e6; }
+  background: rgba(150, 150, 150, 0.5); }
   .card-divider > :last-child {
     margin-bottom: 0; }
 
