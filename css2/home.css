@@ -19,6 +19,9 @@ header h2 {
 #featuredLabel {
     position: absolute;
     padding: 2% 2.65em;
+}
+
+#featuredLabel h2 {
     color: #1399AA;
 }
 
