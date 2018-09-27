@@ -7,7 +7,7 @@ header {
 }
 
 h2 {
-    font-size: 1.45em;
+    font-size: 1.6em;
 }
 
 #sectionDivider {
@@ -18,7 +18,7 @@ h2 {
 
 #featuredLabel {
     position: absolute;
-    padding: 1% 15%;
+    padding: 2% 1em;
     color: #1399AA;
 }
 
