@@ -16,11 +16,6 @@ header {
     position: absolute;
 }
 
-#featuredImage {
-    background-image: url(/images/placeholder_Thumbnail.jpg);
-    position: relative;
-}
-
 header h1 {
     font-size: 2em;
 }
