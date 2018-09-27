@@ -2321,7 +2321,6 @@ ul.no-bullet, ol.no-bullet {
   -webkit-appearance: none;
   border: none;
   border-radius: 5px;
-  border-bottom: 4px solid #4d6b8d;
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
   font-size: 0.9rem;
   text-shadow: 1px 1px 1px rgba(0,0,0,.4);
