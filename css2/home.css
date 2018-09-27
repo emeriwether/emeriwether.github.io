@@ -12,6 +12,15 @@ header {
     padding: 1em 0 2em 0;
 }
 
+#featuredLabel {
+    position: absolute;
+    top: 0;
+}
+
+#featuredImage {
+    position: relative;
+}
+
 header h1 {
     font-size: 2em;
 }
