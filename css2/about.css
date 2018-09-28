@@ -70,6 +70,10 @@ aside .card img {
     padding: 0 1em;
 }
 
+.card img {
+    padding-top: 1.75em;
+}
+
 
 /* MAIN */
 .aboutSection {
