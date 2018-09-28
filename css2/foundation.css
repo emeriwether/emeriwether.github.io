@@ -3320,7 +3320,8 @@ select {
     text-decoration: none;
     white-space: nowrap;
     /*display: block;*/
-    padding: 0.7rem 1rem; }
+    padding: 0.7rem 1rem;
+    font-family: "Roboto Condensed"; }
   .menu input,
   .menu select,
   .menu a,
@@ -3427,7 +3428,7 @@ select {
   .menu .is-active > a,  .menu .is-sublink-active > a  {
     text-decoration: none;
     color: #1399AA;
-    font-weight: 700;}
+    font-weight: 700; }
   .menu .active > a {
     text-decoration: underline;
     color: #1399AA;
