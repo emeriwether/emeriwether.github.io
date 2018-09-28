@@ -1,4 +1,4 @@
-- title: Work
+- title: WORK
   url: /home.html
   sublinks:
   - title: "Project Gallery"
@@ -13,5 +13,5 @@
     url: /projectD.html
   - title: "Project 5: Designing a Mobile App"
     url: /projectE.html    
-- title: "About Me"
+- title: "ABOUT ME"
   url: /about.html
