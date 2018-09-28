@@ -64,7 +64,7 @@ aside .card img {
     padding-top: 1.5em;
 }
 
-#imageNumber {
+.imageNumber {
     font-family: "Roboto Condensed";
     color: #1399AA;
     padding: 0 1em;
