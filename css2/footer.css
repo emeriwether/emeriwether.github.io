@@ -28,7 +28,7 @@ footer p {
 }
 
 #linkedInIcon:hover {
-    background: url('/images/highlight_linkedin_gold.svg');
+    background: url('/images/linkedin_gold.svg');
     width: 35px;
     height: 35px;
     background-size: 35px 35px;
@@ -90,7 +90,7 @@ footer p {
     }
     
     #linkedInIcon:hover {
-        background: url('/images/highlight_linkedin_gold.svg');
+        background: url('/images/linkedin_gold.svg');
         width: 42px;
         height: 42px;
         background-size: 42px 42px;
