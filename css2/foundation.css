@@ -2970,11 +2970,11 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
-    border-color: #E14658 transparent transparent;
+    border-color: #F38c3E transparent transparent;
     position: absolute;
     top: 50%;
     margin-top: -3px;
-    right: 1rem; }
+    right: 0; }
 
 .accordion-menu.align-left .is-accordion-submenu-parent > a::after {
   left: auto;
