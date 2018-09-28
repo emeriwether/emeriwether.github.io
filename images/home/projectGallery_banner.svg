@@ -11,16 +11,16 @@
 	.st5{font-size:22px;}
 </style>
 <g id="Left_Side">
-	<polygon class="st0" points="70.5,25 49.6,25 70.5,53.6 	"/>
-	<polygon class="st1" points="70.5,25 49.6,25 70.5,53.6 	"/>
-	<rect x="70.5" y="62.8" class="st0" width="12.5" height="9.2"/>
-	<polygon class="st0" points="70.5,72 49.8,72 70.5,43.3 	"/>
-	<polygon class="st2" points="53.1,67.5 75.5,67.5 77.9,69 52,69 	"/>
-	<rect x="70.5" y="62.8" class="st1" width="12.5" height="9.2"/>
-	<polygon class="st1" points="70.5,72 49.8,72 70.5,43.3 	"/>
-	<polygon class="st2" points="77.3,64.5 83,67.8 83,69.2 74.8,64.5 	"/>
-	<polygon class="st1" points="70.5,64.5 83,72 83,64.5 	"/>
-	<polygon class="st2" points="53.3,30.1 75.7,30.1 75.7,28.6 52.2,28.6 	"/>
+	<polygon class="st0" points="70.7,25 49.8,25 70.7,53.7 	"/>
+	<polygon class="st1" points="70.7,25 49.8,25 70.7,53.7 	"/>
+	<rect x="70.7" y="62.9" class="st0" width="12.5" height="9.2"/>
+	<polygon class="st0" points="70.7,72 50,72.1 70.7,43.4 	"/>
+	<polygon class="st2" points="53.3,67.5 75.7,67.5 78.2,69 52.2,69 	"/>
+	<rect x="70.7" y="62.9" class="st1" width="12.5" height="9.2"/>
+	<polygon class="st1" points="70.7,72 50,72.1 70.7,43.4 	"/>
+	<polygon class="st2" points="77.5,64.6 83.2,67.9 83.2,69.3 75,64.6 	"/>
+	<polygon class="st1" points="70.7,64.6 83.2,72.1 83.2,64.6 	"/>
+	<polygon class="st2" points="53.5,30.2 75.9,30.2 75.9,28.7 52.4,28.7 	"/>
 </g>
 <g id="Right_Side">
 	<polygon class="st0" points="313.3,25 334.2,25 313.3,53.6 	"/>
@@ -38,8 +38,8 @@
 </g>
 <g id="Middle">
 	<rect x="70.7" y="17.5" class="st0" width="242.7" height="47"/>
-	<rect x="70.5" y="22.3" class="st2" width="242.7" height="1.5"/>
-	<rect x="70.5" y="57.3" class="st2" width="242.7" height="1.5"/>
+	<rect x="70.7" y="22.3" class="st2" width="242.7" height="1.5"/>
+	<rect x="70.7" y="57.3" class="st2" width="242.7" height="1.5"/>
 	<text transform="matrix(1 0 0 1 107.2366 47.9317)" class="st3 st4 st5">PROJECT GALLERY</text>
 </g>
 </svg>
