@@ -2329,7 +2329,8 @@ ul.no-bullet, ol.no-bullet {
   text-align: left;
   cursor: pointer;
   background-color: #1399AA;
-  color: #EBEDF3; }
+  color: #EBEDF3; 
+  width: 8em; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
 
