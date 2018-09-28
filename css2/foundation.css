@@ -3751,7 +3751,7 @@ select {
     border-top-style: solid;        
     border-color: #1399AA transparent transparent;
     left: 4.3em;
-    margin-top: -5px; }
+    margin-top: -4px; }
     
   .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after {
     display: block;
@@ -3763,7 +3763,7 @@ select {
     border-top-style: solid;        
     border-color: #EBEDF3 transparent transparent;
     left: 4.3em;
-    margin-top: -5px; }
+    margin-top: -4px; }
     
   .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a:hover::after {
     display: block;
@@ -3775,7 +3775,7 @@ select {
     border-top-style: solid;        
     border-color: #F38C3E transparent transparent;
     left: 4.3em;
-    margin-top: -5px; }
+    margin-top: -4px; }
     
     
   .dropdown.menu.medium-vertical > li .is-dropdown-submenu {
