@@ -57,13 +57,13 @@ body {
     h1, h2, h3, h4, h5, h6, .button {
         font-family: "Roboto Condensed";
         font-weight: 700;
-        color: #2A2A2A;
+        color: #3C3C3D;
     }
 
     p, a {
         font-family: Cabin;
         font-weight: 400;
-        color: #2A2A2A;
+        color: #3C3C3D;
     }
 
     /* mozilla-like button styling from https://codepen.io/slimsmearlapp/pen/HJgFG */
