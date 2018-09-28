@@ -3319,7 +3319,7 @@ select {
     line-height: 1;
     text-decoration: none;
     white-space: nowrap;
-    display: block;
+    /*display: block;*/
     padding: 0.7rem 1rem; }
   .menu input,
   .menu select,

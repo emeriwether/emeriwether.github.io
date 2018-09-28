@@ -17,7 +17,8 @@ nav a {
 
 #mediumUpLogo {
     max-width: 18em;
-    max-height: auto;
+    width: 80%;
+    padding: 1em 0 1em 2em;
 }
 
 .subnavText {
