@@ -2116,7 +2116,7 @@ a {
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #70798C; 
+    color: #f38c3e; 
       
 }
   a img {
@@ -2377,7 +2377,7 @@ ul.no-bullet, ol.no-bullet {
 }
 
 .button:hover, .button:focus {
-    color: #70798c;
+    color: #F38C3E;
     box-shadow: 0px 2px 0px 0px rgba(0,0,0,.2);
     top: 1px;
 }
@@ -3737,7 +3737,7 @@ select {
   .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.active-link {
     color: #1399AA; }
   .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a:hover {
-    color: #70798C; }
+    color: #F38C3E; }
     
     
   .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.active-link::after {
@@ -3772,7 +3772,7 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;        
-    border-color: #70798C transparent transparent;
+    border-color: #F38C3E transparent transparent;
     left: 3.75em;
     margin-top: -3px; }
     
