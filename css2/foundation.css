@@ -3737,7 +3737,7 @@ select {
   .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.active-link {
     color: #1399AA; }
   .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a:hover {
-    color: #E14658; }
+    color: #70798C; }
     
     
   .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.active-link::after {
@@ -3772,7 +3772,7 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;        
-    border-color: #E14658 transparent transparent;
+    border-color: #70798C transparent transparent;
     left: 3.75em;
     margin-top: -3px; }
     
