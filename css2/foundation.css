@@ -2344,10 +2344,10 @@ ul.no-bullet, ol.no-bullet {
   width: 0;
   height: 0;
   display: block;
-  border-top: 20px solid #1399aa;
-  border-bottom: 20px solid #1399aa;
+  border-top: 19px solid #1399aa;
+  border-bottom: 19px solid #1399aa;
   border-left: 16px solid transparent;
-  border-right: 20px solid #1399aa;
+  border-right: 19px solid #1399aa;
   position: absolute;
   opacity: 0.6; 
   right: 0;
@@ -2366,10 +2366,10 @@ ul.no-bullet, ol.no-bullet {
   width: 0;
   height: 0;
   display: block;
-  border-top: 20px solid #1399aa;
-  border-bottom: 20px solid #1399aa;
+  border-top: 19px solid #1399aa;
+  border-bottom: 19px solid #1399aa;
   border-right: 16px solid transparent;
-  border-left: 20px solid #1399aa;
+  border-left: 19px solid #1399aa;
   position: absolute;
   opacity: 0.6; 
   left: 0;
