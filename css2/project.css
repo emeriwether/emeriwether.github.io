@@ -99,13 +99,13 @@ main .stat {
 }
 /* END STYLING FOR STATISTICS */
 
-.regularImage {
+main section div a img {
     padding: 1.25em 0 2.5em 0;
     cursor: pointer;
     transition: 0.3s;
 }
 
-.regularImage:hover {
+main section div a img:hover {
     opacity: 0.7;
 }
 
