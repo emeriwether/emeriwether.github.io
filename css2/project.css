@@ -51,15 +51,15 @@ main {
     padding: 0 1em 3em 1em;
 }
 
-section {
+main section {
     padding: 1.50em 2em 0 2em;
 }
 
-section h5 {
+main section h5 {
     color: #29394B;
 }
 
-section p {
+main section p {
     color: #000000;
 }
 
