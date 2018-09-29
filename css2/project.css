@@ -70,6 +70,7 @@ main section p {
     height: auto;
     padding-top: 1.250em;
     margin: 0 0;
+    max-width: 500px;
 }
 
 .bodyText {
