@@ -27,10 +27,7 @@
         {% include navigation2.html %}
 
         {% include projectNavigation.html %}
-
         
-        
-        <!-- BEGIN HEADER -->
         <header class="grid-container-padded">
             <section class="grid-x grid-margin-x align-middle">
 
@@ -63,59 +60,12 @@
 
             </section>            
         </header>
-        <!-- END HEADER-->
 
-
-        <!-- BEGIN MAIN -->
-        <main class="grid-container">
-
-            {{ content }}
-
-        </main>
-        <!-- END MAIN -->
-
+        <main class="grid-container">{{ content }}</main>
 
         {% include footer2.html %}        
         
-        <!-- TOGGLE SCRIPT -->
-        <script>    
-            var shown = "oldPortfolioImage";
-            var n = "";
-
-            function toggleImagesLarge() {        
-                if (document.getElementById('largeSwitch').checked) {
-                    showImage("newPortfolioImage");
-                } else {
-                    showImage("oldPortfolioImage");
-                }
-            }
-
-            function toggleImagesSmall() {   
-                if (document.getElementById('smallSwitch').checked) {
-                    showImage("newPortfolioImage");
-                } else {
-                    showImage("oldPortfolioImage");
-                }
-            }
-
-            function showImage(n) {
-                var x = document.getElementsByClassName(shown);
-                var i;
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";
-                }
-
-                var y = document.getElementsByClassName(n);
-                var j;
-                for (j = 0; j < y.length; j++) {
-                    y[j].style.display = "block";
-                }
-
-                shown = n;
-            }
-
-        </script> 
-        <!-- OTHER SCRIPTS -->
+        <script src="/js2/toggleScript.js"></script>
         <script src="/js2/vendor/jquery.js"></script>
         <script src="/js2/vendor/what-input.js"></script>
         <script src="/js2/vendor/foundation.js"></script>
