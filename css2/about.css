@@ -107,8 +107,11 @@ aside .card img {
 }
 
 .sectionTag {
-    padding-right: 1em;
-    padding-left: 0.85em;
+    padding-left: 33%;
+}
+
+.bodyText {
+    padding-left: 3em;
 }
 
 
