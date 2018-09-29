@@ -83,6 +83,11 @@ main .card {
     padding: 0 0.55em;
 }
 
+main .card img {
+    padding-top: 1.75em;
+    object-fit: contain;
+}
+
 /* BEGIN STYLING FOR STATISTICS */
 main .stat {
     font-size: 1.7rem;
