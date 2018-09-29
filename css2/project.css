@@ -102,6 +102,10 @@ main .stat {
     width: 50%;
     margin: auto;
 }
+
+.statisticsSection .card {
+    background-color: #EBEDF3;
+}
 /* END STYLING FOR STATISTICS */
 
 main section div a img {
