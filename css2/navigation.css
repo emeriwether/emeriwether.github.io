@@ -21,6 +21,12 @@ nav a {
     padding: 1em 0 1em 2em;
 }
 
+/* Firefox 3.5+ */
+body:not(:-moz-handler-blocked) #mediumUpLogo { 
+    max-width: 0;
+    width: 10em;
+}
+
 .subnavText {
     font-size: 0.9em;
 }
