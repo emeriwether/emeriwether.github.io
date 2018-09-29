@@ -78,13 +78,13 @@ main section p {
     margin: 0 0;
 }
 
-main .card {
+aside .card {
     background: #EBEDF3;
     border: 0;
     padding: 0 0.55em;
 }
 
-main .card img {
+aside .card img {
     padding-top: 1.75em;
     object-fit: contain;
 }
