@@ -46,7 +46,7 @@ header section article p {
 
 /***********************/
 /* BEGIN SECTION STYLING */
-.mainContent {
+main {
     max-width: 115rem;
     padding: 0 1em 3em 1em;
 }
@@ -75,25 +75,27 @@ section p {
     margin: 0 0;
 }
 
-.statsIcon {
-    padding: 1.25em 0 1em 0;
-    width: 50%;
-    margin: auto;
-}
-
-main .stat {
-    font-size: 1.7rem;
-}
-
 main .card {
     background: #EBEDF3;
     border: 0;
     padding: 0 0.55em;
 }
 
+/* BEGIN STYLING FOR STATISTICS */
+main .stat {
+    font-size: 1.7rem;
+}
+
 .statText {
     font-size: 0.875em;
 }
+
+.statsIcon {
+    padding: 1.25em 0 1em 0;
+    width: 50%;
+    margin: auto;
+}
+/* END STYLING FOR STATISTICS */
 
 .regularImage {
     padding: 1.25em 0 2.5em 0;
