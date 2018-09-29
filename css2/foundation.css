@@ -68,7 +68,9 @@ h1 {
      */
 figcaption,
 figure {
-  display: block; }
+  display: block;
+  font-family: "Roboto Condensed"; 
+  color: #E14658; }
 
 /**
      * Add the correct margin in IE 8.
