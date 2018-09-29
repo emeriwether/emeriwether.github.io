@@ -513,15 +513,17 @@ textarea {
   max-width: 50rem;
   margin: 0 auto; }
 
+@media screen and (min-width: 64em) {
+    .grid-container {
+      max-width: 115rem; } }
+
 .grid-container-padded {
   padding-left: 0.625rem;
   padding-right: 0.625rem; }
   @media print, screen and (min-width: 40em) {
     .grid-container-padded {
       padding-left: 0.9375rem;
-      padding-right: 0.9375rem; }
-    .grid-container {
-      max-width: 115rem; } }
+      padding-right: 0.9375rem; } }
   @media screen and (min-width: 75em) {
     .grid-container-padded {
       padding-left: 0;
