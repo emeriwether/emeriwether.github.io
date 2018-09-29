@@ -59,40 +59,10 @@
 
                     <h4 class="text-left cell headerSectionLabel hide-for-large">{{ page.headerImageLabel }}</h4>
 
-                    {{ include toggle.html }}
+                    {% include toggle.html %}
 
-                    <!-- BEFORE & AFTER IMAGE -->
-                    <!-- SMALL & MED -->
-                    <div class="small-10 large-12 cell hide-for-large">
-                        <div class="container">
-                          <div class="monitor">
-                            <div class="screen">
-                              <div class="content">
-                                <img class="oldPortfolioImage" src="/images/project2/oldPortfolio.jpg">
-                                <img class="newPortfolioImage" src="/images/project2/newPortfolio.jpeg">
-                              </div>
-                             </div>
-                          </div>
-                          <div class="monitor-stand"></div>
-                        </div> 
-                    </div>
-
-                    <!-- LARGE -->
-                    <div class="grid-x align-center show-for-large">
-                        <div class="small-10 large-12 cell">
-                            <div class="container">
-                              <div class="monitor">
-                                <div class="screen">
-                                  <div class="content">
-                                    <img class="oldPortfolioImage" src="/images/project2/oldPortfolio.jpg">
-                                    <img class="newPortfolioImage" src="/images/project2/newPortfolio.jpeg">
-                                  </div>
-                                </div>
-                              </div>
-                            <div class="monitor-stand"></div>
-                          </div> 
-                        </div>
-                    </div>                                
+                    {% include project_header_image.html %}
+                             
 
                  </div>
 
