@@ -72,6 +72,11 @@ aside .card img {
 .card img {
     padding-top: 1.75em;
     object-fit: contain;
+    width: 100%;
+}
+
+.reveal.large.narrowReveal {
+    width: 40%;
 }
 
 
