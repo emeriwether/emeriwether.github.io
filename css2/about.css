@@ -71,6 +71,8 @@ aside .card img {
 
 .card img {
     padding-top: 1.75em;
+    max-height: 40vw;
+    object-fit: contain;
 }
 
 
