@@ -103,7 +103,7 @@ main .stat {
     margin: auto;
 }
 
-.statisticsSection .card {
+.statisticsSection div .card {
     background-color: #EBEDF3;
 }
 /* END STYLING FOR STATISTICS */
