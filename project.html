@@ -2,11 +2,22 @@
 layout: default2
 url: /project.html
 title: "Project 2: Redesigning a Case Study"
-description: "Details about a UX project that I did to improve the case studies on my portfolio website"
+description: "Improving usability through user-centered design"
 css: /css2/project.css
-projectNumber: 2
+
 back: /projectA.html
 next: /projectC.html
+
+projectNumber: 2
+projectTitle: "IMPROVING A CASE STUDY"
+projectGoal: "To improve the usability of my case studies in order to better appeal to target users"
+projectDates: "May 20, 2018 - present"
+projectClient: "Myself"
+projectTeam: "I worked individually on this one"
+projectRoles: "User Researcher, User Testing, UX Design"
+featuredSkills: "Heuristic Evaluation, User Empathy, User Testing, Wireframing, Prototyping"
+headerImageLabel: "Results: Before and After the Redesign"
+
 ---
   
 <!-- BEGIN PROJECT NAVIGATION -->
@@ -42,27 +53,8 @@ next: /projectC.html
                 
             <h4 class="text-left cell headerSectionLabel hide-for-large">Results: Before and After the Redesign</h4>
 
-            <!-- TOGGLE -->
-            <!-- SMALL & MED -->
-            <div class="small-4 cell large switch headerToggle hide-for-large">
-              <input class="switch-input" id="smallSwitch" type="checkbox" name="smallSwitch" onchange="toggleImagesSmall();">
-              <label class="switch-paddle" for="smallSwitch">
-                <span class="switch-active" aria-hidden="true">AFTER</span>
-                <span class="switch-inactive" aria-hidden="true">BEFORE</span> 
-              </label>
-            </div>
-
-            <!-- LARGE -->
-            <div class="grid-x align-center show-for-large">   
-                <div class="small-4 cell large switch headerToggle">
-                  <input class="switch-input" id="largeSwitch" type="checkbox" name="largeSwitch" onchange="toggleImagesLarge();">
-                  <label class="switch-paddle" for="largeSwitch">
-                    <span class="switch-active" aria-hidden="true">AFTER</span>
-                    <span class="switch-inactive" aria-hidden="true">BEFORE</span> 
-                  </label>
-                </div>
-            </div>
-
+            {{ include toggle.html }}
+            
             <!-- BEFORE & AFTER IMAGE -->
             <!-- SMALL & MED -->
             <div class="small-10 large-12 cell hide-for-large">

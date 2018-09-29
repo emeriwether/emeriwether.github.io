@@ -1,0 +1,12 @@
+.headerToggle {
+    font-family: "Roboto Condensed";
+    padding-top: 1em;
+}
+
+/* LARGE AND UP (>= 1024px) */
+@media screen and (min-width: 64em) {
+    .headerToggle {
+        padding-top: 0;
+        padding-left: 5%;
+    }
+}

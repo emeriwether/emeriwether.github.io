@@ -1,15 +1,7 @@
-.headerToggle {
-    font-family: "Roboto Condensed";
-    padding-top: 1em;
-}
-
 #headerImage {
     padding-left: 2.5em;
     padding-right: 2.5em;
 }
-
-
-
 
 /* BEGIN BEFORE AND AFTER IMAGE */
 /* Responsive monitor with scrollable image from: https://codepen.io/sergep/pen/vkaFt */
@@ -153,12 +145,7 @@
     #headerImage {
         padding-right: 1em;
     }
-    
-    .headerToggle {
-        padding-top: 0;
-        padding-left: 5%;
-    }
-    
+
     /* Stand
     .monitor-stand {
       position: relative;
