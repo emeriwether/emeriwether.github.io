@@ -121,8 +121,6 @@ main section div a img:hover {
 
 /***********************/
 /* BEGIN MEDIA QUERIES */
-    /* SMALL ONLY */
-    @media screen and (max-width: 39.9375em) { }
 
     /* MEDIUM AND UP */
     @media screen and (min-width: 40em) {        
@@ -140,17 +138,17 @@ main section div a img:hover {
         /***********************/
         
         /***********************/
-        /* BEGIN SECTION STYLING */
-        section {
+        /* BEGIN SECTION STYLING */ 
+        main {
+            padding: 0 2em 3em 2em;
+        }
+        
+        main section {
             padding: 1.50em 3.125em 0 3.125em;
         }
         
         main section h5 {
             font-size: 1.5em;
-        }
-        
-        main {
-            padding: 0 2em 3em 2em;
         }
         
         .statsIcon {
@@ -179,7 +177,7 @@ main section div a img:hover {
         }
         
         
-        section {
+        main section {
             padding: 1.50em 0 0 0;
             margin: 0 0 0 0;
         }
