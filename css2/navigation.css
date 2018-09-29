@@ -22,28 +22,9 @@ nav a {
 }
 
 /* attempt to target firefox specifically */
-
-/* Firefox only. 1+ */
-#mediumUpLogo,  x:-moz-any-link  {     
-    max-width: 0;
-    width: 10em; 
-}
-  
-/* Firefox 3.0+ */
-#mediumUpLogo,  x:-moz-any-link, x:default  {     
-    max-width: 0;
-    width: 10em; 
-}
-  
-/* Firefox 3.5+ */
-body:not(:-moz-handler-blocked) #mediumUpLogo { 
-    max-width: 0;
-    width: 10em;
-}
-
 @document url("https://emeriwether.com/home") { 
   #mediumUpLogo {
-    max-width: 0;
+    max-width: 20em;
     width: 10em;  
   }
 }
