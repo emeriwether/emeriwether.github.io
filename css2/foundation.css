@@ -510,12 +510,12 @@ textarea {
   display: none !important; }
 
 .grid-container {
-  max-width: 50rem;
+  max-width: 75rem;
   margin: 0 auto; }
 
-@media screen and (min-width: 64em) {
-    .grid-container {
-      max-width: 115rem; } }
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    max-width: 50rem;
+}
 
 .grid-container-padded {
   padding-left: 0.625rem;
