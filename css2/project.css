@@ -17,27 +17,27 @@ header {
     padding-bottom: 1.25em;
 }
 
-header h1 {
+header section article h1 {
     color: #E14658;
     line-height: 1;
 }
 
-header h2 {
+header section article h2 {
     color: #E14658;
     line-height: 0.7;
 }
 
-header h3 {
+header section article h3 {
     color: #EBEDF3;
     line-height: 1;
 }
 
-header h4 {
+header section article h4 {
     color: #E14658;
     margin-bottom: 0;
 }
 
-header p {
+header section article p {
     color: #EBEDF3;
 }
 /* END HEADER STYLING */
