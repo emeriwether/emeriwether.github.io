@@ -204,6 +204,7 @@ aside .card img {
     
     .sectionTag {
         padding-left: 33%;
+        max-width: 550px;
     }
 
     .bodyText {
