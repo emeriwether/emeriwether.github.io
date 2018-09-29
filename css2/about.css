@@ -49,6 +49,10 @@ header h3 {
     width: 100%;
 }
 
+.collage img:hover {
+        opacity: 0.7;
+}
+
 /* COLLAGE MODALS */
 aside .card {
     border: 0;
