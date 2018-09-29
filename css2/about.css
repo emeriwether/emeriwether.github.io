@@ -132,6 +132,11 @@ aside .card img {
     header h3 {
         font-size: 0.9em;
     }
+    
+    .card img {
+        max-height: 40vw;
+    }
+
 }
 
 /* Large and up */
