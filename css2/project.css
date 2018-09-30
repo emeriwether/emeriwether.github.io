@@ -32,6 +32,10 @@ html>/**/body header section article h1, x:-moz-any-link, x:default {
   }
 }
 
+.firefox {
+    color: lime;
+}
+
 header section article h2 {
     color: #E14658;
     line-height: 0.9;
