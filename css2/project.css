@@ -31,7 +31,7 @@ html>/**/body header section article h1, x:-moz-any-link, x:default {
 
 @document url("https://emeriwether.com/project.html") { 
   header section article h1 {
-     color: lime;
+     color: lime !important;
   }
 }
 
