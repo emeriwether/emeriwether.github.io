@@ -20,6 +20,9 @@ header {
 header section article h1 {
     color: #E14658;
     line-height: 1;
+    @-moz-document url-prefix() {
+        color:lime;
+    }
 }
 
 html>/**/body header section article h1, x:-moz-any-link, x:default {
@@ -31,6 +34,8 @@ html>/**/body header section article h1, x:-moz-any-link, x:default {
      color: lime;
   }
 }
+
+
 
 .firefox {
     color: lime;
