@@ -22,9 +22,13 @@ header section article h1 {
     line-height: 1;
 }
 
+html>/**/body header section article h1, x:-moz-any-link, x:default {
+  color: lime;
+}
+
 @document url("https://emeriwether.com/project.html") { 
   header section article h1 {
-     color:lime;
+     color: lime;
   }
 }
 
