@@ -164,7 +164,7 @@
 /* 3000px and less ------------------------------ */
 @media (max-width: 3000px) {
     #headerImage {
-        padding-left: 33em;
+        padding-left: 31em;
         padding-bottom: 10em;
     }
     
@@ -186,28 +186,28 @@
 /* 2900px and less ------------------------------ */
 @media (max-width: 2900px) {
     #headerImage {
-        padding-left: 30em;
+        padding-left: 28em;
     }
 }
 
 /* 2800px and less ------------------------------ */
 @media (max-width: 2800px) {
     #headerImage {
-        padding-left: 28em;
+        padding-left: 25em;
     }
 }
 
 /* 2700px and less ------------------------------ */
 @media (max-width: 2700px) {
     #headerImage {
-        padding-left: 25em;
+        padding-left: 22em;
     }
 }
 
 /* 2600px and less ------------------------------ */
 @media (max-width: 2600px) {
     #headerImage {
-        padding-left: 22em;
+        padding-left: 19em;
     }
 }
 
