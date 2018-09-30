@@ -214,28 +214,28 @@
 /* 2500px and less ------------------------------ */
 @media (max-width: 2500px) {
     #headerImage {
-        padding-left: 18em;
+        padding-left: 16em;
     }
 }
 
 /* 2400px and less ------------------------------ */
 @media (max-width: 2400px) {
     #headerImage {
-        padding-left: 16em;
+        padding-left: 13em;
     }
 }
 
 /* 2300px and less ------------------------------ */
 @media (max-width: 2300px) {
     #headerImage {
-        padding-left: 13em;
+        padding-left: 10em;
     }
 }
 
 /* 2200px and less ------------------------------ */
 @media (max-width: 2200px) {
     #headerImage {
-        padding-left: 10em;
+        padding-left: 6em;
     }
 }
 
