@@ -2,7 +2,6 @@ nav a {
     color: #EBEDF3;
 }
 
-
 .active-link, .sublink-active-link {
     color: #1399AA;
     text-decoration: none;
@@ -23,11 +22,11 @@ nav a {
 }
 
 /* attempt to target firefox specifically */
-@document url("https://emeriwether.com/home") { 
-  #mediumUpLogo {
-    max-width: 20em;
-    width: 10em;  
-  }
+@media screen and (min--moz-device-pixel-ratio:0) {
+    #mediumUpLogo {
+        width: 12em;
+        padding: 1em 0 1em 2em;
+    }
 }
 
 /* end attempt */
