@@ -22,6 +22,12 @@ header section article h1 {
     line-height: 1;
 }
 
+@document url("https://example.com") { 
+  header section article h1 {
+     color:lime;
+  }
+}
+
 header section article h2 {
     color: #E14658;
     line-height: 0.9;
