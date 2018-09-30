@@ -24,7 +24,7 @@ nav a {
 /* attempt to target firefox specifically */
 @media screen and (min--moz-device-pixel-ratio:0) {
     #mediumUpLogo {
-        width: 12em;
+        width: 15em;
         padding: 1em 0 1em 2em;
     }
 }
