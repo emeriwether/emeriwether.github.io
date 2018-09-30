@@ -20,29 +20,6 @@ header {
 header section article h1 {
     color: #E14658;
     line-height: 1;
-    @-moz-document url-prefix("https://emeriwether.com/project.html") {
-        color:lime;
-    }
-}
-
-html>/**/body header section article h1, x:-moz-any-link, x:default {
-  color: lime;
-}
-
-@document url("https://emeriwether.com/project.html") { 
-  header section article h1 {
-     color: lime !important;
-  }
-}
-
-@-moz-document url-prefix("https://emeriwether.com/project.html") {
-  header section article h1 {
-     color: lime;
-  }
-}
-
-.firefox {
-    color: lime;
 }
 
 header section article h2 {
