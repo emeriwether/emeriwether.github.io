@@ -20,6 +20,7 @@
     font-style: normal;
 }
 
+
 /* END FONT FACE CREATION */
 
 
@@ -47,6 +48,10 @@ body {
 
     .italicText {
         font-style: italic;
+    }
+
+    .boldText {
+        font-weight: 700;
     }
 
     .linkText {
