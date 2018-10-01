@@ -3,6 +3,10 @@
     padding-right: 2.5em;
 }
 
+.newPortfolioImage {
+    display: none;
+}
+
 /* BEGIN BEFORE AND AFTER IMAGE */
 /* Responsive monitor with scrollable image from: https://codepen.io/sergep/pen/vkaFt */
 /* Transition definition */
