@@ -87,13 +87,14 @@
 }
 
 /* Image on the screen */
-.content img {
+.oldPortfolioImage {
   display: block;
   width: 100%;
 }
 
 .newPortfolioImage {
     display: none;
+    width: 100%;
 }
 
 /* Stand */
