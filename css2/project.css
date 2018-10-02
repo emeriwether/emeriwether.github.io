@@ -42,7 +42,7 @@ header section article p {
 
 /***********************/
 /* BEGIN SECTION STYLING */
-main {
+.projectBody {
     max-width: 115rem;
     padding-bottom: 3em;
 }
@@ -171,11 +171,6 @@ main section div a img:hover {
            
         /***********************/
         /* BEGIN SECTION STYLING */
-        main {
-            padding-bottom: 3em;
-        }
-        
-        
         main section {
             padding: 1.50em 0 0 0;
             margin: 0 0 0 0;
@@ -183,8 +178,7 @@ main section div a img:hover {
         
         .sectionTag {
             width: 100%;
-            padding: 1.6em 3em 0 0;
-            max-width: 500px;
+            padding: 1.6em 1em 0 10em;
         }
         
         .bodyText {
