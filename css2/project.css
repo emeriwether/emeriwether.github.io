@@ -131,11 +131,7 @@ main section div a img:hover {
         /***********************/
         /* BEGIN HEADER STYLING */
         header {
-            padding: 3.5em 2em;
-        }
-        
-        #headerText {
-            padding: 0 3em;
+            padding: 3.5em 5em;
         }
         /* END HEADER STYLING */
         /***********************/
@@ -156,6 +152,11 @@ main section div a img:hover {
         
         .statsIcon {
             width: 30%;
+        }
+        
+        .sectionTag {
+            width: 60%;
+            padding-top: 2.5em;
         }
         /* END SECTION STYLING */
         /***********************/
@@ -186,6 +187,7 @@ main section div a img:hover {
         }
         
         .sectionTag {
+            width: 100%;
             padding: 1.6em 0 0 5em;
             max-width: 500px;
         }
