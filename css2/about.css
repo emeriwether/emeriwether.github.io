@@ -154,6 +154,14 @@ aside .card img {
 /* Large and up */
 @media screen and (min-width: 64em) {
 
+    .reveal.large.medReveal {
+        width: 35%;
+    }
+    
+    .reveal.large.narrowReveal {
+        width: 45%;
+    }
+    
     header {
         padding: 3em 3em 5em 3em;
     }
