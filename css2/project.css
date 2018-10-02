@@ -162,6 +162,10 @@ main section div a img:hover {
 
         /***********************/
         /* BEGIN HEADER STYLING */
+        .projectHeader {
+            padding: 3.5em 2em;
+        }
+        
         #headerText {
             padding: 0 2.5em 0 0.9em;
             margin: 0 0 0 0;
