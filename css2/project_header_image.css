@@ -1201,12 +1201,12 @@
 @media (max-width: 675px) {
     .container, 
     .container:hover {
-        width: calc(0.86 * 650px);
-        height: calc(0.86 * 378.625px);
+        width: calc(0.85 * 650px);
+        height: calc(0.85 * 378.625px);
     }
 
     .monitor-stand {
-        border-top: calc(0.86 * 16.25px) solid #D1D3D6;
+        border-top: calc(0.85 * 16.25px) solid #D1D3D6;
     }
 }
 
@@ -1214,12 +1214,12 @@
 @media (max-width: 650px) {
     .container, 
     .container:hover {
-        width: calc(0.85 * 650px);
-        height: calc(0.85 * 378.625px);
+        width: calc(0.83 * 650px);
+        height: calc(0.83 * 378.625px);
     }
 
     .monitor-stand {
-        border-top: calc(0.85 * 16.25px) solid #D1D3D6;
+        border-top: calc(0.83 * 16.25px) solid #D1D3D6;
     }
 }
 
