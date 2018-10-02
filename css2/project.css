@@ -188,5 +188,11 @@ main section div a img:hover {
         /* END SECTION STYLING */
         /***********************/
     }
+
+    @media screen and (min-width: 100em) {
+        .projectBody {
+            max-width: 100em;
+        }
+    }
 /* END MEDIA QUERIES */
 /***********************/
