@@ -155,7 +155,7 @@ aside .card img {
 @media screen and (min-width: 64em) {
 
     .reveal.large.medReveal {
-        width: 35%;
+        width: 30%;
     }
     
     .reveal.large.narrowReveal {
