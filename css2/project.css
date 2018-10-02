@@ -1,13 +1,8 @@
 /***********************/
 /* BEGIN HEADER STYLING */
-header {
+.projectHeader {
     background: #22252C;
-    padding: 2.5em 0;
-}
-
-#headerText {
-    padding: 0 2.5em 0 2.5em;
-    margin: 0 0;
+    padding: 2em 1em;
 }
 
 .sectionUnderline {
@@ -130,7 +125,7 @@ main section div a img:hover {
         
         /***********************/
         /* BEGIN HEADER STYLING */
-        header {
+        .projectHeader {
             padding: 3.5em 5em;
         }
         /* END HEADER STYLING */
