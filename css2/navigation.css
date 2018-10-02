@@ -39,11 +39,11 @@ nav a {
 /* MEDIUM AND UP */
 @media screen and (min-width: 40em) {        
    #mediumUpLogo {
-        padding: 1em 0 1em 3.35em;
+        padding: 1em 0 1em 3em;
     } 
 
     .top-bar-right {
-        padding-right: 3.35em;
+        padding-right: 3em;
     }
 }
 

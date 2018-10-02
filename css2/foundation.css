@@ -3325,7 +3325,7 @@ select {
     text-decoration: none;
     white-space: nowrap;
     /*display: block;*/
-    padding: 0.7rem 1rem;
+    padding-top: 0.7rem;
     font-family: "Roboto Condensed"; }
   .menu input,
   .menu select,
