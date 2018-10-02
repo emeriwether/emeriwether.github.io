@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    padding: 3em 2em 4em 2em;
+    padding: 3em 3em 4em 3em;
 }
 
 header h1 {
@@ -29,8 +29,8 @@ header h2 {
     color: #1399AA;
 }
 
-main {
-    padding: 0em 2em 2em 2em;
+.projectGallery {
+    padding: 0em 3em 2em 3em;
 }
 
 main .card {
@@ -63,17 +63,29 @@ main .card p:first-child {
 /* Medium and up */
 @media screen and (min-width: 40em) {
     header {
-        padding-bottom: 5em;
+        padding: 0 5.2em 5em 5.2em;
+    }
+    
+    .projectGallery {
+        padding: 0 5.2em 2em 2.5em;
     }
 }
 
 /* Large and up */
 @media screen and (min-width: 64em) {
+    header {
+        padding: 3em 3.6em 4em 3.6em;
+    }
+    
     header h1 {
         font-size: 3em;
     }
     
     #sectionDivider {
         padding: .5em 7em 2em 7em;
+    }
+    
+    .projectGallery {
+        padding: 0 3.6em 2em 3.6em;
     }
 }
