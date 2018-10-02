@@ -106,6 +106,14 @@ aside .card img {
 /* MEDIA QUERIES */
 /* Medium and up */
 @media screen and (min-width: 40em) {
+    .reveal.large.narrowReveal {
+        width: 35%;
+    }
+
+    .reveal.large.medReveal {
+        width: 45%;
+    }
+    
     header {
         padding: 3em 4em 6em 4em;
     }
@@ -148,14 +156,6 @@ aside .card img {
 
 /* Large and up */
 @media screen and (min-width: 64em) {
-    
-    .reveal.large.narrowReveal {
-        width: 35%;
-    }
-
-    .reveal.large.medReveal {
-        width: 45%;
-    }
 
     header {
         padding: 3em 3em 5em 3em;
