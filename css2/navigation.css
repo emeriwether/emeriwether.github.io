@@ -12,7 +12,7 @@ nav a {
     max-width: 14em;
     max-height: auto;
     padding-top: 1em;
-    margin-left: 1em;
+    padding-left: 2.6em;
 }
 
 #mediumUpLogo {
@@ -37,17 +37,25 @@ nav a {
 
 
 /* MEDIUM AND UP */
-    @media screen and (min-width: 40em) {        
-       #mediumUpLogo {
-            padding: 1em 0 1em 3em;
-        } 
+@media screen and (min-width: 40em) {        
+   #mediumUpLogo {
+        padding: 1em 0 1em 3.35em;
+    } 
+
+    .top-bar-right {
+        padding-right: 3.35em;
     }
+}
 
     /* LARGE AND UP */
 @media screen and (min-width: 64em) {
     #mediumUpLogo {
         padding: 1em 0 1em 2em;
     } 
+    
+    .top-bar-right {
+        padding-right: 2em;
+    }
 }
 
 /* PREVENT FOUC */

@@ -2920,7 +2920,7 @@ select {
 
 .accordion-menu li {
   width: 100%;
-  padding-left: 1em;
+  padding-left: 2.6em;
   font-size: 1em; }
 
 .accordion-menu a {
@@ -4983,7 +4983,8 @@ a.thumbnail {
       flex: 1 1 0px; }
 
 .title-bar-right {
-  text-align: right; }
+  text-align: right;
+  padding-right: 2.6em; }
 
 .title-bar-title {
   display: inline-block;

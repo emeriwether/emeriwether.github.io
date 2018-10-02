@@ -2,7 +2,7 @@
 /* BEGIN HEADER STYLING */
 .projectHeader {
     background: #22252C;
-    padding: 2em 1em;
+    padding: 2em 4em;
 }
 
 .sectionUnderline {
@@ -44,10 +44,11 @@ header section article p {
 /* BEGIN SECTION STYLING */
 main {
     max-width: 115rem;
+    padding-bottom: 3em;
 }
 
-main section {
-    padding: 1.50em 2em 0 2em;
+.projectSection {
+    padding: 1.50em 4em 0 4em;
 }
 
 main section h5 {
@@ -60,10 +61,10 @@ main section p {
 }
 
 .sectionTag {
-    width: 100%;
+    width: 80%;
     height: auto;
     margin: 0 0;
-    padding: 1.250em 22% 0 1.250em;
+    padding: 1.250em 0 0 0;
 }
 
 .bodyText {
@@ -125,7 +126,7 @@ main section div a img:hover {
         /***********************/
         /* BEGIN HEADER STYLING */
         .projectHeader {
-            padding: 3.5em 5em;
+            padding: 3.5em 6em;
         }
         /* END HEADER STYLING */
         /***********************/

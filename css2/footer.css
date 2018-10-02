@@ -1,6 +1,6 @@
 footer {
   background-color: #22252C;
-  padding: 2em;
+  padding: 2em 2.6em;
 }
 
 footer a, footer p {
@@ -48,7 +48,11 @@ footer p {
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
-        footer p {
+    footer {
+        padding: 2em 4em;
+    }
+    
+    footer p {
         font-size: 1.8em;
     }
 
@@ -72,7 +76,7 @@ footer p {
 /* Large and up */
 @media screen and (min-width: 64em) {
     footer {
-      padding: 2em 4em;
+      padding: 2em 2.5em;
     }
 
     footer p {
