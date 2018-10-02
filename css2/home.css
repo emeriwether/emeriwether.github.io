@@ -63,7 +63,7 @@ main .card p:first-child {
 /* Medium and up */
 @media screen and (min-width: 40em) {
     header {
-        padding: 3em 4.6em 5em 4.6em;
+        padding: 3em 4.6em 5em 4.2em;
     }
     
     #projectGallery {
