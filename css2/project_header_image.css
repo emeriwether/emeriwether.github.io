@@ -642,23 +642,6 @@
 /* 1525px and less ------------------------------ */
 @media (max-width: 1525px) {
   .container {
-    width: calc(0.99 * 650px);
-    height: calc(0.99 * 378.625px);
-  }
-
-  .container:hover {
-    width: calc(0.99 * 682.90625px);
-    height: calc(0.99 * 397.2515625px);
-  }
-
-  .monitor-stand {
-    border-top: calc(0.99 * 16.25px) solid #D1D3D6;
-  }
-}
-
-/* 1500px and less ------------------------------ */
-@media (max-width: 1500px) {
-  .container {
     width: calc(0.98 * 650px);
     height: calc(0.98 * 378.625px);
   }
@@ -670,6 +653,23 @@
 
   .monitor-stand {
     border-top: calc(0.98 * 16.25px) solid #D1D3D6;
+  }
+}
+
+/* 1500px and less ------------------------------ */
+@media (max-width: 1500px) {
+  .container {
+    width: calc(0.97 * 650px);
+    height: calc(0.97 * 378.625px);
+  }
+
+  .container:hover {
+    width: calc(0.97 * 682.90625px);
+    height: calc(0.97 * 397.2515625px);
+  }
+
+  .monitor-stand {
+    border-top: calc(0.97 * 16.25px) solid #D1D3D6;
   }
 }
 
