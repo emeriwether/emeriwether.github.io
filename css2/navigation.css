@@ -18,7 +18,7 @@ nav a {
 #mediumUpLogo {
     max-width: 18em;
     width: 80%;
-    padding: 1em 0 1em 2em;
+    padding: 1em 0 1em 4em;
 }
 
 /* attempt to target firefox specifically */
