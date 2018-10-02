@@ -5123,7 +5123,7 @@ a.thumbnail {
         -ms-flex: 0 1 auto;
             flex: 0 1 auto;
         margin-left: auto;
-        padding-right: 2em;} }
+        padding-right: 4em;} }
   @media screen and (max-width: 63.9375em) {
     .top-bar.stacked-for-medium {
       -ms-flex-wrap: wrap;
