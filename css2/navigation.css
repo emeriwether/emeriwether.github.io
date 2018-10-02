@@ -50,11 +50,11 @@ nav a {
     /* LARGE AND UP */
 @media screen and (min-width: 64em) {
     #mediumUpLogo {
-        padding: 1em 0 1em 2em;
+        padding: 1em 0 1em 3.5em;
     } 
     
     .top-bar-right {
-        padding-right: 2em;
+        padding-right: 3.5em;
     }
 }
 
