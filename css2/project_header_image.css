@@ -642,17 +642,17 @@
 /* 1525px and less ------------------------------ */
 @media (max-width: 1525px) {
   .container {
-    width: calc(1.00 * 650px);
-    height: calc(1.00 * 378.625px);
+    width: calc(0.99 * 650px);
+    height: calc(0.99 * 378.625px);
   }
 
   .container:hover {
-    width: calc(1.00 * 682.90625px);
-    height: calc(1.00 * 397.2515625px);
+    width: calc(0.99 * 682.90625px);
+    height: calc(0.99 * 397.2515625px);
   }
 
   .monitor-stand {
-    border-top: calc(1.00 * 16.25px) solid #D1D3D6;
+    border-top: calc(0.99 * 16.25px) solid #D1D3D6;
   }
 }
 
