@@ -78,7 +78,7 @@ main .card p:first-child {
 /* Large and up */
 @media screen and (min-width: 64em) {
     header {
-        padding: 3em 3.6em 4em 3.6em;
+        padding: 3em 3.6em 4em 3.4em;
     }
     
     header h1 {
