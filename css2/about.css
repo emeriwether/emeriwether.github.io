@@ -115,7 +115,7 @@ aside .card img {
 /* Medium and up */
 @media screen and (min-width: 40em) {
     header {
-        padding: 3em 4em;
+        padding: 3em 4em 6em 4em;
     }
     
     .aboutSection {
