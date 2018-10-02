@@ -108,7 +108,7 @@ aside .card img {
 @media screen and (min-width: 40em) {
 
     .reveal.large.medReveal, .reveal.large.narrowReveal {
-        width: 45%;
+        width: 50%;
     }
     
     header {
