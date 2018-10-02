@@ -154,11 +154,11 @@ aside .card img {
 /* Large and up */
 @media screen and (min-width: 64em) {
 
-    .reveal.large.medReveal {
+    .reveal.large.narrowReveal {
         width: 25%;
     }
     
-    .reveal.large.narrowReveal {
+    .reveal.large.medReveal {
         width: 45%;
     }
     
