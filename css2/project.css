@@ -146,7 +146,7 @@ main section div a img:hover {
         
         .sectionTag {
             width: 60%;
-            padding: 2.5em 0 0 0 0;
+            padding: 2.5em 0 0 0;
         }
         /* END SECTION STYLING */
         /***********************/
@@ -158,7 +158,7 @@ main section div a img:hover {
         /***********************/
         /* BEGIN HEADER STYLING */
         .projectHeader {
-            padding: 3.5em 2em;
+            padding: 3.5em 1em;
         }
         
         #headerText {
