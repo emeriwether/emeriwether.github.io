@@ -68,7 +68,7 @@ main section p {
 }
 
 .bodyText {
-    padding-top: 1em;
+    padding-top: 0.5em;
     margin: 0 0;
 }
 
@@ -192,6 +192,10 @@ main section div a img:hover {
     @media screen and (min-width: 100em) {
         .projectBody {
             max-width: 100em;
+        }
+        
+        .sectionTag {
+            padding-left: 14em;
         }
     }
 /* END MEDIA QUERIES */
