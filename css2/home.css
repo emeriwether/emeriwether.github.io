@@ -18,6 +18,10 @@ header h2 {
     font-size: 1.65em;
 }
 
+header img {
+    width: 100%;
+}
+
 #sectionDivider {
     width: 100%;
     height: auto;
