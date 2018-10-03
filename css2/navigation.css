@@ -10,7 +10,7 @@ nav a {
 
 #smallScreenLogo {
     max-width: 14em;
-    max-height: auto;
+    height: 100%;
     padding-top: 1em;
     padding-left: 2.6em;
 }
