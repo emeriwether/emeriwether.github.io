@@ -92,8 +92,9 @@ main .stat {
 }
 
 .statsIcon {
-    padding: 1.25em 0 1em 2em;
-    width: 60%;
+    padding: 1.25em 0 1em 25%;
+    width: 55%;
+    min-width: 60px;
     margin: auto;
 }
 
@@ -143,7 +144,8 @@ main section div a img:hover {
         
         .statsIcon {
             width: 65%;
-            padding: 1.25em 0 1em 3em;
+            max-width: 160px;
+            padding: 1.25em 0 1em 33%;
         }
         
         .sectionTag {
@@ -189,7 +191,7 @@ main section div a img:hover {
                 
         .statsIcon {
             width: 70%;
-            padding: 1.25em 0 1em 1.4em;
+
         }
         /* END SECTION STYLING */
         /***********************/
