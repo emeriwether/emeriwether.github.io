@@ -59,6 +59,7 @@ body {
     }
 
     .linkText {
+        font-family: "Roboto Condensed";
         color: #1399AA;
         text-decoration: underline;
     }
