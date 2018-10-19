@@ -106,7 +106,15 @@ main .card p:first-child {
     }
     
     header h1 {
-        font-size: 3em;
+        font-size: 4em;
+    }
+    
+    header h2 {
+        font-size: 3.3em;
+    }
+    
+    header p {
+        font-size: 1.6em;
     }
     
     #sectionDivider {
