@@ -12,7 +12,6 @@ header {
 
 header h1 {
     font-size: 2em;
-    padding-bottom: 0;
 }
 
 header h2 {
@@ -70,9 +69,7 @@ main .card p:first-child {
 /* MEDIA QUERIES */
 /* SMALL ONLY */
 @media screen and (max-width: 39.9375em) {
-    header h1 {
-        padding-bottom: 1em;
-    }
+
 }
 
 /* Medium and up */
