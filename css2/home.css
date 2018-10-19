@@ -11,11 +11,12 @@ header {
 }
 
 header h1 {
-    font-size: 2em;
+    font-size: 3em;
 }
 
-header h2 {
+header p {
     font-size: 1.65em;
+    font-weight: 700;
 }
 
 header img {
