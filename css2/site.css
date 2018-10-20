@@ -46,6 +46,10 @@ body {
         color: #29394B;
     }
 
+    .whiteText {
+        color: #EBEDF3;
+    }
+
     .indentText {
         padding-left: 35px;
     }
