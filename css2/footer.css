@@ -1,6 +1,7 @@
 footer {
   background-color: #22252C;
   padding: 2em 3em;
+    height: 100vh;
 }
 
 footer a, footer p {
@@ -50,7 +51,6 @@ footer p {
 
 #copyright {
     padding-top: 3.5em;
-    padding-bottom: 21em;
     font-size: 1em;
 }
 
@@ -74,7 +74,6 @@ footer p {
 
     #copyright {
         font-size: 1em;
-        padding-bottom: 18em;
     }
         
     .rwd-break {
@@ -124,7 +123,6 @@ footer p {
 
     #copyright {
         font-size: 1em;
-        padding-bottom: 18em;
     }
     
     #linkedInIcon {
