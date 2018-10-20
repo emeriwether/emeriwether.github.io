@@ -127,7 +127,7 @@ aside .card img {
         border: 3px solid #EBEDF3;
     }
 
-    header h2 {
+    header h3 {
         font-size: 1em;
         font-family: Cabin;
     }
@@ -136,7 +136,7 @@ aside .card img {
         padding: 0em 0.7em 0 0.7em;
     }
     
-    header h3 {
+    header p {
         font-size: 0.9em;
     }
     
@@ -169,8 +169,6 @@ aside .card img {
     header {
         padding: 3em 3em 5em 3em;
     }
-    
-
     
     aside {
         padding-bottom: 1.5em;
