@@ -1,6 +1,7 @@
 footer {
   background-color: #22252C;
   padding: 2em 2.6em;
+  max-width: 60rem;
 }
 
 footer a, footer p {
