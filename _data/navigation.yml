@@ -7,11 +7,9 @@
     url: /projectA.html
   - title: "Project 2: Redesigning a Case Study"
     url: /project.html
-  - title: "Project 3: Designing an Online Forum"
+  - title: "Project 3: Redesigning a Nonprofit Website"
     url: /projectC.html
-  - title: "Project 4: Redesigning a Nonprofit Website"
-    url: /projectD.html
-  - title: "Project 5: Designing a Mobile App"
-    url: /projectE.html    
+  - title: "Project 4: Designing a Mobile App"
+    url: /projectD.html    
 - title: "ABOUT ME"
   url: /about.html

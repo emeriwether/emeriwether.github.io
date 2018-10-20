@@ -1,7 +1,6 @@
 footer {
   background-color: #22252C;
   padding: 2em 2.6em;
-  max-width: 60rem;
 }
 
 footer a, footer p {
@@ -12,6 +11,10 @@ footer a, footer p {
 
 footer mark {
     font-size: 1.37em;
+}
+
+footer div {
+    max-width: 60rem;
 }
 
 /* RESPONSIVE LINE BREAK STYLING */
