@@ -17,6 +17,7 @@ header {
 
 header h1 {
     font-size: 2em;
+    line-height: 1em;
 }
 
 header h2 {
@@ -24,7 +25,7 @@ header h2 {
 }
 
 header p {
-    padding-top: 1.5em;
+    padding-top: 1em;
     font-size: 1em;
 }
 
