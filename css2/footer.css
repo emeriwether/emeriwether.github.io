@@ -9,6 +9,10 @@ footer a, footer p {
     font-weight: 700;
 }
 
+footer mark {
+    font-size: 1.7em;
+}
+
 /* RESPONSIVE LINE BREAK STYLING */
 .rwd-break {
     display: block;
@@ -52,6 +56,10 @@ footer p {
         padding: 2em 4em;
     }
     
+    footer mark {
+        font-size: 2.2em;
+    }
+    
     footer p {
         font-size: 1.8em;
     }
@@ -80,6 +88,10 @@ footer p {
       padding: 2em 3.2em;
     }
 
+    footer mark {
+        font-size: 2.5em;
+    }
+    
     footer p {
         font-size: 2em;
     }
