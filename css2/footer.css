@@ -57,7 +57,7 @@ footer p {
 /* Medium and up */
 @media screen and (min-width: 40em) {
     footer {
-        padding: 2em 4em;
+        padding: 2em 4.7em;
     }
     
     footer mark {
