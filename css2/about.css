@@ -52,7 +52,7 @@ header p {
 }
 
 .collage img {
-    border: 1.5px solid #EBEDF3;
+    border: 1.5px solid transparent;
     height: 100%;
     width: 100%;
 }
