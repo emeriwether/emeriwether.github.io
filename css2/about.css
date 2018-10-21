@@ -232,5 +232,6 @@ aside .card img {
 
     .bodyText {
         padding-left: 1.5em;
+        width: calc(50% - 0.1rem);
     }
 }
