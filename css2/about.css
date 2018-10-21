@@ -163,7 +163,7 @@ aside .card img {
 }
 
 @media screen and (min-width: 50em) {
-    header h3 {
+    header h3, header p {
         font-size: 1.2em;
     }
 }
@@ -173,7 +173,7 @@ aside .card img {
         font-size: 1.7em;
     }
     
-    header h3 {
+    header h3, header p {
         font-size: 1.5em;
     }
 }
