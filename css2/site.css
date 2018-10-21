@@ -19,12 +19,14 @@
     font-weight: normal;
     font-style: normal;
 }
-
-
 /* END FONT FACE CREATION */
 
 
 /* SITE WIDE STYLING */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #EBEDF3;
 }
