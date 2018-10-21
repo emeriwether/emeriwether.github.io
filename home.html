@@ -20,7 +20,7 @@ css: /css2/home.css
             
             <br><br>To get to know me a little better, head on over to my <a href="/about.html" class="linkText" title="Go to the About Me page">About Me</a> page. Or, if you’d like to see some examples of my recent work, check out my <a href="/home.html#ProjectGallery" class="linkText" title="Go to the Project Gallery section on this page">Project Gallery</a> below. 
                 
-            <br><br><mark class="boldText coralText">Looking for a UX Designer to help create a first-rate digital product? </mark><a href="mailto:emeriwetherux@gmail.com" onClick="window.open('#footer')" class="linkText" title="Send me an email, and scroll to the contact information section on this page">Get in touch!</a> I'm currently looking for a full-time UX position.</p>
+            <br><br><mark class="boldText coralText">Looking for a UX Designer to help create a first-rate digital product? </mark><a href="#footer" onClick="emailOpen()" class="linkText" title="Send me an email, and scroll to the contact information section on this page">Get in touch!</a> I'm currently looking for a full-time UX position.</p>
         </div>      
 
         <!-- HEADER IMAGE -->
@@ -109,4 +109,10 @@ css: /css2/home.css
 
     </div>
 </main>
-<!-- END MAIN -->   
+<!-- END MAIN -->
+
+<script>
+function emailOpen () {
+    location.href = "mailto:emeriwetherux@gmail.com?subject=Eleanor,%20we%20want%20to%20hire%20you!"
+}
+</script>
