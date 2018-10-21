@@ -102,7 +102,7 @@ aside .card img {
 .aboutSection p {
     font-family: Cabin;
     font-weight: 400;
-    padding-left: 1em;
+    padding-left: 0.65em;
 }
 
 .sectionTag {
@@ -154,6 +154,10 @@ aside .card img {
     .sectionTag {
         padding-left: 1em;
         max-width: 475px;
+    }
+    
+    .aboutSection p {
+        font-size: 1.2em;
     }
 
     .bodyText {
@@ -215,6 +219,10 @@ aside .card img {
     
     .aboutSection h4 {
         padding-top: 0;
+    }
+    
+    .aboutSection p {
+        font-size: 1.3em;
     }
     
     .sectionTag {
