@@ -162,6 +162,18 @@ aside .card img {
 
 }
 
+@media screen and (min-width: 50em) {
+    header h3 {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 62.5em) {
+    header h3 {
+        font-size: 1.5em;
+    }
+}
+
 /* Large and up */
 @media screen and (min-width: 64em) {
 
