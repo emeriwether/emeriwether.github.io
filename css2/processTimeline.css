@@ -8,23 +8,22 @@ Primary style
           box-sizing: border-box;
 }
 
-a {
+/* a {
   color: #1399AA;
   text-decoration: none;
   font-family: "Roboto Condensed";
   font-weight: bold;
-}
+} */
 
 img {
   max-width: 100%;
 }
 
-h1, h2 {
+/* h4 {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
   font-size: 2rem;
-
-}
+} */
 
 /* -------------------------------- 
 
@@ -219,15 +218,14 @@ Vertical Timeline - by CodyHouse.co
   border-right: 7px solid white;
 }
 
-.cd-timeline__content h2 {
+.cd-timeline__content h4 {
   color: #E14658;
 }
 
-.cd-timeline__content p,
-.cd-timeline__read-more,
-.cd-timeline__date {
+/* .cd-timeline__content p,
+.cd-timeline__read-more {
   font-size: 1.3rem;
-}
+} */
 
 .cd-timeline__content p {
   margin: 1em 0;
@@ -250,7 +248,7 @@ Vertical Timeline - by CodyHouse.co
 }
 
 @media only screen and (min-width: 768px) {
-  .cd-timeline__content h2 {
+  /* .cd-timeline__content h2 {
     font-size: 2rem;
   }
   .cd-timeline__content p {
@@ -259,7 +257,7 @@ Vertical Timeline - by CodyHouse.co
   .cd-timeline__read-more,
   .cd-timeline__date {
     font-size: 1.4rem;
-  }
+  } )*/
 }
 
 @media only screen and (min-width: 1170px) {
