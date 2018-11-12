@@ -1,381 +1,459 @@
-/* -------------------------------- 
+@import url('demo.css');
 
-Primary style
-
--------------------------------- */
-*, *::after, *::before {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+@font-face {
+	font-family: 'fontawesome-selected';
+	src: url("font/fontawesome-selected.eot");
+	src: 
+	url("font/fontawesome-selected.eot?#iefix") format('embedded-opentype'), 
+	url("font/fontawesome-selected.woff") format('woff'), 
+	url("font/fontawesome-selected.ttf") format('truetype'), 
+	url("font/fontawesome-selected.svg#fontawesome-selected") format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
-/* a {
-  color: #1399AA;
-  text-decoration: none;
-  font-family: "Roboto Condensed";
-  font-weight: bold;
-} */
-
-img {
-  max-width: 100%;
+.timeline {
+	position: relative;
+	list-style-type: none;
+	padding: 30px 0 50px 0;
 }
 
-/* h4 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: bold;
-  font-size: 2rem;
-} */
-
-/* -------------------------------- 
-
-Patterns - reusable parts of our design
-
--------------------------------- */
-@media only screen and (min-width: 1170px) {
-  .cd-is-hidden {
-    visibility: hidden;
-  }
+.timeline h3 {
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
-/* -------------------------------- 
-
-Vertical Timeline - by CodyHouse.co
-
--------------------------------- */
-
-@media only screen and (min-width: 1170px) {
-
-.cd-timeline {
-  overflow: hidden;
-  margin: 2em auto;
+.timeline p {
+    font-family: Cabin, Arial, sans-serif;
+    font-size: 1em;
 }
 
-.cd-timeline__container {
-  position: relative;
-  width: 90%;
-  max-width: 1170px;
-  margin: 0 auto;
-  padding: 2em 0;
+.timeline:before {
+	content: '';
+	position: absolute;
+	width: 5px;
+	height: 100%;
+	top: 0;
+	left: 165px;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAJUlEQVQIW2NkQAP/gYARWQwkAOLDBeECjEAAkkEWAKtEFwAJAgAZEBP+oM1IkwAAAABJRU5ErkJggg==);
 }
 
-.cd-timeline__container::before {
-  /* this is the vertical line */
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 18px;
-  height: 100%;
-  width: 4px;
-  background: #1399AA;
+.event {
+	position: relative;
+	margin-bottom: 80px;
+	padding-right: 40px;
 }
 
-@media only screen and (min-width: 1170px) {
-  .cd-timeline {
-    margin-top: 3em;
-    margin-bottom: 3em;
-  }
-  .cd-timeline__container::before {
-    left: 50%;
-    margin-left: -2px;
-  }
+.thumb {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	box-shadow: 
+		0 0 0 8px rgba(19, 153, 170, 1) inset, 
+		0 1px 1px rgba(255,255,255,0.5);
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	-webkit-transform: scale(0.8) translateX(24px);
+	-moz-transform: scale(0.8) translateX(24px);
+	-o-transform: scale(0.8) translateX(24px);
+	-ms-transform: scale(0.8) translateX(24px);
+	transform: scale(0.8) translateX(24px);
+    background-size: 85%;
+    background-position: center;
 }
 
-.cd-timeline__block {
-  position: relative;
-  margin: 2em 0;
+.thumb:before {
+	content: '';
+	position: absolute;
+	height: 8px;
+	z-index: -1;
+	background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPElEQVQYV2NkQAP/gYARCNDFUQRgirAphitEl0TngxXisg5ZnBGXIpgbYfIYjkb3BNxGbBLYxIgyEaQRAA8KKAWYsZtjAAAAAElFTkSuQmCC);
+	width: 51px;
+	top: 42px;
+	left: 100%;
+	margin-left: 8px;
 }
 
-.cd-timeline__block:after {
-  /* clearfix */
-  content: "";
-  display: table;
-  clear: both;
+/*
+think i can get rid of this since it was for the dates
+.thumb span {
+	color: #41838e; 
+	width: 100%;
+	text-align: center;
+	font-weight: 700;
+	font-size: 15px;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: -30px;
+}*/
+
+.user-2 {
+	background-image: url(../images/users_blue.svg);
 }
 
-.cd-timeline__block:first-child {
-  margin-top: 0;
+.user-3 {
+	background-image: url(../images/sitemap_blue.svg);
 }
 
-.cd-timeline__block:last-child {
-  margin-bottom: 0;
+.user-4 {
+	background-image: url(../images/search_blue.svg);
 }
 
-@media only screen and (min-width: 1170px) {
-  .cd-timeline__block {
-    margin: 4em 0;
-  }
+.user-5 {
+	background-image: url(../images/pencil-alt_blue.svg);
 }
 
-.cd-timeline__img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  -webkit-box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+.user-6 {
+	background-image: url(../images/users_blue.svg);
 }
 
-.cd-timeline__img img {
-  display: block;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  left: 50%;
-  top: 50%;
-  margin-left: -12px;
-  margin-top: -12px;
+.user-7 {
+	background-image: url(../images/thumbs-up_blue.svg);
 }
 
-.cd-timeline__img.cd-timeline__img--picture {
-  background: #E14658;
+/* Transparent Checkbox/radio hack: leave the checkbox on top, hide it with opacity 0 */
+
+.event label,
+.event input[type="radio"] {
+	width: 24px;
+	height: 24px;
+	left: 158px;
+	top: 36px;
+	position: absolute;
+	display: block;
 }
 
-.cd-timeline__img.cd-timeline__img--movie {
-  background: #E14658;
+.event input[type="radio"] {
+	opacity: 0;
+	z-index: 10;
+	cursor: pointer;
 }
 
-.cd-timeline__img.cd-timeline__img--location {
-  background: #E14658;
+.event label:after {
+	font-family: 'fontawesome-selected';
+	content: '\e702';
+	background: #fff;
+	border-radius: 50%;
+	color: #1399AA;
+	font-size: 26px;
+	height: 100%;
+	width: 100%;
+	left: -2px;
+	top: -3px;
+	line-height: 24px;
+	position: absolute;
+	text-align: center;
 }
 
-@media only screen and (min-width: 1170px) {
-  .cd-timeline__img {
-    width: 60px;
-    height: 60px;
-    left: 50%;
-    margin-left: -30px;
-    /* Force Hardware Acceleration */
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
-  }
-  .cd-timeline__img.cd-timeline__img--bounce-in {
-    visibility: visible;
-    -webkit-animation: cd-bounce-1 0.6s;
-            animation: cd-bounce-1 0.6s;
-  }
+.content-perspective {
+	margin-left: 230px;
+	position: relative;
+
+	-webkit-perspective: 600px;
+	-moz-perspective: 600px;
+	-o-perspective: 600px;
+	-ms-perspective: 600px;
+	perspective: 600px;
 }
 
-@-webkit-keyframes cd-bounce-1 {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-  }
-  60% {
-    opacity: 1;
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
+.content-perspective:before {
+	content: '';
+	width: 37px;
+	left: -51px;
+	top: 45px;
+	position: absolute;
+	height: 1px;
+	z-index: -1;
+	background: #fff;
 }
 
-@keyframes cd-bounce-1 {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-  }
-  60% {
-    opacity: 1;
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
+/*i think i can get rid of this since i don't want the wonky shaped rectangles
+.content {
+	-webkit-transform: rotateY(10deg);
+	-moz-transform: rotateY(10deg);
+	-o-transform: rotateY(10deg);
+	-ms-transform: rotateY(10deg);
+	transform: rotateY(10deg);
+
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	transform-origin: 0 0;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}*/
+
+.content-inner {
+	position: relative;
+	padding: 20px;
+	color: #333;
+	border: none;
+	border-left: 5px solid #1399AA;
+	box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+	background: #fff;
 }
 
-.cd-timeline__content {
-  position: relative;
-  margin-left: 60px;
-  background: #FFFFFF;
-  padding: 1em;
-  -webkit-box-shadow: 0 3px 0 #d7e4ed;
-          box-shadow: 0 3px 0 #d7e4ed;
+.content-inner h3 {
+	font-size: 26px;
+	padding: 5px 0 5px 0;
+	color: #1399AA;
 }
 
-.cd-timeline__content:after {
-  /* clearfix */
-  content: "";
-  display: table;
-  clear: both;
+.content-inner p {
+	font-size: 18px;
+	max-height: 0px;
+	overflow: hidden;
+	color: transparent;
+	color: rgba(0,0,0,0);
+	text-align: left;
 }
 
-.cd-timeline__content::before {
-  /* triangle next to content block */
-  content: '';
-  position: absolute;
-  top: 16px;
-  right: 100%;
-  height: 0;
-  width: 0;
-  border: 7px solid transparent;
-  border-right: 7px solid white;
+.content-inner:before {
+	font-family: 'fontawesome-selected';
+	content: '\25c2';
+	font-weight: normal;
+	font-size: 54px;
+	line-height: 54px;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	color: #1399AA;
+	left: -22px;
+	top: 19px;
+	z-index: -1;
 }
 
-.cd-timeline__content h4 {
-  color: #E14658;
+/* Transitions */
+
+.thumb,
+.thumb span,
+.content-inner h3 {
+	-webkit-transition: all 0.6s ease-in-out 0.2s;
+	-moz-transition: all 0.6s ease-in-out 0.2s;
+	-o-transition: all 0.6s ease-in-out 0.2s;
+	-ms-transition: all 0.6s ease-in-out 0.2s;
+	transition: all 0.6s ease-in-out 0.2s;
 }
 
-.cd-timeline__content p,
-.cd-timeline__read-more {
-  font-size: 1.3rem;
+.content-inner {
+	-webkit-transition: box-shadow 0.8s linear 0.2s;
+	-moz-transition: box-shadow 0.8s linear 0.2s;
+	-o-transition: box-shadow 0.8s linear  0.2s;
+	-ms-transition: box-shadow 0.8s linear 0.2s;
+	transition: box-shadow 0.8s linear 0.2s;
 }
 
-.cd-timeline__content p {
-  margin: 1em 0;
-  line-height: 1.6;
+.content {
+	-webkit-transition: -webkit-transform 0.8s cubic-bezier(.59,1.45,.69,.98) 0.2s;
+	-moz-transition: -moz-transform 0.8s cubic-bezier(.59,1.45,.69,.98) 0.2s;
+	-o-transition: -o-transform 0.8s cubic-bezier(.59,1.45,.69,.98) 0.2s;
+	-ms-transition: -ms-transform 0.8s cubic-bezier(.59,1.45,.69,.98) 0.2s;
+	transition: transform 0.8s cubic-bezier(.59,1.45,.69,.98) 0.2s;
 }
 
-.cd-timeline__read-more,
-.cd-timeline__date {
-  display: inline-block;
+.content-inner p {
+	-webkit-transition: max-height 0.5s linear, color 0.3s linear;
+	-moz-transition: max-height 0.5s linear, color 0.3s linear;
+	-o-transition: max-height 0.5s linear, color 0.3s linear;
+	-ms-transition: max-height 0.5s linear, color 0.3s linear;
+	transition: max-height 0.5s linear, color 0.3s linear;
 }
 
-.cd-timeline__read-more {
-  /* float: right; */
-  color: #1399AA;
-  text-decoration: underline;
+/* Checked */
+
+.event input[type="radio"]:checked + label:after {
+	content: '\2714';
+	color: #E14658;
+	box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.8);
 }
 
-.cd-timeline__read-more:hover {
-  color: #F38C3E;
+.event input[type="radio"]:checked ~ .content-perspective:before {
+	background: #E14658;
 }
 
-@media only screen and (min-width: 768px) {
-  .cd-timeline__content h2 {
-    font-size: 2rem;
-  }
-  .cd-timeline__content p {
-    font-size: 1.6rem;
-  }
-  .cd-timeline__read-more,
-  .cd-timeline__date {
-    font-size: 1.4rem;
-  }
+.event input[type="radio"]:checked ~ .content-perspective .content-inner h3 {
+	color: #E14658;
 }
 
-@media only screen and (min-width: 1170px) {
-  .cd-timeline__content {
-    margin-left: 0;
-    padding: 1.6em;
-    width: 45%;
-    /* Force Hardware Acceleration */
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
-  }
-  .cd-timeline__content::before {
-    top: 24px;
-    left: 100%;
-    border-color: transparent;
-    border-left-color: white;
-  }
-  .cd-timeline__read-more {
-    float: left;
-  }
+/*i think i can get rid of this since i don't want the wonky shaped rectangles
+.event input[type="radio"]:checked ~ .content-perspective .content {
+	-webkit-transform: rotateY(-5deg);
+	-moz-transform: rotateY(-5deg);
+	-o-transform: rotateY(-5deg);
+	-ms-transform: rotateY(-5deg);
+	transform: rotateY(-5deg);
+}*/
 
-  .cd-timeline__block:nth-child(even) .cd-timeline__content {
-    float: right;
-  }
-  .cd-timeline__block:nth-child(even) .cd-timeline__content::before {
-    top: 24px;
-    left: auto;
-    right: 100%;
-    border-color: transparent;
-    border-right-color: white;
-  }
-  .cd-timeline__block:nth-child(even) .cd-timeline__read-more {
-    /* float: right; */
-  }
-  .cd-timeline__block:nth-child(even) .cd-timeline__date {
-    left: auto;
-    right: 122%;
-    text-align: right;
-  }
-  .cd-timeline__content.cd-timeline__content--bounce-in {
-    visibility: visible;
-    -webkit-animation: cd-bounce-2 0.6s;
-            animation: cd-bounce-2 0.6s;
-  }
+.event input[type="radio"]:checked ~ .content-perspective .content-inner {
+	border-color: #E14658;
+	box-shadow: 10px 0px 10px -6px rgba(0, 0, 0, 0.1);
 }
 
-@media only screen and (min-width: 1170px) {
-  /* inverse bounce effect on even content blocks */
-  .cd-timeline__block:nth-child(even) .cd-timeline__content.cd-timeline__content--bounce-in {
-    -webkit-animation: cd-bounce-2-inverse 0.6s;
-            animation: cd-bounce-2-inverse 0.6s;
-  }
+.event input[type="radio"]:checked ~ .content-perspective .content-inner p {
+	max-height: 260px; /* Add media queries */
+	color: rgba(0,0,0,0.6);
+	-webkit-transition-delay: 0s, 0.6s;
+	-moz-transition-delay: 0s, 0.6s;
+	-o-transition-delay: 0s, 0.6s;
+	-ms-transition-delay: 0s, 0.6s;
+	transition-delay: 0s, 0.6s;
 }
 
-@-webkit-keyframes cd-bounce-2 {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
-  }
-  60% {
-    opacity: 1;
-    -webkit-transform: translateX(20px);
-            transform: translateX(20px);
-  }
-  100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
+.event input[type="radio"]:checked ~ .content-perspective .content-inner:before {
+	color: #E14658;
 }
 
-@keyframes cd-bounce-2 {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
-  }
-  60% {
-    opacity: 1;
-    -webkit-transform: translateX(20px);
-            transform: translateX(20px);
-  }
-  100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
+.event input[type="radio"]:checked ~ .thumb {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	box-shadow: 
+		0 0 0 8px rgba(225, 70, 88, 1) inset, 
+		0 1px 1px rgba(255,255,255,0.5);
+    background-size: 90%;
+    background-position: center;
 }
 
-@-webkit-keyframes cd-bounce-2-inverse {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(100px);
-            transform: translateX(100px);
-  }
-  60% {
-    opacity: 1;
-    -webkit-transform: translateX(-20px);
-            transform: translateX(-20px);
-  }
-  100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
+.event input[type="radio"]:checked ~ .thumb.user-4 {
+    background-image: url(../images/search.svg);
 }
 
-@keyframes cd-bounce-2-inverse {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(100px);
-            transform: translateX(100px);
-  }
-  60% {
-    opacity: 1;
-    -webkit-transform: translateX(-20px);
-            transform: translateX(-20px);
-  }
-  100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
+.event input[type="radio"]:checked ~ .thumb.user-6 {
+    background-image: url(../images/users_pink.svg);
+}
+
+.event input[type="radio"]:checked ~ .thumb.user-3 {
+    background-image: url(../images/sitemap_pink.svg);
+}
+
+.event input[type="radio"]:checked ~ .thumb.user-5 {
+    background-image: url(../images/pencil-alt_pink.svg);
+}
+
+.event input[type="radio"]:checked ~ .thumb.user-2 {
+    background-image: url(../images/users_pink.svg);
+}
+
+.event input[type="radio"]:checked ~ .thumb.user-7 {
+    background-image: url(../images/thumbs-up_pink.svg);
+}
+
+.event input[type="radio"]:checked ~ .thumb span {
+	color: #E14658;
+}
+
+.event input[type="radio"]:checked ~ .thumb:before {
+	background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPUlEQVQYV2NkQAOfUjX+882+wYgujiIAU4RNMVwhuiQ6H6wQl3XI4oy4FMHcCJPHcDS6J2A2EqUQpJhohQBbNyaHFmzEqgAAAABJRU5ErkJggg==);
+}
+
+.content-inner p,
+.thumb span,
+.event label {
+	-webkit-backface-visibility: hidden;
+}
+
+@media screen and (max-width: 850px) { 
+	.content-inner h3 {
+		font-size: 20px;
+	}
+
+	.content-inner p {
+		font-size: 14px;
+		text-align: justify;
+	}
+
+	.event input[type="radio"]:checked ~ .content-perspective .content-inner p {
+		max-height: 500px; 
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.timeline::before {
+		left: 50px;
+	}
+
+	.event { 
+		padding-right: 0px;
+		margin-bottom: 100px;
+	}
+
+
+	.thumb {
+		-webkit-transform: scale(0.8);
+		-moz-transform: scale(0.8);
+		-o-transform: scale(0.8);
+		-ms-transform: scale(0.8);
+		transform: scale(0.8);
+	}
+
+	.event input[type="radio"] {
+		width: 100px;
+		height: 100px;
+		left: 0px;
+		top: 0px;
+	}
+
+	.thumb:before,
+	.event input[type="radio"]:checked ~ .thumb:before {
+		background: none;
+		width: 0;
+	}
+
+	.event label {
+		display: none;
+	}
+
+	.content-perspective {
+		margin-left: 0px; 
+		top: 80px;
+	}
+
+	.content-perspective:before {
+		height: 0px; 
+	}
+
+	/* i think i can get rid of this since i dont want the wonky rectangles
+    .content {
+		-webkit-transform: rotateX(-10deg);
+		-moz-transform: rotateX(-10deg);
+		-o-transform: rotateX(-10deg);
+		-ms-transform: rotateX(-10deg);
+		transform: rotateX(-10deg);
+	}
+
+	.event input[type="radio"]:checked ~ .content-perspective .content {
+		-webkit-transform: rotateX(10deg);
+		-moz-transform: rotateX(10deg);
+		-o-transform: rotateX(10deg);
+		-ms-transform: rotateX(10deg);
+		transform: rotateX(10deg);
+	}*/
+
+	.content-inner {
+		border-left: none;
+		border-top: 5px solid #1399aa;
+	}
+
+	.event input[type="radio"]:checked ~ .content-perspective .content-inner {
+		border-color: #E14658;
+		box-shadow: 0 10px 10px -6px rgba(0, 0, 0, 0.1);
+	}
+
+	.content-inner:before {
+		content: '\25b4';
+		left: 33px;
+		top: -32px;
+	}
+
+	.event input[type="radio"]:checked ~ .content-perspective .content-inner p {
+		max-height: 300px; 
+	}
 }
