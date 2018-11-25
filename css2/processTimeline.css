@@ -12,16 +12,6 @@
 	font-style: normal;
 }
 
-.timelineContainer { 
-    padding-left: 300px;
-    height: 100%;
-}
-    
-.processTimeline {
-    padding-left: 300px;
-    display: block;
-}
-
 .timeline {
 	position: relative;
 	list-style-type: none;
@@ -466,4 +456,10 @@ think i can get rid of this since it was for the dates
 	.event input[type="radio"]:checked ~ .content-perspective .content-inner p {
 		max-height: 300px; 
 	}
+}
+
+
+.timelineContainer { 
+    padding-left: 300px;
+    height: 100%;
 }
