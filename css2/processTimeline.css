@@ -12,6 +12,11 @@
 	font-style: normal;
 }
 
+.processTimeline {
+    padding-left: 300px;
+    display: block;
+}
+
 .timeline {
 	position: relative;
 	list-style-type: none;
