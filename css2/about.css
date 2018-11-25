@@ -185,6 +185,10 @@ aside .card img {
 /* Large and up */
 @media screen and (min-width: 64em) {
 
+    .timelineDiv {
+        padding-left: 300px;
+    }
+    
     .reveal.large.narrowReveal {
         width: 35%;
     }
