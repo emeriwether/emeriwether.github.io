@@ -326,6 +326,20 @@
 	.event input[type="radio"]:checked ~ .content-perspective .content-inner p {
 		max-height: 500px; 
 	}
+    
+    .event input[type="radio"] {
+		width: 20.5em;
+		height: 5.5em;
+		left: 0px;
+		top: 8px;
+	}
+    
+	.event input[type="radio"]:checked {
+		width: 28em;
+		height: 17em;
+		left: 0px;
+		top: 0px;
+	}
 }
 
 @media screen and (max-width: 540px) {
