@@ -196,7 +196,6 @@
 }
 
 /* Transitions */
-
 .thumb,
 .thumb span,
 .content-inner h3 {
@@ -232,7 +231,6 @@
 }
 
 /* Checked */
-
 .event input[type="radio"]:checked + label:after {
 	content: '\2714';
 	color: #E14658;

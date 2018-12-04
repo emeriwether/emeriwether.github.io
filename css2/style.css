@@ -12,6 +12,11 @@
 	font-style: normal;
 }
 
+.timelineContainer { 
+    padding-left: 300px;
+    height: 100%;
+}
+
 .timeline {
 	position: relative;
 	list-style-type: none;
@@ -22,6 +27,8 @@
     font-family: "Roboto Condensed", Arial, sans-serif;
     font-weight: bold;
     font-size: 1.5em;
+    line-height: 1;
+	color: #1399AA;
 }
 
 .timeline p {
@@ -29,6 +36,7 @@
     font-size: 1em;
 }
 
+/* VERTICAL LINE */
 .timeline:before {
 	content: '';
 	position: absolute;
@@ -36,7 +44,7 @@
 	height: 100%;
 	top: 0;
 	left: 165px;
-	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAJUlEQVQIW2NkQAP/gYARWQwkAOLDBeECjEAAkkEWAKtEFwAJAgAZEBP+oM1IkwAAAABJRU5ErkJggg==);
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAABtJREFUGBljYCACCM9c9Z+gslFFDNQLAmBoAwChKRdTQJ7KlgAAAABJRU5ErkJggg==);
 }
 
 .event {
@@ -63,30 +71,18 @@
     background-position: center;
 }
 
+/* ZIGZAG BETWEEN ICON AND CHECKMARK */
 .thumb:before {
 	content: '';
 	position: absolute;
 	height: 8px;
 	z-index: -1;
-	background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPElEQVQYV2NkQAP/gYARCNDFUQRgirAphitEl0TngxXisg5ZnBGXIpgbYfIYjkb3BNxGbBLYxIgyEaQRAA8KKAWYsZtjAAAAAElFTkSuQmCC);
-	width: 51px;
+	background: transparent url(../images/zigzag_blue.svg);
+	width: 55px;
 	top: 42px;
 	left: 100%;
 	margin-left: 8px;
 }
-
-/*
-think i can get rid of this since it was for the dates
-.thumb span {
-	color: #41838e; 
-	width: 100%;
-	text-align: center;
-	font-weight: 700;
-	font-size: 15px;
-	text-transform: uppercase;
-	position: absolute;
-	bottom: -30px;
-}*/
 
 .user-2 {
 	background-image: url(../images/users_blue.svg);
@@ -113,13 +109,9 @@ think i can get rid of this since it was for the dates
 }
 
 /* Transparent Checkbox/radio hack: leave the checkbox on top, hide it with opacity 0 */
-
-.event label,
 .event input[type="radio"] {
-	width: 24px;
-	height: 24px;
-	left: 158px;
-	top: 36px;
+	width: 100px;
+	height: 100px;
 	position: absolute;
 	display: block;
 }
@@ -159,50 +151,23 @@ think i can get rid of this since it was for the dates
 
 .content-perspective:before {
 	content: '';
-	width: 37px;
-	left: -51px;
+	width: 65px;
+	left: -62px;
 	top: 45px;
 	position: absolute;
 	height: 1px;
 	z-index: -1;
-	background: #fff;
+	background: #1399AA;
 }
-
-/*i think i can get rid of this since i don't want the wonky shaped rectangles
-.content {
-	-webkit-transform: rotateY(10deg);
-	-moz-transform: rotateY(10deg);
-	-o-transform: rotateY(10deg);
-	-ms-transform: rotateY(10deg);
-	transform: rotateY(10deg);
-
-	-webkit-transform-origin: 0 0;
-	-moz-transform-origin: 0 0;
-	-o-transform-origin: 0 0;
-	-ms-transform-origin: 0 0;
-	transform-origin: 0 0;
-
-	-webkit-transform-style: preserve-3d;
-	-moz-transform-style: preserve-3d;
-	-ms-transform-style: preserve-3d;
-	-o-transform-style: preserve-3d;
-	transform-style: preserve-3d;
-}*/
 
 .content-inner {
 	position: relative;
-	padding: 20px;
+	padding: 20px 20px 10px 20px;
 	color: #333;
 	border: none;
 	border-left: 5px solid #1399AA;
 	box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 	background: #fff;
-}
-
-.content-inner h3 {
-	font-size: 26px;
-	padding: 5px 0 5px 0;
-	color: #1399AA;
 }
 
 .content-inner p {
@@ -212,6 +177,7 @@ think i can get rid of this since it was for the dates
 	color: transparent;
 	color: rgba(0,0,0,0);
 	text-align: left;
+    display: none;
 }
 
 .content-inner:before {
@@ -230,7 +196,6 @@ think i can get rid of this since it was for the dates
 }
 
 /* Transitions */
-
 .thumb,
 .thumb span,
 .content-inner h3 {
@@ -266,7 +231,6 @@ think i can get rid of this since it was for the dates
 }
 
 /* Checked */
-
 .event input[type="radio"]:checked + label:after {
 	content: '\2714';
 	color: #E14658;
@@ -281,15 +245,6 @@ think i can get rid of this since it was for the dates
 	color: #E14658;
 }
 
-/*i think i can get rid of this since i don't want the wonky shaped rectangles
-.event input[type="radio"]:checked ~ .content-perspective .content {
-	-webkit-transform: rotateY(-5deg);
-	-moz-transform: rotateY(-5deg);
-	-o-transform: rotateY(-5deg);
-	-ms-transform: rotateY(-5deg);
-	transform: rotateY(-5deg);
-}*/
-
 .event input[type="radio"]:checked ~ .content-perspective .content-inner {
 	border-color: #E14658;
 	box-shadow: 10px 0px 10px -6px rgba(0, 0, 0, 0.1);
@@ -303,6 +258,7 @@ think i can get rid of this since it was for the dates
 	-o-transition-delay: 0s, 0.6s;
 	-ms-transition-delay: 0s, 0.6s;
 	transition-delay: 0s, 0.6s;
+    display: block;
 }
 
 .event input[type="radio"]:checked ~ .content-perspective .content-inner:before {
@@ -350,8 +306,9 @@ think i can get rid of this since it was for the dates
 	color: #E14658;
 }
 
+/* ZIGZAG BETWEEN ICON AND CHECKMARK */
 .event input[type="radio"]:checked ~ .thumb:before {
-	background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPUlEQVQYV2NkQAOfUjX+882+wYgujiIAU4RNMVwhuiQ6H6wQl3XI4oy4FMHcCJPHcDS6J2A2EqUQpJhohQBbNyaHFmzEqgAAAABJRU5ErkJggg==);
+	background: transparent url(../images/zigzag_pink.svg);
 }
 
 .content-inner p,
@@ -420,23 +377,6 @@ think i can get rid of this since it was for the dates
 		height: 0px; 
 	}
 
-	/* i think i can get rid of this since i dont want the wonky rectangles
-    .content {
-		-webkit-transform: rotateX(-10deg);
-		-moz-transform: rotateX(-10deg);
-		-o-transform: rotateX(-10deg);
-		-ms-transform: rotateX(-10deg);
-		transform: rotateX(-10deg);
-	}
-
-	.event input[type="radio"]:checked ~ .content-perspective .content {
-		-webkit-transform: rotateX(10deg);
-		-moz-transform: rotateX(10deg);
-		-o-transform: rotateX(10deg);
-		-ms-transform: rotateX(10deg);
-		transform: rotateX(10deg);
-	}*/
-
 	.content-inner {
 		border-left: none;
 		border-top: 5px solid #1399aa;
@@ -457,7 +397,3 @@ think i can get rid of this since it was for the dates
 		max-height: 300px; 
 	}
 }
-
-
-
-
