@@ -36,6 +36,7 @@
     font-size: 1em;
 }
 
+/* VERTICAL LINE */
 .timeline:before {
 	content: '';
 	position: absolute;
@@ -70,6 +71,7 @@
     background-position: center;
 }
 
+/* ZIGZAG BETWEEN ICON AND CHECKMARK */
 .thumb:before {
 	content: '';
 	position: absolute;
