@@ -90,7 +90,7 @@ aside .card img {
 
 /* MAIN */
 .aboutSection {
-    padding-top: 2.5em;
+    padding-top: 2.5em 1em 0 1em;
 }
 
 .aboutSection h4 {
@@ -112,8 +112,7 @@ aside .card img {
 
 /* MEDIA QUERIES */
 /* Medium and up */
-@media screen and (min-width: 40em) {
-
+@media screen and (min-width: 40em) {    
     .reveal.large.medReveal, .reveal.large.narrowReveal {
         width: 55%;
     }
