@@ -144,13 +144,14 @@
 	perspective: 600px;
 }
 
+/* HORIZONTAL STRAIGHT LINE */
 .content-perspective:before {
 	content: '';
 	width: 65px;
 	left: -62px;
 	top: 45px;
 	position: absolute;
-	height: 1px;
+	height: 3px;
 	z-index: -1;
 	background: #1399AA;
 }
