@@ -296,9 +296,10 @@
     background-image: url(../images/thumbs-up_pink.svg);
 }
 
+/* dont think i need this 
 .event input[type="radio"]:checked ~ .thumb span {
 	color: #E14658;
-}
+}*/
 /********************************/
 /********** END CHECKED *********/
 /********************************/
@@ -346,7 +347,14 @@
 		transform: scale(0.8);
 	}
 
-	.event input[type="radio"] {
+    .event input[type="radio"] {
+		width: 20.5em;
+		height: 8em;
+		left: 0px;
+		top: 8px;
+	}
+    
+	.event input[type="radio"]:checked ~ .event input[type="radio"] {
 		width: 20.5em;
 		height: 15.5em;
 		left: 0px;
