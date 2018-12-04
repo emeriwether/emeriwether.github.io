@@ -72,7 +72,7 @@
 	position: absolute;
 	height: 8px;
 	z-index: -1;
-	background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAEpJREFUGBljYBg8QHjmqv8gjO4iRmQBdAVv08Pg8nAGuiKYATDFYIXIimAS6GKM6AIwk0A0shwTTAJmEowPolHEkHUhK0Jmg9QAAIivIwaIJ1jZAAAAAElFTkSuQmCC);
+	background: transparent url(../images/zigzag_blue.svg);
 	width: 55px;
 	top: 42px;
 	left: 100%;
@@ -304,7 +304,7 @@
 
 /* ZIGZAG BETWEEN ICON AND CHECKMARK */
 .event input[type="radio"]:checked ~ .thumb:before {
-	background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAACxJREFUGBljYBjO4KFbxH8QxutHZAXIbBRN2CQwxDAEkIyAy8EZSJLoTJAaAPqDGO08HS/DAAAAAElFTkSuQmCC);
+	background: transparent url(../images/zigzag_pink.svg);
 }
 
 .content-inner p,
