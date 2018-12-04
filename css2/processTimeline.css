@@ -78,7 +78,7 @@
 	height: 8px;
 	z-index: -1;
 	background: transparent url(../images/zigzag_blue.svg);
-	width: 51px;
+	width: 55px;
 	top: 42px;
 	left: 100%;
 	margin-left: 8px;
@@ -151,8 +151,8 @@
 
 .content-perspective:before {
 	content: '';
-	width: 37px;
-	left: -51px;
+	width: 65px;
+	left: -62px;
 	top: 45px;
 	position: absolute;
 	height: 1px;
