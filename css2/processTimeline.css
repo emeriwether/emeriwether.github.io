@@ -122,7 +122,6 @@ think i can get rid of this since it was for the dates
 }
 
 /* Transparent Checkbox/radio hack: leave the checkbox on top, hide it with opacity 0 */
-
 .event input[type="radio"] {
 	width: 100px;
 	height: 100px;
@@ -212,6 +211,7 @@ think i can get rid of this since it was for the dates
 	color: transparent;
 	color: rgba(0,0,0,0);
 	text-align: left;
+    display: none;
 }
 
 .content-inner:before {
@@ -303,6 +303,7 @@ think i can get rid of this since it was for the dates
 	-o-transition-delay: 0s, 0.6s;
 	-ms-transition-delay: 0s, 0.6s;
 	transition-delay: 0s, 0.6s;
+    display: block;
 }
 
 .event input[type="radio"]:checked ~ .content-perspective .content-inner:before {
