@@ -347,8 +347,8 @@
 	}
 
 	.event input[type="radio"] {
-		width: 100px;
-		height: 100px;
+		width: 20.5em;
+		height: 15.5em;
 		left: 0px;
 		top: 0px;
 	}
