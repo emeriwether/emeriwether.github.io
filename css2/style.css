@@ -66,19 +66,6 @@
     background-position: center;
 }
 
-/* ZIGZAG BETWEEN ICON AND CHECKMARK */
-.thumb:before {
-	content: '';
-	position: absolute;
-	height: 8px;
-	z-index: -1;
-	background: transparent url(../images/zigzag_blue.svg);
-	width: 55px;
-	top: 42px;
-	left: 100%;
-	margin-left: 8px;
-}
-
 .user-2 {
 	background-image: url(../images/users_blue.svg);
 }
@@ -147,8 +134,8 @@
 /* HORIZONTAL STRAIGHT LINE */
 .content-perspective:before {
 	content: '';
-	width: 65px;
-	left: -62px;
+	width: 135px;
+	left: -130px;
 	top: 30px;
 	position: absolute;
 	height: 3px;
@@ -302,11 +289,6 @@
 	color: #E14658;
 }
 
-/* ZIGZAG BETWEEN ICON AND CHECKMARK */
-.event input[type="radio"]:checked ~ .thumb:before {
-	background: transparent url(../images/zigzag_pink.svg);
-}
-
 .content-inner p,
 .thumb span,
 .event label {
@@ -352,12 +334,6 @@
 		height: 100px;
 		left: 0px;
 		top: 0px;
-	}
-
-	.thumb:before,
-	.event input[type="radio"]:checked ~ .thumb:before {
-		background: none;
-		width: 0;
 	}
 
 	.event label {
