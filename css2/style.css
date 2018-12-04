@@ -12,11 +12,6 @@
 	font-style: normal;
 }
 
-.timelineContainer { 
-    padding-left: 300px;
-    height: 100%;
-}
-
 .timeline {
 	position: relative;
 	list-style-type: none;
