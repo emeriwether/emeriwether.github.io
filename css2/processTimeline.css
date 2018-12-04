@@ -123,12 +123,9 @@ think i can get rid of this since it was for the dates
 
 /* Transparent Checkbox/radio hack: leave the checkbox on top, hide it with opacity 0 */
 
-.event label,
 .event input[type="radio"] {
-	width: 24px;
-	height: 24px;
-	left: 158px;
-	top: 36px;
+	width: 100px;
+	height: 100px;
 	position: absolute;
 	display: block;
 }
