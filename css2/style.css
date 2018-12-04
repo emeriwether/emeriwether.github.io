@@ -354,7 +354,7 @@
 		top: 8px;
 	}
     
-	.event input[type="radio"]:checked ~ .event input[type="radio"] {
+	.event input[type="radio"]:checked {
 		width: 20.5em;
 		height: 15.5em;
 		left: 0px;
