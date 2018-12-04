@@ -77,7 +77,7 @@
 	position: absolute;
 	height: 8px;
 	z-index: -1;
-	background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPElEQVQYV2NkQAP/gYARCNDFUQRgirAphitEl0TngxXisg5ZnBGXIpgbYfIYjkb3BNxGbBLYxIgyEaQRAA8KKAWYsZtjAAAAAElFTkSuQmCC);
+	background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAACxJREFUGBljYBjOQHjmqv8gjNePyAqQ2SiasElgiGEIIBkBl4MzkCTRmSA1AEpNF1Mwp5umAAAAAElFTkSuQmCC);
 	width: 51px;
 	top: 42px;
 	left: 100%;
@@ -351,7 +351,7 @@ think i can get rid of this since it was for the dates
 }
 
 .event input[type="radio"]:checked ~ .thumb:before {
-	background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPUlEQVQYV2NkQAOfUjX+882+wYgujiIAU4RNMVwhuiQ6H6wQl3XI4oy4FMHcCJPHcDS6J2A2EqUQpJhohQBbNyaHFmzEqgAAAABJRU5ErkJggg==);
+	background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAACxJREFUGBljYBjO4KFbxH8QxutHZAXIbBRN2CQwxDAEkIyAy8EZSJLoTJAaAPqDGO08HS/DAAAAAElFTkSuQmCC);
 }
 
 .content-inner p,
