@@ -336,7 +336,7 @@
     
 	.event input[type="radio"]:checked {
 		width: 28em;
-		height: 17em;
+		height: 10em;
 		left: 0px;
 		top: 0px;
 	}
