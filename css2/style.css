@@ -92,8 +92,10 @@
 
 /* Transparent Checkbox/radio hack: leave the checkbox on top, hide it with opacity 0 */
 .event input[type="radio"] {
-	width: 100px;
-	height: 100px;
+	width: 900px;
+	height: 80px;
+    top: 10px;
+    left: 25px;
 	position: absolute;
 	display: block;
 }
