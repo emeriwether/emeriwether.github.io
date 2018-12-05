@@ -92,20 +92,18 @@
 
 /* Transparent Checkbox/radio hack: leave the checkbox on top, hide it with opacity 0 */
 .event input[type="radio"] {
-	width: 900px;
-	height: 80px;
+	width: 30em;
+	height: 5.5em;
     top: 10px;
     left: 25px;
 	position: absolute;
 	display: block;
-}
-
-.event input[type="radio"] {
-	opacity: 0;
+    opacity: 0;
 	z-index: 10;
 	cursor: pointer;
 }
 
+/* dont think i need this
 .event label:after {
 	font-family: 'fontawesome-selected';
 	content: '\e702';
@@ -120,7 +118,7 @@
 	line-height: 24px;
 	position: absolute;
 	text-align: center;
-}
+}*/
 
 .content-perspective {
 	margin-left: 230px;
@@ -224,6 +222,12 @@
 /********************************/
 /******** BEGIN CHECKED *********/
 /********************************/
+.event input[type="radio"]:checked {
+    height: 14em;
+    top: 0;
+    left: 0;
+}
+
 .event input[type="radio"]:checked + label:after {
 	content: '\2714';
 	color: #E14658;
@@ -313,7 +317,7 @@
 /********************************/
 /***** BEGIN MEDIA QUERIES ******/
 /********************************/
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1023px) { 
 	.content-inner h3 {
 		font-size: 20px;
 	}
