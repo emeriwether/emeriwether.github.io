@@ -16,6 +16,7 @@
 	position: relative;
 	list-style-type: none;
 	padding: 30px 0 50px 0;
+    margin-left: 0;
 }
 
 .timeline h3 {
