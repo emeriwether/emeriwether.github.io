@@ -104,25 +104,8 @@
 	cursor: pointer;
 }
 
-/* dont think i need this
-.event label:after {
-	font-family: 'fontawesome-selected';
-	content: '\e702';
-	background: #fff;
-	border-radius: 50%;
-	color: #1399AA;
-	font-size: 26px;
-	height: 100%;
-	width: 100%;
-	left: -2px;
-	top: -3px;
-	line-height: 24px;
-	position: absolute;
-	text-align: center;
-}*/
-
 .content-perspective {
-	margin-left: 230px;
+	margin-left: 150px;
 	position: relative;
 	-webkit-perspective: 600px;
 	-moz-perspective: 600px;
@@ -135,8 +118,8 @@
 /* HORIZONTAL STRAIGHT LINE */
 .content-perspective:before {
 	content: '';
-	width: 135px;
-	left: -130px;
+	width: 50px;
+	left: -50px;
 	top: 30px;
 	position: absolute;
 	height: 3px;
