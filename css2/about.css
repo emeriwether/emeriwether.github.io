@@ -110,12 +110,25 @@ aside .card img {
 }
 
 /* TOOLBOX */
-.toolboxIcon {
-    display: inline;
+#toolbox {
+    position: relative;
 }
 
-#illustrator, #photoshop {
-    width: 40%;
+.toolboxIcon {
+    display: inline;
+    position: absolute;
+}
+
+#illustrator {
+    width: 20%;
+    top: 60px;
+    right: 20px;
+}
+
+#photoshop {
+    width: 25%;
+    top 80px;
+    left: 20px;
 }
 
 
