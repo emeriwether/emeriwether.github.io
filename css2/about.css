@@ -112,6 +112,7 @@ aside .card img {
 /* TOOLBOX */
 #toolbox {
     position: relative;
+    background-image: url(/images/about/toolbox/toolbox.svg)
 }
 
 .toolboxIcon {
