@@ -105,6 +105,10 @@ aside .card img {
     padding-left: 0.65em;
 }
 
+main section:nth-child(3) p {
+    padding-bottom: 3em;
+}
+
 .sectionTag {
     padding-left: 1em;
 }
@@ -112,7 +116,8 @@ aside .card img {
 /* TOOLBOX */
 #toolbox {
     position: relative;
-    background-image: url(/images/about/toolbox/toolbox.svg)
+    background-image: url(/images/about/toolbox/toolbox.svg);
+    height: 18em;
 }
 
 .toolboxIcon {
@@ -136,6 +141,14 @@ aside .card img {
 /* MEDIA QUERIES */
 /* Medium and up */
 @media screen and (min-width: 40em) {    
+    #toolbox {
+        height: 21em;
+    }
+    
+    main section:nth-child(3) p {
+        padding-bottom: 1em;
+    }
+    
     .reveal.large.medReveal, .reveal.large.narrowReveal {
         width: 55%;
     }
@@ -206,7 +219,10 @@ aside .card img {
 
 /* Large and up */
 @media screen and (min-width: 64em) {
-
+    #toolbox {
+        height: 25em;
+    }
+    
     .timelineDiv {
         padding-left: 300px;
     }
