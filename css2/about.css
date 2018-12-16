@@ -109,6 +109,15 @@ aside .card img {
     padding-left: 1em;
 }
 
+/* TOOLBOX */
+.toolboxIcon {
+    display: inline;
+}
+
+#illustrator, #photoshop {
+    width: 40%;
+}
+
 
 /* MEDIA QUERIES */
 /* Medium and up */
