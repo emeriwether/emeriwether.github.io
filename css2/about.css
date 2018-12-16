@@ -118,6 +118,7 @@ main section:nth-child(3) p {
     position: relative;
     background-image: url(/images/about/toolbox/toolbox.svg);
     height: 18em;
+    background-repeat: no-repeat;
 }
 
 .toolboxIcon {
