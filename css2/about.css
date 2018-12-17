@@ -106,7 +106,7 @@ aside .card img {
 }
 
 main section:nth-child(3) p {
-    padding-bottom: 3em;
+    padding-bottom: 5em;
 }
 
 .sectionTag {
@@ -127,29 +127,38 @@ main section:nth-child(3) p {
     position: absolute;
 }
 
-#illustrator {
-    width: 20%;
-    top: 60px;
-    left: 50px;
-}
-
+/* large icons */
 #sketch {
-    width: 25%;
-    top 200px;
+    width: 20%;
+    top: -50px;
     left: 10px;
 }
 
 #photoshop {
-    width: 25%;
-    top: 20px;
+    width: 20%;
+    top: -20px;
     right: 10px;
 }
 
+/* medium icons */
+#illustrator {
+    width: 17%;
+    top: 60px;
+    left: 50px;
+}
+
 #css {
-    width: 25%;
+    width: 17%;
     top: 10px;
     left: 200px;
 }
+
+/* small icons */
+
+
+
+
+
 
 
 
