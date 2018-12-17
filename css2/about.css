@@ -361,10 +361,6 @@ main section:nth-child(3) p {
         height: 21em;
     }
     
-    main section:nth-child(3) p {
-        padding-bottom: 1em;
-    }
-    
     .reveal.large.medReveal, .reveal.large.narrowReveal {
         width: 55%;
     }
