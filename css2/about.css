@@ -326,7 +326,7 @@ main section:nth-child(3) p {
 }
 
 /* 600+ */
-@media screen and (min-width: 34.375em) {
+@media screen and (min-width: 37.5em) {
     /* large icons */
     #sketch { width: 16%; top: calc(-75px - 15px); left: calc(35px + 35px); }
 
