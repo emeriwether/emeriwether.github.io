@@ -238,16 +238,16 @@ main section:nth-child(3) p {
 /* 450+ */
 @media screen and (min-width: 28.125em) {
     /* large icons */
-    #sketch { top: calc(-75px - 15px); left: calc(35px + 35px); }
+    #sketch { top: calc(-75px - 15px); left: calc(35px + 10px); }
 
-    #photoshop { top: calc(35px - 15px); left: calc(0px + 55px); }
+    #photoshop { top: calc(35px - 15px); left: calc(0px + 25px); }
 
     #html { top: calc(0 - 15px); left: calc(150px + 55px); }
 
-    #css { top: calc(-65px - 15px); left: calc(170px + 35px); }
+    #css { top: calc(-65px - 25px); left: calc(170px + 55px); }
 
     /* medium icons */
-    #illustrator {top: calc(92px - 15px); left: calc(50px + 55px); }
+    #illustrator {top: calc(92px - 15px); left: calc(50px + 40px); }
 
     #usertesting { top: calc(70px + 5px); left: calc(205px + 65px); }
 
