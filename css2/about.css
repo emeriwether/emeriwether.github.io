@@ -119,6 +119,7 @@ main section:nth-child(3) p {
     background-image: url(/images/about/toolbox/toolbox.png);
     height: 18em;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .toolboxIcon {
@@ -129,14 +130,28 @@ main section:nth-child(3) p {
 #illustrator {
     width: 20%;
     top: 60px;
-    right: 20px;
+    left: 50px;
 }
 
 #sketch {
     width: 25%;
-    top 80px;
-    left: 20px;
+    top 200px;
+    left: 10px;
 }
+
+#photoshop {
+    width: 25%;
+    top: 20px;
+    right: 10px;
+}
+
+#css {
+    width: 25%;
+    top: 10px;
+    left: 200px;
+}
+
+
 
 
 /* MEDIA QUERIES */
