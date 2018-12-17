@@ -325,6 +325,36 @@ main section:nth-child(3) p {
     #usabilityhub { width: 12%; top: calc(55px - 15px); left: calc(85px + 105px); }
 }
 
+/* 600+ */
+@media screen and (min-width: 34.375em) {
+    /* large icons */
+    #sketch { width: 16%; top: calc(-75px - 15px); left: calc(35px + 35px); }
+
+    #photoshop { width: 16%; top: calc(35px - 15px); left: calc(0px + 45px); }
+
+    #html { width: 16%; top: calc(0px - 5px); left: calc(150px + 100px); }
+
+    #css { width: 16%; top: calc(-65px - 25px); left: calc(170px + 115px); }
+
+    /* medium icons */
+    #illustrator { width: 13%; top: calc(92px - 15px); left: calc(50px + 75px); }
+
+    #usertesting { width: 13%; top: calc(70px + 5px); left: calc(205px + 125px); }
+
+    #omnigraffle { width: 13%; top: calc(-20px - 45px); left: calc(225px + 165px); }
+
+    #invision { width: 13%; top: calc(-5px - 5px); left: calc(50px + 75px); }
+
+    /* small icons */
+    #marvel { width: 10%; top: calc(-40px - 15px); left: calc(115px + 85px); }
+
+    #figma { width: 10%; top: calc(35px - 25px); left: calc(245px + 105px); }
+
+    #javascript { width: 10%; top: calc(65px + 25px); left: calc(140px + 115px); }
+
+    #usabilityhub { width: 10%; top: calc(55px - 15px); left: calc(85px + 105px); }
+}
+
 /* Medium and up - 640px+ */
 @media screen and (min-width: 40em) {    
     #toolbox {
