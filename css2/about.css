@@ -130,14 +130,26 @@ main section:nth-child(3) p {
 /* large icons */
 #sketch {
     width: 20%;
-    top: -50px;
+    top: -75px;
     left: 10px;
 }
 
 #photoshop {
     width: 20%;
-    top: -20px;
-    right: 10px;
+    top: 20px;
+    left: -10px;
+}
+
+#html {
+    width: 20%;
+    top: 0;
+    left: 150px;
+}
+
+#css {
+    width: 20%;
+    top: -25px;
+    left: 200px;
 }
 
 /* medium icons */
@@ -147,20 +159,48 @@ main section:nth-child(3) p {
     left: 50px;
 }
 
-#css {
+#usertesting {
     width: 17%;
-    top: 10px;
-    left: 200px;
+    top: 50px;
+    left: 175px;
+}
+
+#omnigraffle {
+    width: 17%;
+    top: -10px;
+    left: 210px;
+}
+
+#invision {
+    width: 17%;
+    top: -5px;
+    left: 40px;
 }
 
 /* small icons */
+#marvel {
+    width: 14%;
+    top: -60px;
+    left: 30px;
+}
 
+#figma {
+    width: 14%;
+    top: 15px;
+    left: 45px;
+}
 
+#javascript {
+    width: 14%;
+    top: 45px;
+    left: 70px;
+}
 
-
-
-
-
+#usabilityhub {
+    width: 14%;
+    top: 55px;
+    left: 85px;
+}
 
 
 /* MEDIA QUERIES */
