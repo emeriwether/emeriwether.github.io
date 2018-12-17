@@ -450,31 +450,31 @@ main section:nth-child(3) p {
     }
     
     /* large icons */
-    #sketch { width: 14%; top: calc(-75px - 15px); left: calc(35px + 35px); }
+    #sketch { width: 14%; top: calc(-75px - 15px); left: calc(35px + 75px); }
 
-    #photoshop { width: 14%; top: calc(35px - 15px); left: calc(0px + 45px); }
+    #photoshop { width: 14%; top: calc(35px - 15px); left: calc(0px + 85px); }
 
-    #html { width: 14%; top: calc(0px - 15px); left: calc(150px + 120px); }
+    #html { width: 14%; top: calc(0px - 15px); left: calc(150px + 160px); }
 
-    #css { width: 14%; top: calc(-65px - 35px); left: calc(170px + 175px); }
+    #css { width: 14%; top: calc(-65px - 35px); left: calc(170px + 205px); }
 
     /* medium icons */
-    #illustrator { width: 11%; top: calc(92px - 15px); left: calc(50px + 95px); }
+    #illustrator { width: 11%; top: calc(92px - 15px); left: calc(50px + 135px); }
 
-    #usertesting { width: 11%; top: calc(70px - 15px); left: calc(205px + 265px); }
+    #usertesting { width: 11%; top: calc(70px - 15px); left: calc(205px + 305px); }
 
-    #omnigraffle { width: 11%; top: calc(-20px - 45px); left: calc(225px + 255px); }
+    #omnigraffle { width: 11%; top: calc(-20px - 45px); left: calc(225px + 295px); }
 
-    #invision { width: 11%; top: calc(-5px - 5px); left: calc(50px + 105px); }
+    #invision { width: 11%; top: calc(-5px - 5px); left: calc(50px + 145px); }
 
     /* small icons */
-    #marvel { width: 8%; top: calc(-40px - 45px); left: calc(115px + 95px); }
+    #marvel { width: 8%; top: calc(-40px - 45px); left: calc(115px + 135px); }
 
-    #figma { width: 8%; top: calc(35px - 25px); left: calc(245px + 155px); }
+    #figma { width: 8%; top: calc(35px - 25px); left: calc(245px + 195px); }
 
-    #javascript { width: 8%; top: calc(65px + 25px); left: calc(140px + 225px); }
+    #javascript { width: 8%; top: calc(65px + 25px); left: calc(140px + 265px); }
 
-    #usabilityhub { width: 8%; top: calc(55px + 25px); left: calc(85px + 155px); }
+    #usabilityhub { width: 8%; top: calc(55px + 25px); left: calc(85px + 195px); }
 }
 
 /* 1000px+ */
