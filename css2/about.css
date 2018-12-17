@@ -228,7 +228,7 @@ main section:nth-child(3) p {
     /* small icons */
     #marvel { top: calc(-40px - 15px); left: calc(115px + 15px); }
 
-    #figma { top: calc(35px - 15px); left: (calc(245px + 15px); }
+    #figma { top: calc(35px - 15px); left: calc(245px + 15px); }
 
     #javascript { top: calc(65px - 15px); left: calc(140px + 15px); }
 
