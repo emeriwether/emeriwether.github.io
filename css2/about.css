@@ -208,31 +208,31 @@ main section:nth-child(3) p {
 /* 400+ */
 @media screen and (min-width: 25em) {
     /* large icons */
-    #sketch { top: calc(-75px + 10px); left: calc(35px + 10px); }
+    #sketch { top: calc(-75px - 10px); left: calc(35px + 10px); }
 
-    #photoshop { top: calc(35px + 10px); left: calc(0px + 10px); }
+    #photoshop { top: calc(35px - 10px); left: calc(0px + 10px); }
 
-    #html { top: calc(0 + 10px); left: calc(150px + 10px); }
+    #html { top: calc(0 - 10px); left: calc(150px + 10px); }
 
-    #css { top: calc(-65px + 10px); left: calc(170px + 10px); }
+    #css { top: calc(-65px - 10px); left: calc(170px + 10px); }
 
     /* medium icons */
-    #illustrator {top: calc(92px + 10px); left: calc(50px + 10px); }
+    #illustrator {top: calc(92px - 10px); left: calc(50px + 10px); }
 
-    #usertesting { top: calc(70px + 10px); left: calc(205px + 10px); }
+    #usertesting { top: calc(70px - 10px); left: calc(205px + 10px); }
 
-    #omnigraffle { top: calc(-20px + 10px); left: calc(225px + 10px); }
+    #omnigraffle { top: calc(-20px - 10px); left: calc(225px + 10px); }
 
-    #invision { top: calc(-5px + 10px); left: calc(50px + 10px); }
+    #invision { top: calc(-5px - 10px); left: calc(50px + 10px); }
 
     /* small icons */
-    #marvel { top: calc(-40px + 10px); left: calc(115px + 10px); }
+    #marvel { top: calc(-40px - 10px); left: calc(115px + 10px); }
 
-    #figma { top: calc(35px + 10px); left: (245px + 10px); }
+    #figma { top: calc(35px - 10px); left: (245px + 10px); }
 
-    #javascript { top: calc(65px + 10px); left: calc(140px + 10px); }
+    #javascript { top: calc(65px - 10px); left: calc(140px + 10px); }
 
-    #usabilityhub { top: calc(55px + 10px); left: calc(85px + 10px); }
+    #usabilityhub { top: calc(55px - 10px); left: calc(85px + 10px); }
 
 }
 
