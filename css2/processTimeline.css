@@ -147,6 +147,7 @@
     display: none;
 }
 
+/* i think this is the triangle that i dont need 
 .content-inner:before {
 	font-family: 'fontawesome-selected';
 	content: '\25c2';
@@ -160,7 +161,7 @@
 	left: -22px;
 	top: 19px;
 	z-index: -1;
-}
+} */
 
 /********************************/
 /***** BEGIN TRANSITIONS ********/
