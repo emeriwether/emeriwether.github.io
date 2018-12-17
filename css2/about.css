@@ -580,6 +580,10 @@ main section:nth-child(3) p {
 
 /* Large and up - 1024px+ */
 @media screen and (min-width: 64em) {
+    main section:nth-child(3) p {
+        padding-bottom: 2em;
+    }
+    
     /* large icons */
     #sketch { width: 20%; top: calc(-75px - 35px); left: calc(35px + 115px); }
 
