@@ -585,31 +585,31 @@ main section:nth-child(3) p {
     }
     
     /* large icons */
-    #sketch { width: 20%; top: calc(-75px - 35px); left: calc(35px + 115px); }
+    #sketch { width: 20%; top: calc(-75px + 45px); left: calc(35px + 115px); }
 
-    #photoshop { width: 20%; top: calc(35px - 15px); left: calc(0px + 75px); }
+    #photoshop { width: 20%; top: calc(35px + 65px); left: calc(0px + 75px); }
 
-    #html { width: 20%; top: calc(0px - 25px); left: calc(150px + 220px); }
+    #html { width: 20%; top: calc(0px + 25px); left: calc(150px + 220px); }
 
-    #css { width: 20%; top: calc(-65px - 35px); left: calc(170px + 315px); }
+    #css { width: 20%; top: calc(-65px + 35px); left: calc(170px + 315px); }
 
     /* medium icons */
-    #illustrator { width: 17%; top: calc(92px - 15px); left: calc(50px + 155px); }
+    #illustrator { width: 17%; top: calc(92px + 85px); left: calc(50px + 155px); }
 
-    #usertesting { width: 17%; top: calc(70px - 15px); left: calc(205px + 395px); }
+    #usertesting { width: 17%; top: calc(70px + 85px); left: calc(205px + 395px); }
 
-    #omnigraffle { width: 17%; top: calc(-20px - 45px); left: calc(225px + 415px); }
+    #omnigraffle { width: 17%; top: calc(-20px + 45px); left: calc(225px + 415px); }
 
-    #invision { width: 17%; top: calc(-5px - 15px); left: calc(50px + 195px); }
+    #invision { width: 17%; top: calc(-5px + 65px); left: calc(50px + 195px); }
 
     /* small icons */
-    #marvel { width: 14%; top: calc(-40px - 45px); left: calc(115px + 215px); }
+    #marvel { width: 14%; top: calc(-40px - 15px); left: calc(115px + 215px); }
 
-    #figma { width: 14%; top: calc(35px - 5px); left: calc(245px + 275px); }
+    #figma { width: 14%; top: calc(35px + 55px); left: calc(245px + 275px); }
 
-    #javascript { width: 14%; top: calc(65px + 25px); left: calc(140px + 305px); }
+    #javascript { width: 14%; top: calc(65px + 115px); left: calc(140px + 305px); }
 
-    #usabilityhub { width: 14%; top: calc(55px + 25px); left: calc(85px + 235px); }
+    #usabilityhub { width: 14%; top: calc(55px + 85px); left: calc(85px + 235px); }
     
     #toolbox {
         height: 33em;
