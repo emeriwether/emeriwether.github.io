@@ -219,7 +219,7 @@ main section:nth-child(3) p {
     /* medium icons */
     #illustrator {top: calc(92px - 15px); left: calc(50px + 15px); }
 
-    #usertesting { top: calc(70px - 15px); left: calc(205px + 15px); }
+    #usertesting { top: calc(70px + 5px); left: calc(205px + 25px); }
 
     #omnigraffle { top: calc(-20px - 25px); left: calc(225px + 35px); }
 
@@ -230,9 +230,9 @@ main section:nth-child(3) p {
 
     #figma { top: calc(35px - 15px); left: calc(245px + 15px); }
 
-    #javascript { top: calc(65px - 15px); left: calc(140px + 15px); }
+    #javascript { top: calc(65px + 25px); left: calc(140px + 15px); }
 
-    #usabilityhub { top: calc(55px - 15px); left: calc(85px + 15px); }
+    #usabilityhub { top: calc(55px - 15px); left: calc(85px + 25px); }
 
 }
 
