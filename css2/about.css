@@ -664,7 +664,8 @@ main section:nth-child(3) p {
         max-width: 300px;
     }
 
-    .bodyText {
+    .aboutSection .bodyText {
         padding-left: 1.5em;
+        width: 70%;
     }
 }
