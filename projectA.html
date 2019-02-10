@@ -143,22 +143,50 @@ headerImageLabel: "TO BE FILLED IN"
         </div> 
         
         <h5 class="text-left">Feature assessment</h5>
-
         <p class="text-left">Finally, <mark class="coralText boldText">I created a Feature Value Matrix to help me prioritize features before beginning the design phase</mark>. I collected all the features that were unearthed in my discovery and research phases, and then assessed their value to the user and to the business. When assigning a priority to each feature, I also took into consideration the amount of effort necessary to implement the feature during development. To create a more visual and memorable representation of the priority of each feature, I plotted each feature on two different diagrams. One diagram was a one-dimensional scale of low-priority to high-priority. The other diagram, based on the Kano Model for customer satisfaction, graphed each feature on a two-dimensional plot, where one axis mapped technical effort from low to high, and the other axis mapped business and user value from low to high. The results of <mark class="coralText boldText">the diagrams made it clear which features I should focus on</mark> during the initial round of development, and which features would fit better in later iterations. </p>
 
-        <a data-open="featureAssessment"><img src="images/project3/featurePrioritization.jpg" alt="The feature prioritization diagrams that I created for this project"></a>
+        <a data-open="featureAssessment">
+                <img src="images/project3/featurePrioritization.jpg" alt="The feature prioritization diagrams that I created for this project">
+        </a>
         <!-- MODAL -->
-        <div class="large reveal" id="persona" data-reveal>
+        <div class="large reveal" id="featureAssessment" data-reveal>
             <figure class="card">
-                <img class="card-image" src="images/project3/featurePrioritization.jpg">
-                <div class="card-section">
-                    <figcaption class="coralText">The feature prioritization diagrams that I created for this project</figcaption>
+                <div class="card-image">
+                    <img src="images/project3/plainFeaturePrioritization_pt1.jpg">
                 </div>
+                <figcaption class="card-section">
+                    <h4>The feature prioritization diagram that I created for this project</h4>
+                </figcaption>
             </figure>
+            <nav class="cell">
+                <div class="grid-x align-center align-middle">
+                    <p class="text-center imageNumber">IMAGE<br>1 of 2</p>
+                    <a class="button" data-open="featureAssessment_pt2">NEXT</a>
+                </div>
+            </nav>            
             <button class="close-button" data-close aria-label="Close reveal" type="button">
                 <span aria-hidden="true">&times;</span>
             </button>
-        </div> 
+        </div>
+        <div class="large reveal" id="featureAssessment_pt2" data-reveal>
+            <figure class="card">
+                <div class="card-image">
+                    <img src="images/project3/plainFeaturePrioritization_pt2.jpg">
+                </div>
+                <figcaption class="card-section">
+                    <h4 class="coralText">The Kano Model feature assessment diagram that I created.</h4>
+                </figcaption>
+            </figure>
+            <nav class="cell">
+                <div class="grid-x align-center align-middle">
+                    <a class="button back" data-open="featureAssessment">PREVIOUS</a>
+                    <p class="text-center imageNumber">IMAGE<br>2 of 2</p>
+                </div>
+            </nav>
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>        
         
     </div>
 </section> 
