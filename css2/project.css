@@ -37,6 +37,10 @@ header div h4 {
 header section article p {
     color: #EBEDF3;
 }
+
+header section div #projectAImage {
+    width: 100%;
+}
 /* END HEADER STYLING */
 /***********************/
 
