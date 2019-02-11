@@ -110,6 +110,10 @@ main section div a img {
     transition: 0.3s;
 }
 
+#poloroidInterviewPhoto {
+    padding-bottom: 2em;
+}
+
 main section div a figcaption {
     padding-bottom: 2em;
 }
