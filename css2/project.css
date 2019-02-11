@@ -105,7 +105,7 @@ main .stat {
 /* END STYLING FOR STATISTICS */
 
 main section div a img {
-    padding-top: 1.25em 0 0.4em 0;
+    padding: 1.25em 0 0.4em 0;
     cursor: pointer;
     transition: 0.3s;
 }
