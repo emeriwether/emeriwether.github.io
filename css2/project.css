@@ -5,6 +5,14 @@
     padding: 2em 4em;
 }
 
+header .headerSectionLabel {
+    margin-bottom:2rem;
+}
+
+header p mark.boldText.whiteText {
+    margin-bottom:0;
+}
+
 .sectionUnderline {
     width: 50%;
     height: auto;
