@@ -9,8 +9,12 @@ header .headerSectionLabel {
     margin-bottom:2rem;
 }
 
-header p mark.boldText.whiteText {
+header p.headerDetailsLabel {
     margin-bottom:0;
+}
+
+header p.headerDetailsText {
+    margin-bottom: 2rem;
 }
 
 .sectionUnderline {
