@@ -3,13 +3,13 @@
   sublinks:
   - title: "Project Gallery"
     url: /home.html#projectGallery
-  - title: "Project 1: Designing a Salon Website"
+  - title: "Project 1: Redesigning Alethiah's Website"
     url: /projectA.html
-  - title: "Project 2: Redesigning a Case Study"
+  - title: "Project 2: Designing a Salon Study"
     url: /project.html
-  - title: "Project 3: Redesigning a Nonprofit Website"
+  - title: "Project 3: Redesigning FTC's Website"
     url: /projectC.html
-  - title: "Project 4: Designing a Mobile App"
+  - title: "Project 4: Redesigning a Case Study"
     url: /projectD.html    
 - title: "ABOUT ME"
   url: /about.html
