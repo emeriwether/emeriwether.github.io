@@ -68,27 +68,27 @@
 }
 
 .user-2 {
-	background-image: url(../images/users_blue.svg);
+	background-image: url(../images/about/processTimeline/users_blue.svg);
 }
 
 .user-3 {
-	background-image: url(../images/sitemap_blue.svg);
+	background-image: url(../images/about/processTimeline/sitemap_blue.svg);
 }
 
 .user-4 {
-	background-image: url(../images/search_blue.svg);
+	background-image: url(../images/about/processTimeline/search_blue.svg);
 }
 
 .user-5 {
-	background-image: url(../images/pencil-alt_blue.svg);
+	background-image: url(../images/about/processTimeline/pencil-alt_blue.svg);
 }
 
 .user-6 {
-	background-image: url(../images/users_blue.svg);
+	background-image: url(../images/about/processTimeline/users_blue.svg);
 }
 
 .user-7 {
-	background-image: url(../images/thumbs-up_blue.svg);
+	background-image: url(../images/about/processTimeline/thumbs-up_blue.svg);
 }
 
 /* Transparent Checkbox/radio hack: leave the checkbox on top, hide it with opacity 0 */
@@ -262,27 +262,27 @@
 }
 
 .event input[type="radio"]:checked ~ .thumb.user-4 {
-    background-image: url(../images/search.svg);
+    background-image: url(../images/about/processTimeline/search_pink.svg);
 }
 
 .event input[type="radio"]:checked ~ .thumb.user-6 {
-    background-image: url(../images/users_pink.svg);
+    background-image: url(../images/about/processTimeline/users_pink.svg);
 }
 
 .event input[type="radio"]:checked ~ .thumb.user-3 {
-    background-image: url(../images/sitemap_pink.svg);
+    background-image: url(../images/about/processTimeline/sitemap_pink.svg);
 }
 
 .event input[type="radio"]:checked ~ .thumb.user-5 {
-    background-image: url(../images/pencil-alt_pink.svg);
+    background-image: url(../images/about/processTimeline/pencil-alt_pink.svg);
 }
 
 .event input[type="radio"]:checked ~ .thumb.user-2 {
-    background-image: url(../images/users_pink.svg);
+    background-image: url(../images/about/processTimeline/users_pink.svg);
 }
 
 .event input[type="radio"]:checked ~ .thumb.user-7 {
-    background-image: url(../images/thumbs-up_pink.svg);
+    background-image: url(../images/about/processTimeline/thumbs-up_pink.svg);
 }
 
 /* dont think i need this 
