@@ -99,6 +99,11 @@ main section p {
     object-fit: contain;
 }
 
+.imageNumber {
+    font-family: "Roboto Condensed";
+    padding: 0 1em;
+}
+
 /* BEGIN STYLING FOR STATISTICS */
 main .stat {
     font-size: 1.7rem;
