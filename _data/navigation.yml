@@ -2,7 +2,7 @@
   url: /index.html
   sublinks:
   - title: "Project Gallery"
-    url: /home.html#projectGallery
+    url: /index.html#projectGallery
   - title: "Project 1: Redesigning a Retail Website"
     url: /projectA.html
   - title: "Project 2: Designing a Salon Website"
