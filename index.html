@@ -1,45 +1,118 @@
 ---
-layout: default
+layout: default2
 url: /index.html
 title: Work
-category: main
+description: "A project gallery featuring the UX work of Eleanor Meriwether"
+css: /css2/home.css
 ---
-<div class="cell">
-    <div class="grid-x" id="content">
-        <article class="cell"><img src="img/eleanorDefinition.png" id="definition"></article>
-        <section class="cell" id="workGallery">
-                <div class="grid-x grid-margin-x">
-                    <section class="medium-4 cell">
-                        <div class="grid-x projectItem">
-                            <div class="cell"><p class="role">UX Designer</p></div>
-                            <div class="cell"><a href="/project2.html" target="_blank"><img src="img/projectGallery/salonSite_Thumbnail.jpg" class="projectGalleryImg"></a></div>
-                            <div class="cell"><h5 class="projTitle">Hair Salon Website</h5></div>
-                            <div class="cell"><h6 class="projDate">Oct 2017 - Present</h6></div>
-                            <div class="cell"><p class="projDescrip">I am  designing and building a website for a private hair salon in Laguna Beach, CA.</p></div>
-                            <div class="cell viewProjButton"><a href="/project2.html" target="_blank"><img src="/img/viewProjButton.png"></a></div>
-                        </div>
-                    </section>
-                    <section class="medium-4 cell">
-                        <div class="grid-x projectItem">
-                            <div class="cell"><p class="role">UX Designer</p></div>
-                            <div class="cell"><a href="/project3.html" target="_blank"><img src="img/projectGallery/collectiveConscience_Thumbnail.png" class="projectGalleryImg"></a></div>
-                            <div class="cell"><h5 class="projTitle">Collective Conscience</h5></div>
-                            <div class="cell"><h6 class="projDate">Jan - Mar 2018</h6></div>
-                            <div class="cell"><p class="projDescrip">I am designing and directing an app to raise awareness of  public sexual harassment.</p></div>
-                            <div class="cell viewProjButton"><a href="/project3.html" target="_blank"><img src="/img/viewProjButton.png"></a></div>                            
-                        </div>
-                    </section>
-                    <section class="medium-4 cell">
-                        <div class="grid-x projectItem">
-                            <div class="cell"><p class="role">UX Designer</p></div>
-                            <div class="cell"><a href="/project1.html" target="_blank"><img src="img/projectGallery/Portfolio_Thumbnail.png" class="projectGalleryImg"></a></div>
-                            <div class="cell"><h5 class="projTitle">Portfolio Website</h5></div>
-                            <div class="cell"><h6 class="projDate">Oct 2017 - Present</h6></div>
-                            <div class="cell"><p class="projDescrip">I have designed and built my own portfolio website based on UX strategies.</p></div> 
-                            <div class="cell viewProjButton"><a href="/project1.html" target="_blank"><img src="/img/viewProjButton.png"></a></div>                    
-                        </div>
-                    </section>
-                </div>
-        </section>
+
+<!-- BEGIN HEADER -->
+<header class="grid-container">
+    <div class="grid-x grid-padding-x align-center align-middle">
+
+        <!-- HEADER TEXT -->            
+        <div class="small-12 cell headerText">
+            <h1 class="coralText">Hello! I'm Eleanor,</h1>
+            
+            <h2>a UX Designer in Orange County, California.</h2>
+            
+            <p>I design with the user in mind, creating delightful and elegant products that get results.
+            
+            <br><br>To get to know me a little better, head on over to my <a href="/about.html" class="linkText" title="Go to the About Me page">About Me</a> page. Or, if you’d like to see some examples of my recent work, check out my <a href="/home.html#projectGallery" class="linkText" title="Go to the Project Gallery section on this page">Project Gallery</a> below. 
+                
+            <br><br><mark class="boldText coralText">Looking for a UX Designer to help create a first-rate digital product? </mark><a href="#footer" onClick="emailOpen()" class="linkText" title="Send me an email, and scroll to the contact information section on this page">Get in touch!</a> I'm currently looking for a full-time UX position.</p>
+        </div>      
+
+        <!-- HEADER IMAGE -->
+        <!-- <div class="small-12">
+            <img src="/images/placeholderImage.jpg">
+        </div> -->
+
     </div>
-</div>
+</header>
+<!-- END HEADER-->
+
+
+<!-- BEGIN MAIN -->
+<main class="grid-container" id="projectGallery">
+    
+    <!-- SECTION LABEL -->    
+    <div class="small-12 cell"> 
+        <img id="sectionDivider" src="/images/home/projectGallery_banner.svg">
+    </div>   
+    
+    <div class="grid-x grid-padding-x small-up-1 medium-up-2"> 
+
+      <!-- PROJECT 1: Alethiah -->            
+      <div class="cell">
+        <a class="projectImage" href="/projectA.html">
+          <div class="card">
+              <div class="card-image">
+                <img src="/images/home/projectA_thumbnail.jpg">
+              </div>
+              <div class="card-section">
+                <p>UX DESIGNER, CONTENT STRATEGIST, CONTENT CREATOR<br>FEBRUARY 2019 - PRESENT</p>
+                <h2 class="coralText">Redesigning a Retail Website</h2>
+                <a class="aquaText" href="projectA.html">View case study &gt;</a>
+              </div>
+          </div>
+        </a>
+      </div>         
+        
+      <!-- PROJECT 2: Pamela Simpson 1.0 -->
+      <div class="cell">
+        <a class="projectImage" href="/projectB.html">
+            <div class="card">
+                <div class="card-image">
+                    <img src="/images/home/projectB_thumbnail.jpg">
+                </div>
+                <div class="card-section">
+                    <p>UX RESEARCHER &amp; UX DESIGNER<br>OCTOBER 2017 - DECEMBER 2017</p>
+                    <h2 class="coralText">Designing a Salon Website</h2>
+                    <a class="aquaText" href="/projectB.html">View case study &gt;</a>
+                </div>
+            </div>
+        </a>
+      </div>
+        
+      <!-- PROJECT 3: Redesigning FTC's website -->            
+      <div class="cell">
+          <a class="projectImage" href="/projectC.html">
+            <div class="card">
+              <div class="card-image">
+                <img src="/images/placeholder_Thumbnail.jpg">
+              </div>
+              <div class="card-section">
+                <p>LEAD UI DESIGNER<br>MAY 2018 - AUGUST 2018</p>
+                <h2 class="coralText">Redesigning a Nonprofit Website</h2>
+                <a class="aquaText" href="projectC.html">View case study &gt;</a>
+              </div>
+            </div>
+          </a>
+      </div>        
+
+      <!-- PROJECT 4: Redesigning Portfolio -->                
+      <div class="cell">
+        <a class="projectImage" href="/projectD.html">
+            <div class="card">
+                <div class="card-image">
+                    <img src="/images/placeholder_Thumbnail.jpg">
+                </div>
+                <div class="card-section">
+                    <p>UX DESIGNER &amp; WEB DEVELOPER<br>JUNE 2018 - PRESENT</p>
+                    <h2 class="coralText">Redesigning a Case Study</h2>
+                    <a class="aquaText" href="/projectD.html">View case study &gt;</a>
+                </div>
+            </div>
+        </a>
+      </div>
+
+    </div>
+</main>
+<!-- END MAIN -->
+
+<script>
+function emailOpen () {
+    location.href = "mailto:emeriwetherux@gmail.com?subject=Eleanor,%20we%20want%20to%20hire%20you!"
+}
+</script>
