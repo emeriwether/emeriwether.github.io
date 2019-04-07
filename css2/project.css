@@ -60,7 +60,7 @@ header section div #projectAImage {
 /***********************/
 /* BEGIN SECTION STYLING */
 .projectBody {
-    max-width: 115rem;
+    /*max-width: 115rem;*/
     padding-bottom: 3em;
 }
 
