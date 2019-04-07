@@ -615,9 +615,9 @@ main section:nth-child(3) p {
         height: 33em;
     }
     
-    .timelineDiv {
+    /*.timelineDiv {
         padding-left: 300px;
-    }
+    }*/
     
     .reveal.large.narrowReveal {
         width: 35%;
