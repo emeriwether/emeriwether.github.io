@@ -78,10 +78,7 @@ main section p {
 }
 
 .sectionTag {
-    width: 90%;
-    height: auto;
-    margin: 0 0;
-    padding: 1.250em 0 0 0;
+    padding: 1.250em 0 0 1em;
 }
 
 .bodyText {
@@ -179,8 +176,8 @@ main section div a img:hover {
         }
         
         .sectionTag {
-            width: 60%;
-            padding: 2.5em 0 0 0;
+            max-width: 475px;
+            padding-top: 2.5em;
         }
         /* END SECTION STYLING */
         /***********************/
@@ -209,10 +206,10 @@ main section div a img:hover {
             margin: 0 0 0 0;
         }
         
-        .sectionTag {
+        /*.sectionTag {
             width: 100%;
             padding: 1.6em 1em 0 6em;
-        }
+        }*/
         
         .bodyText {
             padding: 2.25em 0 0 1em;
@@ -232,9 +229,9 @@ main section div a img:hover {
             max-width: 100em;
         }
         
-        .sectionTag {
+        /*.sectionTag {
             padding-left: 14em;
-        }
+        }*/
     }
 /* END MEDIA QUERIES */
 /***********************/
