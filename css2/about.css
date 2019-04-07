@@ -651,9 +651,9 @@ main section:nth-child(3) p {
         padding-top: 3em;
     }
     
-    .aboutSection h4 {
+    /*.aboutSection h4 {
         padding-top: 0;
-    }
+    }*/
     
     .aboutSection p {
         font-size: 1.3em;
