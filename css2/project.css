@@ -225,9 +225,9 @@ main section div a img:hover {
     }
 
     @media screen and (min-width: 100em) {
-        .projectBody {
+        /*.projectBody {
             max-width: 100em;
-        }
+        }*/
         
         /*.sectionTag {
             padding-left: 14em;
