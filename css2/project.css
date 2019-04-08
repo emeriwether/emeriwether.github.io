@@ -198,7 +198,7 @@ main section div a img:hover {
         }
         
         .sectionTag {
-            padding-top: 5.5em;
+            padding: 5.5em0 1.5em 0;
         }
         /* END HEADER STYLING */
         /***********************/
@@ -215,9 +215,9 @@ main section div a img:hover {
             padding: 1.6em 1em 0 6em;
         }*/
         
-        .bodyText {
+        /*.bodyText {
             padding-top: 1.5em;
-        }
+        }*/
 
                 
         .statsIcon {
