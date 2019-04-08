@@ -78,7 +78,7 @@ main section p {
 }
 
 .sectionTag {
-    padding: 1.250em 0 0 1em;
+    padding: 1.250em 0 0 0;
 }
 
 .bodyText {
@@ -177,7 +177,7 @@ main section div a img:hover {
         
         .sectionTag {
             max-width: 475px;
-            padding: 2.5em 0 0 1em;
+            padding-top: 2.5em;
         }
         /* END SECTION STYLING */
         /***********************/
