@@ -111,10 +111,10 @@ main .stat {
 }
 
 .statsIcon {
-    padding: 1.25em 0 1em 25%;
-    width: 55%;
+    padding: 1em 0;
+    max-width: 65px;
     min-width: 60px;
-    margin: auto;
+    /*margin: auto;*/
 }
 
 .statisticsSection div .card {
