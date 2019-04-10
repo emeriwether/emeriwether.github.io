@@ -169,11 +169,11 @@ main section div a img:hover {
             font-size: 1.5em;
         }
         
-        .statsIcon {
+        /*.statsIcon {
             width: 65%;
             max-width: 160px;
             padding: 1.25em 0 1em 33%;
-        }
+        }*/
         
         .sectionTag {
             max-width: 475px;
@@ -220,10 +220,10 @@ main section div a img:hover {
         }*/
 
                 
-        .statsIcon {
+        /*.statsIcon {
             width: 70%;
 
-        }
+        }*/
         /* END SECTION STYLING */
         /***********************/
     }
