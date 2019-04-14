@@ -68,6 +68,10 @@ header section div #projectAImage {
     padding: 1.50em 2em 0 2em;
 }
 
+.sectionTag {
+    width: 100%;
+}
+
 .card.sectionCard {
     padding: 2em 1em 2em 1em;
     box-shadow: 6px 7px 10px 3px #B5B5B5;
