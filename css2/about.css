@@ -109,6 +109,15 @@ main section:nth-child(3) p {
     padding-bottom: 5em;
 }
 
+    
+.card.sectionCard {
+    padding: 2em 1em 2em 1em;
+    box-shadow: 6px 7px 10px 3px #B5B5B5;
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-color: #22252C;
+}
+
 .sectionTag {
     padding-left: 1em;
 }
@@ -646,14 +655,6 @@ main section:nth-child(3) p {
         border-left-style: solid;
         border-color: #22252C;
     }
-    }
-    
-    .card.sectionCard {
-        padding: 2em 1em 2em 1em;
-        box-shadow: 6px 7px 10px 3px #B5B5B5;
-        border-left-width: 10px;
-        border-left-style: solid;
-        border-color: #22252C;
     }
     
     aside {
