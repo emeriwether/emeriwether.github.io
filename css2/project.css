@@ -68,10 +68,12 @@ header section div #projectAImage {
     padding: 1.50em 4em 0 4em;
 }
 
-.sectionCard {
+.card .sectionCard {
     padding: 0 2em 2em 4em;
     box-shadow: 6px 7px 10px 3px #B5B5B5;
-    background-image: url("images/project2/sectionBackground.svg");
+    border-left-width: 30px;
+    border-left-style: solid;
+    border-color: #22252C;
 }
 
 main section h5 {
@@ -92,12 +94,12 @@ main section p {
     margin: 0 0;
 }
 
-.card {
+.large.reveal .card {
     border: 0;
     padding: 0 0.55em;
 }
 
-.card img {
+.large.reveal .card img {
     padding-top: 1.75em;
     object-fit: contain;
 }
