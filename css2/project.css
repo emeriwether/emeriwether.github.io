@@ -68,6 +68,13 @@ header section div #projectAImage {
     padding: 1.50em 4em 0 4em;
 }
 
+.sectionCard {
+    border: 0;
+    padding: 0 2em 2em 4em;
+    box-shadow: 6px 7px 10px 3px #B5B5B5;
+    background-image: url("images/project2/sectionBackground.svg");
+}
+
 main section h5 {
     color: #29394B;
     font-size: 1.14em;
