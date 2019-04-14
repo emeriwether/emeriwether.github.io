@@ -99,6 +99,10 @@ p+p {
     padding-top: 1em;
 }
 
+p~ol, p~ul {
+    padding-top: 1em;
+}
+
 .large.reveal .card {
     border: 0;
     padding: 0 0.55em;
