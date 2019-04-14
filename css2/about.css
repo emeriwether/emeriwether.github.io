@@ -221,7 +221,7 @@ main section:nth-child(3) p {
 }
 
 
-/* MEDIA QUERIES */
+/************* BEGIN MEDIA QUERIES *****************/
 /* 400+ */
 @media screen and (min-width: 25em) {
     /* large icons */
@@ -698,3 +698,4 @@ main section:nth-child(3) p {
         width: 70%;
     }*/
 }
+/************* END MEDIA QUERIES *****************/
