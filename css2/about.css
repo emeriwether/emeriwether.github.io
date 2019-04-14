@@ -631,6 +631,14 @@ main section:nth-child(3) p {
         padding: 3em 4em 5em 4em;
     }
     
+    .card.sectionCard {
+        padding: 2em 1em 2em 1em;
+        box-shadow: 6px 7px 10px 3px #B5B5B5;
+        border-left-width: 10px;
+        border-left-style: solid;
+        border-color: #22252C;
+    }
+    
     aside {
         padding-bottom: 1.5em;
     }
@@ -672,4 +680,16 @@ main section:nth-child(3) p {
         padding-left: 1.5em;
         width: 70%;
     }*/
+}
+
+/* MEDIA QUERIES */
+/* Medium and up */
+@media screen and (min-width: 40em) {
+    .card.sectionCard {
+        padding: 2.5em 4em 2.5em 4em;
+        box-shadow: 6px 7px 10px 3px #B5B5B5;
+        border-left-width: 30px;
+        border-left-style: solid;
+        border-color: #22252C;
+    }
 }
