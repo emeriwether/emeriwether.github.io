@@ -448,7 +448,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #fefefe;
+  background-image: url(/images/texturedBackground.jpg);
   font-family: 'Cabin', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
