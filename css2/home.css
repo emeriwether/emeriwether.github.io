@@ -98,6 +98,14 @@ main .card p:first-child {
         font-size: 1.2em;
     }
     
+    .card.sectionCard {
+        padding: 2.5em 4em 2.5em 4em;
+        box-shadow: 6px 7px 10px 3px #B5B5B5;
+        border-left-width: 30px;
+        border-left-style: solid;
+        border-color: #22252C;
+    }
+    
     #projectGallery {
         padding: 0 4.6em 2em 4.6em;
     }
