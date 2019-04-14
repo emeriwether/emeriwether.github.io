@@ -31,6 +31,14 @@ header p {
     padding-top: 1.5em;
 }
 
+.card.aboutSectionCard {
+    padding: 1.5em 1.5em;
+    box-shadow: 6px 7px 10px 3px #B5B5B5;
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-color: #22252C;
+}
+
 #headerImg {
     padding: 1.75em 0.7em 0 0.7em;
 }
@@ -646,15 +654,6 @@ main section:nth-child(3) p {
     
     header {
         padding: 3em 4em 5em 4em;
-    }
-    
-    .card.aboutSectionCard {
-        padding: 1.5em 1.5em;
-        box-shadow: 6px 7px 10px 3px #B5B5B5;
-        border-left-width: 10px;
-        border-left-style: solid;
-        border-color: #22252C;
-    }
     }
     
     aside {
