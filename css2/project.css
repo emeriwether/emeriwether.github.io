@@ -69,7 +69,7 @@ header section div #projectAImage {
 }
 
 .card.sectionCard {
-    padding: 0 2em 2em 4em;
+    padding: 2.5em 2.5em 2.5em 4em;
     box-shadow: 6px 7px 10px 3px #B5B5B5;
     border-left-width: 30px;
     border-left-style: solid;
@@ -83,10 +83,6 @@ main section h5 {
 
 main section p {
     color: #000000;
-}
-
-.sectionTag {
-    padding: 1.250em 0 0 0;
 }
 
 .bodyText {
@@ -177,15 +173,8 @@ main section div a img:hover {
             font-size: 1.5em;
         }
         
-        /*.statsIcon {
-            width: 65%;
-            max-width: 160px;
-            padding: 1.25em 0 1em 33%;
-        }*/
-        
         .sectionTag {
             max-width: 475px;
-            padding-top: 3.5em;
         }
         /* END SECTION STYLING */
         /***********************/
@@ -205,9 +194,6 @@ main section div a img:hover {
             margin: 0 0 0 0;
         }
         
-        .sectionTag {
-            padding: 5.5em 2em 0;
-        }
         /* END HEADER STYLING */
         /***********************/
            
@@ -217,33 +203,8 @@ main section div a img:hover {
             padding: 1.50em 0 0 0;
             margin: 0 0 0 0;
         }
-        
-        /*.sectionTag {
-            width: 100%;
-            padding: 1.6em 1em 0 6em;
-        }*/
-        
-        /*.bodyText {
-            padding-top: 1.5em;
-        }*/
-
-                
-        /*.statsIcon {
-            width: 70%;
-
-        }*/
         /* END SECTION STYLING */
         /***********************/
-    }
-
-    @media screen and (min-width: 100em) {
-        /*.projectBody {
-            max-width: 100em;
-        }*/
-        
-        /*.sectionTag {
-            padding-left: 14em;
-        }*/
     }
 /* END MEDIA QUERIES */
 /***********************/
