@@ -123,11 +123,6 @@ main .stat {
     padding: 1em 0;
     max-width: 65px;
     min-width: 60px;
-    /*margin: auto;*/
-}
-
-.statisticsSection div .card {
-    background-color: #EBEDF3;
 }
 /* END STYLING FOR STATISTICS */
 
