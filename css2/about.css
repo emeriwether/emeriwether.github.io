@@ -133,7 +133,7 @@ main section:nth-child(3) p {
 /* TOOLBOX */
 #toolbox {
     position: relative;
-    background-image: url(/images/about/toolbox/toolbox.png);
+    /*background-image: url(/images/about/toolbox/toolbox.png);*/
     height: 18em;
     background-repeat: no-repeat;
     background-size: contain;
