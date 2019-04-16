@@ -134,10 +134,7 @@ main section:nth-child(3) p {
 #toolbox {
     position: relative;
     /*background-image: url(/images/about/toolbox/toolbox.png);*/
-    height: 18em;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    height: 12em;
 }
 
 .toolboxIcon {
