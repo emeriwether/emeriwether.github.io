@@ -148,6 +148,7 @@ main section div a figcaption {
     padding-bottom: 2em;
     color: #acacac;
     font-family: cabin;
+    text-align: center;
 }
 
 main section div a img:hover {
