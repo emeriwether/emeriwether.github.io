@@ -449,7 +449,7 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(/images/texturedBackground.jpg);
-  font-family: 'Cabin', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Cabin', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -2051,7 +2051,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto Condensed', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Roboto Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   color: inherit;
