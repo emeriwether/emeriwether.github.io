@@ -57,8 +57,12 @@
                     {% if page.projectHero %}
                         <img src="{{ page.projectHero }}" id="{{ page.projectHeroID }}">
                     {% else %}
-                        {% include toggle.html %}
-                        {% include project_header_image.html %}  
+                        {% if page.projectToggle %}
+                            {% include toggle.html %}
+                            {% include project_header_image.html %}                          
+                        {% else %}
+                            {% include project_header_image.html %}  
+                        {% endif %}
                     {% endif %}
                  </div>
 
