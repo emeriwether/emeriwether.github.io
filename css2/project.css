@@ -146,6 +146,9 @@ main section div a img {
 
 main section div a figcaption {
     padding-bottom: 2em;
+    color: #acacac;
+    font-style: italic;
+    font-family: cabin;
 }
 
 main section div a img:hover {
