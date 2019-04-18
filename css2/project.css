@@ -132,10 +132,6 @@ main .stat {
     max-width: 65px;
     min-width: 60px;
 }
-
-.statisticsSection {
-    padding-top: 33%;
-}
 /* END STYLING FOR STATISTICS */
 
 main section div a img {
@@ -225,6 +221,10 @@ main section div a img:hover {
         main section {
             padding: 1.50em 0 0 0;
             margin: 0 0 0 0;
+        }
+        
+        .statisticsSection {
+            padding-top: 33%;
         }
         /* END SECTION STYLING */
         /***********************/
