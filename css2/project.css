@@ -17,6 +17,7 @@ header p.headerDetailsLabel {
 
 header p.headerDetailsText {
     margin-bottom: 1.3rem;
+    padding-top: 0;
 }
 
 .sectionUnderline {
