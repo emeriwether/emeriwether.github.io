@@ -53,8 +53,14 @@ ol.indentText li::before {
 }
 
 ul.ulSublist {
-    list-style-image: url('/images/sublist_bullets.png');
+    list-style: none;
     padding-left: 4.5em;
+}
+
+.ulSublist li {
+    background: url('/images/sublist_bullets.png') no-repeat left top;
+    padding-left: 2.5em;
+    margin-bottom: 1em;
 }
 
     /* FONT STYLING */
