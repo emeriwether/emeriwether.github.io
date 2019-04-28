@@ -53,7 +53,7 @@ ol.indentText li::before {
 }
 
 ul.ulSublist {
-    list-style-image: url('/images/sublist_bullets.svg');
+    list-style-image: url('/images/sublist_bullets.png');
 }
 
     /* FONT STYLING */
