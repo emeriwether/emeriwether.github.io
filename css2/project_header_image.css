@@ -1,6 +1,6 @@
 #headerImage {
-    padding-left: 2.5em;
-    padding-right: 2.5em;
+    /*padding-left: 2.5em;
+    padding-right: 2.5em;*/
     display: block;
     margin: auto auto;
 }
@@ -151,7 +151,7 @@
 /* LARGE AND UP (>= 1024px) */
 @media screen and (min-width: 64em) {
     #headerImage {
-        padding-right: 1em;
+        /*padding-right: 1em;*/
     }
 
     /* Stand
@@ -172,7 +172,7 @@
 /* 3000px and less ------------------------------ */
 @media (max-width: 3000px) {
     #headerImage {
-        padding-left: 31em;
+        /*padding-left: 31em;*/
         padding-bottom: 10em;
     }
     
@@ -191,68 +191,7 @@
   }
 }
 
-/* 2900px and less ------------------------------ */
-@media (max-width: 2900px) {
-    #headerImage {
-        padding-left: 28em;
-    }
-}
 
-/* 2800px and less ------------------------------ */
-@media (max-width: 2800px) {
-    #headerImage {
-        padding-left: 25em;
-    }
-}
-
-/* 2700px and less ------------------------------ */
-@media (max-width: 2700px) {
-    #headerImage {
-        padding-left: 22em;
-    }
-}
-
-/* 2600px and less ------------------------------ */
-@media (max-width: 2600px) {
-    #headerImage {
-        padding-left: 19em;
-    }
-}
-
-/* 2500px and less ------------------------------ */
-@media (max-width: 2500px) {
-    #headerImage {
-        padding-left: 16em;
-    }
-}
-
-/* 2400px and less ------------------------------ */
-@media (max-width: 2400px) {
-    #headerImage {
-        padding-left: 13em;
-    }
-}
-
-/* 2300px and less ------------------------------ */
-@media (max-width: 2300px) {
-    #headerImage {
-        padding-left: 10em;
-    }
-}
-
-/* 2200px and less ------------------------------ */
-@media (max-width: 2200px) {
-    #headerImage {
-        padding-left: 6em;
-    }
-}
-
-/* 2100px and less ------------------------------ */
-@media (max-width: 2100px) {
-    #headerImage {
-        padding-left: 6em;
-    }
-}
 
 /* 2075px and less ------------------------------ */
 @media (max-width: 2075px) {
@@ -308,7 +247,7 @@
 /* 2000px and less ------------------------------ */
 @media (max-width: 2000px) {
     #headerImage {
-        padding-left: 5em;
+        /*padding-left: 5em;*/
         padding-bottom: 8em;
     }
     
@@ -380,9 +319,9 @@
 
 /* 1900px and less ------------------------------ */
 @media (max-width: 1900px) {
-    #headerImage {
+    /*#headerImage {
         padding-left: 6em;
-    }
+    }*/
     
   .container {
     width: calc(1.20 * 650px);
@@ -452,9 +391,9 @@
 
 /* 1800px and less ------------------------------ */
 @media (max-width: 1800px) {
-    #headerImage {
+    /*#headerImage {
         padding-left: 4em;
-    }    
+    }*/    
 
   .container {
     width: calc(1.16 * 650px);
@@ -1007,7 +946,7 @@
 @media (max-width: 1023px) {    
     #headerImage {
         padding-bottom: 7em;
-        padding-left: 0;
+        /*padding-left: 0;*/
     }
     
     .container, 
