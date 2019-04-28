@@ -54,6 +54,7 @@ ol.indentText li::before {
 
 ul.ulSublist {
     list-style-image: url('/images/sublist_bullets.png');
+    padding-left: 4em;
 }
 
     /* FONT STYLING */
