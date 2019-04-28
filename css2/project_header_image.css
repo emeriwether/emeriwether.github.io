@@ -150,10 +150,6 @@
 
 /* LARGE AND UP (>= 1024px) */
 @media screen and (min-width: 64em) {
-    #headerImage {
-        /*padding-right: 1em;*/
-    }
-
     /* Stand
     .monitor-stand {
       position: relative;
@@ -172,7 +168,6 @@
 /* 3000px and less ------------------------------ */
 @media (max-width: 3000px) {
     #headerImage {
-        /*padding-left: 31em;*/
         padding-bottom: 10em;
     }
     
@@ -247,7 +242,6 @@
 /* 2000px and less ------------------------------ */
 @media (max-width: 2000px) {
     #headerImage {
-        /*padding-left: 5em;*/
         padding-bottom: 8em;
     }
     
@@ -319,10 +313,6 @@
 
 /* 1900px and less ------------------------------ */
 @media (max-width: 1900px) {
-    /*#headerImage {
-        padding-left: 6em;
-    }*/
-    
   .container {
     width: calc(1.20 * 650px);
     height: calc(1.20 * 378.625px);
@@ -946,7 +936,6 @@
 @media (max-width: 1023px) {    
     #headerImage {
         padding-bottom: 7em;
-        /*padding-left: 0;*/
     }
     
     .container, 
