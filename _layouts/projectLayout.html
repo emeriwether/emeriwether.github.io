@@ -33,6 +33,11 @@
         <header class="grid-container-padded projectHeader">
             <section class="grid-x grid-margin-x align-middle">
 
+                <div class="small-12 cell">
+                    <h1 class="text-left" id="projectNumber">PROJECT {{ page.projectNumber }}</h1>
+                    <h2 class="text-left">{{ page.projectTitle }}</h2>
+                </div>
+                
                 <!-- HEADER TEXT -->            
                 <div class="large-6 cell large-order-2" id="headerText">
                     <p class="text-left headerDetailsLabel"><mark class="boldText whiteText">PROJECT SUMMARY</mark></p> 
@@ -51,9 +56,7 @@
 
                 <!-- HEADER IMAGE -->
                 <div class="large-6 cell large-order-1" id="headerImage">
-                    <h1 class="text-left" id="projectNumber">PROJECT {{ page.projectNumber }}</h1>
-                    <h2 class="text-left">{{ page.projectTitle }}</h2>
-                    <h4 class="text-left cell headerSectionLabel">{{ page.headerImageLabel }}</h4>
+                    <h3 class="text-left cell headerSectionLabel">{{ page.headerImageLabel }}</h3>
                     {% if page.projectHero %}
                         <img src="{{ page.projectHero }}" id="{{ page.projectHeroID }}">
                     {% else %}
