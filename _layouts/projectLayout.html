@@ -35,10 +35,6 @@
 
                 <!-- HEADER TEXT -->            
                 <article class="large-6 cell large-order-2" id="headerText">
-                    <h1 class="text-left" id="projectNumber">PROJECT {{ page.projectNumber }}</h1>
-                    <h2 class="text-left">{{ page.projectTitle }}</h2>
-                    <img class="sectionUnderline" src="images/sectionUnderline_white.svg" alt="section underline">
-                    <h3 class="text-left headerSectionLabel show-for-medium">PROJECT OVERVIEW</h3>
                     <p class="text-left headerDetailsLabel"><mark class="boldText whiteText">PROJECT SUMMARY</mark></p> 
                     <p class="text-left headerDetailsText">{{ page.projectGoal }}</p>
                     <p class="text-left headerDetailsLabel"><mark class="boldText whiteText">PROJECT DURATION</mark></p> 
@@ -55,7 +51,9 @@
 
                 <!-- HEADER IMAGE -->
                 <div class="large-6 cell large-order-1" id="headerImage">
-                    <h4 class="text-left cell headerSectionLabel hide-for-large">{{ page.headerImageLabel }}</h4>
+                    <h1 class="text-left" id="projectNumber">PROJECT {{ page.projectNumber }}</h1>
+                    <h2 class="text-left">{{ page.projectTitle }}</h2>
+                    <h4 class="text-left cell headerSectionLabel">{{ page.headerImageLabel }}</h4>
                     {% if page.projectHero %}
                         <img src="{{ page.projectHero }}" id="{{ page.projectHeroID }}">
                     {% else %}
