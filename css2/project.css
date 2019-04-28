@@ -6,11 +6,11 @@
 }
 
 header .headerSectionLabel {
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
 }
 
 header p.headerDetailsLabel {
-    margin-bottom:0;
+    margin-bottom: 0;
 }
 
 header p.headerDetailsText {
@@ -27,11 +27,13 @@ header p.headerDetailsText {
 header section h1 {
     color: #E14658;
     line-height: 1;
+    font-size: 2em;
 }
 
 header section h2 {
     color: #E14658;
     line-height: 0.9;
+    font-size: 3em;
 }
 
 header section h3 {
