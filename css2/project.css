@@ -24,29 +24,29 @@ header p.headerDetailsText {
     padding-bottom: 1.25em;
 }
 
-header section article h1 {
+header section h1 {
     color: #E14658;
     line-height: 1;
 }
 
-header section article h2 {
+header section h2 {
     color: #E14658;
     line-height: 0.9;
 }
 
-header section article h3 {
+header section h3 {
     color: #EBEDF3;
     line-height: 1;
 }
 
-header section article h4, 
+header section h4, 
 header div h4 {
     color: #E14658;
     margin-bottom: 0;
     padding-bottom: 1em;
 }
 
-header section article p {
+header section p {
     color: #EBEDF3;
 }
 
