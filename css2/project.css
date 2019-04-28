@@ -9,6 +9,10 @@ header .headerSectionLabel {
     margin-bottom: 2rem;
 }
 
+#headerText {
+    max-width: 28em;
+}
+
 header p.headerDetailsLabel {
     margin-bottom: 0;
     font-family: "Roboto Condensed";
