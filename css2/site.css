@@ -39,14 +39,14 @@ ol.indentText {
 ol.indentText li {
     counter-increment: customCounter;
     display: flex;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 ol.indentText li::before {
     line-height: 0.85;
     color: #E14658;
     font-family: "Roboto Condensed";
-    content: "0" counter(customCounter);
+    content: "#" counter(customCounter);
     margin-right: 0.5em;
     font-size: 2.5em;
 }
