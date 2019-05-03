@@ -45,6 +45,10 @@ ol.indentText li {
 }
 
 ol.indentText.shortList li {
+    margin-bottom: 3em;
+}
+
+ol.indentText.shortList li {
     margin-bottom: 0.5em;
 }
 
