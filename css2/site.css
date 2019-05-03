@@ -48,7 +48,7 @@ ol.indentText li::before {
     line-height: 0.85;
     color: #E14658;
     font-family: "Roboto Condensed";
-    content: counter(customCounter);
+    content: counter(customCounter) ". ";
     margin-right: 0.5em;
     font-size: 1em;
 }
