@@ -9,7 +9,7 @@ header .headerSectionLabel {
     margin-bottom: 2rem;
 }
 
-#headerText {
+.headerText {
     max-width: 28em;
 }
 
@@ -213,7 +213,7 @@ main section div a img:hover {
             padding: 3.5em 1em;
         }
         
-        #headerText {
+        .headerText {
             padding: 0 2.5em 0 0.9em;
             margin: 0 0 0 0;
         }
