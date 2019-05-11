@@ -101,7 +101,7 @@ main .card p:first-child {
     .card.sectionCard {
         padding: 2.5em 4em 2.5em 4em;
         box-shadow: 6px 7px 10px 3px #B5B5B5;
-        border-left-width: 30px;
+        border-left-width: 20px;
         border-left-style: solid;
         border-color: #22252C;
     }
