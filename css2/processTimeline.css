@@ -309,7 +309,6 @@
 
 	.content-inner p {
 		font-size: 14px;
-		text-align: justify;
 	}
 
 	.event input[type="radio"]:checked ~ .content-perspective .content-inner p {
