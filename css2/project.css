@@ -23,7 +23,6 @@ header p.headerDetailsText {
     color: #EBEDF3;
 }
 
-
 .sectionUnderline {
     width: 50%;
     height: auto;
@@ -186,6 +185,10 @@ main section div a img:hover {
         .projectHeader {
             padding: 3.5em 3em;
         }
+        
+        .card.headerSectionCard {
+            padding: 0 2em;
+        }
         /* END HEADER STYLING */
         /***********************/
         
@@ -234,6 +237,10 @@ main section div a img:hover {
         .headerText {
             padding: 0 2.5em 0 0.9em;
             margin: 0 0 0 0;
+        }
+        
+        .card.headerSectionCard {
+            padding: 0 3em;
         }
         
         /* END HEADER STYLING */
