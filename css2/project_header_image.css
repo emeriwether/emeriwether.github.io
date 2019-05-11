@@ -928,14 +928,12 @@
 }
 
 
-
-
 /* ~~~~~~~ MEDIUM BELOW ~~~~~~~~ */
 
 /* 1023px and less ------------------------------ */
 @media (max-width: 1023px) {    
     #headerImage {
-        padding-bottom: 7em;
+        padding-bottom: 8em;
     }
     
     .container, 
@@ -963,8 +961,6 @@
     .monitor-stand {
         border-top: calc(0.99 * 16.25px) solid #D1D3D6;
     }
-    
-
 }
 
 /* 975px and less ------------------------------ */
