@@ -3,6 +3,8 @@
 .projectHeader {
     background: #22252C;
     padding: 2em 1.5em;
+    width: 100%;
+    max-width: none;
 }
 
 header .headerSectionLabel {
