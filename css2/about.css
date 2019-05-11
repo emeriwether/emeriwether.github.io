@@ -104,19 +104,16 @@ aside .card img {
 .aboutSection h4 {
     padding-top: 0.75em;
     font-size: 1.5em;
-    padding-left: 0.65em;
 }
 
 .aboutSection p {
     font-family: Cabin;
     font-weight: 400;
-    padding-left: 0.65em;
 }
 
 main section:nth-child(3) p {
     padding-bottom: 5em;
 }
-
     
 .card.sectionCard {
     padding: 2em 1em 2em 1em;
@@ -124,10 +121,6 @@ main section:nth-child(3) p {
     border-left-width: 10px;
     border-left-style: solid;
     border-color: #22252C;
-}
-
-.sectionTag {
-    padding-left: 1em;
 }
 
 /* TOOLBOX */
