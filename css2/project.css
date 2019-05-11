@@ -186,6 +186,10 @@ main section div a img:hover {
         
         /***********************/
         /* BEGIN SECTION STYLING */ 
+        .rwd-break {
+            display: none;
+        }   
+        
         .projectSection {
             padding: 4em 3em 0 3em;
         }
