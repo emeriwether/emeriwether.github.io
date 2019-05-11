@@ -31,61 +31,63 @@
         {% include projectNavigation.html %}
         
         <header class="grid-container projectHeader">
-            <section class="grid-x grid-margin-x align-center">
+            <section class="grid-x grid-margin-x">
 
-                <!-- HEADER TITLE -->                
-                <div class="small-12 cell projectHeaderTitle">
-                    <h1 class="medium-text-center" id="projectNumber">PROJECT {{ page.projectNumber }}</h1>
-                    <h2 class="medium-text-center" >{{ page.projectTitle }}</h2>
-                </div>
+                <div class="card sectionCard">
                 
-                <!-- HEADER IMAGE -->
-                <div class="small-12 cell" id="headerImage">
-                    <h3 class="text-left cell headerSectionLabel">{{ page.headerImageLabel }}</h3>
-                    {% if page.projectHero %}
-                        <img src="{{ page.projectHero }}" id="{{ page.projectHeroID }}">
-                    {% else %}
-                        {% if page.projectToggle %}
-                            {% include toggle.html %}
-                            {% include project_header_image.html %}                          
-                        {% else %}
-                            {% include project_header_image.html %}  
-                        {% endif %}
-                    {% endif %}
-                 </div>
-                
-                <!-- HEADER TEXT -->            
-                <div class="small-12 cell headerText">
-                    <div class="grid-x grid-padding-x ">
-                        <div class="medium-12 cell">
-                            <p class="headerDetailsLabel"><mark class="boldText whiteText">PROJECT SUMMARY</mark></p> 
-                            <p class="headerDetailsText">{{ page.projectGoal }}</p>
-                        </div>
-                        <div class="medium-12 cell">                        
-                            <p class="headerDetailsLabel"><mark class="boldText whiteText">FEATURED TOOLS</mark></p>
-                            <p class="headerDetailsText">{{ page.featuredTools }}</p>   
-                        </div>                           
-                        <div class="medium-6 cell">                        
-                            <p class="headerDetailsLabel"><mark class="boldText whiteText">PROJECT DURATION</mark></p> 
-                            <p class="headerDetailsText">{{ page.projectDates }}</p>
-                        </div>
-                        <div class="medium-6 cell">                        
-                            <p class="headerDetailsLabel"><mark class="boldText whiteText">THE CLIENT</mark></p>
-                            <p class="headerDetailsText">{{ page.projectClient }}</p>
-                        </div>     
-                        <div class="medium-6 cell">                        
-                            <p class="headerDetailsLabel"><mark class="boldText whiteText">THE TEAM</mark></p>
-                            <p class="headerDetailsText">{{ page.projectTeam }}</p>
-                        </div>
-                        <div class="medium-6 cell">                        
-                            <p class="headerDetailsLabel"><mark class="boldText whiteText">MY ROLE(S)</mark></p>
-                            <p class="headerDetailsText">{{ page.projectRoles}}</p>
-                        </div> 
+                    <!-- HEADER TITLE -->                
+                    <div class="cell projectHeaderTitle">
+                        <h1 class="medium-text-center" id="projectNumber">PROJECT {{ page.projectNumber }}</h1>
+                        <h2 class="medium-text-center" >{{ page.projectTitle }}</h2>
                     </div>
-                </div>   
+
+                    <!-- HEADER IMAGE -->
+                    <div class="cell" id="headerImage">
+                        <h3 class="text-left cell headerSectionLabel">{{ page.headerImageLabel }}</h3>
+                        {% if page.projectHero %}
+                            <img src="{{ page.projectHero }}" id="{{ page.projectHeroID }}">
+                        {% else %}
+                            {% if page.projectToggle %}
+                                {% include toggle.html %}
+                                {% include project_header_image.html %}                          
+                            {% else %}
+                                {% include project_header_image.html %}  
+                            {% endif %}
+                        {% endif %}
+                     </div>
+
+                    <!-- HEADER TEXT -->            
+                    <div class="cell headerText">
+                        <div class="grid-x grid-padding-x">
+                            <div class="medium-12 cell">
+                                <p class="headerDetailsLabel"><mark class="boldText whiteText">PROJECT SUMMARY</mark></p> 
+                                <p class="headerDetailsText">{{ page.projectGoal }}</p>
+                            </div>
+                            <div class="medium-12 cell">                        
+                                <p class="headerDetailsLabel"><mark class="boldText whiteText">FEATURED TOOLS</mark></p>
+                                <p class="headerDetailsText">{{ page.featuredTools }}</p>   
+                            </div>                           
+                            <div class="medium-6 cell">                        
+                                <p class="headerDetailsLabel"><mark class="boldText whiteText">PROJECT DURATION</mark></p> 
+                                <p class="headerDetailsText">{{ page.projectDates }}</p>
+                            </div>
+                            <div class="medium-6 cell">                        
+                                <p class="headerDetailsLabel"><mark class="boldText whiteText">THE CLIENT</mark></p>
+                                <p class="headerDetailsText">{{ page.projectClient }}</p>
+                            </div>     
+                            <div class="medium-6 cell">                        
+                                <p class="headerDetailsLabel"><mark class="boldText whiteText">THE TEAM</mark></p>
+                                <p class="headerDetailsText">{{ page.projectTeam }}</p>
+                            </div>
+                            <div class="medium-6 cell">                        
+                                <p class="headerDetailsLabel"><mark class="boldText whiteText">MY ROLE(S)</mark></p>
+                                <p class="headerDetailsText">{{ page.projectRoles}}</p>
+                            </div> 
+                        </div>
+                    </div>   
 
 
-
+                </div>
             </section>            
         </header>
 
