@@ -10,7 +10,7 @@ main {
 
 /* HEADER */
 header {
-    padding: 3em 1.5em 4em 1.5em;
+    padding: 3em 1em 4em 1em;
 }
 
 header h1 {
@@ -98,7 +98,7 @@ aside .card img {
 
 /* MAIN */
 .aboutSection {
-    padding: 2.5em 1.5em 0 1.5em;
+    padding: 2.5em 1em 0 1em;
 }
 
 .aboutSection h4 {
