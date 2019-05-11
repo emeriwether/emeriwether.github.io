@@ -62,6 +62,10 @@ header section p {
 header section div #projectAImage {
     width: 100%;
 }
+
+.headerText {
+    padding-top: 1.5em;
+}
 /* END HEADER STYLING */
 /***********************/
 
