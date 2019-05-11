@@ -4984,7 +4984,7 @@ a.thumbnail {
 
 .title-bar-right {
   text-align: right;
-  padding-right: 2em; }
+  /*padding-right: 2em;*/ }
 
 .title-bar-title {
   display: inline-block;
