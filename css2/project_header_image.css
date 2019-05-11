@@ -1159,10 +1159,6 @@
 
 /* 639px and less ------------------------------ */
 @media (max-width: 639px) {
-    #headerImage {
-        padding-bottom: 5em;
-    }
-    
     .container, 
     .container:hover {
         width: calc(0.78 * 650px);
