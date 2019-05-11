@@ -126,6 +126,7 @@ ul.ulSublist {
         font-family: Cabin;
         font-weight: 400;
         color: #3C3C3D;
+        font-size: 1.1em;
     }
 
     /* mozilla-like button styling from https://codepen.io/slimsmearlapp/pen/HJgFG */
