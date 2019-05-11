@@ -590,68 +590,68 @@
 /* 1500px and less ------------------------------ */
 @media (max-width: 1500px) {
   .container {
-    width: calc(0.97 * 650px);
-    height: calc(0.97 * 378.625px);
+    width: calc(1.11 * 650px);
+    height: calc(1.11 * 378.625px);
   }
 
   .container:hover {
-    width: calc(0.97 * 682.90625px);
-    height: calc(0.97 * 397.2515625px);
+    width: calc(1.11 * 682.90625px);
+    height: calc(1.11 * 397.2515625px);
   }
 
   .monitor-stand {
-    border-top: calc(0.97 * 16.25px) solid #D1D3D6;
+    border-top: calc(1.11 * 16.25px) solid #D1D3D6;
   }
 }
 
 /* 1475px and less ------------------------------ */
 @media (max-width: 1475px) {
   .container {
-    width: calc(0.95 * 650px);
-    height: calc(0.95 * 378.625px);
+    width: calc(1.09 * 650px);
+    height: calc(1.09 * 378.625px);
   }
 
   .container:hover {
-    width: calc(0.95 * 682.90625px);
-    height: calc(0.95 * 397.2515625px);
+    width: calc(1.09 * 682.90625px);
+    height: calc(1.09 * 397.2515625px);
   }
 
   .monitor-stand {
-    border-top: calc(0.95 * 16.25px) solid #D1D3D6;
+    border-top: calc(1.09 * 16.25px) solid #D1D3D6;
   }
 }
 
 /* 1450px and less ------------------------------ */
 @media (max-width: 1450px) {
   .container {
-    width: calc(0.93 * 650px);
-    height: calc(0.93 * 378.625px);
+    width: calc(1.07 * 650px);
+    height: calc(1.07 * 378.625px);
   }
 
   .container:hover {
-    width: calc(0.93 * 682.90625px);
-    height: calc(0.93 * 397.2515625px);
+    width: calc(1.07 * 682.90625px);
+    height: calc(1.07 * 397.2515625px);
   }
 
   .monitor-stand {
-    border-top: calc(0.93 * 16.25px) solid #D1D3D6;
+    border-top: calc(1.07 * 16.25px) solid #D1D3D6;
   }
 }
 
 /* 1425px and less ------------------------------ */
 @media (max-width: 1425px) {
   .container {
-    width: calc(0.91 * 650px);
-    height: calc(0.91 * 378.625px);
+    width: calc(1.05 * 650px);
+    height: calc(1.05 * 378.625px);
   }
 
   .container:hover {
-    width: calc(0.91 * 682.90625px);
-    height: calc(0.91 * 397.2515625px);
+    width: calc(1.05 * 682.90625px);
+    height: calc(1.05 * 397.2515625px);
   }
 
   .monitor-stand {
-    border-top: calc(0.91 * 16.25px) solid #D1D3D6;
+    border-top: calc(1.05 * 16.25px) solid #D1D3D6;
   }
 }
 
