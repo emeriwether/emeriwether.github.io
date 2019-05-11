@@ -1087,7 +1087,7 @@
 /* 750px and less ------------------------------ */
 @media (max-width: 750px) {
     #headerImage {
-        padding-bottom: 6em;
+        padding-bottom: 7em;
     }    
     
     .container, 
