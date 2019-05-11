@@ -44,6 +44,10 @@ ol.indentText li {
     margin-bottom: 2em;
 }
 
+ol.indentText.shortList {
+    padding-bottom: 1em;
+}
+
 ol.indentText.shortList li {
     margin-bottom: 3em;
 }
