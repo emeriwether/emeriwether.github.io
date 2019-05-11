@@ -658,153 +658,153 @@
 /* 1400px and less ------------------------------ */
 @media (max-width: 1400px) {
   .container {
-    width: calc(0.90 * 650px);
-    height: calc(0.90 * 378.625px);
+    width: calc(1.03 * 650px);
+    height: calc(1.03 * 378.625px);
   }
 
   .container:hover {
-    width: calc(0.90 * 682.90625px);
-    height: calc(0.90 * 397.2515625px);
+    width: calc(1.03 * 682.90625px);
+    height: calc(1.03 * 397.2515625px);
   }
 
   .monitor-stand {
-    border-top: calc(0.90 * 16.25px) solid #D1D3D6;
+    border-top: calc(1.03 * 16.25px) solid #D1D3D6;
   }
 }
 
 /* 1375px and less ------------------------------ */
 @media (max-width: 1375px) {
   .container {
-    width: calc(0.88 * 650px);
-    height: calc(0.88 * 378.625px);
+    width: calc(1.01 * 650px);
+    height: calc(1.01 * 378.625px);
   }
 
   .container:hover {
-    width: calc(0.88 * 682.90625px);
-    height: calc(0.88 * 397.2515625px);
+    width: calc(1.01 * 682.90625px);
+    height: calc(1.01 * 397.2515625px);
   }
 
   .monitor-stand {
-    border-top: calc(0.88 * 16.25px) solid #D1D3D6;
+    border-top: calc(1.01 * 16.25px) solid #D1D3D6;
   }
 }
 
 /* 1350px and less ------------------------------ */
 @media (max-width: 1350px) {
   .container {
-    width: calc(0.86 * 650px);
-    height: calc(0.86 * 378.625px);
+    width: calc(0.99 * 650px);
+    height: calc(0.99 * 378.625px);
   }
 
   .container:hover {
-    width: calc(0.86 * 682.90625px);
-    height: calc(0.86 * 397.2515625px);
+    width: calc(0.99 * 682.90625px);
+    height: calc(0.99 * 397.2515625px);
   }
 
   .monitor-stand {
-    border-top: calc(0.86 * 16.25px) solid #D1D3D6;
+    border-top: calc(0.99 * 16.25px) solid #D1D3D6;
   }
 }
 
 /* 1325px and less ------------------------------ */
 @media (max-width: 1325px) {
   .container {
-    width: calc(0.84 * 650px);
-    height: calc(0.84 * 378.625px);
+    width: calc(0.97 * 650px);
+    height: calc(0.97 * 378.625px);
   }
 
   .container:hover {
-    width: calc(0.84 * 682.90625px);
-    height: calc(0.84 * 397.2515625px);
+    width: calc(0.97 * 682.90625px);
+    height: calc(0.97 * 397.2515625px);
   }
 
   .monitor-stand {
-    border-top: calc(0.84 * 16.25px) solid #D1D3D6;
+    border-top: calc(0.97 * 16.25px) solid #D1D3D6;
   }
 }
 
 /* 1300px and less ------------------------------ */
 @media (max-width: 1300px) {
   .container {
-    width: calc(0.82 * 650px);
-    height: calc(0.82 * 378.625px);
+    width: calc(0.95 * 650px);
+    height: calc(0.95 * 378.625px);
   }
 
   .container:hover {
-    width: calc(0.82 * 682.90625px);
-    height: calc(0.82 * 397.2515625px);
+    width: calc(0.95 * 682.90625px);
+    height: calc(0.95 * 397.2515625px);
   }
 
   .monitor-stand {
-    border-top: calc(0.82 * 16.25px) solid #D1D3D6;
+    border-top: calc(0.95 * 16.25px) solid #D1D3D6;
   }
 }
 
 /* 1275px and less ------------------------------ */
 @media (max-width: 1275px) {
   .container {
-    width: calc(0.80 * 650px);
-    height: calc(0.80 * 378.625px);
+    width: calc(0.93 * 650px);
+    height: calc(0.93 * 378.625px);
   }
 
   .container:hover {
-    width: calc(0.80 * 682.90625px);
-    height: calc(0.80 * 397.2515625px);
+    width: calc(0.93 * 682.90625px);
+    height: calc(0.93 * 397.2515625px);
   }
 
   .monitor-stand {
-    border-top: calc(0.80 * 16.25px) solid #D1D3D6;
+    border-top: calc(0.93 * 16.25px) solid #D1D3D6;
   }
 }
 
 /* 1250px and less ------------------------------ */
 @media (max-width: 1250px) {
   .container {
-    width: calc(0.78 * 650px);
-    height: calc(0.78 * 378.625px);
+    width: calc(0.91 * 650px);
+    height: calc(0.91 * 378.625px);
   }
 
   .container:hover {
-    width: calc(0.78 * 682.90625px);
-    height: calc(0.78 * 397.2515625px);
+    width: calc(0.91 * 682.90625px);
+    height: calc(0.91 * 397.2515625px);
   }
 
   .monitor-stand {
-    border-top: calc(0.78 * 16.25px) solid #D1D3D6;
+    border-top: calc(0.91 * 16.25px) solid #D1D3D6;
   }
 }
 
 /* 1225px and less ------------------------------ */
 @media (max-width: 1225px) {
   .container {
-    width: calc(0.76 * 650px);
-    height: calc(0.76 * 378.625px);
+    width: calc(0.89 * 650px);
+    height: calc(0.89 * 378.625px);
   }
 
   .container:hover {
-    width: calc(0.76 * 682.90625px);
-    height: calc(0.76 * 397.2515625px);
+    width: calc(0.89 * 682.90625px);
+    height: calc(0.89 * 397.2515625px);
   }
 
   .monitor-stand {
-    border-top: calc(0.76 * 16.25px) solid #D1D3D6;
+    border-top: calc(0.89 * 16.25px) solid #D1D3D6;
   }
 }
 
 /* 1200px and less ------------------------------ */
 @media (max-width: 1200px) {  
   .container {
-    width: calc(0.74 * 650px);
-    height: calc(0.74 * 378.625px);
+    width: calc(0.87 * 650px);
+    height: calc(0.87 * 378.625px);
   }
 
   .container:hover {
-    width: calc(0.74 * 682.90625px);
-    height: calc(0.74 * 397.2515625px);
+    width: calc(0.87 * 682.90625px);
+    height: calc(0.87 * 397.2515625px);
   }
 
   .monitor-stand {
-    border-top: calc(0.74 * 16.25px) solid #D1D3D6;
+    border-top: calc(0.87 * 16.25px) solid #D1D3D6;
   }
 }
 
