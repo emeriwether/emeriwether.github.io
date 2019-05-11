@@ -98,6 +98,7 @@ main section h5 {
 main section p {
     color: #000000;
     margin-bottom: 0;
+    font-size: 1.1em;
 }
 
 .bodyText {
