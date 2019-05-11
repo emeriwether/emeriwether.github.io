@@ -20,7 +20,9 @@ header p.headerDetailsLabel {
 header p.headerDetailsText {
     margin-bottom: 1.3rem;
     padding-top: 0;
+    color: #EBEDF3;
 }
+
 
 .sectionUnderline {
     width: 50%;
@@ -29,13 +31,13 @@ header p.headerDetailsText {
     padding-bottom: 1.25em;
 }
 
-header section h1 {
+header h1 {
     color: #E14658;
     line-height: 1;
     font-size: 2em;
 }
 
-header section h2 {
+header h2 {
     color: #E14658;
     line-height: 0.9;
     font-size: 3em;

@@ -31,18 +31,17 @@
         {% include projectNavigation.html %}
         
         <header class="grid-container projectHeader">
-            <section class="grid-x grid-margin-x">
-                
+            
                 <div class="card headerSectionCard">
                 
                     <!-- HEADER TITLE -->                
-                    <div class="cell projectHeaderTitle">
+                    <div class="projectHeaderTitle">
                         <h1 class="medium-text-center" id="projectNumber">PROJECT {{ page.projectNumber }}</h1>
                         <h2 class="medium-text-center" >{{ page.projectTitle }}</h2>
                     </div>
 
                     <!-- HEADER IMAGE -->
-                    <div class="cell" id="headerImage">
+                    <div id="headerImage">
                         <h3 class="text-left cell headerSectionLabel">{{ page.headerImageLabel }}</h3>
                         {% if page.projectHero %}
                             <img src="{{ page.projectHero }}" id="{{ page.projectHeroID }}">
@@ -58,7 +57,7 @@
                     </div>
 
                     <!-- HEADER TEXT -->            
-                    <div class="cell headerText">
+                    <div class="headerText">
                         <div class="grid-x grid-padding-x align-center align-middle">
                             <div class="medium-12 cell">
                                 <p class="headerDetailsLabel"><mark class="boldText whiteText">PROJECT SUMMARY</mark></p> 
@@ -89,7 +88,6 @@
                 
                 </div>
                     
-            </section>            
         </header>
 
         <main class="grid-container projectBody">{{ content }}</main>
