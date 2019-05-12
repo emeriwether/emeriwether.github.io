@@ -11,8 +11,8 @@ nav a {
 #smallScreenLogo {
     max-width: 14em;
     height: 100%;
-    padding-top: 1em;
-    padding-left: 3.3em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
 }
 
 .subnavText {
@@ -23,9 +23,9 @@ nav a {
 /* MEDIUM AND UP */
 @media screen and (min-width: 40em) {        
    #mediumUpLogo {
-        max-width: 18em;
+        max-width: 17em;
         width: 80%;
-        padding: 1em 0 1em 5.2em;
+        padding: 1em 0 1em 2.5em;
     } 
     
     /* attempt to target firefox specifically */
@@ -38,7 +38,7 @@ nav a {
     /* end attempt */
 
     .top-bar-right {
-        padding-right: 3em;
+        padding-right: 1em;
     }
 }
 

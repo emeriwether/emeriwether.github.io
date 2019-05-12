@@ -27,12 +27,54 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    background-color: #EBEDF3;
-}
-
 .hide {
     display: none;
+}
+
+ol.indentText {
+    list-style: none;
+    counter-reset: customCounter;
+    max-width: 30em;
+    padding-top: 2.5em;
+}
+
+ol.indentText li {
+    counter-increment: customCounter;
+    display: flex;
+    margin-bottom: 2em;
+}
+
+ol.indentText.shortList {
+    padding-bottom: 1em;
+}
+
+ol.indentText.shortList li {
+    margin-bottom: 3em;
+}
+
+ol.indentText.shortList li {
+    margin-bottom: 0.5em;
+}
+
+ol.indentText li::before {
+    color: #E14658;
+    font-family: "Roboto Condensed";
+    content: counter(customCounter) ". ";
+    margin-right: 0.5em;
+    font-size: 1em;
+}
+
+ul.ulSublist {
+    list-style: none;
+    padding-left: 4.5em;
+}
+
+.ulSublist li::before {
+    content: "•"; 
+    color: #E14658;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
 }
 
     /* FONT STYLING */
@@ -56,8 +98,12 @@ body {
         color: #EBEDF3;
     }
 
+    .greyText {
+        color: #9a9a9a;
+    }
+
     .indentText {
-        padding-left: 35px;
+        padding-left: 0.75em;
     }
 
     .italicText {
@@ -84,6 +130,7 @@ body {
         font-family: Cabin;
         font-weight: 400;
         color: #3C3C3D;
+        font-size: 1.1em;
     }
 
     /* mozilla-like button styling from https://codepen.io/slimsmearlapp/pen/HJgFG */
@@ -91,3 +138,13 @@ body {
         color: #EBEDF3;
         background: linear-gradient(to bottom, #29394B 0%,#1d2835 100%);
     }
+
+@media screen and (min-width: 64em) {
+    .indentText {
+        padding-left: 3.5em;
+    }
+    
+    ul.ulSublist {
+        padding-left: 7.5em;
+    }    
+}

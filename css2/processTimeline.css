@@ -1,4 +1,4 @@
-@import url('demo.css');
+/*@import url('demo.css');*/
 
 @font-face {
 	font-family: 'fontawesome-selected';
@@ -131,10 +131,10 @@
 	position: relative;
 	padding: 20px 20px 10px 20px;
 	color: #333;
-	border: none;
+	border: 2px solid #aeaeae;
 	border-left: 5px solid #1399AA;
-	box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-	background: #fff;
+	box-shadow: 6px 10px 10px rgba(0,0,0,0.1);
+	background: #FFFFFF;
 }
 
 .content-inner p {
@@ -229,7 +229,7 @@
 
 .event input[type="radio"]:checked ~ .content-perspective .content-inner {
 	border-color: #E14658;
-	box-shadow: 10px 0px 10px -6px rgba(0, 0, 0, 0.1);
+	box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .event input[type="radio"]:checked ~ .content-perspective .content-inner p {
@@ -309,7 +309,6 @@
 
 	.content-inner p {
 		font-size: 14px;
-		text-align: justify;
 	}
 
 	.event input[type="radio"]:checked ~ .content-perspective .content-inner p {
@@ -391,7 +390,12 @@
 		content: '\25b4';
 		left: 33px;
 		top: -32px;
+        display: none;
 	}
+    
+    .event input[type="radio"]:checked ~ .content-perspective .content-inner:before {
+        display: none;
+    }    
 
 	.event input[type="radio"]:checked ~ .content-perspective .content-inner p {
 		max-height: 300px; 

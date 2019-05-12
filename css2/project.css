@@ -2,19 +2,25 @@
 /* BEGIN HEADER STYLING */
 .projectHeader {
     background: #22252C;
-    padding: 2em 4em;
+    padding: 2em 1.5em;
+    width: 100%;
+    max-width: none;
 }
 
 header .headerSectionLabel {
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
 }
 
 header p.headerDetailsLabel {
-    margin-bottom:0;
+    margin-bottom: 0;
+    font-family: "Roboto Condensed";
+    font-size: 1.5em;
 }
 
 header p.headerDetailsText {
     margin-bottom: 1.3rem;
+    padding-top: 0;
+    color: #EBEDF3;
 }
 
 .sectionUnderline {
@@ -24,34 +30,40 @@ header p.headerDetailsText {
     padding-bottom: 1.25em;
 }
 
-header section article h1 {
+header h1 {
     color: #E14658;
     line-height: 1;
+    font-size: 2em;
 }
 
-header section article h2 {
+header h2 {
     color: #E14658;
     line-height: 0.9;
+    font-size: 3em;
 }
 
-header section article h3 {
+header section h3 {
     color: #EBEDF3;
     line-height: 1;
 }
 
-header section article h4, 
+header section h4, 
 header div h4 {
     color: #E14658;
     margin-bottom: 0;
     padding-bottom: 1em;
 }
 
-header section article p {
+header section p {
     color: #EBEDF3;
 }
 
 header section div #projectAImage {
     width: 100%;
+}
+
+.headerText {
+    padding-top: 1.5em;
 }
 /* END HEADER STYLING */
 /***********************/
@@ -65,40 +77,52 @@ header section div #projectAImage {
 }
 
 .projectSection {
-    padding: 1.50em 4em 0 4em;
+    padding: 1.50em 1em 0 1em;
 }
 
-card .sectionCard {
-    border: 0;
-    padding: 0 2em 2em 4em;
+.sectionTag {
+    width: 100%;
+}
+
+.card.sectionCard {
+    padding: 2em 1em 2em 1em;
     box-shadow: 6px 7px 10px 3px #B5B5B5;
-    background-image: url("images/project2/sectionBackground.svg");
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-color: #22252C;
+}
+
+.card.headerSectionCard {
+    background-color: #22252C;
+    max-width: 60rem;
 }
 
 main section h5 {
     color: #29394B;
-    font-size: 1.14em;
+    font-size: 1.5em;
+    padding-top: 1.5em;
 }
 
 main section p {
     color: #000000;
-}
-
-.sectionTag {
-    padding: 1.250em 0 0 0;
+    margin-bottom: 0;
+    font-size: 1.1em;
 }
 
 .bodyText {
-    padding-top: 0.5em;
     margin: 0 0;
 }
 
-.card {
+p+p {
+    padding-top: 1em;
+}
+
+.large.reveal .card {
     border: 0;
     padding: 0 0.55em;
 }
 
-.card img {
+.large.reveal .card img {
     padding-top: 1.75em;
     object-fit: contain;
 }
@@ -121,11 +145,6 @@ main .stat {
     padding: 1em 0;
     max-width: 65px;
     min-width: 60px;
-    /*margin: auto;*/
-}
-
-.statisticsSection div .card {
-    background-color: #EBEDF3;
 }
 /* END STYLING FOR STATISTICS */
 
@@ -141,6 +160,9 @@ main section div a img {
 
 main section div a figcaption {
     padding-bottom: 2em;
+    color: #acacac;
+    font-family: cabin;
+    text-align: center;
 }
 
 main section div a img:hover {
@@ -161,31 +183,40 @@ main section div a img:hover {
         /***********************/
         /* BEGIN HEADER STYLING */
         .projectHeader {
-            padding: 3.5em 6em;
+            padding: 3.5em 3em;
+        }
+        
+        .card.headerSectionCard {
+            padding: 0 2em;
         }
         /* END HEADER STYLING */
         /***********************/
         
         /***********************/
         /* BEGIN SECTION STYLING */ 
+        .rwd-break {
+            display: none;
+        }   
+        
         .projectSection {
-            padding: 4em 6em 0 6em;
+            padding: 4em 3em 0 3em;
         }
         
         main section h5 {
             font-size: 1.5em;
         }
         
-        /*.statsIcon {
-            width: 65%;
-            max-width: 160px;
-            padding: 1.25em 0 1em 33%;
-        }*/
-        
         .sectionTag {
             max-width: 475px;
-            padding-top: 3.5em;
         }
+        
+        .card.sectionCard {
+            padding: 2.5em 2em 2.5em 2em;
+            box-shadow: 6px 7px 10px 3px #B5B5B5;
+            border-left-width: 20px;
+            border-left-style: solid;
+            border-color: #22252C;
+}        
         /* END SECTION STYLING */
         /***********************/
     }
@@ -196,17 +227,22 @@ main section div a img:hover {
         /***********************/
         /* BEGIN HEADER STYLING */
         .projectHeader {
-            padding: 3.5em 1em;
+            padding: 3.5em 14em;
         }
         
-        #headerText {
+        .projectHeaderTitle {
+            padding-bottom: 1em;
+        }
+        
+        .headerText {
             padding: 0 2.5em 0 0.9em;
             margin: 0 0 0 0;
         }
         
-        .sectionTag {
-            padding: 5.5em 2em 0;
+        .card.headerSectionCard {
+            padding: 0 3em;
         }
+        
         /* END HEADER STYLING */
         /***********************/
            
@@ -216,33 +252,9 @@ main section div a img:hover {
             padding: 1.50em 0 0 0;
             margin: 0 0 0 0;
         }
-        
-        /*.sectionTag {
-            width: 100%;
-            padding: 1.6em 1em 0 6em;
-        }*/
-        
-        /*.bodyText {
-            padding-top: 1.5em;
-        }*/
-
-                
-        /*.statsIcon {
-            width: 70%;
-
-        }*/
+    
         /* END SECTION STYLING */
         /***********************/
-    }
-
-    @media screen and (min-width: 100em) {
-        /*.projectBody {
-            max-width: 100em;
-        }*/
-        
-        /*.sectionTag {
-            padding-left: 14em;
-        }*/
     }
 /* END MEDIA QUERIES */
 /***********************/

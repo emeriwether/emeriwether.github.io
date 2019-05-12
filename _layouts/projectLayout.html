@@ -20,6 +20,8 @@
         <link rel='stylesheet' href="/css2/toggle.css">
         <link rel="stylesheet" href="{{page.css}}">
         
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        
     </head>
     
     <body>
@@ -28,41 +30,64 @@
 
         {% include projectNavigation.html %}
         
-        <header class="grid-container-padded projectHeader">
-            <section class="grid-x grid-margin-x align-middle">
+        <header class="grid-container projectHeader">
+            
+                <div class="card headerSectionCard">
+                
+                    <!-- HEADER TITLE -->                
+                    <div class="projectHeaderTitle">
+                        <h1 class="medium-text-center" id="projectNumber">PROJECT {{ page.projectNumber }}</h1>
+                        <h2 class="medium-text-center" >{{ page.projectTitle }}</h2>
+                    </div>
 
-                <!-- HEADER TEXT -->            
-                <article class="large-6 cell large-order-2" id="headerText">
-                    <h1 class="text-left" id="projectNumber">PROJECT {{ page.projectNumber }}</h1>
-                    <h2 class="text-left">{{ page.projectTitle }}</h2>
-                    <img class="sectionUnderline" src="images/sectionUnderline_white.svg" alt="section underline">
-                    <h3 class="text-left headerSectionLabel">PROJECT OVERVIEW</h3>
-                    <p class="text-left headerDetailsLabel"><mark class="boldText whiteText">PROJECT SUMMARY</mark></p> 
-                    <p class="text-left headerDetailsText">{{ page.projectGoal }}</p>
-                    <p class="text-left headerDetailsLabel"><mark class="boldText whiteText">PROJECT DURATION</mark></p> 
-                    <p class="text-left headerDetailsText">{{ page.projectDates }}</p>
-                    <p class="text-left headerDetailsLabel"><mark class="boldText whiteText">THE CLIENT</mark></p>
-                    <p class="text-left headerDetailsText">{{ page.projectClient }}</p>
-                    <p class="text-left headerDetailsLabel"><mark class="boldText whiteText">THE TEAM</mark></p>
-                    <p class="text-left headerDetailsText">{{ page.projectTeam }}</p>
-                    <p class="text-left headerDetailsLabel"><mark class="boldText whiteText">MY ROLE(S)</mark></p>
-                    <p class="text-left headerDetailsText">{{ page.projectRoles}}</p>
-                    <p class="text-left headerDetailsLabel"><mark class="boldText whiteText">FEATURED TOOLS:</mark></p>
-                    <p class="text-left headerDetailsText">{{ page.featuredTools }}</p>
-                </article>   
+                    <!-- HEADER IMAGE -->
+                    <div id="headerImage">
+                        <h3 class="text-left cell headerSectionLabel">{{ page.headerImageLabel }}</h3>
+                        {% if page.projectHero %}
+                            <img src="{{ page.projectHero }}" id="{{ page.projectHeroID }}">
+                        {% else %}
+                            {% if page.projectToggle %}
+                                {% include toggle.html %}
+                                {% include project_header_image.html %}                          
+                            {% else %}
+                                {% include project_header_image.html %}  
+                            {% endif %}
+                        {% endif %}
+                     
+                    </div>
 
-                <!-- HEADER IMAGE -->
-                <div class="large-6 cell large-order-1" id="headerImage">
-                    <h4 class="text-left cell headerSectionLabel hide-for-large">{{ page.headerImageLabel }}</h4>
-                    {% if page.projectHero %}
-                        <img src="{{ page.projectHero }}" id="{{ page.projectHeroID }}">
-                    {% else %}
-                        {% include toggle.html %}
-                        {% include project_header_image.html %}  
-                    {% endif %}
-                 </div>
-
-            </section>            
+                    <!-- HEADER TEXT -->            
+                    <div class="headerText">
+                        <div class="grid-x grid-padding-x align-center">
+                            <div class="medium-12 cell">
+                                <p class="headerDetailsLabel"><mark class="boldText whiteText">PROJECT SUMMARY</mark></p> 
+                                <p class="headerDetailsText">{{ page.projectGoal }}</p>
+                            </div>
+                            <div class="medium-12 cell">                        
+                                <p class="headerDetailsLabel"><mark class="boldText whiteText">FEATURED TOOLS</mark></p>
+                                <p class="headerDetailsText">{{ page.featuredTools }}</p>   
+                            </div>                           
+                            <div class="medium-6 cell">                        
+                                <p class="headerDetailsLabel"><mark class="boldText whiteText">PROJECT DURATION</mark></p> 
+                                <p class="headerDetailsText">{{ page.projectDates }}</p>
+                            </div>
+                            <div class="medium-6 cell">                        
+                                <p class="headerDetailsLabel"><mark class="boldText whiteText">THE CLIENT</mark></p>
+                                <p class="headerDetailsText">{{ page.projectClient }}</p>
+                            </div>     
+                            <div class="medium-6 cell">                        
+                                <p class="headerDetailsLabel"><mark class="boldText whiteText">THE TEAM</mark></p>
+                                <p class="headerDetailsText">{{ page.projectTeam }}</p>
+                            </div>
+                            <div class="medium-6 cell">                        
+                                <p class="headerDetailsLabel"><mark class="boldText whiteText">MY ROLE(S)</mark></p>
+                                <p class="headerDetailsText">{{ page.projectRoles}}</p>
+                            </div> 
+                        </div>
+                    </div>   
+                
+                </div>
+                    
         </header>
 
         <main class="grid-container projectBody">{{ content }}</main>
@@ -74,6 +99,8 @@
         <script src="/js2/vendor/what-input.js"></script>
         <script src="/js2/vendor/foundation.js"></script>
         <script src="/js2/app.js"></script> 
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="/js2/smoothScrolling.js"></script>-->        
         
     </body>
     

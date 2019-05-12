@@ -5,8 +5,12 @@
       <div class="monitor">
         <div class="screen">
           <div class="content">
-            <img class="oldPortfolioImage" src="/images/project4/oldPortfolio.jpg">
-            <img class="newPortfolioImage" src="/images/project4/newPortfolio.jpeg">
+            {% if page.projectToggle %}
+                <img class="oldPortfolioImage" src={{ page.oldInteractiveHeaderImage }}>
+                <img class="newPortfolioImage" src={{ page.newInteractiveHeaderImage }}>
+            {% else %}
+                <img class="oldPortfolioImage" src={{ page.interactiveHeaderImage }}>
+            {% endif %}
           </div>
          </div>
       </div>
@@ -21,8 +25,12 @@
           <div class="monitor">
             <div class="screen">
               <div class="content">
-                <img class="oldPortfolioImage" src="/images/project4/oldPortfolio.jpg">
-                <img class="newPortfolioImage" src="/images/project4/newPortfolio.jpeg">
+                {% if page.projectToggle %}
+                    <img class="oldPortfolioImage" src={{ page.oldInteractiveHeaderImage }}>
+                    <img class="newPortfolioImage" src={{ page.newInteractiveHeaderImage }}>
+                {% else %}
+                    <img class="oldPortfolioImage" src={{ page.interactiveHeaderImage }}>
+                {% endif %}
               </div>
             </div>
           </div>
