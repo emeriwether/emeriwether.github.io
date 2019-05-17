@@ -1,10 +1,11 @@
 /***********************/
 /* BEGIN HEADER STYLING */
-.projectHeader {
+header {
     background: #22252C;
+}
+
+.projectHeader {
     padding: 2em 1.5em;
-    width: 100%;
-    max-width: none;
 }
 
 header .headerSectionLabel {
@@ -230,10 +231,6 @@ main section div a img:hover {
 
         /***********************/
         /* BEGIN HEADER STYLING */
-        .projectHeader {
-            padding: 3.5em 14em;
-        }
-        
         .projectHeaderTitle {
             padding-bottom: 1em;
         }
