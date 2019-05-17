@@ -65,6 +65,10 @@ header section div #projectAImage {
 .headerText {
     padding-top: 1.5em;
 }
+
+.headerText div div.cell {
+    padding: 0;
+}
 /* END HEADER STYLING */
 /***********************/
 
@@ -235,8 +239,7 @@ main section div a img:hover {
         }
         
         .headerText {
-            padding: 0 2.5em 0 0.9em;
-            margin: 0 0 0 0;
+            margin: 0;
         }
         
         .card.headerSectionCard {
@@ -250,7 +253,7 @@ main section div a img:hover {
         /* BEGIN SECTION STYLING */
         main section {
             padding: 1.50em 0 0 0;
-            margin: 0 0 0 0;
+            margin: 0;
         }
     
         /* END SECTION STYLING */
