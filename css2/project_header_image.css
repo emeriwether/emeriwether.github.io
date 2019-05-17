@@ -175,6 +175,10 @@
   .monitor-stand {
     border-top: 16.25px) solid #D1D3D6;
   }
+    
+    #headerImage {
+        padding-bottom: 8em;
+    }    
 }
 
 /* 1350px and less ------------------------------ */
