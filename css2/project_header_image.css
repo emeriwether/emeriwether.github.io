@@ -237,11 +237,11 @@
 /* 835px - 934px ------------------------------ */
 @media screen and (min-width: 52.188em) {
     .container {
-        height: 23em;
+        height: 22em;
     }  
     
     .container:hover {
-        height: 24.25em;
+        height: 23.25em;
     }    
 }
 
