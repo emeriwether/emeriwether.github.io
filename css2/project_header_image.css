@@ -148,7 +148,7 @@
     }
 }
 
-/* 450px - 769px ------------------------------ */
+/* 450px - 524px ------------------------------ */
 @media screen and (min-width: 28.125em) {
     .container {
         height: 14em;
@@ -156,12 +156,19 @@
     
     .monitor-stand {
         border-top: 0.794em solid #D1D3D6;
-        height: 16.5%;
+        height: 17%;
     }
     
     #headerImage {
         padding-bottom: 5em;
     }  
+}
+
+/* 525px - 639px ------------------------------ */
+@media screen and (min-width: 32.813em) {
+    .container {
+        height: 17em;
+    }
 }
 
 /* 640px - 769px ------------------------------ */
