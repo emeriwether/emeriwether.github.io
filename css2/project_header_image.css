@@ -175,12 +175,31 @@
 /* 525px - 639px ------------------------------ */
 @media screen and (min-width: 32.813em) {
     .container {
+        height: 16em;
+    }
+    
+    .container:hover {
+        height: 17.25em;
+    }    
+}
+
+/* 640px - 769px ------------------------------ */
+@media screen and (min-width: 40em) {
+    .container {
         height: 17em;
     }
     
     .container:hover {
         height: 18.25em;
     }    
+    
+    .monitor-stand {
+        height: 16%;
+    }
+
+    .container:hover {
+        height: 20.625em;
+    }
 }
 
 /* 770px - 899px ------------------------------ */
