@@ -153,12 +153,26 @@
         height: 17%;
     }
     
-    #headerImage {
-        padding-bottom: 8em;
-    }    
+ 
 }
 
-/* 640px - 1023px ------------------------------ */
+/* 770px - ?px ------------------------------ */
+@media (min-width: 48.125em) {
+    .container {
+        height: 23em;
+    }
+    
+    .monitor-stand {
+        border-top: 0.875em solid #D1D3D6;
+        height: 16%;
+    }
+    
+    #headerImage {
+        padding-bottom: 8em;
+    }   
+}
+
+/* 640px - 769px ------------------------------ */
 @media (min-width: 40em) {
     .container {
         width: 100%;
@@ -172,7 +186,7 @@
 
     .monitor-stand {
         border-top: 0.794em solid #D1D3D6;
-        height: 16%;
+        height: 15%;
     }
     
     #headerImage {
