@@ -137,10 +137,20 @@
 /***********************/
 /* BEGIN MEDIA QUERIES */
 
+/* 400px - 449px ------------------------------ */
+@media screen and (min-width: 25em) {
+    .container {
+        height: 13em;
+    }
+    
+    #headerImage {
+        padding-bottom: 3.5em;
+    }
+}
+
 /* 450px - 769px ------------------------------ */
 @media screen and (min-width: 28.125em) {
     .container {
-        width: 100%;
         height: 14em;
     }
     
@@ -157,12 +167,10 @@
 /* 640px - 769px ------------------------------ */
 @media screen and (min-width: 40em) {
     .container {
-        width: 100%;
         height: 18em;
     }
 
     .container:hover {
-        width: 105%;
         height: 20.625em;
     }
 }
