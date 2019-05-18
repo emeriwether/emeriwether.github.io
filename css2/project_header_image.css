@@ -2,10 +2,10 @@
 /* Responsive monitor with scrollable image from: https://codepen.io/sergep/pen/vkaFt */
 /* Transition definition */
 .container {
-  -webkit-transition: width 0.4s ease, height 0.4s ease;
-  -moz-transition: width 0.4s ease, height 0.4s ease;
-  -o-transition: width 0.4s ease, height 0.4s ease;
-  transition: width 0.4s ease, height 0.4s ease;
+  -webkit-transition: width 0.4s ease, height 0.4s ease, padding 0.4s ease;
+  -moz-transition: width 0.4s ease, height 0.4s ease, padding 0.4s ease;
+  -o-transition: width 0.4s ease, height 0.4s ease, padding 0.4s ease;
+  transition: width 0.4s ease, height 0.4s ease, padding 0.4s ease;
 }
 
 /* The container that defines the dimenions of the monitor - used in media queries */
