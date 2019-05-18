@@ -236,7 +236,7 @@ main section div a img:hover {
 
     /* 735px - 834px ------------------------------ */
     @media screen and (min-width: 45.938em) {
-        #headerText {
+        .headerText {
             padding-left: 5%;
         }    
     }
