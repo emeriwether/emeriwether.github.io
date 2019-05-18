@@ -156,7 +156,7 @@
     }    
 }
 
-/* 770px - ?px ------------------------------ */
+/* 770px - 899px ------------------------------ */
 @media screen and (min-width: 48.125em) {
     .container {
         height: 23em;
@@ -169,6 +169,13 @@
     
     #headerImage {
         padding-bottom: 8em;
+    }   
+}
+
+/* 900px - 1023px ------------------------------ */
+@media screen and (min-width: 56.25em) {
+    .container {
+        height: 26em;
     }   
 }
 
