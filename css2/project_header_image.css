@@ -202,10 +202,12 @@
 @media screen and (min-width: 40em) {
     .container {
         width: 100%;
+        height: 17em;
     }
     
     .container:hover {
         width: 105%;
+        height: 18.25em;
     }
     
     .monitor-stand {
