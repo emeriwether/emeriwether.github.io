@@ -194,6 +194,14 @@ main section div a img:hover {
         .card.headerSectionCard {
             padding: 0 2em;
         }
+        
+        .headerText .medium-6.cell:nth-child(odd) {
+            padding-right: 1em;
+        }
+        
+        .headerText .medium-6.cell:nth-child(even) {
+            padding-left: 1em;
+        }
         /* END HEADER STYLING */
         /***********************/
         
