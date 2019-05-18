@@ -139,10 +139,6 @@
 }
 
 
-
-
-
-
 /***********************/
 /* BEGIN MEDIA QUERIES */
 
@@ -150,23 +146,45 @@
 
 /* 1024px and up ------------------------------ */
 @media (min-width: 64em) {
-  .container {
-    width: 672px;
-    height: 350px;
-  }
+    .container {
+        width: 42em;
+        height: 21.875em;
+    }
 
-  .container:hover {
-    width: 692px;
-    height: 370px;
-  }
+    .container:hover {
+        width: 43.25em;
+        height: 23.125em;
+    }
 
-  .monitor-stand {
-    border-top: 16.25px solid #D1D3D6;
-    height: 17%;
-  }
+    .monitor-stand {
+        border-top: 1.016em solid #D1D3D6;
+        height: 17%;
+    }
     
     #headerImage {
         padding-bottom: 8em;
+    }    
+}
+
+/* 640px - 1023px ------------------------------ */
+@media (min-width: 40em) {
+    .container {
+        width: 25em;
+        height: 15.625em;
+    }
+
+    .container:hover {
+        width: 26.25em;
+        height: 16.875em;
+    }
+
+    .monitor-stand {
+        border-top: 0.794em solid #D1D3D6;
+        height: 17%;
+    }
+    
+    #headerImage {
+        padding-bottom: 7em;
     }    
 }
 
