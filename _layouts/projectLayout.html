@@ -44,18 +44,12 @@
 
                     <!-- HEADER IMAGE -->
                     <div id="headerImage">
-                        <h3 class="text-left cell headerSectionLabel">{{ page.headerImageLabel }}</h3>
-                        {% if page.projectHero %}
-                            <img src="{{ page.projectHero }}" id="{{ page.projectHeroID }}">
+                        {% if page.projectToggle %}
+                            {% include toggle.html %}
+                            {% include project_header_image.html %}                          
                         {% else %}
-                            {% if page.projectToggle %}
-                                {% include toggle.html %}
-                                {% include project_header_image.html %}                          
-                            {% else %}
-                                {% include project_header_image.html %}  
-                            {% endif %}
-                        {% endif %}
-                     
+                            {% include project_header_image.html %}  
+                        {% endif %}                     
                     </div>
 
                     <!-- HEADER TEXT -->            
