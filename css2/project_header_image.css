@@ -102,7 +102,7 @@
 
 /* Shadow on stand - have to set manually since border-top doesn't support % :( */
 .monitor-stand {
-  border-top: 20.438em solid #D1D3D6;
+  border-top: 0.438em solid #D1D3D6;
 }
 
 /* Bottom of stand */
