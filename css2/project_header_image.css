@@ -207,6 +207,10 @@
     .container:hover {
         width: 105%;
     }
+    
+    .monitor-stand {
+        height: 16%;
+    }
 }
 
 /* 770px - 899px ------------------------------ */
