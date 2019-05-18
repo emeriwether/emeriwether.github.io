@@ -137,6 +137,23 @@
 /***********************/
 /* BEGIN MEDIA QUERIES */
 
+/* 450px - 769px ------------------------------ */
+@media screen and (min-width: 28.125em) {
+    .container {
+        width: 100%;
+        height: 14em;
+    }
+    
+    .monitor-stand {
+        border-top: 0.794em solid #D1D3D6;
+        height: 16.5%;
+    }
+    
+    #headerImage {
+        padding-bottom: 5em;
+    }  
+}
+
 /* 640px - 769px ------------------------------ */
 @media screen and (min-width: 40em) {
     .container {
@@ -148,15 +165,6 @@
         width: 105%;
         height: 20.625em;
     }
-
-    .monitor-stand {
-        border-top: 0.794em solid #D1D3D6;
-        height: 16.5%;
-    }
-    
-    #headerImage {
-        padding-bottom: 5em;
-    }    
 }
 
 /* 770px - 899px ------------------------------ */
