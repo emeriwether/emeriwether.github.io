@@ -234,6 +234,13 @@ main section div a img:hover {
         /***********************/
     }
 
+    /* 735px - 834px ------------------------------ */
+    @media screen and (min-width: 45.938em) {
+        #headerText {
+            padding-left: 5%;
+        }    
+    }
+
     /* LARGE AND UP */
     @media screen and (min-width: 64em) {
 
