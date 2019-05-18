@@ -183,25 +183,6 @@
     }    
 }
 
-/* 640px - 769px ------------------------------ */
-@media screen and (min-width: 40em) {
-    .container {
-        height: 18em;
-    }
-    
-    .container:hover {
-        height: 19.25em;
-    }    
-    
-    .monitor-stand {
-        height: 16%;
-    }
-
-    .container:hover {
-        height: 20.625em;
-    }
-}
-
 /* 770px - 899px ------------------------------ */
 @media screen and (min-width: 48.125em) {
     .container {
