@@ -198,6 +198,17 @@
     }
 }
 
+/* 640px and up ------------------------------ */
+@media screen and (min-width: 40em) {
+    .container {
+        width: 100%;
+    }
+    
+    .container:hover {
+        width: 105%;
+    }
+}
+
 /* 770px - 899px ------------------------------ */
 @media screen and (min-width: 48.125em) {
     .container {
