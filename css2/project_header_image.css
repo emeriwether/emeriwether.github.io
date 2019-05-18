@@ -198,7 +198,7 @@
     }
 }
 
-/* 640px and up ------------------------------ */
+/* 640px - 734px ------------------------------ */
 @media screen and (min-width: 40em) {
     .container {
         width: 100%;
@@ -209,14 +209,10 @@
         width: 105%;
         height: 18.25em;
     }
-    
-    .monitor-stand {
-        height: 16%;
-    }
 }
 
-/* 770px - 899px ------------------------------ */
-@media screen and (min-width: 48.125em) {
+/* 735px - 899px ------------------------------ */
+@media screen and (min-width: 45.938em) {
     .container {
         height: 23em;
     }
