@@ -186,19 +186,15 @@
 /* 610px - 769px ------------------------------ */
 @media screen and (min-width: 38.125em) {
     .container {
-        height: 17em;
+        height: 18em;
     }
     
     .container:hover {
-        height: 18.25em;
+        height: 19.25em;
     }    
     
     .monitor-stand {
-        height: 16%;
-    }
-
-    .container:hover {
-        height: 20.625em;
+        height: 17%;
     }
 }
 
