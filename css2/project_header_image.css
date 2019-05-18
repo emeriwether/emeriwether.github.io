@@ -143,6 +143,10 @@
         height: 13em;
     }
     
+    .container:hover {
+        height: 14.25em;
+    }
+    
     #headerImage {
         padding-bottom: 3.5em;
     }
@@ -153,6 +157,10 @@
     .container {
         height: 14em;
     }
+    
+    .container:hover {
+        height: 15.25em;
+    }    
     
     .monitor-stand {
         border-top: 0.794em solid #D1D3D6;
@@ -169,12 +177,24 @@
     .container {
         height: 17em;
     }
+    
+    .container:hover {
+        height: 18.25em;
+    }    
 }
 
 /* 640px - 769px ------------------------------ */
 @media screen and (min-width: 40em) {
     .container {
         height: 18em;
+    }
+    
+    .container:hover {
+        height: 19.25em;
+    }    
+    
+    .monitor-stand {
+        height: 16%;
     }
 
     .container:hover {
@@ -188,9 +208,12 @@
         height: 23em;
     }
     
+    .container:hover {
+        height: 24.25em;
+    }    
+    
     .monitor-stand {
         border-top: 0.875em solid #D1D3D6;
-        height: 16%;
     }
     
     #headerImage {
@@ -202,7 +225,11 @@
 @media screen and (min-width: 56.25em) {
     .container {
         height: 26em;
-    }   
+    }  
+    
+    .container:hover {
+        height: 26.625em;
+    }    
 }
 
 /* 1024px and up ------------------------------ */
