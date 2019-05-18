@@ -230,7 +230,7 @@
     }   
 }
 
-/* 835px - 1023px ------------------------------ */
+/* 835px - 934px ------------------------------ */
 @media screen and (min-width: 52.188em) {
     .container {
         height: 23em;
@@ -238,6 +238,17 @@
     
     .container:hover {
         height: 24.25em;
+    }    
+}
+
+/* 935px - 1023px ------------------------------ */
+@media screen and (min-width: 58.438em) {
+    .container {
+        height: 25em;
+    }  
+    
+    .container:hover {
+        height: 26.25em;
     }    
 }
 
