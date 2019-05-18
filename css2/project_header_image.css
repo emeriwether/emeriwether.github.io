@@ -211,7 +211,7 @@
     }
 }
 
-/* 735px - 899px ------------------------------ */
+/* 735px - 834px ------------------------------ */
 @media screen and (min-width: 45.938em) {
     .container {
         height: 20.5em;
@@ -230,8 +230,8 @@
     }   
 }
 
-/* 900px - 1023px ------------------------------ */
-@media screen and (min-width: 56.25em) {
+/* 835px - 1023px ------------------------------ */
+@media screen and (min-width: 52.188em) {
     .container {
         height: 26em;
     }  
