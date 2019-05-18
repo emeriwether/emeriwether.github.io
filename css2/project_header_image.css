@@ -259,13 +259,10 @@
 /* 1024px and up ------------------------------ */
 @media screen and (min-width: 64em) {
     .container {
-        width: 42em;
         height: 21.875em;
-        padding-left: 0;
     }
 
     .container:hover {
-        width: 43.25em;
         height: 23.125em;
     }
 
