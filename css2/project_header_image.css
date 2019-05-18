@@ -137,7 +137,7 @@
 /* ~~~~~ FOUNDATION MEDIA QUERIES ~~~~~ */
 
 /* 1024px and up ------------------------------ */
-@media (min-width: 64em) {
+@media screen and (min-width: 64em) {
     .container {
         width: 42em;
         height: 21.875em;
@@ -157,7 +157,7 @@
 }
 
 /* 770px - ?px ------------------------------ */
-@media (min-width: 48.125em) {
+@media screen and (min-width: 48.125em) {
     .container {
         height: 23em;
     }
@@ -173,7 +173,7 @@
 }
 
 /* 640px - 769px ------------------------------ */
-@media (min-width: 40em) {
+@media screen and (min-width: 40em) {
     .container {
         width: 100%;
         height: 20em;
