@@ -229,7 +229,12 @@ main section div a img:hover {
             border-left-width: 20px;
             border-left-style: solid;
             border-color: #22252C;
-}        
+        }     
+        
+        .card-image {
+            overflow: scroll;
+            max-height: 40em;
+        }
         /* END SECTION STYLING */
         /***********************/
     }
