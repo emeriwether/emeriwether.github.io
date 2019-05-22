@@ -34,7 +34,6 @@ html {
 ol.indentText {
     list-style: none;
     counter-reset: customCounter;
-    max-width: 30em;
     padding-top: 2.5em;
 }
 
