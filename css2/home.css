@@ -35,6 +35,7 @@ header p {
     border-left-width: 10px;
     border-left-style: solid;
     border-color: #22252C;
+    border-radius: 5px;
 }
 
 header img {
