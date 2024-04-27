@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Eleanor Meriwether
-email: eleanor@delux.com
+email: emeriwetherUX@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  User Experience Designer
+  Principal User Experience Designer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.emeriwether.com" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: UA-109828884-1
