@@ -70,6 +70,10 @@ header section div #projectAImage {
 .headerText div div.cell {
     padding: 0;
 }
+
+.headerDetailsText ul {
+    color: #FFFFFF;
+}
 /* END HEADER STYLING */
 /***********************/
 
