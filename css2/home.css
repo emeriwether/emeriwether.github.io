@@ -65,7 +65,7 @@ main .card {
     background: #FFFFFF;
     margin-bottom: 2.5em;
     transition: transform .2s;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 main .card:hover {
