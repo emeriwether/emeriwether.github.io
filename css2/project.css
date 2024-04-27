@@ -72,8 +72,10 @@ header section div #projectAImage {
 }
 
 .headerDetailsText li {
-    color: #FFFFFF;
+    color: #EBEDF3;
+    margin-bottom: 1.3rem;
 }
+
 /* END HEADER STYLING */
 /***********************/
 
