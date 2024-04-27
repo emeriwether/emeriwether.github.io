@@ -68,8 +68,12 @@
                                 <p class="headerDetailsText">{{ page.featuredTools }}</p>   
                             </div>                             
                             <div class="medium-6 cell">                        
-                                <p class="headerDetailsLabel"><mark class="boldText whiteText">PROJECT DURATION</mark></p> 
-                                <p class="headerDetailsText">{{ page.projectDates }}</p>
+                                <p class="headerDetailsLabel"><mark class="boldText whiteText">TOOLS USED</mark></p>
+                                <ul class="headerDetailsText">
+                                    {% for tool in page.Tools %}
+                                        <li>{{ tool }}</li>
+                                    {% endfor %}
+                                </ul>
                             </div>
                             <div class="medium-6 cell">                        
                                 <p class="headerDetailsLabel"><mark class="boldText whiteText">THE CLIENT</mark></p>
