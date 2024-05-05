@@ -64,9 +64,13 @@
                                 </ul>
                             </div>        
                             <div class="medium-6 cell">                        
-                                <p class="headerDetailsLabel"><mark class="boldText whiteText">FEATURED TOOLS</mark></p>
-                                <p class="headerDetailsText">{{ page.featuredTools }}</p>   
-                            </div>                             
+                                <p class="headerDetailsLabel"><mark class="boldText whiteText">THE TEAM</mark></p>
+                                <ul class="headerDetailsText">
+                                    {% for member in page.projectTeam %}
+                                        <li>{{ member }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>                        
                             <div class="medium-6 cell">                        
                                 <p class="headerDetailsLabel"><mark class="boldText whiteText">TOOLS USED</mark></p>
                                 <ul class="headerDetailsText">
