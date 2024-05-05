@@ -81,7 +81,11 @@
                             </div>  
                             <div class="medium-6 cell">                        
                                 <p class="headerDetailsLabel"><mark class="boldText whiteText">THE TEAM</mark></p>
-                                <p class="headerDetailsText">{{ page.projectTeam }}</p>
+                                <ul class="headerDetailsText">
+                                    {% for member in page.projectTeam %}
+                                        <li>{{ member }}</li>
+                                    {% endfor %}
+                                </ul>
                             </div>
                             <div class="medium-6 cell">                        
                                 <p class="headerDetailsLabel"><mark class="boldText whiteText">MY ROLE(S)</mark></p>
