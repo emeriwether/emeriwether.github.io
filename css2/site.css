@@ -132,6 +132,11 @@ ul.ulSublist {
         font-size: 1.1em;
     }
 
+    .headerDetailsText a {
+        color: #EBEDF3; /* Set link color */
+        text-decoration: underline; /* Add underline to links */
+    }
+
     /* mozilla-like button styling from https://codepen.io/slimsmearlapp/pen/HJgFG */
     .button {
         color: #EBEDF3;
