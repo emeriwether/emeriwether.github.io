@@ -75,7 +75,7 @@
                                 <p class="headerDetailsLabel"><mark class="boldText whiteText">TOOLS USED</mark></p>
                                 <ul class="headerDetailsText">
                                     {% for tool in page.Tools %}
-                                        <li>{{ tool }}</li>
+                                        <li><a href="{{ tool.url }}">{{ tool.name }}</a></li>
                                     {% endfor %}
                                 </ul>
                             </div>
