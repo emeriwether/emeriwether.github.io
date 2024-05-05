@@ -42,11 +42,6 @@ header img {
     width: 100%;
 }
 
-.headerDetailsText a {
-    color: #EBEDF3; /* Set link color */
-    text-decoration: underline; /* Add underline to links */
-}
-
 #sectionDivider {
     width: 100%;
     height: auto;
