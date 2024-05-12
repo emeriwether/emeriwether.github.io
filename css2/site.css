@@ -32,15 +32,28 @@ html {
 }
 
 ol.indentText {
-    list-style: none;
-    counter-reset: customCounter;
+    list-style: none; /* Removes default list styling */
+    counter-reset: customCounter; /* Ensures the counter is reset at the start */
     padding-top: 2.5em;
+    padding-left: 0; /* Ensure there's no padding on the left */
 }
 
 ol.indentText li {
-    counter-increment: customCounter;
-    display: flex;
-    margin-bottom: 2em;
+    counter-increment: customCounter; /* Continue to increment the counter */
+    background-color: #E14658; /* Coral background for the circle */
+    color: white; /* White text inside the circle */
+    font-family: "Roboto Condensed", sans-serif; /* Ensures font consistency */
+    font-weight: bold; /* Bold text */
+    border-radius: 50%; /* Circle shape */
+    width: 40px; /* Diameter of the circle */
+    height: 40px; /* Same as width to maintain the circle shape */
+    display: flex; /* Uses flexbox to center the content */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin-bottom: 20px; /* Spacing between bullet points */
+    text-align: center; /* Centers text if it wraps, optional based on your design */
+    margin-right: 20px; /* Space after the circle if in a row with text */
+    float: left; /* Allows text to flow beside the bullet if necessary */
 }
 
 ol.indentText.shortList {
@@ -56,11 +69,8 @@ ol.indentText.shortList li {
 }
 
 ol.indentText li::before {
-    color: #E14658;
-    font-family: "Roboto Condensed";
-    content: counter(customCounter) ". ";
-    margin-right: 0.5em;
-    font-size: 1em;
+    content: counter(customCounter) ". "; /* Adds the counter before the item text */
+    display: none; /* Hide if you don't want the number inside the circle */
 }
 
 ul.ulSublist {
