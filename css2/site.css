@@ -76,6 +76,11 @@ ul.ulSublist {
     margin-left: -1em;
 }
 
+span.boldText {
+    font-weight: bold;
+    display: inline; /* Ensures the text remains in line with the rest of the content */
+}
+
     /* FONT STYLING */
     .aquaText {
         color: #1399AA;
