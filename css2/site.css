@@ -44,12 +44,12 @@ ol.indentText li {
 ol.indentText li::before {
     content: counter(customCounter); 
     display: inline-block;
-    width: 40px; 
-    height: 40px; 
+    width: 20px; 
+    height: 20px; 
     border-radius: 50%; 
     background-color: #E14658; 
     text-align: center;
-    line-height: 40px;
+    line-height: 20px;
     color: white; 
     font-weight: bold; 
     margin-right: 20px; /* Space between the circle and the text */
