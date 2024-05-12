@@ -41,6 +41,7 @@ ol.indentText li {
     display: flex; /* Aligns the bullet and the text horizontally */
     align-items: center; /* Centers items vertically */
     margin-bottom: 20px; /* Spacing between list items */
+    counter-increment: customCounter;  // This increments the counter for each li
 }
 
 ol.indentText li::before {
