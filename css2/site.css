@@ -39,14 +39,15 @@ ol.indentText {
 
 ol.indentText li {
     counter-increment: customCounter; /* Increments the counter */
-    margin-bottom: 20px; /* Spacing between items */
+    margin-bottom: 10px; /* Spacing between items */
     display: flex; /* Uses flexbox to layout the circle and the text */
     align-items: center; /* Aligns items vertically in the center */
-    width: 100%; /* Ensures the li element occupies full width of its container */
 }
 
 ol.indentText li span {
-    flex-grow: 1; /* Allows the text to fill the space after the circle */
+    font-weight: bold; /* Makes the text bold */
+    display: inline; /* Ensures it flows with the rest of the text */
+    margin-right: 5px; /* Optional: adds spacing after the bold text */
 }
 
 ol.indentText.shortList {
