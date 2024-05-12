@@ -76,72 +76,67 @@ ul.ulSublist {
     margin-left: -1em;
 }
 
-span.boldText {
-    font-weight: bold;
-    display: inline; /* Ensures the text remains in line with the rest of the content */
+ /* FONT STYLING */
+.aquaText {
+    color: #1399AA;
 }
 
-    /* FONT STYLING */
-    .aquaText {
-        color: #1399AA;
-    }
+.coralText {
+    color: #E14658;
+ }
 
-    .coralText {
-        color: #E14658;
-    }
+.navyText {
+    color: #29394B;
+}
 
-    .navyText {
-        color: #29394B;
-    }
+.goldText {
+    color: #f38c3e;
+}
 
-    .goldText {
-        color: #f38c3e;
-    }
+.whiteText {
+    color: #EBEDF3;
+}
 
-    .whiteText {
-        color: #EBEDF3;
-    }
+.greyText {
+    color: #9a9a9a;
+}
 
-    .greyText {
-        color: #9a9a9a;
-    }
+.indentText {
+    padding-left: 0.75em;
+}
 
-    .indentText {
-        padding-left: 0.75em;
-    }
+.italicText {
+    font-style: italic;
+}
 
-    .italicText {
-        font-style: italic;
-    }
+.boldText {
+    font-weight: 700;
+}
 
-    .boldText {
-        font-weight: 700;
-    }
+.linkText {
+    font-family: "Roboto Condensed";
+    color: #1399AA;
+    text-decoration: underline;
+}
 
-    .linkText {
-        font-family: "Roboto Condensed";
-        color: #1399AA;
-        text-decoration: underline;
-    }
+h1, h2, h3, h4, h5, h6, .button {
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    color: #3C3C3D;
+}
 
-    h1, h2, h3, h4, h5, h6, .button {
-        font-family: "Roboto Condensed";
-        font-weight: 700;
-        color: #3C3C3D;
-    }
+p, a {
+    font-family: Cabin;
+    font-weight: 400;
+    color: #3C3C3D;
+    font-size: 1.1em;
+}
 
-    p, a {
-        font-family: Cabin;
-        font-weight: 400;
-        color: #3C3C3D;
-        font-size: 1.1em;
-    }
-
-    /* mozilla-like button styling from https://codepen.io/slimsmearlapp/pen/HJgFG */
-    .button {
-        color: #EBEDF3;
-        background: linear-gradient(to bottom, #29394B 0%,#1d2835 100%);
-    }
+/* mozilla-like button styling from https://codepen.io/slimsmearlapp/pen/HJgFG */
+.button {
+    color: #EBEDF3;
+    background: linear-gradient(to bottom, #29394B 0%,#1d2835 100%);
+}
 
 @media screen and (min-width: 64em) {
     .indentText {
