@@ -39,20 +39,23 @@ ol.indentText {
 ol.indentText li {
     margin-bottom: 20px; 
     counter-increment: customCounter;
+    display: flex;
+    align-items: flex-start;
 }
 
 ol.indentText li::before {
     content: counter(customCounter); 
     display: inline-block;
-    width: 20px; 
-    height: 20px; 
+    width: 40px; 
+    height: 40px; 
     border-radius: 50%; 
     background-color: #E14658; 
     text-align: center;
-    line-height: 20px;
+    line-height: 40px;
     color: white; 
     font-weight: bold; 
     margin-right: 20px; /* Space between the circle and the text */
+    flex-shrink: 0; /* Prevent shrinking */
 }
 
 ol.indentText.shortList {
