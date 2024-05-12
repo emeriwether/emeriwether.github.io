@@ -35,19 +35,19 @@ ol.indentText {
     list-style: none; /* Removes default list styling */
     counter-reset: customCounter; /* Resets the custom counter */
     padding-left: 0; /* Removes left padding if not needed */
+    margin-left: 0; /* Ensure there is no left margin */
 }
 
 ol.indentText li {
-    counter-increment: customCounter; /* Increments the counter */
-    margin-bottom: 10px; /* Spacing between items */
-    display: flex; /* Uses flexbox to layout the circle and the text */
-    align-items: center; /* Aligns items vertically in the center */
+    display: flex; /* Aligns the bullet and the text horizontally */
+    align-items: center; /* Centers items vertically */
+    counter-increment: customCounter;
+    margin-bottom: 20px; /* Spacing between list items */
 }
 
 ol.indentText li span {
-    font-weight: bold; /* Makes the text bold */
+    flex-grow: 1; /* Takes up the rest of the line */
     display: inline; /* Ensures it flows with the rest of the text */
-    margin-right: 5px; /* Optional: adds spacing after the bold text */
 }
 
 ol.indentText.shortList {
@@ -74,8 +74,6 @@ ol.indentText li::before {
     align-items: center; /* Center text vertically */
     justify-content: center; /* Center text horizontally */
     margin-right: 10px; /* Space between the circle and the text */
-    line-height: 40px; /* Adjust this to the height of your circle */
-
 }
 
 ul.ulSublist {
