@@ -42,6 +42,11 @@ ol.indentText li {
     margin-bottom: 20px; /* Spacing between items */
     display: flex; /* Uses flexbox to layout the circle and the text */
     align-items: center; /* Aligns items vertically in the center */
+    width: 100%; /* Ensures the li element occupies full width of its container */
+}
+
+ol.indentText li span {
+    flex-grow: 1; /* Allows the text to fill the space after the circle */
 }
 
 ol.indentText.shortList {
@@ -68,6 +73,8 @@ ol.indentText li::before {
     align-items: center; /* Center text vertically */
     justify-content: center; /* Center text horizontally */
     margin-right: 10px; /* Space between the circle and the text */
+    line-height: 40px; /* Adjust this to the height of your circle */
+
 }
 
 ul.ulSublist {
