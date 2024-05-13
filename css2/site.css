@@ -58,9 +58,9 @@ ol.indentText li::before {
     line-height: 40px;
     color: white; 
     font-weight: bold; 
-    margin-right: 20px; /* Space between the circle and the text */
+    margin-right: 10px; /* Space between the circle and the text */
     flex-shrink: 0; /* Prevent shrinking */
-    padding-top: 2px;
+    padding-top: 4px;
 }
 
 ol.indentText.shortList {
