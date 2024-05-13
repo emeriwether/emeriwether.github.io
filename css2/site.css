@@ -43,6 +43,10 @@ ol.indentText li {
     align-items: flex-start;
 }
 
+ol.indentText li:first-child{
+  margin-top: 10px;
+}
+
 ol.indentText li::before {
     content: counter(customCounter); 
     display: inline-block;
