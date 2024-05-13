@@ -44,7 +44,7 @@ ol.indentText li {
 }
 
 ol.indentText li:first-child{
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 ol.indentText li::before {
