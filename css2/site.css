@@ -60,6 +60,7 @@ ol.indentText li::before {
     font-weight: bold; 
     margin-right: 20px; /* Space between the circle and the text */
     flex-shrink: 0; /* Prevent shrinking */
+    padding-top: 2px;
 }
 
 ol.indentText.shortList {
