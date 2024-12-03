@@ -181,16 +181,31 @@ p+p {
     margin-bottom: 5px; /* Add space between list items */
 }
 
+/* Explicitly reset styles for the nested list */
 .imageWithCaption .caption ol.nested-list {
     list-style-type: decimal !important; /* Use plain numbers */
-    margin-left: 20px !important; /* Indent to differentiate from main list */
-    padding-left: 0 !important;
-    counter-reset: none !important; /* Do not apply custom counters */
+    margin-left: 20px !important; /* Indent */
+    padding-left: 0 !important; /* Remove extra padding */
+    counter-reset: none !important; /* Remove inherited counters */
 }
 
+/* Ensure the nested list numbers start at 1 */
+.imageWithCaption .caption ol.nested-list[start="1"] {
+    counter-reset: list-counter; /* Reset counter specifically for this list */
+}
+
+/* Remove the pink circle styles for nested list items */
 .imageWithCaption .caption ol.nested-list > li {
-    margin-bottom: 5px !important; /* Add space between items */
-    position: static !important; /* Reset any custom positioning */
+    counter-increment: none !important; /* Do not increment counters */
+    list-style: decimal !important; /* Use plain numbers */
+    margin-bottom: 5px; /* Add spacing */
+    color: inherit !important; /* Inherit text color */
+    position: static; /* Remove positioning styles */
+}
+
+/* Optional: Reset pink circles if applied from parent styles */
+.imageWithCaption .caption ol.nested-list > li::before {
+    content: none !important; /* Remove any custom content like numbers or circles */
 }
 
 .clickable {
