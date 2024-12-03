@@ -1,3 +1,4 @@
+// Get modal elements
 const modal = document.getElementById('imageModal');
 const modalImg = document.getElementById('modalImage');
 const captionText = document.getElementById('caption');
@@ -8,7 +9,10 @@ document.querySelectorAll('.clickable').forEach(img => {
     img.addEventListener('click', function () {
         modal.style.display = 'block';
         modalImg.src = this.src;
-        captionText.innerText = this.alt;
+
+        // Clone the caption on the page into the modal
+        const parentCaption = this.closest('.imageWithCaption').querySelector('.caption');
+        captionText.innerHTML = parentCaption.innerHTML;
     });
 });
 
