@@ -104,6 +104,7 @@ header section div #projectAImage {
     border-left-width: 10px;
     border-left-style: solid;
     border-color: #22252C;
+    border-raidus: 5px;
 }
 
 .card.headerSectionCard {
