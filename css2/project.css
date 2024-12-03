@@ -152,9 +152,9 @@ p+p {
 }
 
 .imageWithCaption img {
-    width: 100%; /* Allow the image to scale fully within its column */
+    max-width: 50%; /* Limit image to half the container width */
     height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove inline spacing */
+    display: block; /* Avoid inline spacing issues */
 }
 
 .imageWithCaption .caption {
