@@ -75,6 +75,22 @@ ol.indentText.shortList li {
     margin-bottom: 0.5em;
 }
 
+/* Nested list (plain numbers) */
+.nested-list {
+    list-style: decimal;
+    counter-reset: none; /* Do not reset counters */
+}
+
+.nested-list > li {
+    list-style-type: decimal; /* Plain numbers */
+    margin-bottom: 5px;
+    color: inherit; /* Match parent text color */
+}
+
+.nested-list > li::before {
+    content: none; /* Disable pseudo-elements */
+}
+
 ul.ulSublist {
     list-style: none;
     padding-left: 4.5em;
