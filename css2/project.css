@@ -160,6 +160,15 @@ p+p {
     max-width: 50%; /* Ensure the caption doesn’t exceed image size */
 }
 
+.clickable {
+    cursor: pointer; /* Change cursor to a pointer to indicate clickability */
+    transition: transform 0.2s ease-in-out; /* Optional: Smooth hover effect */
+}
+
+.clickable:hover {
+    transform: scale(1.05); /* Optional: Slight zoom on hover for better visual feedback */
+}
+
 .modal {
     display: none; /* Hidden by default */
     position: fixed;
