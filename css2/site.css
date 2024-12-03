@@ -39,7 +39,7 @@ ol.indentText {
 ol.indentText li {
     margin-bottom: 20px; 
     counter-increment: customCounter;
-    display: flex;
+    display: inline-block;
     align-items: flex-start;
 }
 
