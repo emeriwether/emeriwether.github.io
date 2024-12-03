@@ -161,9 +161,8 @@ p+p {
     font-size: 0.9em;
     color: #5D5D5D; /* Subtle text color */
     margin-top: 10px;
-    text-align: left;
     line-height: 1.4; /* Improve readability */
-    max-width: 50%; /* Ensure the caption doesn’t exceed image size */
+    max-width: 45%; /* Ensure the caption doesn’t exceed image size */
 }
 
 .imageWithCaption .caption ol {
