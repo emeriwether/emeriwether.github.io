@@ -151,18 +151,6 @@ p+p {
 }
 /* old image and modal, probably can remove */
 
-ol.nested-list {
-    list-style-type: decimal; /* Use plain numbers */
-    margin-left: 20px; /* Indent to differentiate from main list */
-    padding-left: 0;
-    counter-reset: none; /* Do not apply custom counters */
-}
-
-ol.nested-list > li {
-    margin-bottom: 5px; /* Add space between items */
-    position: static; /* Reset any custom positioning */
-}
-
 .imageWithCaption {
     display: flex;
     flex-direction: row; /* Image and caption side by side */
