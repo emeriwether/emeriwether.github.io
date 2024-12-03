@@ -132,7 +132,17 @@ p+p {
     padding-top: 1em;
 }
 
+ol.nested-list {
+    list-style-type: decimal; /* Use plain numbers */
+    margin-left: 20px; /* Indent to differentiate from main list */
+    padding-left: 0;
+    counter-reset: none; /* Do not apply custom counters */
+}
 
+ol.nested-list > li {
+    margin-bottom: 5px; /* Add space between items */
+    position: static; /* Reset any custom positioning */
+}
 
 /* old image and modal, probably can remove */
 .large.reveal .card {
