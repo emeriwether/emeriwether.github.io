@@ -147,6 +147,8 @@ p+p {
     flex-direction: row; /* Image and caption side by side */
     gap: 15px; /* Space between the image and the caption */
     align-items: center; /* Vertically center-align the image with the caption */
+    max-width: 100%; /* Ensure container doesn’t exceed its parent */
+    margin: 15px auto; /* Center container within the section */
 }
 
 .imageWithCaption img {
