@@ -152,7 +152,7 @@ p, a {
 
 @media screen and (min-width: 64em) {
     .indentText {
-        padding-left: 3.5em;
+        padding-left: 2em;
     }
     
     ul.ulSublist {
