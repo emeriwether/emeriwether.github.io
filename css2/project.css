@@ -142,6 +142,24 @@ p+p {
     object-fit: contain;
 }
 
+.imageWithCaption {
+    display: flex;
+    flex-direction: row; /* Image and caption side by side */
+    gap: 15px; /* Space between the image and the caption */
+    margin: 15px 0; /* Space around the container */
+}
+
+.imageWithCaption img {
+    width: 50%; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.imageWithCaption .caption {
+    font-size: 0.9em; /* Slightly smaller font for captions */
+    color: #5D5D5D; /* Subtle text color */
+    max-width: 50%; /* Ensure the caption doesn’t exceed image size */
+}
+
 .imageNumber {
     font-family: "Roboto Condensed";
     padding: 0 1em;
