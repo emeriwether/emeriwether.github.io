@@ -183,29 +183,29 @@ p+p {
 
 /* Explicitly reset styles for the nested list */
 .imageWithCaption .caption ol.nested-list {
-    list-style-type: decimal !important; /* Use plain numbers */
-    margin-left: 20px !important; /* Indent */
-    padding-left: 0 !important; /* Remove extra padding */
-    counter-reset: none !important; /* Remove inherited counters */
+    list-style-type: decimal; /* Use plain numbers */
+    margin-left: 20px; /* Indent */
+    padding-left: 0; /* Remove extra padding */
+    counter-reset: none; /* Remove inherited counters */
 }
 
-/* Ensure the nested list numbers start at 1 */
+/* Reset numbering for the nested list explicitly */
 .imageWithCaption .caption ol.nested-list[start="1"] {
-    counter-reset: list-counter; /* Reset counter specifically for this list */
+    counter-reset: none; /* Do not apply custom counters */
 }
 
-/* Remove the pink circle styles for nested list items */
+/* Ensure each list item displays numbers */
 .imageWithCaption .caption ol.nested-list > li {
-    counter-increment: none !important; /* Do not increment counters */
-    list-style: decimal !important; /* Use plain numbers */
-    margin-bottom: 5px; /* Add spacing */
-    color: inherit !important; /* Inherit text color */
-    position: static; /* Remove positioning styles */
+    list-style-type: decimal !important; /* Enforce decimal numbering */
+    counter-increment: none !important; /* Prevent unwanted counters */
+    margin-bottom: 5px; /* Add spacing between items */
+    color: inherit; /* Match text color */
+    position: static; /* Reset positioning */
 }
 
-/* Optional: Reset pink circles if applied from parent styles */
+/* Remove any pseudo-elements or custom styles */
 .imageWithCaption .caption ol.nested-list > li::before {
-    content: none !important; /* Remove any custom content like numbers or circles */
+    content: none !important; /* Ensure no custom circles or content */
 }
 
 .clickable {
