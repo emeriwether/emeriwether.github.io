@@ -182,15 +182,15 @@ p+p {
 }
 
 .imageWithCaption .caption ol.nested-list {
-    list-style-type: decimal; /* Use plain numbers */
-    margin-left: 20px; /* Indent to differentiate from main list */
-    padding-left: 0;
-    counter-reset: none; /* Do not apply custom counters */
+    list-style-type: decimal !important; /* Use plain numbers */
+    margin-left: 20px !important; /* Indent to differentiate from main list */
+    padding-left: 0 !important;
+    counter-reset: none !important; /* Do not apply custom counters */
 }
 
 .imageWithCaption .caption ol.nested-list > li {
-    margin-bottom: 5px; /* Add space between items */
-    position: static; /* Reset any custom positioning */
+    margin-bottom: 5px !important; /* Add space between items */
+    position: static !important; /* Reset any custom positioning */
 }
 
 .clickable {
