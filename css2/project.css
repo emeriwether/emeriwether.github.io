@@ -132,6 +132,9 @@ p+p {
     padding-top: 1em;
 }
 
+
+
+/* old image and modal, probably can remove */
 .large.reveal .card {
     border: 0;
     padding: 0 0.55em;
@@ -140,6 +143,24 @@ p+p {
 .large.reveal .card img {
     padding-top: 1.75em;
     object-fit: contain;
+}
+
+.imageNumber {
+    font-family: "Roboto Condensed";
+    padding: 0 1em;
+}
+/* old image and modal, probably can remove */
+
+ol.nested-list {
+    list-style-type: decimal; /* Use plain numbers */
+    margin-left: 20px; /* Indent to differentiate from main list */
+    padding-left: 0;
+    counter-reset: none; /* Do not apply custom counters */
+}
+
+ol.nested-list > li {
+    margin-bottom: 5px; /* Add space between items */
+    position: static; /* Reset any custom positioning */
 }
 
 .imageWithCaption {
@@ -237,11 +258,6 @@ p+p {
 @keyframes zoomIn {
     from { transform: scale(0.7); }
     to { transform: scale(1); }
-}
-
-.imageNumber {
-    font-family: "Roboto Condensed";
-    padding: 0 1em;
 }
 
 /* BEGIN STYLING FOR STATISTICS */
