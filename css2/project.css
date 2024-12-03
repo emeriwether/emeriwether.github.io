@@ -104,7 +104,7 @@ header section div #projectAImage {
     border-left-width: 10px;
     border-left-style: solid;
     border-color: #22252C;
-    border-raidus: 5px;
+    border-radius: 5px;
 }
 
 .card.headerSectionCard {
@@ -239,6 +239,7 @@ main section div a img:hover {
             border-left-width: 20px;
             border-left-style: solid;
             border-color: #22252C;
+            border-radius: 5px;
         }     
         
         .card-image {
