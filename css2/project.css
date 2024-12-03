@@ -155,9 +155,21 @@ p+p {
 }
 
 .imageWithCaption .caption {
-    font-size: 0.9em; /* Slightly smaller font for captions */
+    font-size: 0.9em;
     color: #5D5D5D; /* Subtle text color */
+    margin-top: 10px;
+    text-align: left;
+    line-height: 1.4; /* Improve readability */
     max-width: 50%; /* Ensure the caption doesn’t exceed image size */
+}
+
+.imageWithCaption .caption ol {
+    margin-left: 20px; /* Indent the list */
+    padding-left: 0;
+}
+
+.imageWithCaption .caption li {
+    margin-bottom: 5px; /* Add space between list items */
 }
 
 .clickable {
@@ -192,10 +204,20 @@ p+p {
 
 /* Modal caption */
 #caption {
+    color: #ccc; /* Match modal color */
+    font-size: 0.95em; /* Slightly adjust font size */
+    line-height: 1.4; /* Ensure consistent spacing */
     margin: 15px auto;
-    text-align: center;
-    color: #ccc;
-    font-size: 1em;
+    width: 90%; /* Constrain width */
+}
+
+#caption ol {
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+#caption li {
+    margin-bottom: 5px;
 }
 
 /* Close button */
