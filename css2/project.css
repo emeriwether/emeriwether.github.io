@@ -146,12 +146,13 @@ p+p {
     display: flex;
     flex-direction: row; /* Image and caption side by side */
     gap: 15px; /* Space between the image and the caption */
-    margin: 15px 0; /* Space around the container */
+    align-items: center; /* Vertically center-align the image with the caption */
 }
 
 .imageWithCaption img {
-    width: 50%; /* Adjust the size as needed */
+    width: 100%; /* Allow the image to scale fully within its column */
     height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove inline spacing */
 }
 
 .imageWithCaption .caption {
