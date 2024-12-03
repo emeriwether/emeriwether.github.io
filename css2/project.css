@@ -175,10 +175,15 @@ p+p {
 .imageWithCaption .caption ol {
     margin-left: 20px; /* Indent the list */
     padding-left: 0;
+    list-style: none !important; /* Remove all inherited styles */
+    counter-reset: none !important; /* Disable counters */
 }
 
-.imageWithCaption .caption li {
-    margin-bottom: 5px; /* Add space between list items */
+.imageWithCaption .caption ol > li {
+    list-style-type: decimal !important; /* Use default browser numbering */
+    margin-bottom: 5px; /* Add spacing between items */
+    position: static; /* Reset positioning */
+    color: inherit; /* Match text color */
 }
 
 /* Style for the nested list */
@@ -186,7 +191,6 @@ p+p {
     list-style-type: decimal !important; /* Ensure plain numbers */
     margin-left: 20px; /* Add indentation */
     padding-left: 0; /* Remove padding */
-    counter-reset: none; /* Do not inherit counters */
 }
 
 /* Explicitly reset list item styles in the nested list */
@@ -199,8 +203,8 @@ p+p {
 
 /* Disable pseudo-elements ONLY for the nested list */
 .imageWithCaption .caption ol.nested-list > li::before {
-    content: normal !important; /* Restore browser numbering */
-    display: none; /* Suppress any inherited custom styles */
+    content: none !important; /* Completely remove pseudo-element */
+    display: none !important; /* Ensure it doesn't appear */
 }
 
 .clickable {
