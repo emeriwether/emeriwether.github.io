@@ -31,12 +31,11 @@ html {
     display: none;
 }
 
-/* 
 ol.indentText {
     list-style: none;
     counter-reset: customCounter; 
+    margin-top: 20px;
 }
-*/
 
 ol.indentText li {
     margin-bottom: 20px; 
