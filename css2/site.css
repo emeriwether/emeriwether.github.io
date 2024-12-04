@@ -45,9 +45,11 @@ ol.indentText li {
     align-items: flex-start;
 }
 
+/*
 ol.indentText li:first-child {
   margin-top: 20px;
 }
+*/
 
 ol.indentText li::before {
     content: counter(customCounter); 
