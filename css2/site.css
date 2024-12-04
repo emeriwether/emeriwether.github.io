@@ -41,7 +41,7 @@ ol.indentText li {
     margin-bottom: 20px; 
     counter-increment: customCounter;
     display: inline-block;
-    align-items: flex-start;
+    /* align-items: flex-start; */
 }
 
 ol.indentText li::before {
