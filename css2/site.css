@@ -32,8 +32,8 @@ html {
 }
 
 ol.indentText {
-    list-style: none;
-    counter-reset: customCounter; 
+    /* list-style: none;
+    counter-reset: customCounter; */
     margin-top: 20px;
 }
 
@@ -43,12 +43,6 @@ ol.indentText li {
     display: inline-block;
     align-items: flex-start;
 }
-
-/*
-ol.indentText li:first-child {
-  margin-top: 20px;
-}
-*/
 
 ol.indentText li::before {
     content: counter(customCounter); 
