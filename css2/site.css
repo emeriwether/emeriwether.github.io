@@ -24,17 +24,19 @@
 
 /* SITE WIDE STYLING */
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* Smooths scrolling experience on anchor links */
 }
 
 .hide {
     display: none;
 }
 
+/* 
 ol.indentText {
     list-style: none;
     counter-reset: customCounter; 
 }
+*/
 
 ol.indentText li {
     margin-bottom: 20px; 
@@ -43,7 +45,7 @@ ol.indentText li {
     align-items: flex-start;
 }
 
-ol.indentText li:first-child{
+ol.indentText li:first-child {
   margin-top: 20px;
 }
 
