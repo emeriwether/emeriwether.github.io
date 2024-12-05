@@ -74,13 +74,3 @@ html { scroll-behavior: smooth; }
 }
 /* END SITE WIDE STYLING */
 /********************/
-
-/********************/
-/* BEGIN MEDIA QUERIES */
-@media screen and (min-width: 64em) {
-    .indentText { padding-left: 2em; }
-    
-    ul.ulSublist { padding-left: 7.5em; }    
-}
-/* END MEDIA QUERIES */
-/********************/
