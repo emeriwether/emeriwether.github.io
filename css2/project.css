@@ -1,16 +1,10 @@
 /***********************/
 /* BEGIN HEADER STYLING */
-header {
-    background: #22252C;
-}
+header { background: #22252C; }
 
-.projectHeader {
-    padding: 2em 1.5em;
-}
+.projectHeader { padding: 2em 1.5em; }
 
-header .headerSectionLabel {
-    margin-bottom: 2rem;
-}
+header .headerSectionLabel { margin-bottom: 2rem; }
 
 header p.headerDetailsLabel {
     margin-bottom: 0;
@@ -55,48 +49,25 @@ header div h4 {
     padding-bottom: 1em;
 }
 
-header section p {
-    color: #EBEDF3;
-}
+header section p { color: #EBEDF3; }
 
-header section div #projectAImage {
-    width: 100%;
-}
+header section div #projectAImage { width: 100%; }
 
-.headerText {
-    padding-top: 1.5em;
-}
+.headerText { padding-top: 1.5em; }
 
-.headerText div div.cell {
-    padding: 0;
-}
+.headerText div div.cell { padding: 0; }
 
-.headerDetailsText li {
-    color: #EBEDF3;
-}
+.headerDetailsText li { color: #EBEDF3; }
 
-.headerDetailsText ul {
-    margin-bottom: 1.3rem;
-}
-
+.headerDetailsText ul { margin-bottom: 1.3rem; }
 /* END HEADER STYLING */
 /***********************/
 
-
 /***********************/
 /* BEGIN SECTION STYLING */
-.projectBody {
-    /*max-width: 115rem;*/
-    padding-bottom: 3em;
-}
+.projectBody { padding-bottom: 3em; }
 
-.projectSection {
-    padding: 1.50em 1em 0 1em;
-}
-
-.sectionTag {
-    /*width: 100%;*/
-}
+.projectSection { padding: 1.50em 1em 0 1em; }
 
 .card.sectionCard {
     padding: 2em 1em 2em 1em;
@@ -124,13 +95,9 @@ main section p {
     font-size: 1.1em;
 }
 
-.bodyText {
-    margin: 0 0;
-}
+.bodyText { margin: 0 0; }
 
-p+p {
-    padding-top: 1em;
-}
+p+p { padding-top: 1em; }
 /* END SECTION STYLING */
 /***********************/
 
@@ -221,7 +188,7 @@ p+p {
     margin-bottom: 5px;
 }
 
-/* Close button */
+/* CLOSE BUTTON */
 .close {
     position: absolute;
     top: 15px;
@@ -263,6 +230,22 @@ ol.indentText li::before {
     margin-right: 10px; /* Space between the circle and the text */
     /* flex-shrink: 0; /* Prevent shrinking */ */
     padding-top: 3px;
+}
+
+/* Nested list (plain numbers) */
+.nested-list {
+    list-style: decimal;
+    counter-reset: none; /* Do not reset counters */
+}
+
+.nested-list > li {
+    list-style-type: decimal; /* Plain numbers */
+    margin-bottom: 5px;
+    color: inherit; /* Match parent text color */
+}
+
+.nested-list > li::before {
+    content: none; /* Disable pseudo-elements */
 }
 /* END ORDERED LIST STYLING */
 /***********************/
