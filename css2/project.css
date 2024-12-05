@@ -131,24 +131,11 @@ main section p {
 p+p {
     padding-top: 1em;
 }
+/* END SECTION STYLING */
+/***********************/
 
-/* old image and modal, probably can remove 
-.large.reveal .card {
-    border: 0;
-    padding: 0 0.55em;
-}
-
-.large.reveal .card img {
-    padding-top: 1.75em;
-    object-fit: contain;
-}
-
-.imageNumber {
-    font-family: "Roboto Condensed";
-    padding: 0 1em;
-}
-*/
-
+/***********************/
+/* BEGIN STYLING FOR CLICKABLE GRAPHICS */
 .imageWithCaption {
     display: flex;
     flex-direction: row; /* Image and caption side by side */
@@ -245,15 +232,11 @@ p+p {
     cursor: pointer;
 }
 
-/* Zoom animation */
+/* Zoom animation 
 @keyframes zoomIn {
     from { transform: scale(0.7); }
     to { transform: scale(1); }
 }
-
-
-
-
 
 main section div a img {
     padding: 1em 0 0.4em 0;
@@ -275,9 +258,8 @@ main section div a figcaption {
 main section div a img:hover {
     opacity: 0.7;
 }
-
-
-/* END SECTION STYLING */
+*/
+/* END STYLING FOR CLICKABLE GRAPHICS */
 /***********************/
 
 /***********************/
