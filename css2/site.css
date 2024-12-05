@@ -31,6 +31,7 @@ html {
     display: none;
 }
 
+/*
 ol.indentText.shortList {
     padding-bottom: 1em;
 }
@@ -42,6 +43,7 @@ ol.indentText.shortList li {
 ol.indentText.shortList li {
     margin-bottom: 0.5em;
 }
+*/
 
 /* Nested list (plain numbers) */
 .nested-list {
