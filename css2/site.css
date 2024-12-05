@@ -67,53 +67,20 @@ html { scroll-behavior: smooth; }
 
 .hide { display: none; }
 
-/* Nested list (plain numbers) */
-.nested-list {
-    list-style: decimal;
-    counter-reset: none; /* Do not reset counters */
-}
-
-.nested-list > li {
-    list-style-type: decimal; /* Plain numbers */
-    margin-bottom: 5px;
-    color: inherit; /* Match parent text color */
-}
-
-.nested-list > li::before {
-    content: none; /* Disable pseudo-elements */
-}
-
-/*
-ul.ulSublist {
-    list-style: none;
-    padding-left: 4.5em;
-}
-
-.ulSublist li::before {
-    content: "•"; 
-    color: #E14658;
-    display: inline-block; 
-    width: 1em;
-    margin-left: -1em;
-}
-*/
-
 /* mozilla-like button styling from https://codepen.io/slimsmearlapp/pen/HJgFG */
 .button {
     color: #EBEDF3;
     background: linear-gradient(to bottom, #29394B 0%,#1d2835 100%);
 }
+/* END SITE WIDE STYLING */
+/********************/
 
 /********************/
 /* BEGIN MEDIA QUERIES */
 @media screen and (min-width: 64em) {
-    .indentText {
-        padding-left: 2em;
-    }
+    .indentText { padding-left: 2em; }
     
-    ul.ulSublist {
-        padding-left: 7.5em;
-    }    
+    ul.ulSublist { padding-left: 7.5em; }    
 }
 /* END MEDIA QUERIES */
 /********************/
