@@ -31,35 +31,6 @@ html {
     display: none;
 }
 
-ol.indentText {
-    /* list-style: none; */
-    counter-reset: customCounter; 
-    margin-top: 20px;
-}
-
-ol.indentText li {
-    margin-bottom: 20px; 
-    counter-increment: customCounter;
-    display: inline-block;
-    /* align-items: flex-start; */
-}
-
-ol.indentText li::before {
-    content: counter(customCounter); 
-    display: inline-block;
-    width: 35px; 
-    height: 35px; 
-    border-radius: 50%; 
-    background-color: #E14658; 
-    text-align: center;
-    line-height: 35px;
-    color: white; 
-    font-weight: bold; 
-    margin-right: 10px; /* Space between the circle and the text */
-    /* flex-shrink: 0; /* Prevent shrinking */ */
-    padding-top: 3px;
-}
-
 ol.indentText.shortList {
     padding-bottom: 1em;
 }
