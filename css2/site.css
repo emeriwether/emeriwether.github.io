@@ -20,96 +20,25 @@
     font-style: normal;
 }
 /* END FONT FACE CREATION */
+/********************/
 
+/********************/
+/* BEGIN FONT STYLING */
+.aquaText { color: #1399AA; }
 
-/* SITE WIDE STYLING */
-html {
-    scroll-behavior: smooth; /* Smooths scrolling experience on anchor links */
-}
+.coralText { color: #E14658; }
 
-.hide {
-    display: none;
-}
+.navyText { color: #29394B; }
 
-/*
-ol.indentText.shortList {
-    padding-bottom: 1em;
-}
+.goldText { color: #f38c3e; }
 
-ol.indentText.shortList li {
-    margin-bottom: 3em;
-}
+.whiteText { color: #EBEDF3; }
 
-ol.indentText.shortList li {
-    margin-bottom: 0.5em;
-}
-*/
+.greyText { color: #9a9a9a; }
 
-/* Nested list (plain numbers) */
-.nested-list {
-    list-style: decimal;
-    counter-reset: none; /* Do not reset counters */
-}
+.italicText { font-style: italic; }
 
-.nested-list > li {
-    list-style-type: decimal; /* Plain numbers */
-    margin-bottom: 5px;
-    color: inherit; /* Match parent text color */
-}
-
-.nested-list > li::before {
-    content: none; /* Disable pseudo-elements */
-}
-
-ul.ulSublist {
-    list-style: none;
-    padding-left: 4.5em;
-}
-
-.ulSublist li::before {
-    content: "•"; 
-    color: #E14658;
-    display: inline-block; 
-    width: 1em;
-    margin-left: -1em;
-}
-
- /* FONT STYLING */
-.aquaText {
-    color: #1399AA;
-}
-
-.coralText {
-    color: #E14658;
- }
-
-.navyText {
-    color: #29394B;
-}
-
-.goldText {
-    color: #f38c3e;
-}
-
-.whiteText {
-    color: #EBEDF3;
-}
-
-.greyText {
-    color: #9a9a9a;
-}
-
-/* .indentText {
-    padding-left: 0.75em;
-}*/
-
-.italicText {
-    font-style: italic;
-}
-
-.boldText {
-    font-weight: 700;
-}
+.boldText { font-weight: 700; }
 
 .linkText {
     font-family: "Roboto Condensed";
@@ -129,6 +58,45 @@ p, a {
     color: #3C3C3D;
     font-size: 1.1em;
 }
+/* END FONT STYLING */
+/********************/
+
+/********************/
+/* BEGIN SITE WIDE STYLING */
+html { scroll-behavior: smooth; }
+
+.hide { display: none; }
+
+/* Nested list (plain numbers) */
+.nested-list {
+    list-style: decimal;
+    counter-reset: none; /* Do not reset counters */
+}
+
+.nested-list > li {
+    list-style-type: decimal; /* Plain numbers */
+    margin-bottom: 5px;
+    color: inherit; /* Match parent text color */
+}
+
+.nested-list > li::before {
+    content: none; /* Disable pseudo-elements */
+}
+
+/*
+ul.ulSublist {
+    list-style: none;
+    padding-left: 4.5em;
+}
+
+.ulSublist li::before {
+    content: "•"; 
+    color: #E14658;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+*/
 
 /* mozilla-like button styling from https://codepen.io/slimsmearlapp/pen/HJgFG */
 .button {
@@ -136,6 +104,8 @@ p, a {
     background: linear-gradient(to bottom, #29394B 0%,#1d2835 100%);
 }
 
+/********************/
+/* BEGIN MEDIA QUERIES */
 @media screen and (min-width: 64em) {
     .indentText {
         padding-left: 2em;
@@ -145,3 +115,5 @@ p, a {
         padding-left: 7.5em;
     }    
 }
+/* END MEDIA QUERIES */
+/********************/
