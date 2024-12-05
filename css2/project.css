@@ -132,7 +132,7 @@ p+p {
     padding-top: 1em;
 }
 
-/* old image and modal, probably can remove */
+/* old image and modal, probably can remove 
 .large.reveal .card {
     border: 0;
     padding: 0 0.55em;
@@ -147,7 +147,7 @@ p+p {
     font-family: "Roboto Condensed";
     padding: 0 1em;
 }
-/* old image and modal, probably can remove */
+*/
 
 .imageWithCaption {
     display: flex;
