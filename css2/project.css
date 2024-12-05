@@ -362,7 +362,8 @@ main .stat {
             padding: 1.50em 0 0 0;
             margin: 0;
         }
-    
+        
+        .indentText { padding-left: 2em; }
         /* END SECTION STYLING */
         /***********************/
     }
