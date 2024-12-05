@@ -139,10 +139,10 @@ p+p {
 .imageWithCaption {
     display: flex;
     flex-direction: row; /* Image and caption side by side */
-    gap: 15px; /* Space between the image and the caption */
+    gap: 16px; /* Space between the image and the caption */
     align-items: center; /* Vertically center-align the image with the caption */
     max-width: 100%; /* Ensure container doesn’t exceed its parent */
-    margin: 15px auto; /* Center container within the section */
+    margin: 65px auto; /* Center container within the section */
 }
 
 .imageWithCaption img {
@@ -194,7 +194,7 @@ p+p {
     background-color: rgba(0, 0, 0, 0.9); /* Dark overlay */
 }
 
-/* Modal image */
+/* MODAL IMAGE */
 .modal-content {
     margin: auto;
     display: block;
@@ -203,7 +203,7 @@ p+p {
     animation: zoomIn 0.3s ease-in-out;
 }
 
-/* Modal caption */
+/* MODAL CAPTION */
 #caption {
     color: #ccc; /* Match modal color */
     font-size: 0.95em; /* Slightly adjust font size */
@@ -231,34 +231,6 @@ p+p {
     font-weight: bold;
     cursor: pointer;
 }
-
-/* Zoom animation 
-@keyframes zoomIn {
-    from { transform: scale(0.7); }
-    to { transform: scale(1); }
-}
-
-main section div a img {
-    padding: 1em 0 0.4em 0;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#poloroidInterviewPhoto {
-    padding-bottom: 2em;
-}
-
-main section div a figcaption {
-    padding-bottom: 2em;
-    color: #acacac;
-    font-family: cabin;
-    text-align: center;
-}
-
-main section div a img:hover {
-    opacity: 0.7;
-}
-*/
 /* END STYLING FOR CLICKABLE GRAPHICS */
 /***********************/
 
