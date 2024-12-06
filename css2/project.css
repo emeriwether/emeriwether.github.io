@@ -126,20 +126,6 @@ p+p { padding-top: 1em; }
     max-width: 45%; /* Ensure the caption doesn’t exceed image size */
 }
 
-.imageWithCaption .caption ol {
-    margin-left: 20px; /* Indent the list */
-    padding-left: 0;
-    list-style: none !important; /* Remove all inherited styles */
-    counter-reset: none !important; /* Disable counters */
-}
-
-.imageWithCaption .caption ol > li {
-    list-style-type: decimal !important; /* Use default browser numbering */
-    margin-bottom: 5px; /* Add spacing between items */
-    position: static; /* Reset positioning */
-    color: inherit; /* Match text color */
-}
-
 .clickable {
     cursor: pointer; /* Change cursor to a pointer to indicate clickability */
     transition: transform 0.2s ease-in-out; /* Optional: Smooth hover effect */
@@ -203,20 +189,20 @@ p+p { padding-top: 1em; }
 
 /***********************/
 /* BEGIN STYLING FOR ORDERED LISTS */
-ol.indentText {
-    /* list-style: none; */
+ol.mainList {
     counter-reset: customCounter; 
     margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
 }
 
-ol.indentText li {
+ol.mainList > li {
     margin-bottom: 20px; 
     counter-increment: customCounter;
     display: inline-block;
-    /* align-items: flex-start; */
 }
 
-ol.indentText li::before {
+ol.mainList li::before {
     content: counter(customCounter); 
     display: inline-block;
     width: 35px; 
@@ -227,25 +213,19 @@ ol.indentText li::before {
     line-height: 35px;
     color: white; 
     font-weight: bold; 
-    margin-right: 10px; /* Space between the circle and the text */
-    /* flex-shrink: 0; /* Prevent shrinking */ */
+    margin-right: 10px;
     padding-top: 3px;
 }
 
 /* Nested list (plain numbers) */
-.nested-list {
+.nestedList {
     list-style: decimal;
-    counter-reset: none; /* Do not reset counters */
+    padding-left: 1em;
+    margin-top: 1em;
 }
 
-.nested-list > li {
-    list-style-type: decimal; /* Plain numbers */
-    margin-bottom: 5px;
-    color: inherit; /* Match parent text color */
-}
-
-.nested-list > li::before {
-    content: none; /* Disable pseudo-elements */
+.nestedList > li {
+    margin-bottom: 0.5em;
 }
 /* END ORDERED LIST STYLING */
 /***********************/
