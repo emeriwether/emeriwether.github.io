@@ -192,32 +192,39 @@ p+p { padding-top: 1em; }
 ol.mainList {
     counter-reset: customCounter; 
     margin-top: 20px;
-    list-style: none;
     padding-left: 0;
+    list-style: none;
 }
 
 ol.mainList > li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
     margin-bottom: 20px; 
-    counter-increment: customCounter;
-    display: inline-block;
+    position: relative;
 }
 
 ol.mainList li::before {
     content: counter(customCounter); 
+    counter-increment: customCounter;
     display: inline-block;
     width: 35px; 
     height: 35px; 
     border-radius: 50%; 
     background-color: #E14658; 
+    color: white; 
     text-align: center;
     line-height: 35px;
-    color: white; 
     font-weight: bold; 
     margin-right: 10px;
-    padding-top: 3px;
+    flex-shrink: 0;
 }
 
-/* Nested list (plain numbers) */
+ol.mainList > li > * {
+    flex: 1; /* Allow content to wrap naturally */
+    display: block; /* Maintain vertical alignment */
+}
+
 .nestedList {
     list-style: decimal;
     padding-left: 1em;
