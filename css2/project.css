@@ -105,25 +105,18 @@ p+p { padding-top: 1em; }
 /* BEGIN STYLING FOR CLICKABLE GRAPHICS */
 .imageWithCaption {
     display: flex;
-    flex-direction: row; /* Image and caption side by side */
     gap: 16px; /* Space between the image and the caption */
-    align-items: center; /* Vertically center-align the image with the caption */
-    max-width: 100%; /* Ensure container doesn’t exceed its parent */
-    margin: 65px auto; /* Center container within the section */
+    align-items: flex-start; /* Vertically center-align the image with the caption */
 }
 
 .imageWithCaption img {
     max-width: 50%; /* Limit image to half the container width */
     height: auto; /* Maintain aspect ratio */
-    display: block; /* Avoid inline spacing issues */
 }
 
 .imageWithCaption .caption {
-    font-size: 0.9em;
+    flex: 1;
     color: #5D5D5D; /* Subtle text color */
-    margin-top: 10px;
-    line-height: 1.4; /* Improve readability */
-    max-width: 45%; /* Ensure the caption doesn’t exceed image size */
 }
 
 .clickable {
@@ -191,23 +184,22 @@ p+p { padding-top: 1em; }
 /* BEGIN STYLING FOR ORDERED LISTS */
 ol.mainList {
     counter-reset: customCounter; 
-    margin-top: 20px;
     padding-left: 0;
     list-style: none;
 }
 
 ol.mainList > li {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    margin-bottom: 20px; 
     position: relative;
+    margin-bottom: 20px; 
+    padding-left: 50px;
 }
 
 ol.mainList li::before {
     content: counter(customCounter); 
     counter-increment: customCounter;
-    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
     width: 35px; 
     height: 35px; 
     border-radius: 50%; 
@@ -216,13 +208,10 @@ ol.mainList li::before {
     text-align: center;
     line-height: 35px;
     font-weight: bold; 
-    margin-right: 10px;
-    flex-shrink: 0;
 }
 
-ol.mainList > li > * {
-    flex: 1; /* Allow content to wrap naturally */
-    display: block; /* Maintain vertical alignment */
+.listItemContent p {
+    margin: 0 0 10px;
 }
 
 .nestedList {
