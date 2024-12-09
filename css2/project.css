@@ -183,13 +183,14 @@ p+p { padding-top: 1em; }
 /***********************/
 /* BEGIN STYLING FOR ORDERED LISTS */
 ol.mainList {
-    counter-reset: mainCounter 0 !important; 
+    counter-reset: mainCounter; 
     padding-left: 0;
     list-style: none;
 }
 
 ol.mainList > li {
     counter-increment: mainCounter;
+    counter-reset: nestedCounter; /* Reset nested counter for each main item */
     position: relative;
     margin-bottom: 20px; 
     padding-left: 50px;
