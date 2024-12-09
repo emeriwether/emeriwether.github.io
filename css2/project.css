@@ -183,14 +183,9 @@ p+p { padding-top: 1em; }
 /***********************/
 /* BEGIN STYLING FOR ORDERED LISTS */
 ol.mainList {
-    counter-reset: mainCounter; 
+    counter-reset: mainCounter 0 !important; 
     padding-left: 0;
     list-style: none;
-}
-
-ol.mainList > li:first-child {
-    counter-reset: none; /* Explicitly reset for the first item */
-    counter-increment: mainCounter; /* Ensure it starts at 1 */
 }
 
 ol.mainList > li {
