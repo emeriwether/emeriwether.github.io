@@ -183,20 +183,20 @@ p+p { padding-top: 1em; }
 /***********************/
 /* BEGIN STYLING FOR ORDERED LISTS */
 ol.mainList {
-    counter-reset: customCounter; 
+    counter-reset: mainCounter; 
     padding-left: 0;
     list-style: none;
 }
 
 ol.mainList > li {
+    counter-increment: mainCounter;
     position: relative;
     margin-bottom: 20px; 
     padding-left: 50px;
 }
 
 ol.mainList li::before {
-    content: counter(customCounter); 
-    counter-increment: customCounter;
+    content: counter(mainCounter); 
     position: absolute;
     left: 0;
     top: 0;
@@ -214,14 +214,20 @@ ol.mainList li::before {
     margin: 0 0 10px;
 }
 
-.nestedList {
+ol.nestedList {
     list-style: decimal;
     padding-left: 1em;
     margin-top: 1em;
+    counter-reset: nestedCounter;
 }
 
-.nestedList > li {
+ol.nestedList > li {
     margin-bottom: 0.5em;
+    counter-increment: nestedCounter;
+}
+
+ol.nestedList li::before {
+    content: counter(nestedCounter) ". ";
 }
 /* END ORDERED LIST STYLING */
 /***********************/
