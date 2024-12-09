@@ -188,16 +188,16 @@ ol.mainList {
     list-style: none;
 }
 
+ol.mainList > li:first-child {
+    counter-reset: none; /* Explicitly reset for the first item */
+    counter-increment: mainCounter; /* Ensure it starts at 1 */
+}
+
 ol.mainList > li {
     counter-increment: mainCounter;
     position: relative;
     margin-bottom: 20px; 
     padding-left: 50px;
-}
-
-ol.mainList > li:first-child {
-    counter-reset: mainCounter 0; /* Explicitly reset for the first item */
-    counter-increment: mainCounter; /* Ensure it starts at 1 */
 }
 
 ol.mainList li::before {
