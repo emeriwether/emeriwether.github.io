@@ -183,7 +183,7 @@ p+p { padding-top: 1em; }
 /***********************/
 /* BEGIN STYLING FOR ORDERED LISTS */
 ol.mainList {
-    counter-reset: mainCounter; 
+    counter-reset: mainCounter !important; 
     padding-left: 0;
     list-style: none;
 }
