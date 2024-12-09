@@ -197,7 +197,7 @@ ol.mainList > li {
 }
 
 ol.mainList li::before {
-    content: counter(mainCounter); 
+    content: 'Counter: ' counter(mainCounter); 
     position: absolute;
     left: 0;
     top: 0;
