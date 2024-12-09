@@ -195,6 +195,11 @@ ol.mainList > li {
     padding-left: 50px;
 }
 
+ol.mainList > li:first-child {
+    counter-reset: mainCounter 0; /* Explicitly reset for the first item */
+    counter-increment: mainCounter; /* Ensure it starts at 1 */
+}
+
 ol.mainList li::before {
     content: counter(mainCounter); 
     position: absolute;
