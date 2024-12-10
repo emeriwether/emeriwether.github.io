@@ -106,7 +106,7 @@ p+p { padding-top: 1em; }
 .imageWithCaption {
     display: flex;
     gap: 16px; /* Space between the image and the caption */
-    align-items: flex-start; /* Vertically center-align the image with the caption */
+    align-items: center;
     font-size: 0.875em;
 }
 
