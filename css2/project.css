@@ -216,19 +216,19 @@ ol.mainList li::before {
     margin: 0 0 10px;
 }
 
-ol.nestedList {
+.nestedList {
     list-style: decimal;
     padding-left: 1em;
     margin-top: 1em;
     counter-reset: nestedCounter;
 }
 
-ol.nestedList > li {
+.nestedList > li {
     margin-bottom: 0.5em;
     counter-increment: nestedCounter;
 }
 
-ol.nestedList li::before {
+.nestedList li::before {
     content: "Nested: " counter(nestedCounter) ". ";
     background-color: lightblue;
 }
