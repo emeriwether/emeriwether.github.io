@@ -197,15 +197,14 @@ ol.mainList > li {
 }
 
 ol.mainList li::before {
-    content: 'Main: ' counter(mainCounter); 
+    content: counter(mainCounter); 
     position: absolute;
     left: 0;
     top: 0;
     width: 35px; 
     height: 35px; 
     border-radius: 50%; 
-    /*background-color: #E14658; */
-    background-color: yellow;
+    background-color: #E14658;
     color: white; 
     text-align: center;
     line-height: 35px;
@@ -229,8 +228,7 @@ ol.mainList li::before {
 }
 
 .nestedList li::before {
-    content: "Nested: " counter(nestedCounter) ". ";
-    background-color: lightblue;
+    content: counter(nestedCounter) ". ";
 }
 /* END ORDERED LIST STYLING */
 /***********************/
