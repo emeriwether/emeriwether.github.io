@@ -216,10 +216,6 @@ ol.mainList li::before {
     font-weight: bold; 
 }
 
-.listItemContent p {
-    margin: 0 0 10px;
-}
-
 .nestedList {
     list-style: decimal;
     padding-left: 1em;
