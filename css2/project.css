@@ -114,6 +114,7 @@ p+p { padding-top: 1em; }
 .imageWithCaption p, .imageWithCaption .nestedList li {
     font-size: inherit;
     color: inherit;
+    line-height: 1.5;
 }
 
 .imageWithCaption img {
