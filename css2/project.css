@@ -219,7 +219,7 @@ ol.mainList li::before {
 .nestedList {
     list-style: decimal;
     padding-left: 1em;
-    margin-top: 1em;
+    margin-bottom: 1em;
     counter-reset: nestedCounter;
 }
 
