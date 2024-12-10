@@ -107,6 +107,11 @@ p+p { padding-top: 1em; }
     display: flex;
     gap: 16px; /* Space between the image and the caption */
     align-items: flex-start; /* Vertically center-align the image with the caption */
+    font-size: 0.875em;
+}
+
+.imageWithCaption p, .imageWithCaption .nestedList li {
+    font-size: inherit;
 }
 
 .imageWithCaption img {
