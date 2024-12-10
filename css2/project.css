@@ -206,6 +206,7 @@ ol.mainList > li {
 ol.mainList li::before {
     content: counter(mainCounter); 
     position: absolute;
+    transform: translateY(-20%);
     left: 0;
     top: 0;
     width: 35px; 
