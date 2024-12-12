@@ -1,38 +1,33 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const carousel = document.querySelector(".carousel-slide");
-    const dots = document.querySelectorAll(".dot");
-    const prev = document.querySelector(".carousel-control.prev");
-    const next = document.querySelector(".carousel-control.next");
+  const carousel = document.querySelector('.carousel-slide');
+  const captions = carousel.querySelectorAll('p');
+  const dots = document.querySelectorAll('.dot');
 
-    let index = 0;
+  let index = 0;
 
-    const updateCarousel = () => {
-        // Move the carousel slide horizontally
-        carousel.style.transform = `translateX(-${index * 100}%)`;
-
-        // Update active dot
-        dots.forEach((dot, i) => {
-            dot.classList.toggle('active', i === index);
-        });
-    };
-const showPrev = () => {
-        index = (index - 1 + dots.length) % dots.length;
-        updateCarousel();
-    };
-
-    const showNext = () => {
-        index = (index + 1) % dots.length;
-        updateCarousel();
-    };
-
-    prev.addEventListener("click", showPrev);
-    next.addEventListener("click", showNext);
+  const updateCarousel = () => {
+    carousel.style.transform = `translateY(-${index * 100}%)`;
     dots.forEach((dot, i) => {
-        dot.addEventListener("click", () => {
-            index = i;
-            updateCarousel();
-        });
+      dot.classList.toggle('active', i === index);
     });
+  };
 
+  document.querySelector('.carousel-control.prev').addEventListener('click', () => {
+    index = (index > 0) ? index - 1 : captions.length - 1;
     updateCarousel();
+  });
+
+  document.querySelector('.carousel-control.next').addEventListener('click', () => {
+    index = (index < captions.length - 1) ? index + 1 : 0;
+    updateCarousel();
+  });
+
+  dots.forEach((dot, i) => {
+    dot.addEventListener('click', () => {
+      index = i;
+      updateCarousel();
+    });
+  });
+
+  updateCarousel();
 });
