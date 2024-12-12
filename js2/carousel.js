@@ -1,33 +1,41 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const carousel = document.querySelector('.carousel-slide');
-  const captions = carousel.querySelectorAll('p');
-  const dots = document.querySelectorAll('.dot');
+    const carousel = document.querySelector('.carousel-slide');
+    const captions = carousel.querySelectorAll('p');
+    const dots = document.querySelectorAll('.dot');
+    const prevButton = document.querySelector('.carousel-control.prev');
+    const nextButton = document.querySelector('.carousel-control.next');
 
-  let index = 0;
+    let index = 0;
 
-  const updateCarousel = () => {
-    carousel.style.transform = `translateY(-${index * 100}%)`;
+    const updateCarousel = () => {
+        // Move the carousel slide horizontally
+        carousel.style.transform = `translateX(-${index * 100}%)`;
+
+        // Update active dot
+        dots.forEach((dot, i) => {
+            dot.classList.toggle('active', i === index);
+        });
+    };
+
+    // Event listeners for navigation buttons
+    prevButton.addEventListener('click', () => {
+        index = (index > 0) ? index - 1 : captions.length - 1;
+        updateCarousel();
+    });
+
+    nextButton.addEventListener('click', () => {
+        index = (index < captions.length - 1) ? index + 1 : 0;
+        updateCarousel();
+    });
+
+    // Event listeners for dots
     dots.forEach((dot, i) => {
-      dot.classList.toggle('active', i === index);
+        dot.addEventListener('click', () => {
+            index = i;
+            updateCarousel();
+        });
     });
-  };
 
-  document.querySelector('.carousel-control.prev').addEventListener('click', () => {
-    index = (index > 0) ? index - 1 : captions.length - 1;
+    // Initialize carousel position
     updateCarousel();
-  });
-
-  document.querySelector('.carousel-control.next').addEventListener('click', () => {
-    index = (index < captions.length - 1) ? index + 1 : 0;
-    updateCarousel();
-  });
-
-  dots.forEach((dot, i) => {
-    dot.addEventListener('click', () => {
-      index = i;
-      updateCarousel();
-    });
-  });
-
-  updateCarousel();
 });
