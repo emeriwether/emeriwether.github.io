@@ -200,7 +200,7 @@ ol.mainList > li {
     counter-increment: mainCounter;
     counter-reset: nestedCounter; /* Reset nested counter for each main item */
     position: relative;
-    margin-bottom: 20px; 
+    margin-bottom: 2em; 
     padding-left: 50px;
 }
 
