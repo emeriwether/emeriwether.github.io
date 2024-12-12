@@ -109,6 +109,7 @@ p+p { padding-top: 1em; }
     align-items: center;
     font-size: 0.875em;
     color: #5D5D5D;
+    padding-top: 0.5em;
 }
 
 .imageWithCaption p, .imageWithCaption .nestedList li {
