@@ -1,9 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const carousel = document.querySelector('.carousel-slide');
-    const captions = carousel.querySelectorAll('p');
-    const dots = document.querySelectorAll('.dot');
-    const prevButton = document.querySelector('.carousel-control.prev');
-    const nextButton = document.querySelector('.carousel-control.next');
+    const carousel = document.querySelector(".carousel-slide");
+    const dots = document.querySelectorAll(".dot");
+    const prev = document.querySelector(".carousel-control.prev");
+    const next = document.querySelector(".carousel-control.next");
 
     let index = 0;
 
@@ -16,26 +15,24 @@ document.addEventListener('DOMContentLoaded', () => {
             dot.classList.toggle('active', i === index);
         });
     };
-
-    // Event listeners for navigation buttons
-    prevButton.addEventListener('click', () => {
-        index = (index > 0) ? index - 1 : captions.length - 1;
+const showPrev = () => {
+        index = (index - 1 + dots.length) % dots.length;
         updateCarousel();
-    });
+    };
 
-    nextButton.addEventListener('click', () => {
-        index = (index < captions.length - 1) ? index + 1 : 0;
+    const showNext = () => {
+        index = (index + 1) % dots.length;
         updateCarousel();
-    });
+    };
 
-    // Event listeners for dots
+    prev.addEventListener("click", showPrev);
+    next.addEventListener("click", showNext);
     dots.forEach((dot, i) => {
-        dot.addEventListener('click', () => {
+        dot.addEventListener("click", () => {
             index = i;
             updateCarousel();
         });
     });
 
-    // Initialize carousel position
     updateCarousel();
 });
