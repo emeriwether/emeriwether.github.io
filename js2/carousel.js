@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Debug Logs
   console.log('Carousel:', carousel);
-  console.log('Slides:', slides);
+  console.log('Slides:', captions);
   console.log('Dots:', dots);
   console.log('Prev Button:', prevBtn);
   console.log('Next Button:', nextBtn);
