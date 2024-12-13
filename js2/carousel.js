@@ -2,6 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const carousel = document.querySelector('.carousel-slide');
   const captions = carousel.querySelectorAll('p');
   const dots = document.querySelectorAll('.dot');
+  const prevBtn = document.querySelector('.carousel-control.prev');
+  const nextBtn = document.querySelector('.carousel-control.next');
 
   // Debug Logs
   console.log('Carousel:', carousel);
