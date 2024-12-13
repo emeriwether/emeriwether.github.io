@@ -201,7 +201,7 @@ p+p { padding-top: 1em; }
 .carousel {
     position: relative;
     flex: 1;
-    width: 50%;
+    height: 300px;
     overflow: hidden;
 }
 
