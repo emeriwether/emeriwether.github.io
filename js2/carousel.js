@@ -3,6 +3,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const captions = carousel.querySelectorAll('p');
   const dots = document.querySelectorAll('.dot');
 
+  // Debug Logs
+  console.log('Carousel:', carousel);
+  console.log('Slides:', slides);
+  console.log('Dots:', dots);
+  console.log('Prev Button:', prevBtn);
+  console.log('Next Button:', nextBtn);
+
   let index = 0;
 
   const updateCarousel = () => {
