@@ -1,42 +1,35 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const carousel = document.querySelector('.carousel-slide');
-  const captions = carousel.querySelectorAll('p');
-  const dots = document.querySelectorAll('.dot');
-  const prevBtn = document.querySelector('.carousel-control.prev');
-  const nextBtn = document.querySelector('.carousel-control.next');
+const slides = document.querySelectorAll(".carousel-slide");
+const prevButton = document.querySelector(".carousel-prev");
+const nextButton = document.querySelector(".carousel-next");
+const dots = document.querySelectorAll(".carousel-dot");
 
-  // Debug Logs
-  console.log('Carousel:', carousel);
-  console.log('Slides:', captions);
-  console.log('Dots:', dots);
-  console.log('Prev Button:', prevBtn);
-  console.log('Next Button:', nextBtn);
+let currentSlide = 0;
 
-  let index = 0;
+// Update slide positions
+function updateCarousel() {
+    const slideHeight = document.querySelector(".carousel").offsetHeight;
+    slides[0].style.transform = `translateY(-${currentSlide * slideHeight}px)`;
+}
 
-  const updateCarousel = () => {
-    carousel.style.transform = `translateY(-${index * 100}%)`;
-    dots.forEach((dot, i) => {
-      dot.classList.toggle('active', i === index);
-    });
-  };
-
-  document.querySelector('.carousel-control.prev').addEventListener('click', () => {
-    index = (index > 0) ? index - 1 : captions.length - 1;
+// Handle next button
+nextButton.addEventListener("click", () => {
+    currentSlide = (currentSlide + 1) % slides.length; // Loop back to first slide
     updateCarousel();
-  });
-
-  document.querySelector('.carousel-control.next').addEventListener('click', () => {
-    index = (index < captions.length - 1) ? index + 1 : 0;
-    updateCarousel();
-  });
-
-  dots.forEach((dot, i) => {
-    dot.addEventListener('click', () => {
-      index = i;
-      updateCarousel();
-    });
-  });
-
-  updateCarousel();
 });
+
+// Handle prev button
+prevButton.addEventListener("click", () => {
+    currentSlide = (currentSlide - 1 + slides.length) % slides.length; // Loop back to last slide
+    updateCarousel();
+});
+
+// Dots navigation
+dots.forEach((dot, index) => {
+    dot.addEventListener("click", () => {
+        currentSlide = index;
+        updateCarousel();
+    });
+});
+
+// Initial update
+updateCarousel();
