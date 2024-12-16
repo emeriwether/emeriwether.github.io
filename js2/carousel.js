@@ -13,14 +13,14 @@ document.addEventListener("DOMContentLoaded", () => {
     function updateCarousel() {
         const slideWidth = document.querySelector(".carousel-container").offsetWidth;
         const slides = document.querySelectorAll(".carousel-slide > div");
-    
+        
+        console.log("Current slide:", currentSlide);
+        console.log("Slide width:", slideWidth);
+        
         slides.forEach((slide, index) => {
-            slide.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
-        });
-    
-        // Debugging: Log the transform property of each slide
-        slides.forEach((slide, index) => {
-            console.log(`Slide ${index}: transform = ${slide.style.transform}`);
+            const offset = (index - currentSlide) * slideWidth;
+            console.log(`Slide ${index} offset:`, offset);
+            slide.style.transform = `translateX(${offset}px)`;
         });
     }
 
