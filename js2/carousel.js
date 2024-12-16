@@ -10,21 +10,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const totalSlides = slides.length;
 
-    // Function to update the carousel
     function updateCarousel() {
-        const slideWidth = carouselContainer.offsetWidth;
-        const translateX = -currentSlide * slideWidth;
-
-        // Apply transform to move the slides
-        carouselSlide.style.transform = `translateX(${translateX}px)`;
-
-        // Update active dot
-        dots.forEach((dot, idx) => {
-            dot.classList.toggle("active", idx === currentSlide);
+        const slideWidth = document.querySelector(".carousel-container").offsetWidth;
+        const slides = document.querySelectorAll(".carousel-slide > div");
+    
+        slides.forEach((slide, index) => {
+            slide.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+        });
+    
+        // Debugging: Log the transform property of each slide
+        slides.forEach((slide, index) => {
+            console.log(`Slide ${index}: transform = ${slide.style.transform}`);
         });
     }
 
-    // Function to go to a specific slide
     function goToSlide(index) {
         if (index >= totalSlides) {
             currentSlide = 0; // Loop back to the first slide
@@ -36,18 +35,14 @@ document.addEventListener("DOMContentLoaded", () => {
         updateCarousel();
     }
 
-    // Event listeners for navigation buttons
     prevButton.addEventListener("click", () => goToSlide(currentSlide - 1));
     nextButton.addEventListener("click", () => goToSlide(currentSlide + 1));
 
-    // Event listeners for dots
     dots.forEach((dot, idx) => {
         dot.addEventListener("click", () => goToSlide(idx));
     });
 
-    // Initial setup
     updateCarousel();
 
-    // Responsive behavior: Recalculate positions on window resize
     window.addEventListener("resize", updateCarousel);
 });
