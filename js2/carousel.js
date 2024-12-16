@@ -35,15 +35,17 @@ document.addEventListener("DOMContentLoaded", () => {
         updateCarousel();
     }
 
-    prevButton.addEventListener("click", () => {
-        console.log("Left arrow clicked");
-        currentSlide = (currentSlide - 1 + totalSlides) % totalSlides; // Adjust index
+    nextButton.addEventListener("click", () => {
+        console.log("Before increment, currentSlide:", currentSlide);
+        currentSlide++;
+        console.log("After increment, currentSlide:", currentSlide);
         updateCarousel();
     });
     
-    nextButton.addEventListener("click", () => {
-        console.log("Right arrow clicked");
-        currentSlide = (currentSlide + 1) % totalSlides; // Adjust index
+    prevButton.addEventListener("click", () => {
+        console.log("Before decrement, currentSlide:", currentSlide);
+        currentSlide--;
+        console.log("After decrement, currentSlide:", currentSlide);
         updateCarousel();
     });
     
