@@ -8,6 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const prevButton = document.querySelector(".carousel-prev");
     const nextButton = document.querySelector(".carousel-next");
 
+    console.log("Left Arrow:", prevButton);
+    console.log("Right Arrow:", nextButton);
+    
     const totalSlides = slides.length;
 
     function updateCarousel() {
