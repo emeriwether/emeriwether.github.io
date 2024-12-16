@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const nextButton = document.querySelector(".carousel-next"); // Updated class
 
     // Total slides inside carousel
-    const totalSlides = document.querySelectorAll(".carousel-slide > div").length;
+    const totalSlides = document.querySelectorAll(".carousel-slide > p").length;
     console.log("Total slides:", totalSlides);
 
     let currentSlide = 0;
