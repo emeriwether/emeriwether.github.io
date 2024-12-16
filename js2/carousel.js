@@ -7,8 +7,12 @@ let currentSlide = 0;
 
 // Update slide positions
 function updateCarousel() {
-    const slideHeight = document.querySelector(".carousel").offsetHeight;
-    slides[0].style.transform = `translateY(-${currentSlide * slideHeight}px)`;
+    const slideWidth = document.querySelector(".carousel-container").offsetWidth;
+    const slides = document.querySelectorAll(".carousel-slide > div");
+    
+    slides.forEach((slide, index) => {
+        slide.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+    });
 }
 
 // Handle next button
