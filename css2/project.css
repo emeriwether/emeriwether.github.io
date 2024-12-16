@@ -214,6 +214,7 @@ p+p { padding-top: 1em; }
 
 .carousel-slide > div {
     flex: 0 0 100%;
+    box-sizing: border-box;
 }
 
 .carousel-slide p {
