@@ -1,14 +1,14 @@
-let currentSlide = 0;
-const totalSlides = document.querySelectorAll(".carousel-slide > div").length;
-
-
 document.addEventListener("DOMContentLoaded", () => {
-    const carouselContainer = document.querySelector(".carousel-container");
-    const carouselSlide = document.querySelector(".carousel-slide");
-    const slides = document.querySelectorAll(".carousel-slide > div");
-    const dots = document.querySelectorAll(".carousel-dots > span");
-    const prevButton = document.querySelector(".carousel-prev");
-    const nextButton = document.querySelector(".carousel-next");
+    const carousel = document.querySelector(".carousel-slide");
+    const leftArrow = document.querySelector(".carousel-left-arrow");
+    const rightArrow = document.querySelector(".carousel-right-arrow");
+
+    const totalSlides = document.querySelectorAll(".carousel-slide > div").length;
+
+    console.log("Total slides:", document.querySelectorAll(".carousel-slide > div"));
+    console.log("Total slide count:", totalSlides);
+
+    let currentSlide = 0;
 
     function updateCarousel() {
         const slideWidth = document.querySelector(".carousel-container").offsetWidth;
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
         updateCarousel();
     }
 
-    nextButton.addEventListener("click", () => {
+    rightArrow.addEventListener("click", () => {
         console.log("Before increment, currentSlide:", currentSlide);
         if (currentSlide < totalSlides - 1) {
             currentSlide++;
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
         updateCarousel();
     });
     
-    prevButton.addEventListener("click", () => {
+    leftArrow.addEventListener("click", () => {
         console.log("Before decrement, currentSlide:", currentSlide);
         if (currentSlide > 0) {
             currentSlide--;
