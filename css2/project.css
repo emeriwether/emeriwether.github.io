@@ -188,14 +188,15 @@ p+p { padding-top: 1em; }
 
 /* CAROUSEL */
 .carousel-container {
-      display: flex;
-      gap: 16px;
-      align-items: center;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
 }
 
 .static-image {
-      max-width: 50%;
-      height: auto;
+    max-width: 50%;
+    height: auto;
 }
 
 .carousel {
@@ -207,8 +208,12 @@ p+p { padding-top: 1em; }
 
 .carousel-slide {
     display: flex;
-    flex-direction: column;
     transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.carousel-slide > div {
+    flex: 0 0 100%;
 }
 
 .carousel-slide p {
