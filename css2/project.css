@@ -207,22 +207,15 @@ p+p { padding-top: 1em; }
 }
 
 .carousel-slide {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    width: 100%;
+    display: flex; /* Ensure horizontal alignment */
+    overflow: hidden; /* Hide slides outside the viewport */
+    width: 100%; /* Match container width */
 }
 
-.carousel-slide > div {
-    flex: 0 0 100%;
-    box-sizing: border-box;
-}
-
-.carousel-slide p {
-    min-width: 100%;  
-    margin: 0;
-    padding: 10px;
-    font-size: 0.875em;
-    color: #5D5D5D;
+.carousel-slide > * {
+    min-width: 100%; /* Each slide takes up the full width of the container */
+    transition: transform 0.3s ease; /* Smooth transitions */
+    opacity: 1; /* Ensure slides are fully visible */
 }
 
 .carousel-control {
