@@ -215,7 +215,13 @@ p+p { padding-top: 1em; }
 .carousel-slide > * {
     min-width: 100%; /* Each slide takes up the full width of the container */
     transition: transform 0.3s ease; /* Smooth transitions */
-    opacity: 1; /* Ensure slides are fully visible */
+    opacity: 0; /* Hide slides by default */
+    z-index: 0; /* Lower stacking order */
+    position: absolute; /* Position slides for overlap */
+}
+
+.carousel-slide > *:nth-child(1) {
+    position: relative;
 }
 
 .carousel-control {
