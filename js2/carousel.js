@@ -14,10 +14,12 @@ document.addEventListener("DOMContentLoaded", () => {
     function updateCarousel() {
         const slideWidth = document.querySelector(".carousel-container").offsetWidth;
         slides.forEach((slide, index) => {
-            slide.style.transform = `translateX(${(index - currentSlide) * slideWidth}px)`;
+            const offset = (index - currentSlide) * slideWidth;
+            slide.style.transform = `translateX(${offset}px)`;
             slide.style.transition = "transform 0.3s ease"; // Smooth transitions
+            console.log(`Slide ${index} transform: ${slide.style.transform}`);
         });
-
+    
         // Update dots
         dots.forEach((dot, index) => {
             if (index === currentSlide) {
@@ -26,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 dot.classList.remove("active");
             }
         });
-
+    
         console.log(`Current slide: ${currentSlide}, slide width: ${slideWidth}`);
     }
 
