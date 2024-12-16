@@ -1,39 +1,53 @@
-const slides = document.querySelectorAll(".carousel-slide");
-const prevButton = document.querySelector(".carousel-prev");
-const nextButton = document.querySelector(".carousel-next");
-const dots = document.querySelectorAll(".carousel-dot");
-
 let currentSlide = 0;
 
-// Update slide positions
-function updateCarousel() {
-    const slideWidth = document.querySelector(".carousel-container").offsetWidth;
+document.addEventListener("DOMContentLoaded", () => {
+    const carouselContainer = document.querySelector(".carousel-container");
+    const carouselSlide = document.querySelector(".carousel-slide");
     const slides = document.querySelectorAll(".carousel-slide > div");
-    
-    slides.forEach((slide, index) => {
-        slide.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
-    });
-}
+    const dots = document.querySelectorAll(".carousel-dots > span");
+    const prevButton = document.querySelector(".carousel-prev");
+    const nextButton = document.querySelector(".carousel-next");
 
-// Handle next button
-nextButton.addEventListener("click", () => {
-    currentSlide = (currentSlide + 1) % slides.length; // Loop back to first slide
-    updateCarousel();
-});
+    const totalSlides = slides.length;
 
-// Handle prev button
-prevButton.addEventListener("click", () => {
-    currentSlide = (currentSlide - 1 + slides.length) % slides.length; // Loop back to last slide
-    updateCarousel();
-});
+    // Function to update the carousel
+    function updateCarousel() {
+        const slideWidth = carouselContainer.offsetWidth;
+        const translateX = -currentSlide * slideWidth;
 
-// Dots navigation
-dots.forEach((dot, index) => {
-    dot.addEventListener("click", () => {
-        currentSlide = index;
+        // Apply transform to move the slides
+        carouselSlide.style.transform = `translateX(${translateX}px)`;
+
+        // Update active dot
+        dots.forEach((dot, idx) => {
+            dot.classList.toggle("active", idx === currentSlide);
+        });
+    }
+
+    // Function to go to a specific slide
+    function goToSlide(index) {
+        if (index >= totalSlides) {
+            currentSlide = 0; // Loop back to the first slide
+        } else if (index < 0) {
+            currentSlide = totalSlides - 1; // Loop to the last slide
+        } else {
+            currentSlide = index;
+        }
         updateCarousel();
-    });
-});
+    }
 
-// Initial update
-updateCarousel();
+    // Event listeners for navigation buttons
+    prevButton.addEventListener("click", () => goToSlide(currentSlide - 1));
+    nextButton.addEventListener("click", () => goToSlide(currentSlide + 1));
+
+    // Event listeners for dots
+    dots.forEach((dot, idx) => {
+        dot.addEventListener("click", () => goToSlide(idx));
+    });
+
+    // Initial setup
+    updateCarousel();
+
+    // Responsive behavior: Recalculate positions on window resize
+    window.addEventListener("resize", updateCarousel);
+});
