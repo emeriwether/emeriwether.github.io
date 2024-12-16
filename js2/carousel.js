@@ -7,9 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const dots = document.querySelectorAll(".carousel-dots > span");
     const prevButton = document.querySelector(".carousel-prev");
     const nextButton = document.querySelector(".carousel-next");
-
-    console.log("Left Arrow:", prevButton);
-    console.log("Right Arrow:", nextButton);
     
     const totalSlides = slides.length;
 
@@ -38,9 +35,18 @@ document.addEventListener("DOMContentLoaded", () => {
         updateCarousel();
     }
 
-    prevButton.addEventListener("click", () => goToSlide(currentSlide - 1));
-    nextButton.addEventListener("click", () => goToSlide(currentSlide + 1));
-
+    prevButton.addEventListener("click", () => {
+        console.log("Left arrow clicked");
+        currentSlide = (currentSlide - 1 + totalSlides) % totalSlides; // Adjust index
+        updateCarousel();
+    });
+    
+    nextButton.addEventListener("click", () => {
+        console.log("Right arrow clicked");
+        currentSlide = (currentSlide + 1) % totalSlides; // Adjust index
+        updateCarousel();
+    });
+    
     dots.forEach((dot, idx) => {
         dot.addEventListener("click", () => goToSlide(idx));
     });
