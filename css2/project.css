@@ -188,8 +188,10 @@ p+p { padding-top: 1em; }
 
 /* MODAL CAPTION */
 .carousel-container {
+    position: relative; /* Ensure positioning context */
+    width: 100%; /* Full width */
+    height: 200px; /* Adjust based on your content */
     overflow: hidden;
-    width: 100%;
 }
 
 .carousel-slide {
