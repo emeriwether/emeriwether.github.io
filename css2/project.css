@@ -208,6 +208,21 @@ p+p { padding-top: 1em; }
     transition: transform 0.3s ease;
 }
 
+.carousel-slide > * {
+    position: absolute; /* Stack slides on top of each other */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure slides span the full container */
+    opacity: 0; /* Start hidden */
+    z-index: 0; /* Place slides behind */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth sliding and visibility */
+}
+
+.carousel-slide > *.active {
+    opacity: 1; /* Show the active slide */
+    z-index: 1; /* Bring it to the front */
+}
+
 .carousel-controls {
     display: flex;
     justify-content: space-between;
