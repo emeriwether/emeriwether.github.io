@@ -188,7 +188,7 @@ p+p { padding-top: 1em; }
 
 /* CAROUSEL */
 .carousel {
-    position: relative; /* Keeps child elements positioned correctly */
+    position: relative;
     width: 100%;
     height: 200px; /* Match container height */
     overflow: hidden;
@@ -206,14 +206,11 @@ p+p { padding-top: 1em; }
 }
 
 .carousel-slide > p {
-    width: 100%; /* Ensure each slide takes full width */
-    max-width: 60%; /* Limit text box width for readability */
-    margin: 0 auto; /* Center the text box horizontally */
-    padding: 10px; /* Maintain some spacing */
+    min-width: 100%;
+    margin: 0;
+    padding: 20px;
     box-sizing: border-box;
-    text-align: center; /* Center text content inside the box */
-    position: relative; /* Keep slides properly positioned */
-    z-index: 1; /* Ensure text stays above background */
+    transition: transform 0.3s ease;
 }
 
 .carousel-slide > * {
