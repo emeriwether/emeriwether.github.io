@@ -8,23 +8,22 @@ document.addEventListener("DOMContentLoaded", () => {
     let currentSlide = 0;
 
     function updateCarousel() {
-        const slideWidth = carousel.offsetWidth; // Get carousel width
-        console.log(`Current Slide Index: ${currentSlide}, Slide Width: ${slideWidth}`);
+        const slideWidth = carousel.offsetWidth;
     
         slides.forEach((slide, index) => {
-            const offset = (index - currentSlide) * carousel.offsetWidth;
-        
+            const offset = (index - currentSlide) * slideWidth;
+    
             slide.style.transform = `translateX(${offset}px)`;
-        
-            // Make only the current slide visible
+    
+            // Add 'active' class to the current slide
             if (index === currentSlide) {
-                slide.style.opacity = "1";
-                slide.style.zIndex = "1";
+                slide.classList.add("active");
             } else {
-                slide.style.opacity = "0";
-                slide.style.zIndex = "0";
+                slide.classList.remove("active");
             }
         });
+    
+        console.log(`Current Slide Index: ${currentSlide}, Slide Width: ${slideWidth}`);
     }
 
     // Right arrow click
