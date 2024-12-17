@@ -16,9 +16,11 @@ document.addEventListener("DOMContentLoaded", () => {
             const offset = (index - currentSlide) * slideWidth;
             slide.style.transform = `translateX(${offset}px)`;
             slide.style.transition = "transform 0.3s ease"; // Smooth transitions
-            console.log("Slides selected:", slides.length);
         });
-    
+
+        console.log("Current slide index:", currentSlide); // Log after the loop
+        console.log(`Slide width: ${slideWidth}`); // Just for extra confirmation
+        
         // Update dots
         dots.forEach((dot, index) => {
             if (index === currentSlide) {
