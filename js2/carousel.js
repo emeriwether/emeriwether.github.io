@@ -23,7 +23,13 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     
-        console.log(`Current Slide Index: ${currentSlide}, Slide Width: ${slideWidth}`);
+        // Update dots
+        const dots = document.querySelectorAll(".carousel-dots .dot");
+        dots.forEach((dot, index) => {
+            dot.classList.toggle("active", index === currentSlide);
+        });
+    
+        console.log(`Current Slide Index: ${currentSlide}`);
     }
 
     // Right arrow click
