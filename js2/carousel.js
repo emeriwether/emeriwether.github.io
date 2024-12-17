@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Capture all slides
     const slides = document.querySelectorAll(".carousel-slide > *");
     const totalSlides = slides.length;
-    console.log("Total slides:", totalSlides);
 
     let currentSlide = 0;
 
@@ -17,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const offset = (index - currentSlide) * slideWidth;
             slide.style.transform = `translateX(${offset}px)`;
             slide.style.transition = "transform 0.3s ease"; // Smooth transitions
-            console.log(`Slide ${index} transform: ${slide.style.transform}`);
+            console.log("Slides selected:", slides.length);
         });
     
         // Update dots
@@ -29,12 +28,10 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     
-        console.log(`Current slide: ${currentSlide}, slide width: ${slideWidth}`);
     }
 
     // Navigation logic
     nextButton.addEventListener("click", () => {
-        console.log("Next button clicked");
         if (currentSlide < totalSlides - 1) {
             currentSlide++;
         } else {
@@ -44,7 +41,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     prevButton.addEventListener("click", () => {
-        console.log("Previous button clicked");
         if (currentSlide > 0) {
             currentSlide--;
         } else {
