@@ -220,10 +220,6 @@ p+p { padding-top: 1em; }
     position: absolute; /* Position slides for overlap */
 }
 
-.carousel-slide > *:nth-child(1) {
-    position: relative;
-}
-
 .carousel-control {
     position: absolute;
     top: 50%;
