@@ -8,9 +8,13 @@ document.addEventListener("DOMContentLoaded", () => {
     let currentSlide = 0;
 
     function updateCarousel() {
-        const slideWidth = carousel.offsetWidth; // Get the carousel's width
+        const slideWidth = carousel.offsetWidth; // Get carousel width
+        console.log(`Current Slide Index: ${currentSlide}, Slide Width: ${slideWidth}`);
+    
         slides.forEach((slide, index) => {
             const offset = (index - currentSlide) * slideWidth;
+            console.log(`Slide ${index} Offset: ${offset}px`);
+    
             slide.style.transform = `translateX(${offset}px)`;
         });
     }
