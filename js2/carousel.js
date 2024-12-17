@@ -12,10 +12,18 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(`Current Slide Index: ${currentSlide}, Slide Width: ${slideWidth}`);
     
         slides.forEach((slide, index) => {
-            const offset = (index - currentSlide) * slideWidth;
-            console.log(`Slide ${index} Offset: ${offset}px`);
-    
+            const offset = (index - currentSlide) * carousel.offsetWidth;
+        
             slide.style.transform = `translateX(${offset}px)`;
+        
+            // Make only the current slide visible
+            if (index === currentSlide) {
+                slide.style.opacity = "1";
+                slide.style.zIndex = "1";
+            } else {
+                slide.style.opacity = "0";
+                slide.style.zIndex = "0";
+            }
         });
     }
 
