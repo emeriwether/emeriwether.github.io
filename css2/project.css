@@ -204,6 +204,34 @@ p+p { padding-top: 1em; }
     box-sizing: border-box;
 }
 
+.carousel-controls {
+    display: flex;
+    justify-content: space-between; /* Align buttons to the edges */
+    position: absolute; /* Position over the carousel */
+    top: 50%; /* Center vertically */
+    width: 100%; /* Span full width */
+    transform: translateY(-50%); /* Adjust for true vertical centering */
+    pointer-events: none; /* Prevent unwanted overlap issues */
+}
+
+.carousel-controls button {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: #fff; /* White arrow color */
+    border: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    pointer-events: auto; /* Allow interaction with buttons */
+    z-index: 10;
+}
+
+.carousel-prev {
+    left: 10px; /* Position left arrow */
+}
+
+.carousel-next {
+    right: 10px; /* Position right arrow */
+}
 /* END STYLING FOR CLICKABLE GRAPHICS */
 /***********************/
 
