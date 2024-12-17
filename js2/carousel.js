@@ -12,16 +12,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function updateCarousel() {
         const slideWidth = document.querySelector(".carousel-container").offsetWidth;
+        console.log(`Current Slide Index: ${currentSlide}, Slide Width: ${slideWidth}`);
+    
         slides.forEach((slide, index) => {
             const offset = (index - currentSlide) * slideWidth;
+            console.log(`Processing slide index: ${index}, Offset: ${offset}`);
+    
             slide.style.transform = `translateX(${offset}px)`;
             slide.style.transition = "transform 0.3s ease"; // Smooth transitions
+    
+            // Apply opacity and z-index for visibility control
+            if (index === currentSlide) {
+                slide.style.opacity = "1";
+                slide.style.zIndex = "1";
+            } else {
+                slide.style.opacity = "0";
+                slide.style.zIndex = "0";
+            }
         });
-
-        console.log("Current slide index:", currentSlide); // Log after the loop
-        console.log(`Slide width: ${slideWidth}`); // Just for extra confirmation
-        
-        // Update dots
+    
         dots.forEach((dot, index) => {
             if (index === currentSlide) {
                 dot.classList.add("active");
@@ -30,9 +39,9 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     
+        console.log("Update Carousel Complete");
     }
 
-    // Navigation logic
     nextButton.addEventListener("click", () => {
         if (currentSlide < totalSlides - 1) {
             currentSlide++;
@@ -51,6 +60,5 @@ document.addEventListener("DOMContentLoaded", () => {
         updateCarousel();
     });
 
-    // Initialize the carousel
     updateCarousel();
 });
