@@ -213,23 +213,15 @@ p+p { padding-top: 1em; }
 }
 
 .carousel-slide > * {
-    min-width: 100%; /* Each slide takes up the full width of the container */
-    transition: transform 0.3s ease; /* Smooth transitions */
-    opacity: 0; /* Hide slides by default */
-    z-index: 0; /* Lower stacking order */
-    position: absolute; /* Position slides for overlap */
+    min-width: 100%;
+    transition: transform 0.3s ease;
+    position: absolute;
 }
 
 .carousel-control {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    font-size: 1.5em;
-    cursor: pointer;
-    z-index: 1000;
+    position: relative;
+    z-index: 2;
+    pointer-events: auto;
 }
 
 .carousel-control.prev {
