@@ -206,13 +206,14 @@ p+p { padding-top: 1em; }
 }
 
 .carousel-slide > p {
-    max-width: 60%; /* Adjust this for a narrower text box */
-    margin: 0 auto; /* Center the text horizontally */
-    padding: 20px; /* Maintain padding */
+    width: 100%; /* Ensure each slide takes full width */
+    max-width: 60%; /* Limit text box width for readability */
+    margin: 0 auto; /* Center the text box horizontally */
+    padding: 10px; /* Maintain some spacing */
     box-sizing: border-box;
-    text-align: center; /* Center-align the text */
-    position: relative; /* Avoid overlap issues */
-    z-index: 1; /* Ensure text appears above other elements */
+    text-align: center; /* Center text content inside the box */
+    position: relative; /* Keep slides properly positioned */
+    z-index: 1; /* Ensure text stays above background */
 }
 
 .carousel-slide > * {
@@ -232,25 +233,25 @@ p+p { padding-top: 1em; }
 
 .carousel-controls {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Position arrows at edges */
     position: absolute; 
-    top: 50%; 
+    top: 50%; /* Center vertically */
     left: 0;
     right: 0;
     transform: translateY(-50%);
-    pointer-events: none; 
-    z-index: 2; /* Ensure arrows are on top */
+    pointer-events: none; /* Prevent interference with other elements */
+    z-index: 2; /* Ensure arrows sit above everything */
 }
 
 .carousel-controls button {
-    pointer-events: auto;
+    pointer-events: auto; /* Allow arrow clicks */
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     border: none;
     padding: 10px 15px;
     font-size: 1.5rem;
     cursor: pointer;
-    z-index: 2; /* Ensure buttons stay above text */
+    z-index: 3; /* Ensure arrows stay on top */
 }
 
 .carousel-prev {
