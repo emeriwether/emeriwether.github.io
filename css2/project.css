@@ -209,20 +209,21 @@ p+p { padding-top: 1em; }
     justify-content: space-between; /* Align buttons to the edges */
     position: absolute; /* Position over the carousel */
     top: 50%; /* Center vertically */
-    width: 100%; /* Span full width */
+    left: 0;
+    right: 0;
     transform: translateY(-50%); /* Adjust for true vertical centering */
     pointer-events: none; /* Prevent unwanted overlap issues */
+    z-index: 10;
 }
 
 .carousel-controls button {
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     color: #fff; /* White arrow color */
     border: none;
-    padding: 10px;
+    padding: 10px 15px;
     font-size: 1.5rem;
     cursor: pointer;
     pointer-events: auto; /* Allow interaction with buttons */
-    z-index: 10;
 }
 
 .carousel-prev {
