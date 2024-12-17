@@ -218,17 +218,17 @@ p+p { padding-top: 1em; }
     position: absolute;
 }
 
-.carousel-control {
+.carousel-controls {
     position: relative;
     z-index: 2;
     pointer-events: auto;
 }
 
-.carousel-control.prev {
+.carousel-controls.prev {
     left: 0;
 }
 
-.carousel-control.next {
+.carousel-controls.next {
     right: 0;
 }
 
