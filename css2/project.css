@@ -355,7 +355,7 @@ ol.mainList li::before {
     align-items: center;
 }
 
-.slide-numbered-list li::before {
+.carousel-slide .slide-content .slide-numbered-list li::before {
     content: counter(slideCounter);
     font-weight: bold;
     color: #22252C;
