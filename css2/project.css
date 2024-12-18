@@ -341,7 +341,7 @@ ol.mainList li::before {
 }
 
 /* NUMBERED LIST FOR SLIDES */
-.slide-numbered-list {
+.carousel-slide .slide-content .slide-numbered-list {
     list-style: none;
     padding-left: 0;
     margin: 0;
@@ -358,8 +358,10 @@ ol.mainList li::before {
 .carousel-slide .slide-content .slide-numbered-list li::before {
     content: counter(slideCounter);
     font-weight: bold;
-    color: #22252C;
+    color: white;
+    back-ground color: #22252C;
     margin-right: 10px;
+    display: inline-block;
 }
 
 /* END LIST STYLING */
