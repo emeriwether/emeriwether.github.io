@@ -302,7 +302,7 @@ p+p { padding-top: 1em; }
 .slide-numbered-list li::before {
     content: counter(slideCounter);
     font-weight: bold;
-    color: #E14658; /* Example color */
+    color: #22252C; /* Example color */
     margin-right: 10px;
 }
 
