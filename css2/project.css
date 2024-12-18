@@ -227,9 +227,10 @@ p+p { padding-top: 1em; }
 .carousel-slide .slide-content {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center title and list */
+    align-items: flex-start; /* Center title and list */
+    justify-content: center;
     padding: 20px; /* Add padding for spacing */
-    text-align: center; /* Center-align text */
+    text-align: left; /* Center-align text */
     box-sizing: border-box;
 }
 
@@ -302,7 +303,7 @@ p+p { padding-top: 1em; }
 .slide-numbered-list li::before {
     content: counter(slideCounter);
     font-weight: bold;
-    color: #22252C; /* Example color */
+    color: #22252C;
     margin-right: 10px;
 }
 
