@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const prevButton = document.querySelector(".carousel-prev");
     const nextButton = document.querySelector(".carousel-next");
 
-    const slides = document.querySelectorAll(".carousel-slide > p");
+    const slides = document.querySelectorAll(".carousel-slide > *");
     const totalSlides = slides.length;
     let currentSlide = 0;
 
