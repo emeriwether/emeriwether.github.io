@@ -190,42 +190,47 @@ p+p { padding-top: 1em; }
 .carousel {
     position: relative;
     width: 100%;
-    height: 200px; /* Match container height */
+    height: 200px;
     overflow: hidden;
     display: flex;
-    align-items: center; /* Center content vertically */
+    align-items: center;
     justify-content: center;
 }
 
 .carousel-slide {
     display: flex;
     flex: 1;
-    justify-content: center; /* Center slide content */
+    justify-content: center;
     align-items: center;
     overflow: hidden;
 }
 
-.carousel-slide > p {
-    min-width: 100%;
-    margin: 0;
-    padding: 20px;
-    box-sizing: border-box;
-    transition: transform 0.3s ease;
-}
-
 .carousel-slide > * {
-    position: absolute; /* Stack slides on top of each other */
+    position: absolute;
     top: 0;
     left: 0;
-    width: 100%; /* Ensure slides span the full container */
+    width: 100%;
+    min-width: 100%;
     opacity: 0; /* Start hidden */
     z-index: 0; /* Place slides behind */
-    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth sliding and visibility */
+    box-sizing: border-box;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    padding: 20px;
+    margin: 0;
 }
 
 .carousel-slide > *.active {
-    opacity: 1; /* Show the active slide */
-    z-index: 1; /* Bring it to the front */
+    opacity: 1;
+    z-index: 1;
+}
+
+.carousel-slide .slide-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center title and list */
+    padding: 20px; /* Add padding for spacing */
+    text-align: center; /* Center-align text */
+    box-sizing: border-box;
 }
 
 .carousel-controls {
@@ -278,6 +283,29 @@ p+p { padding-top: 1em; }
 .carousel-dots .dot.active {
     background-color: #E14658; /* Active dot color */
 }
+
+/* NUMBERED LIST FOR SLIDES */
+.slide-numbered-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    counter-reset: slideCounter;
+}
+
+.slide-numbered-list li {
+    counter-increment: slideCounter;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.slide-numbered-list li::before {
+    content: counter(slideCounter);
+    font-weight: bold;
+    color: #E14658; /* Example color */
+    margin-right: 10px;
+}
+
 /* END STYLING FOR CLICKABLE GRAPHICS */
 /***********************/
 
