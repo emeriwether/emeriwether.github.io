@@ -359,7 +359,7 @@ ol.mainList li::before {
     content: counter(slideCounter);
     font-weight: bold;
     color: white;
-    back-ground color: #22252C;
+    background-color: #22252C;
     margin-right: 10px;
     display: inline-block;
 }
