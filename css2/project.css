@@ -195,6 +195,7 @@ p+p { padding-top: 1em; }
     display: flex;
     align-items: center;
     justify-content: center;
+    counter-reset: slideCounter;
 }
 
 .carousel-slide {
@@ -350,7 +351,6 @@ ol.mainList li::before {
     list-style: none;
     padding-left: 0;
     margin: 0;
-    counter-reset: slideCounter;
 }
 
 .slide-numbered-list li {
