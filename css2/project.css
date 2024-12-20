@@ -186,6 +186,31 @@ p+p { padding-top: 1em; }
     cursor: pointer;
 }
 
+/* TWO COLUMN LAYOUT */
+.two-column-layout {
+    display: flex; /* Enable flexbox for layout */
+    gap: 20px; /* Add space between the columns */
+}
+
+.left-column {
+    flex: 1; /* Let the image column take one part of the space */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+}
+
+.static-image {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto;
+}
+
+.right-column {
+    flex: 2; /* Let the carousel column take two parts of the space */
+    display: flex;
+    flex-direction: column; /* Align content vertically */
+    justify-content: center; /* Center carousel content */
+}
+
 /* CAROUSEL */
 .carousel {
     position: relative;
