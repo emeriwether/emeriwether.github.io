@@ -383,6 +383,8 @@ ol.mainList li::before {
     margin-bottom: 10px;
     display: flex;
     align-items: center;
+    font-size: 0.875;
+    line-height: 1.5;
 }
 
 .carousel-slide .slide-content .slide-numbered-list li::before {
