@@ -193,7 +193,7 @@ p+p { padding-top: 1em; }
 }
 
 .left-column {
-    flex: 1; /* Let the image column take one part of the space */
+    flex: 3; 
     display: flex;
     justify-content: center; /* Center the image horizontally */
     align-items: center; /* Center the image vertically */
@@ -205,7 +205,7 @@ p+p { padding-top: 1em; }
 }
 
 .right-column {
-    flex: 1;
+    flex: 2;
     display: flex;
     flex-direction: column; /* Align content vertically */
     justify-content: center; /* Center carousel content */
