@@ -324,6 +324,7 @@ ol.mainList {
     counter-reset: mainCounter; 
     padding: 20px 0 0 0;
     list-style: none;
+    margin-left: 0;
 }
 
 ol.mainList > li {
