@@ -188,8 +188,8 @@ p+p { padding-top: 1em; }
 
 /* TWO COLUMN LAYOUT */
 .two-column-layout {
-    display: flex; /* Enable flexbox for layout */
-    gap: 20px; /* Add space between the columns */
+    display: flex;
+    gap: 16px; 
 }
 
 .left-column {
