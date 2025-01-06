@@ -234,10 +234,11 @@ p+p { padding-top: 1em; }
     align-items: center;
     overflow: hidden;
     flex-direction: column;
+    position: relative;
 }
 
 .carousel-slide > * {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -253,6 +254,7 @@ p+p { padding-top: 1em; }
 .carousel-slide > *.active {
     opacity: 1;
     z-index: 1;
+    position: relative;
 }
 
 .carousel-slide .slide-content {
