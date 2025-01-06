@@ -233,6 +233,7 @@ p+p { padding-top: 1em; }
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    flex-direction: column;
 }
 
 .carousel-slide > * {
