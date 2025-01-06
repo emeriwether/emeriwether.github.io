@@ -191,7 +191,6 @@ p+p { padding-top: 1em; }
     display: flex;
     flex-direction: column;
     gap: 16px; 
-    align-items: flex-start;
 }
 
 .left-column {
@@ -495,17 +494,17 @@ main .stat {
 
     @media screen and (min-width: 53.3125em) { /* 853px and up */
         .two-column-layout {
-            flex-direction: row; /* Arrange columns side-by-side */
-            align-items: flex-start; /* Align to the top for consistency */
+            flex-direction: row;
+            align-items: flex-start;
         }
     
         .left-column {
-            flex: 3; /* Adjust for a larger image column */
+            flex: 3;
         }
     
         .right-column {
-            flex: 2; /* Smaller proportion for the text */
-            justify-content: center; /* Vertically center the carousel content */
+            flex: 2;
+            justify-content: center;
         }
     }
 
