@@ -190,6 +190,7 @@ p+p { padding-top: 1em; }
 .two-column-layout {
     display: flex;
     gap: 16px; 
+    align-items: flex-start;
 }
 
 .left-column {
@@ -209,18 +210,21 @@ p+p { padding-top: 1em; }
     display: flex;
     flex-direction: column; /* Align content vertically */
     justify-content: center; /* Center carousel content */
+    height: auto;
 }
 
 /* CAROUSEL */
 .carousel {
     position: relative;
     width: 100%;
-    height: 200px;
+    min-height: unset;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
     counter-reset: slideCounter;
+    height: auto;
+    overflow: visible;
 }
 
 .carousel-slide {
