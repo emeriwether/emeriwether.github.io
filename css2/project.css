@@ -404,7 +404,10 @@ ol.mainList li::before {
     margin-right: 10px;
     display: inline-block;
     position: relative;
-    border-radius: 20px 0 20px 0;
+    border-radius: 5px 0 5px 0;
+    width: 70px;
+    height: 25px;
+    line-height: 29px;
 }
 
 /* END LIST STYLING */
