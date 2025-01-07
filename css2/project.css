@@ -278,6 +278,13 @@ p+p { padding-top: 1em; }
     transform: translateY(-50%);
     pointer-events: none; /* Prevent interference with other elements */
     z-index: 2; /* Ensure arrows sit above everything */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.carousel-container:hover .carousel-controls {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .carousel-controls button {
