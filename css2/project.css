@@ -391,7 +391,7 @@ ol.mainList li::before {
     counter-increment: slideCounter;
     margin-bottom: 10px;
     display: flex;
-    align-items: center;
+    align-items: start;
     font-size: 0.875em;
     line-height: 1.5;
 }
@@ -408,6 +408,7 @@ ol.mainList li::before {
     width: 70px;
     height: 25px;
     line-height: 29px;
+    top: 6px;
 }
 
 /* END LIST STYLING */
