@@ -5,7 +5,7 @@ header { background: rgb(34, 37, 44); }
 header h1, header h2 { color: #E14658; }
 .projectHeader { padding: 2em 1.5em; }
 .headerText { padding-top: 1.5em; }
-.headerText .headerDetailsLabel, .headerText .headerDetailsText { margin-bottom: 1.3rem;}
+.headerText .headerDetailsLabel, .headerText .headerDetailsText { margin-bottom: 1.3rem; }
 .headerText .headerDetailsText { color: #EBEDF3; }
 
 .headerText .headerDetailsLabel {
@@ -30,14 +30,13 @@ header h2 {
 /* BEGIN SECTION STYLING */
 .projectBody { padding-bottom: 3em; }
 
-.projectSection { padding: 1.50em 1em 0 1em; }
+.projectSection { padding: 1.5em 1em 0; }
 
 .card.sectionCard {
-    padding: 2em 1em 2em 1em;
+    padding: 2em 1em;
     box-shadow: 6px 7px 10px 3px #B5B5B5;
-    border-left-width: 10px;
-    border-left-style: solid;
-    border-color: #22252C;
+    border: solid #22252C;
+    border-width: 0 0 0 10px;
     border-radius: 5px;
 }
 
@@ -53,14 +52,15 @@ main section h5 {
 }
 
 main section p {
-    color: #000000;
+    color: #000;
     margin-bottom: 0;
     font-size: 1.1em;
 }
 
-.bodyText { margin: 0 0; }
+.bodyText { margin: 0; }
 
 p+p { padding-top: 1em; }
+
 /* END SECTION STYLING */
 /***********************/
 
