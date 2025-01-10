@@ -298,6 +298,8 @@ p+p { padding-top: 1em; }
 
 /***********************/
 /* BEGIN STYLING FOR LISTS */
+
+/* MAIN ORDERED LIST STYLING */
 ol.mainList {
     counter-reset: mainCounter; 
     padding: 20px 0 0 10px;
@@ -328,6 +330,7 @@ ol.mainList li::before {
     font-weight: bold; 
 }
 
+/* NESTED ORDERED LIST STYLING */
 .nestedList {
     list-style: decimal;
     padding-left: 1em;
@@ -344,12 +347,13 @@ ol.mainList li::before {
     content: counter(nestedCounter) ". ";
 }
 
+/* UNORDERED LIST WITHIN LIST ITEM CONTENT */
 .listItemContent ul {
     margin-top: 0.5em;
     padding-left: 1em;
 }
 
-/* NUMBERED LIST FOR SLIDES */
+/* NUMBERED LIST FOR CAROUSEL SLIDES */
 .carousel-slide .slide-numbered-list {
     list-style: none;
     padding: 0;
@@ -384,24 +388,6 @@ ol.mainList li::before {
 }
 
 /* END LIST STYLING */
-/***********************/
-
-/***********************/
-/* BEGIN STYLING FOR STATISTICS */
-main .stat {
-    font-size: 1.7rem;
-}
-
-.statText {
-    font-size: 0.875em;
-}
-
-.statsIcon {
-    padding: 1em 0;
-    max-width: 65px;
-    min-width: 60px;
-}
-/* END STYLING FOR STATISTICS */
 /***********************/
 
 /***********************/
