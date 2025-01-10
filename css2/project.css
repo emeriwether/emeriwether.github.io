@@ -64,7 +64,6 @@ p+p { padding-top: 1em; }
 /* END SECTION STYLING */
 /***********************/
 
-
 /***********************/
 /* BEGIN STYLING FOR LISTS */
 
@@ -112,9 +111,7 @@ ol.mainList li::before {
     counter-increment: nestedCounter;
 }
 
-.nestedList li::before {
-    content: counter(nestedCounter) ". ";
-}
+.nestedList li::before { content: counter(nestedCounter) ". "; }
 
 /* UNORDERED LIST WITHIN LIST ITEM CONTENT */
 .listItemContent ul {
@@ -166,49 +163,25 @@ ol.mainList li::before {
 /***********************/
 /***********************/
 /* BEGIN STYLING FOR CLICKABLE GRAPHICS */
-.imageWithCaption {
-    display: flex;
-    gap: 16px; /* Space between the image and the caption */
-    align-items: center;
-    font-size: 0.875em;
-    color: #5D5D5D;
-    padding-top: 0.5em;
-}
 
-.imageWithCaption p, .imageWithCaption .nestedList li {
-    font-size: inherit;
-    color: inherit;
-    line-height: 1.5;
-}
-
-.imageWithCaption img {
-    max-width: 50%; /* Limit image to half the container width */
-    height: auto; /* Maintain aspect ratio */
-}
-
-.imageWithCaption .caption {
-    flex: 1;
-}
 
 .clickable {
-    cursor: pointer; /* Change cursor to a pointer to indicate clickability */
-    transition: transform 0.2s ease-in-out; /* Optional: Smooth hover effect */
+    cursor: pointer; 
+    transition: transform 0.2s ease-in-out; 
 }
 
-.clickable:hover {
-    transform: scale(1.05); /* Optional: Slight zoom on hover for better visual feedback */
-}
+.clickable:hover { transform: scale(1.05); }
 
 .modal {
-    display: none; /* Hidden by default */
+    display: none;
     position: fixed;
-    z-index: 1000; /* On top of other content */
+    z-index: 1000;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.9); /* Dark overlay */
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 /* MODAL IMAGE */
@@ -221,11 +194,11 @@ ol.mainList li::before {
 
 /* MODAL CAPTION */
 #caption {
-    color: #ccc; /* Match modal color */
-    font-size: 0.95em; /* Slightly adjust font size */
-    line-height: 1.4; /* Ensure consistent spacing */
+    color: #ccc; 
+    font-size: 0.95em;
+    line-height: 1.4;
     margin: 15px auto;
-    width: 90%; /* Constrain width */
+    width: 90%;
 }
 
 #caption ol {
@@ -233,9 +206,7 @@ ol.mainList li::before {
     padding-left: 0;
 }
 
-#caption li {
-    margin-bottom: 5px;
-}
+#caption li { margin-bottom: 5px; }
 
 /* CLOSE BUTTON */
 .close {
@@ -256,23 +227,23 @@ ol.mainList li::before {
     margin-top: 0.5em;
 }
 
+.static-image {
+    max-width: 100%; 
+    height: auto;
+}
+
 .left-column {
     flex: 1; 
     display: flex;
-    justify-content: center; /* Center the image horizontally */
-    align-items: center; /* Center the image vertically */
-}
-
-.static-image {
-    max-width: 100%; /* Ensure the image is responsive */
-    height: auto;
+    justify-content: center; 
+    align-items: center;
 }
 
 .right-column {
     flex: 1;
     display: flex;
-    flex-direction: column; /* Align content vertically */
-    justify-content: center; /* Center carousel content */
+    flex-direction: column; 
+    justify-content: center; 
     height: auto;
 }
 
@@ -306,8 +277,8 @@ ol.mainList li::before {
     left: 0;
     width: 100%;
     min-width: 100%;
-    opacity: 0; /* Start hidden */
-    z-index: 0; /* Place slides behind */
+    opacity: 0;
+    z-index: 0;
     box-sizing: border-box;
     transition: transform 0.3s ease, opacity 0.3s ease;
     margin: 0;
@@ -322,7 +293,7 @@ ol.mainList li::before {
 .carousel-slide .slide-content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /
+    align-items: flex-start;
     justify-content: center;
     padding: 5px 0px; 
     text-align: left; 
@@ -337,8 +308,8 @@ ol.mainList li::before {
     left: 0;
     right: 0;
     transform: translateY(-50%);
-    pointer-events: none; /* Prevent interference with other elements */
-    z-index: 2; /* Ensure arrows sit above everything */
+    pointer-events: none; 
+    z-index: 2;
     opacity: 0;
     transition: opacity 0.3s ease;
 }
@@ -349,23 +320,18 @@ ol.mainList li::before {
 }
 
 .carousel-controls button {
-    pointer-events: auto; /* Allow arrow clicks */
+    pointer-events: auto;
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     border: none;
     padding: 10px 15px;
     font-size: 1.5rem;
     cursor: pointer;
-    z-index: 3; /* Ensure arrows stay on top */
+    z-index: 3;
 }
 
-.carousel-prev {
-    left: 10px; /* Position left arrow */
-}
-
-.carousel-next {
-    right: 10px; /* Position right arrow */
-}
+.carousel-prev { left: 10px; }
+.carousel-next { right: 10px; }
 
 .carousel-header {
     text-transform: uppercase;
@@ -375,7 +341,7 @@ ol.mainList li::before {
 .carousel-dots {
     display: flex;
     justify-content: center;
-    gap: 8px; /* Space between dots */
+    gap: 8px;
     margin-top: 10px;
 }
 
@@ -383,14 +349,13 @@ ol.mainList li::before {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: #ccc; /* Inactive dot color */
+    background-color: #ccc;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.carousel-dots .dot.active {
-    background-color: #E14658; /* Active dot color */
-}
+.carousel-dots .dot.active { background-color: #E14658; }
+
 /* END STYLING FOR CLICKABLE GRAPHICS */
 /***********************/
 /***********************/
@@ -407,41 +372,20 @@ ol.mainList li::before {
         
         /***********************/
         /* BEGIN HEADER STYLING */
-        .projectHeader {
-            padding: 3.5em 3em 2.5em 3em;
-        }
+        .projectHeader { padding: 3.5em 3em 2.5em 3em; }
+        .card.headerSectionCard { padding: 0 2em; }
+        .headerText .medium-6.cell:nth-child(odd) { padding-right: 1em; } 
+        .headerText .medium-6.cell:nth-child(even) { padding-left: 1em; }
         
-        .card.headerSectionCard {
-            padding: 0 2em;
-        }
-        
-        .headerText .medium-6.cell:nth-child(odd) {
-            padding-right: 1em;
-        }
-        
-        .headerText .medium-6.cell:nth-child(even) {
-            padding-left: 1em;
-        }
         /* END HEADER STYLING */
         /***********************/
         
         /***********************/
         /* BEGIN SECTION STYLING */ 
-        .rwd-break {
-            display: none;
-        }   
-        
-        .projectSection {
-            padding: 2em 3em 0 3em;
-        }
-        
-        main section h5 {
-            font-size: 1.5em;
-        }
-        
-        .sectionTag {
-            max-width: 475px;
-        }
+        .rwd-break { display: none; }   
+        .projectSection { padding: 2em 3em 0 3em; }
+        main section h5 { font-size: 1.5em; }
+        .sectionTag { max-width: 475px; }
         
         .card.sectionCard {
             padding: 2.5em 2em 2.5em 2em;
@@ -462,9 +406,7 @@ ol.mainList li::before {
 
     /* 735px - 834px ------------------------------ */
     @media screen and (min-width: 45.938em) {
-        .headerText {
-            padding-left: 5%;
-        }    
+        .headerText { padding-left: 5%; }    
     }
 
     @media screen and (min-width: 53.3125em) { /* 853px and up */
@@ -474,9 +416,7 @@ ol.mainList li::before {
             margin-top: 1em;
         }
     
-        .left-column {
-            flex: 3;
-        }
+        .left-column { flex: 3; }
     
         .right-column {
             flex: 2;
@@ -489,29 +429,24 @@ ol.mainList li::before {
 
         /***********************/
         /* BEGIN HEADER STYLING */
-        .projectHeaderTitle {
-            padding-bottom: 1em;
-        }
         
-        .headerText {
-            margin: 0;
-        }
-        
-        .card.headerSectionCard {
-            padding: 0 5em;
-        }
+        .projectHeaderTitle { padding-bottom: 1em; }
+        .headerText { margin: 0; }
+        .card.headerSectionCard { padding: 0 5em; }
         
         /* END HEADER STYLING */
         /***********************/
            
         /***********************/
         /* BEGIN SECTION STYLING */
+        
         main section {
             padding: 1.50em 0 0 0;
             margin: 0;
         }
         
         .indentText { padding-left: 2em; }
+        
         /* END SECTION STYLING */
         /***********************/
     }
