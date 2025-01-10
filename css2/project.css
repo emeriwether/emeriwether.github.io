@@ -5,13 +5,13 @@ header { background: rgb(34, 37, 44); }
 
 .projectHeader { padding: 2em 1.5em; }
 
-header p.headerDetailsLabel {
+.headerText .headerDetailsLabel {
     margin-bottom: 0;
     font-family: "Roboto Condensed";
     font-size: 1.5em;
 }
 
-header p.headerDetailsText {
+.headerText .headerDetailsText {
     margin-bottom: 1.3rem;
     padding-top: 0;
     color: #EBEDF3;
