@@ -2,8 +2,9 @@
 /* BEGIN HEADER STYLING */
 
 header { background: rgb(34, 37, 44); }
-
+header h1, header h2 { color: #E14658; }
 .projectHeader { padding: 2em 1.5em; }
+.headerText { padding-top: 1.5em; }
 
 .headerText .headerDetailsLabel {
     margin-bottom: 0;
@@ -17,18 +18,14 @@ header { background: rgb(34, 37, 44); }
 }
 
 header h1 {
-    color: #E14658;
     line-height: 1;
     font-size: 2em;
 }
 
 header h2 {
-    color: #E14658;
     line-height: 0.9;
     font-size: 3em;
 }
-
-.headerText { padding-top: 1.5em; }
 
 /* END HEADER STYLING */
 /***********************/
