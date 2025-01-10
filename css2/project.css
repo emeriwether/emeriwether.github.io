@@ -64,237 +64,6 @@ p+p { padding-top: 1em; }
 /* END SECTION STYLING */
 /***********************/
 
-/***********************/
-/* BEGIN STYLING FOR CLICKABLE GRAPHICS */
-.imageWithCaption {
-    display: flex;
-    gap: 16px; /* Space between the image and the caption */
-    align-items: center;
-    font-size: 0.875em;
-    color: #5D5D5D;
-    padding-top: 0.5em;
-}
-
-.imageWithCaption p, .imageWithCaption .nestedList li {
-    font-size: inherit;
-    color: inherit;
-    line-height: 1.5;
-}
-
-.imageWithCaption img {
-    max-width: 50%; /* Limit image to half the container width */
-    height: auto; /* Maintain aspect ratio */
-}
-
-.imageWithCaption .caption {
-    flex: 1;
-}
-
-.clickable {
-    cursor: pointer; /* Change cursor to a pointer to indicate clickability */
-    transition: transform 0.2s ease-in-out; /* Optional: Smooth hover effect */
-}
-
-.clickable:hover {
-    transform: scale(1.05); /* Optional: Slight zoom on hover for better visual feedback */
-}
-
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed;
-    z-index: 1000; /* On top of other content */
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.9); /* Dark overlay */
-}
-
-/* MODAL IMAGE */
-.modal-content {
-    margin: auto;
-    display: block;
-    max-width: 90%;
-    max-height: 80%;
-    animation: zoomIn 0.3s ease-in-out;
-}
-
-/* MODAL CAPTION */
-#caption {
-    color: #ccc; /* Match modal color */
-    font-size: 0.95em; /* Slightly adjust font size */
-    line-height: 1.4; /* Ensure consistent spacing */
-    margin: 15px auto;
-    width: 90%; /* Constrain width */
-}
-
-#caption ol {
-    margin-left: 20px;
-    padding-left: 0;
-}
-
-#caption li {
-    margin-bottom: 5px;
-}
-
-/* CLOSE BUTTON */
-.close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #fff;
-    font-size: 30px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-/* TWO COLUMN LAYOUT */
-.two-column-layout {
-    display: flex;
-    flex-direction: column;
-    gap: 16px; 
-    margin-top: 0.5em;
-}
-
-.left-column {
-    flex: 1; 
-    display: flex;
-    justify-content: center; /* Center the image horizontally */
-    align-items: center; /* Center the image vertically */
-}
-
-.static-image {
-    max-width: 100%; /* Ensure the image is responsive */
-    height: auto;
-}
-
-.right-column {
-    flex: 1;
-    display: flex;
-    flex-direction: column; /* Align content vertically */
-    justify-content: center; /* Center carousel content */
-    height: auto;
-}
-
-/* CAROUSEL */
-.carousel {
-    position: relative;
-    width: 100%;
-    min-height: unset;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    counter-reset: slideCounter;
-    height: auto;
-    overflow: visible;
-}
-
-.carousel-slide {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    flex-direction: column;
-    position: relative;
-}
-
-.carousel-slide > * {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-width: 100%;
-    opacity: 0; /* Start hidden */
-    z-index: 0; /* Place slides behind */
-    box-sizing: border-box;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    padding: 20px;
-    margin: 0;
-}
-
-.carousel-slide > *.active {
-    opacity: 1;
-    z-index: 1;
-    position: relative;
-}
-
-.carousel-slide .slide-content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /
-    justify-content: center;
-    padding: 5px 0px; 
-    text-align: left; 
-    box-sizing: border-box;
-}
-
-.carousel-controls {
-    display: flex;
-    justify-content: space-between; 
-    position: absolute; 
-    top: 50%;
-    left: 0;
-    right: 0;
-    transform: translateY(-50%);
-    pointer-events: none; /* Prevent interference with other elements */
-    z-index: 2; /* Ensure arrows sit above everything */
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.carousel-container:hover .carousel-controls {
-    opacity: 1;
-    pointer-events: auto;
-}
-
-.carousel-controls button {
-    pointer-events: auto; /* Allow arrow clicks */
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    border: none;
-    padding: 10px 15px;
-    font-size: 1.5rem;
-    cursor: pointer;
-    z-index: 3; /* Ensure arrows stay on top */
-}
-
-.carousel-prev {
-    left: 10px; /* Position left arrow */
-}
-
-.carousel-next {
-    right: 10px; /* Position right arrow */
-}
-
-.carousel-header {
-    text-transform: uppercase;
-    margin-bottom: 0;
-}
-
-.carousel-dots {
-    display: flex;
-    justify-content: center;
-    gap: 8px; /* Space between dots */
-    margin-top: 10px;
-}
-
-.carousel-dots .dot {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: #ccc; /* Inactive dot color */
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.carousel-dots .dot.active {
-    background-color: #E14658; /* Active dot color */
-}
-/* END STYLING FOR CLICKABLE GRAPHICS */
-/***********************/
 
 /***********************/
 /* BEGIN STYLING FOR LISTS */
@@ -389,6 +158,246 @@ ol.mainList li::before {
 
 /* END LIST STYLING */
 /***********************/
+
+
+
+
+/***********************/
+/***********************/
+/***********************/
+/* BEGIN STYLING FOR CLICKABLE GRAPHICS */
+.imageWithCaption {
+    display: flex;
+    gap: 16px; /* Space between the image and the caption */
+    align-items: center;
+    font-size: 0.875em;
+    color: #5D5D5D;
+    padding-top: 0.5em;
+}
+
+.imageWithCaption p, .imageWithCaption .nestedList li {
+    font-size: inherit;
+    color: inherit;
+    line-height: 1.5;
+}
+
+.imageWithCaption img {
+    max-width: 50%; /* Limit image to half the container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.imageWithCaption .caption {
+    flex: 1;
+}
+
+.clickable {
+    cursor: pointer; /* Change cursor to a pointer to indicate clickability */
+    transition: transform 0.2s ease-in-out; /* Optional: Smooth hover effect */
+}
+
+.clickable:hover {
+    transform: scale(1.05); /* Optional: Slight zoom on hover for better visual feedback */
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000; /* On top of other content */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9); /* Dark overlay */
+}
+
+/* MODAL IMAGE */
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 80%;
+}
+
+/* MODAL CAPTION */
+#caption {
+    color: #ccc; /* Match modal color */
+    font-size: 0.95em; /* Slightly adjust font size */
+    line-height: 1.4; /* Ensure consistent spacing */
+    margin: 15px auto;
+    width: 90%; /* Constrain width */
+}
+
+#caption ol {
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+#caption li {
+    margin-bottom: 5px;
+}
+
+/* CLOSE BUTTON */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* TWO COLUMN LAYOUT */
+.two-column-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; 
+    margin-top: 0.5em;
+}
+
+.left-column {
+    flex: 1; 
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+}
+
+.static-image {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto;
+}
+
+.right-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column; /* Align content vertically */
+    justify-content: center; /* Center carousel content */
+    height: auto;
+}
+
+/* CAROUSEL */
+.carousel {
+    position: relative;
+    width: 100%;
+    min-height: unset;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    counter-reset: slideCounter;
+    height: auto;
+    overflow: visible;
+}
+
+.carousel-slide {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+    position: relative;
+}
+
+.carousel-slide > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 100%;
+    opacity: 0; /* Start hidden */
+    z-index: 0; /* Place slides behind */
+    box-sizing: border-box;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    margin: 0;
+}
+
+.carousel-slide > *.active {
+    opacity: 1;
+    z-index: 1;
+    position: relative;
+}
+
+.carousel-slide .slide-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /
+    justify-content: center;
+    padding: 5px 0px; 
+    text-align: left; 
+    box-sizing: border-box;
+}
+
+.carousel-controls {
+    display: flex;
+    justify-content: space-between; 
+    position: absolute; 
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    pointer-events: none; /* Prevent interference with other elements */
+    z-index: 2; /* Ensure arrows sit above everything */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.carousel-container:hover .carousel-controls {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.carousel-controls button {
+    pointer-events: auto; /* Allow arrow clicks */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 3; /* Ensure arrows stay on top */
+}
+
+.carousel-prev {
+    left: 10px; /* Position left arrow */
+}
+
+.carousel-next {
+    right: 10px; /* Position right arrow */
+}
+
+.carousel-header {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px; /* Space between dots */
+    margin-top: 10px;
+}
+
+.carousel-dots .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ccc; /* Inactive dot color */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-dots .dot.active {
+    background-color: #E14658; /* Active dot color */
+}
+/* END STYLING FOR CLICKABLE GRAPHICS */
+/***********************/
+/***********************/
+/***********************/
+
+
+
 
 /***********************/
 /* BEGIN MEDIA QUERIES */
