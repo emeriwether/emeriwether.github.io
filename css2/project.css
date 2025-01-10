@@ -352,7 +352,7 @@ ol.mainList li::before {
 /* NUMBERED LIST FOR SLIDES */
 .carousel-slide .slide-numbered-list {
     list-style: none;
-    padding-left: 0;
+    padding: 0;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -362,7 +362,7 @@ ol.mainList li::before {
     counter-increment: slideCounter;
     margin-bottom: 10px;
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     font-size: 0.875em;
     line-height: 1.5;
 }
