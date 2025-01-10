@@ -307,7 +307,6 @@ ol.mainList {
 
 ol.mainList > li {
     counter-increment: mainCounter;
-    counter-reset: nestedCounter;
     position: relative;
     margin-bottom: 2em; 
     padding-left: 50px;
@@ -415,7 +414,7 @@ main .stat {
         /***********************/
         /* BEGIN HEADER STYLING */
         .projectHeader {
-            padding: 3.5em 3em;
+            padding: 3.5em 3em 2.5em 3em;
         }
         
         .card.headerSectionCard {
