@@ -133,7 +133,6 @@ ol.mainList li::before {
     margin-bottom: 10px;
     display: flex;
     align-items: flex-start;
-    font-size: 0.875em;
     line-height: 1.5;
 }
 
@@ -164,7 +163,6 @@ ol.mainList li::before {
 /***********************/
 /* BEGIN STYLING FOR CLICKABLE GRAPHICS */
 
-
 .clickable {
     cursor: pointer; 
     transition: transform 0.2s ease-in-out; 
@@ -184,7 +182,6 @@ ol.mainList li::before {
     background-color: rgba(0, 0, 0, 0.9);
 }
 
-/* MODAL IMAGE */
 .modal-content {
     margin: auto;
     display: block;
@@ -192,7 +189,6 @@ ol.mainList li::before {
     max-height: 80%;
 }
 
-/* MODAL CAPTION */
 #caption {
     color: #ccc; 
     font-size: 0.95em;
@@ -208,7 +204,6 @@ ol.mainList li::before {
 
 #caption li { margin-bottom: 5px; }
 
-/* CLOSE BUTTON */
 .close {
     position: absolute;
     top: 15px;
@@ -225,6 +220,7 @@ ol.mainList li::before {
     flex-direction: column;
     gap: 16px; 
     margin-top: 0.5em;
+    font-size: 0.875em;
 }
 
 .static-image {
