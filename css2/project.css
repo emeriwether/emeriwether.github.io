@@ -5,10 +5,25 @@ header { background: rgb(34, 37, 44); }
 
 .projectHeader { padding: 2em 1.5em; }
 
+header .headerSectionLabel { margin-bottom: 2rem; }
+
+header p.headerDetailsLabel {
+    margin-bottom: 0;
+    font-family: "Roboto Condensed";
+    font-size: 1.5em;
+}
+
 header p.headerDetailsText {
     margin-bottom: 1.3rem;
     padding-top: 0;
     color: #EBEDF3;
+}
+
+.sectionUnderline {
+    width: 50%;
+    height: auto;
+    margin-right: 50%;
+    padding-bottom: 1.25em;
 }
 
 header h1 {
@@ -23,9 +38,29 @@ header h2 {
     font-size: 3em;
 }
 
+header section h3 {
+    color: #EBEDF3;
+    line-height: 1;
+}
+
+header section h4, 
+header div h4 {
+    color: #E14658;
+    margin-bottom: 0;
+    padding-bottom: 1em;
+}
+
+header section p { color: #EBEDF3; }
+
+header section div #projectAImage { width: 100%; }
+
 .headerText { padding-top: 1.5em; }
 
 .headerText div div.cell { padding: 0; }
+
+.headerDetailsText li { color: #EBEDF3; }
+
+.headerDetailsText ul { margin-bottom: 1.3rem; }
 
 /* END HEADER STYLING */
 /***********************/
