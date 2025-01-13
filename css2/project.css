@@ -431,10 +431,6 @@ ol.mainList li::before {
             flex: 2;
             justify-content: center;
         }
-
-        .modal-content {
-            margin-top: 0;
-        }
     }
 
     /* LARGE AND UP */
