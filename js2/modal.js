@@ -14,9 +14,9 @@ document.querySelectorAll('.clickable').forEach(img => {
         const parentContainer = this.closest('.two-column-layout'); 
         let captionElement;
 
-        // Check for a direct .caption or a nested one
+        // Check for a direct .caption or .carousel-container
         if (parentContainer) {
-            captionElement = parentContainer.querySelector('.caption');
+            captionElement = parentContainer.querySelector('.caption, .carousel-container');
         }
 
         // Use the found caption or leave it blank
