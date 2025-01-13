@@ -10,20 +10,30 @@ document.querySelectorAll('.clickable').forEach(img => {
         modal.style.display = 'block';
         modalImg.src = this.src;
 
-        // Clone the caption on the page into the modal
-        const parentCaption = this.closest('.imageWithCaption').querySelector('.caption');
-        captionText.innerHTML = parentCaption.innerHTML;
+        // Find the closest caption element associated with the image
+        const parentCard = this.closest('.card'); // Adjust based on your current structure
+        const captionElement = parentCard ? parentCard.querySelector('.caption') : null;
+
+        if (captionElement) {
+            captionText.innerHTML = captionElement.innerHTML; // Use the caption's content
+        } else {
+            captionText.innerHTML = ''; // Clear caption if no caption exists
+        }
     });
 });
 
 // Close the modal
 closeModal.onclick = function () {
     modal.style.display = 'none';
+    modalImg.src = ''; // Clear image source
+    captionText.innerHTML = ''; // Clear caption content
 };
 
 // Close modal on outside click
 window.onclick = function (event) {
     if (event.target === modal) {
         modal.style.display = 'none';
+        modalImg.src = ''; // Clear image source
+        captionText.innerHTML = ''; // Clear caption content
     }
 };
