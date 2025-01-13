@@ -223,9 +223,7 @@ ol.mainList li::before {
     font-size: 0.875em;
 }
 
-.two-column-layout:not(:last-child) {
-    padding-bottom: 1rem;
-}
+.two-column-layout:not(:last-child) { padding-bottom: 1rem; }
 
 .static-image {
     max-width: 100%; 
