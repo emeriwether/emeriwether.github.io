@@ -10,15 +10,17 @@ document.querySelectorAll('.clickable').forEach(img => {
         modal.style.display = 'block';
         modalImg.src = this.src;
 
-        // Find the closest caption element associated with the image
-        const parentCard = this.closest('.card'); // Adjust based on your current structure
-        const captionElement = parentCard ? parentCard.querySelector('.caption') : null;
+        // Find the nearest .two-column-layout parent
+        const parentContainer = this.closest('.two-column-layout'); 
+        let captionElement;
 
-        if (captionElement) {
-            captionText.innerHTML = captionElement.innerHTML; // Use the caption's content
-        } else {
-            captionText.innerHTML = ''; // Clear caption if no caption exists
+        // Check for a direct .caption or a nested one
+        if (parentContainer) {
+            captionElement = parentContainer.querySelector('.caption');
         }
+
+        // Use the found caption or leave it blank
+        captionText.innerHTML = captionElement ? captionElement.innerHTML : '';
     });
 });
 
