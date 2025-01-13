@@ -190,7 +190,7 @@ ol.mainList li::before {
     display: block;
     max-width: 90%;
     max-height: 80%;
-    margin-top: 4em;
+    margin-top: 2em;
     padding: 20px;
     overflow-y: auto;
     position: relative;
@@ -215,7 +215,7 @@ ol.mainList li::before {
     position: absolute;
     top: 15px;
     right: 35px;
-    color: #fff;
+    color: #000;
     font-size: 30px;
     font-weight: bold;
     cursor: pointer;
@@ -228,6 +228,10 @@ ol.mainList li::before {
     gap: 16px; 
     margin-top: 0.5em;
     font-size: 0.875em;
+}
+
+.modal .two-column-layout {
+    margin-top: 2.5em;
 }
 
 .two-column-layout:not(:last-child) { padding-bottom: 1rem; }
