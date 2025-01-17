@@ -4,26 +4,6 @@ const modalImg = document.getElementById('modalImage');
 const captionText = document.getElementById('caption');
 const closeModal = document.querySelector('.close');
 
-// Add event listener to clickable images
-document.querySelectorAll('.clickable').forEach(img => {
-    img.addEventListener('click', function () {
-        modal.style.display = 'block';
-        modalImg.src = this.src;
-
-        // Find the nearest .two-column-layout parent
-        const parentContainer = this.closest('.two-column-layout'); 
-        let captionElement;
-
-        // Check for a direct .caption or .carousel-container
-        if (parentContainer) {
-            captionElement = parentContainer.querySelector('.caption, .carousel-container');
-        }
-
-        // Use the found caption or leave it blank
-        captionText.innerHTML = captionElement ? captionElement.innerHTML : '';
-    });
-});
-
 // Close the modal
 closeModal.onclick = function () {
     modal.style.display = 'none';
