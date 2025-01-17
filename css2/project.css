@@ -197,13 +197,7 @@ ol.mainList li::before {
     position: relative;
 }
 
-#caption {
-    color: #ccc; 
-    font-size: 0.95em;
-    line-height: 1.4;
-    margin: 15px auto;
-    width: 90%;
-}
+
 
 #caption li { margin-bottom: 5px; }
 
