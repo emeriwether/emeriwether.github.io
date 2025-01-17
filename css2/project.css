@@ -205,10 +205,6 @@ ol.mainList li::before {
     width: 90%;
 }
 
-#caption ol {
-    padding-left: 0;
-}
-
 #caption li { margin-bottom: 5px; }
 
 .close {
