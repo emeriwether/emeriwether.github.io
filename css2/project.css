@@ -206,7 +206,6 @@ ol.mainList li::before {
 }
 
 #caption ol {
-    margin-left: 20px;
     padding-left: 0;
 }
 
