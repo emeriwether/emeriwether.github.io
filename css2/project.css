@@ -150,6 +150,7 @@ ol.mainList li::before {
     line-height: 29px;
     top: 6px;
     flex-shrink: 0;
+    text-align: center;
 }
 
 /* END LIST STYLING */
