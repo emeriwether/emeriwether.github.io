@@ -1,74 +1,47 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const modal = document.getElementById("imageModal");
-  const modalImg = document.getElementById("modalImage");
-  const captionText = document.getElementById("caption");
-  const closeModal = document.querySelector(".close");
+// Get modal elements
+const modal = document.getElementById('imageModal');
+const modalImg = document.getElementById('modalImage');
+const captionText = document.getElementById('caption');
+const closeModal = document.querySelector('.close');
 
-  // Add event listener to clickable images
-  document.querySelectorAll(".clickable").forEach((img) => {
-    img.addEventListener("click", function () {
-      modal.style.display = "block";
-      modalImg.src = this.src;
+// Add event listener to clickable images
+document.querySelectorAll('.clickable').forEach((img) => {
+    img.addEventListener('click', function () {
+        modal.style.display = 'block';
+        modalImg.src = this.src;
 
-      // Find the nearest .two-column-layout parent
-      const parentContainer = this.closest(".two-column-layout");
-      let captionElement;
+        // Clear existing caption content first
+        captionText.innerHTML = '';
 
-      if (parentContainer) {
-        captionElement = parentContainer.querySelector(".caption, .carousel-container");
+        // Find the nearest .two-column-layout parent
+        const parentContainer = this.closest('.two-column-layout');
+        let captionElement;
 
-        // Check if this modal should have a carousel
-        const carousel = parentContainer.querySelector(".carousel-container");
-        if (carousel) {
-          const carouselClone = carousel.cloneNode(true);
-          modal.querySelector(".left-column").appendChild(carouselClone);
-
-          // Initialize the carousel
-          initCarousel(carouselClone);
+        // Check for a direct .caption or .carousel-container
+        if (parentContainer) {
+            captionElement = parentContainer.querySelector('.caption, .carousel-container');
         }
-      }
 
-      captionText.innerHTML = captionElement ? captionElement.innerHTML : "";
+        // Append the content if it's found, ensuring no duplication
+        if (captionElement) {
+            const clone = captionElement.cloneNode(true); // Clone to preserve styles
+            captionText.appendChild(clone); // Append to captionText
+        }
     });
-  });
-
-  // Close modal and cleanup
-  closeModal.onclick = function () {
-    modal.style.display = "none";
-    modalImg.src = "";
-    captionText.innerHTML = "";
-
-    // Remove any dynamically added carousel
-    const dynamicCarousel = modal.querySelector(".carousel-container");
-    if (dynamicCarousel) {
-      dynamicCarousel.remove();
-    }
-  };
 });
 
-// Function to initialize carousel functionality
-function initCarousel(carousel) {
-  const slides = carousel.querySelectorAll(".slide-content");
-  const prevButton = carousel.querySelector(".carousel-prev");
-  const nextButton = carousel.querySelector(".carousel-next");
+// Close the modal
+closeModal.onclick = function () {
+    modal.style.display = 'none';
+    modalImg.src = ''; // Clear image source
+    captionText.innerHTML = ''; // Clear caption content
+};
 
-  let currentSlide = 0;
-
-  function updateCarousel() {
-    slides.forEach((slide, index) => {
-      slide.style.transform = `translateX(${(index - currentSlide) * 100}%)`;
-    });
-  }
-
-  prevButton.addEventListener("click", () => {
-    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-    updateCarousel();
-  });
-
-  nextButton.addEventListener("click", () => {
-    currentSlide = (currentSlide + 1) % slides.length;
-    updateCarousel();
-  });
-
-  updateCarousel();
-}
+// Close modal on outside click
+window.onclick = function (event) {
+    if (event.target === modal) {
+        modal.style.display = 'none';
+        modalImg.src = ''; // Clear image source
+        captionText.innerHTML = ''; // Clear caption content
+    }
+};
