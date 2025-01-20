@@ -27,6 +27,22 @@ document.querySelectorAll('.clickable').forEach((img) => {
             const clone = captionElement.cloneNode(true); // Clone to preserve styles
             captionText.appendChild(clone); // Append to captionText
         }
+
+        // Add carousel controls event listeners for the modal
+        const modalPrevButton = modal.querySelector(".carousel-prev");
+        const modalNextButton = modal.querySelector(".carousel-next");
+
+        if (modalPrevButton && modalNextButton) {
+            modalPrevButton.addEventListener("click", () => {
+                console.log("Modal carousel-prev clicked");
+                // Add any further logic for the carousel-prev here
+            });
+
+            modalNextButton.addEventListener("click", () => {
+                console.log("Modal carousel-next clicked");
+                // Add any further logic for the carousel-next here
+            });
+        }
     });
 });
 
