@@ -27,7 +27,14 @@ document.querySelectorAll('.clickable').forEach((img) => {
         if (captionElement) {
             const clone = captionElement.cloneNode(true); // Clone to preserve styles
             captionText.appendChild(clone); // Append to captionText
-
+        
+            // Hide left column if a carousel is present in the cloned content.
+            if (clone.querySelector('.carousel-container')) {
+                document.querySelector('#imageModal .left-column').style.display = 'none';
+            } else {
+                document.querySelector('#imageModal .left-column').style.display = 'block';
+            }
+        
             // Reinitialize the carousel inside the modal, if it exists.
             const modalCarousel = captionText.querySelector('.carousel-container');
             if (modalCarousel && window.initializeCarousel) {
