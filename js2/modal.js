@@ -6,6 +6,7 @@ const closeModal = document.querySelector('.close');
 
 // Add event listener to clickable images
 document.querySelectorAll('.clickable').forEach((img) => {
+    
     img.addEventListener('click', function () {
         modal.style.display = 'block';
         modalImg.src = this.src;
@@ -26,6 +27,9 @@ document.querySelectorAll('.clickable').forEach((img) => {
         if (captionElement) {
             const clone = captionElement.cloneNode(true); // Clone to preserve styles
             captionText.appendChild(clone); // Append to captionText
+
+            // Debug: check if the carousel-prev button exists in the DOM
+            console.log("After injection, carousel-prev:", document.querySelector('.carousel-prev'));
         }
 
         // Add carousel controls event listeners for the modal
