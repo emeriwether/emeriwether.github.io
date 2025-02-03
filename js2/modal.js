@@ -27,6 +27,12 @@ document.querySelectorAll('.clickable').forEach((img) => {
         if (captionElement) {
             const clone = captionElement.cloneNode(true); // Clone to preserve styles
             captionText.appendChild(clone); // Append to captionText
+
+            // Reinitialize the carousel inside the modal, if it exists.
+            const modalCarousel = captionText.querySelector('.carousel-container');
+            if (modalCarousel && window.initializeCarousel) {
+                window.initializeCarousel(modalCarousel);
+            }
         }
 
         // Add carousel controls event listeners for the modal
@@ -62,13 +68,3 @@ window.onclick = function (event) {
         captionText.innerHTML = ''; // Clear caption content
     }
 };
-
-// Delegated listener to catch clicks on carousel arrows in the modal
-modal.addEventListener('click', function (e) {
-    if (e.target.matches('.carousel-prev')) {
-        console.log('Delegated: carousel-prev clicked');
-    }
-    if (e.target.matches('.carousel-next')) {
-        console.log('Delegated: carousel-next clicked');
-    }
-});
