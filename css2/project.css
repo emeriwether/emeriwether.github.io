@@ -361,6 +361,11 @@ ol.mainList li::before {
 
 .carousel-dots .dot.active { background-color: #E14658; }
 
+/* Allow images in main page carousels to scale without being clipped */
+.projectSection .carousel-slide {
+    overflow: visible;
+}
+
 /* END STYLING FOR CLICKABLE GRAPHICS */
 /***********************/
 /***********************/
