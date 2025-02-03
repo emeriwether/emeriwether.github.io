@@ -32,9 +32,6 @@ document.querySelectorAll('.clickable').forEach((img) => {
         // Add carousel controls event listeners for the modal
         const modalPrevButton = modal.querySelector(".carousel-prev");
         const modalNextButton = modal.querySelector(".carousel-next");
-        
-        console.log("modalPrevButton:", modalPrevButton);
-        console.log("modalNextButton:", modalNextButton);
 
         if (modalPrevButton && modalNextButton) {
             modalPrevButton.addEventListener("click", () => {
@@ -65,3 +62,13 @@ window.onclick = function (event) {
         captionText.innerHTML = ''; // Clear caption content
     }
 };
+
+// Delegated listener to catch clicks on carousel arrows in the modal
+modal.addEventListener('click', function (e) {
+    if (e.target.matches('.carousel-prev')) {
+        console.log('Delegated: carousel-prev clicked');
+    }
+    if (e.target.matches('.carousel-next')) {
+        console.log('Delegated: carousel-next clicked');
+    }
+});
