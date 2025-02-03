@@ -36,6 +36,9 @@ document.addEventListener("DOMContentLoaded", () => {
         updateCarousel();
     }
 
+    // Expose the function so modal.js can call it:
+    window.initializeCarousel = initializeCarousel;
+
     // Initialize all carousels
     document.querySelectorAll(".carousel-container").forEach(initializeCarousel);
 });
