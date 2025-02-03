@@ -27,14 +27,14 @@ document.querySelectorAll('.clickable').forEach((img) => {
         if (captionElement) {
             const clone = captionElement.cloneNode(true); // Clone to preserve styles
             captionText.appendChild(clone); // Append to captionText
-
-            // Debug: check if the carousel-prev button exists in the DOM
-            console.log("After injection, carousel-prev:", document.querySelector('.carousel-prev'));
         }
 
         // Add carousel controls event listeners for the modal
         const modalPrevButton = modal.querySelector(".carousel-prev");
         const modalNextButton = modal.querySelector(".carousel-next");
+        
+        console.log("modalPrevButton:", modalPrevButton);
+        console.log("modalNextButton:", modalNextButton);
 
         if (modalPrevButton && modalNextButton) {
             modalPrevButton.addEventListener("click", () => {
