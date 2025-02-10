@@ -15,7 +15,7 @@ document.querySelectorAll('.clickable').forEach((img) => {
         captionText.innerHTML = '';
 
         // Find the nearest .two-column-layout parent
-        const parentContainer = this.closest('.listItemContent');
+        const parentContainer = this.closest('.single-image') || this.closest('.listItemContent');
         let captionElement;
 
         // Check for a direct .caption or .carousel-container
