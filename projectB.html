@@ -64,12 +64,13 @@ projectTeam:
         </div>
         <!-- TEXT -->
         <div class="cell bodyText">
-            <h5>DataGuardian: Safeguarding Your Business's Digital Heartbeat</h5>
-            <p class="text-left">Meet our customer DataGuardian, anonymized here to honor confidentiality agreements. Today, DataGuardian offers a solution to securely store what's essentially the diary of the business world—Salesforce CRM data, where companies jot down every customer interaction, from the smallest nod to the firmest handshake. Yet, the real magic DataGuardian plans to unleash is still on the horizon. Their next move? <span class="aquaText boldText">Transforming customers' data into sharp insights, set to empower businesses to make bold, informed decisions.</span></p>
+            <h5>EcoLogistics' Packing Predicament &#128666;</h5>
+            <p>EcoLogistics Solutions packs and ships beverage pallets to customers like gas stations and grocery stores. They faced frequent issues with incorrect products on pallets, causing customer complaints. To fix this, they built a computer vision solution to scan pallets, compare contents with shipping orders, and alert packers of mismatches, ensuring accuracy and providing digital evidence for disputes.</p>
 
-            <h5>Unlocking the Vault of Data’s Potential</h5>
-            <p class="text-left">To start, DataGuardian concentrated on their clients' sales data within Salesforce — just the first area among many, like marketing and operations, ripe for exploration. <span class="aquaText boldText">Their goal was to pinpoint the best opportunities for their clients' sales team to pursue</span>, turning mere data storage into a rich source of actionable insights.</p>           
-            <p class="text-left">Enter the TensorIoT team. My role as the sole designer on this project was to distill the complexities of the available data and machine learning predictions into designs for a clear, engaging dashboard. This wasn't just about making data look pretty; it was about crafting a tool that would become indispensable to DataGuardian's clients, enabling their sales teams to zero in on opportunities with the biggest yields.</p>          
+            <h5>Streamlining the Solution &#128736;</h5>
+            <p>Despite their innovative solution, EcoLogistics used multiple apps to visualize their data, making the process inefficient. They needed a streamlined approach, and turned to TensorIoT for a single app, PalletVision, to track pallets in real-time, ensure correct products are packed, and provide digital proof of accuracy.</p>           
+            <p>I joined after initial designs were made using CloudScape. EcoLogistics then requested a switch to Material UI (MUI) for better alignment with their existing infrastructure. My task was to convert the original designs from CloudScape to MUI, and update pages with new requirements. I quickly realized the Phase 1 designs were too basic, and lacked interaction details, which would leave devs guessing during implementation.</p>          
+            <p>Recognizing developers as key consumers of my work, I refined the designs to ensure they were clear and valuable maps. <span class="aquaText boldText">My goal was to make sure developers knew exactly what needed to be built so they could focus on executing it well.</span></p>
         </div>
     </div>
 </section>
@@ -86,278 +87,18 @@ projectTeam:
         </div>
         <!-- TEXT -->
         <div class="cell bodyText">
-            <h5>The QuickSight Quest: Design Discovery to Sign-Off In Two Weeks</h5>
-            <p class="text-left">In our initial discovery and design sprint, my knack for asking incisive questions and bringing customer ideas to life steered the project, ensuring smooth and successful progress. Here are some highlights:</p>
-            
-            <ol class="mainList">
-              
-              <li>
-                <div class="listItemContent">
-                  <strong>Kicking Off Design Discovery</strong> 
-                  <p>To start, I tapped into our sales team's knowledge about DataGuardian's goals and challenges to shape some initial design sketches.</p>
+            <p>While translating the PalletVision designs from Cloudscape to MUI was relatively straightforward, the main focus of my time on this project was to enhance the design deliverables into a resource that would better support the developers in building it.</p>
 
-                  <div class="two-column-layout">
-                      <div class="left-column">
-                          <img src="../images/project1/dataGuardian_initial_sketch.png" alt="Sketches during discovery" class="static-image clickable">
-                      </div>
+            <h5>Making Design Documentation Developer-Friendly &#128221;</h5>
+            <p>When I inherited the PalletVision designs, they were sparse and lacked detailed documentation. To avoid leaving decisions up to the developers, I conducted further discovery with EcoLogistics, revealing misaligned requirements. I captured these refined expectations to guide the developers, ensuring they had a clear map to build from and could focus on their tasks without guessing.</p>           
+            <p><span class="boldText">Outcome:</span> This approach made sure the app was built to the customer's exact specifications, and we didn’t end up with any surprise work after development was already underway.</p>
           
-                      <div class="right-column">
-                          <div class="caption">
-                              <p>In preparation for our initial discovery sessions, I crafted rough sketches reflecting our sales team's insights and the customer-defined use case as outlined in our contract:</p>
-                              <p>Ability to visualize inference results via a QuickSight dashboard:</p>
-                              <ol>
-                                  <li>Opportunity Name</li>
-                                  <li>SFDC Stage</li>
-                                  <li>Close-Win likelihood</li>
-                                  <li>Link to SFDC Opportunity</li>
-                                  <li>Search & Filter functionality</li>
-                              </ol>
-                              <br>
-                              <p>This sketch would help ground our conversations, allowing the stakeholders to point to parts of the design while they described what they’re looking for.</p>
-                          </div>
-                      </div>
-                  </div>
-                  
-                  
-                  <p>Next up - my first meeting with the DataGuardian stakeholders, where I learned more about their business requirements and users. Some of my key takeaways from this session included:</p>
-                  <ul>
-                    <li>The target users are business-to-business (B2B) sales reps and sales managers, especially in smaller firms where personalized engagement with customers can significantly influence success.</li>
-                    <li>The current user journey involves sales reps guessing whether an opportunity will win or lose, relying purely on intuition—a hit-or-miss approach.</li>
-                    <li>For this phase, the dashboard not only had to show how the data translates to dollars, but also needed to look “cool”, so DataGuardian’s customers would be excited to buy it.</li>
-                  </ul>
-                </div>
-                
-              </li>
-              
-              <li>
-                <div class="listItemContent">     
-                  <strong>Creative Solution Crafting</strong> 
-                  <p>During our initial discovery call, I realized my sketches weren't compelling or "cool" enough for DataGuardian’s needs. So, I revisited the designs, drawing inspiration from QuickSight's DemoCentral and discussing available data with our developers to brainstorm new graph concepts.</p>
-
-                  <div class="two-column-layout">
-
-                    <div class="left-column">
-                      <img src="../images/project1/carousel_image1.png" alt="Static Insight Image" class="static-image clickable">
-                    </div>
-
-                    <div class="right-column">
-                      <div class="carousel-container caption">
-                          <h6 class="carousel-header">Potential insights for users</h6>
-                          <div class="carousel">
-                            
-                              <!-- Navigation Arrows -->
-                              <div class="carousel-controls">
-                                  <button class="carousel-prev">&lt;</button>
-                                  <button class="carousel-next">&gt;</button>
-                              </div>
-                      
-                              <!-- Slides -->
-                              <div class="carousel-slide">
-                                
-                                  <div class="slide-content">
-                                      <ol class="slide-numbered-list">
-                                          <li>Allows sales teams to quickly identify high-value and high-potential deals, focusing their attention where it can have the most impact.</li>
-                                          <li>Enables identification of high-value opportunities that require immediate focus and lower-value ones that can be nurtured over time.</li>
-                                          <li>Simplifies understanding of win-loss ratios within a sales portfolio, useful for quick assessment of sales outcomes.</li>
-                                      </ol>
-                                  </div>
-                                
-                                  <div class="slide-content">
-                                      <ol class="slide-numbered-list">
-                                          <li>Allows sellers to easily see the proportion of deals in each win-likelihood category, focusing efforts where there’s a higher chance of success.</li>
-                                          <li>Tracks individual or team performance across different stages, spotting trends in sales success or areas for improvement.</li>
-                                          <li>Illustrates the cumulative performance of sales teams across various categories, useful for assessing overall sales health.</li>
-                                      </ol>
-                                  </div>
-                                
-                                  <div class="slide-content">
-                                      <ol class="slide-numbered-list">
-                                          <li>Visualizes the distribution and intensity of sales activities, highlighting areas of high engagement and potential bottlenecks within the sales pipeline.</li>
-                                          <li>Provides a clear ranking of sales reps, motivating underperformers and acknowledging top performers for strategy optimization.</li>
-                                      </ol>
-                                  </div>
-                                
-                              </div>
-                            
-                          </div>
-                          <div class="carousel-dots">
-                              <span class="dot"></span>
-                              <span class="dot"></span>
-                              <span class="dot"></span>
-                          </div>
-                      </div>
-                    </div>
-                    
-                  </div>
-                  
-                </div>
-              </li>
-              
-              <li>
-                <strong>Initiative in User Research</strong> 
-                <p>Despite typical project constraints like limited time and resources for user research, I identified a chance for valuable user insight right within our team. Given our own sales team perfectly matched the target user profile, I initiated some quick, direct user research.</p>
-                <p style="padding-top: 1em;">I met with our project's sales rep and the sales team manager to understand their methods for prioritizing and evaluating sales opportunities. Their insights were crucial; we discussed not just how they identify promising opportunities, but also how the manager assesses training needs or recognizes top performers, and evaluates the effectiveness of our sales strategy.</p>
-              </li>
-              
-              <li>
-                <div class="listItemContent">
-                  <strong>Achieving Final Sign-off</strong> 
-                  <p>Through several more cycles of discovery, sketch iterations, and review with both the customer and developers, I honed in on graph choices that narrated a well-rounded and compelling story, enriched by insights from my user research.</p>
-
-                  <div class="carousel-container">
-                    <div class="carousel">
-                      
-                      <!-- Navigation Arrows -->
-                      <div class="carousel-controls">
-                        <button class="carousel-prev">&lt;</button>
-                        <button class="carousel-next">&gt;</button>
-                      </div>
-                      
-                      <!-- Slides -->
-                      <div class="carousel-slide">
-                        
-                        <!-- Slide 1 -->
-                        <div class="slide-content">
-                          <div class="two-column-layout">
-                            <div class="left-column">
-                              <img src="../images/project1/carousel_image2.png" alt="Static Insight Image" class="static-image clickable">
-                            </div>
-                            <div class="right-column">
-                              <div class="caption carousel-container">
-                                <!-- First Caption Section -->
-                                <div class="caption-section">
-                                  <h4 class="caption-title">User Insight #1</h4>
-                                  <p class="caption-text">
-                                    <strong>Simplicity Wins:</strong> Individual sellers, pressed for time, prefer straightforward visuals. Complex graphs like heat maps lose them, while simpler ones like pie charts hit the mark.
-                                  </p>
-                                </div>
-                                
-                                <!-- Second Caption Section with Padding -->
-                                <div class="caption-section" style="padding-top: 1em;">
-                                  <h4 class="caption-title">Design Decisions</h4>
-                                  <p class="caption-text">This pie chart provides clear, quick insights, allowing sales reps to see their win and loss potential at a glance. By showing the likely revenue from potential deals, it helps sellers prioritize their efforts and focus on strategies that maximize earnings and meet sales targets efficiently.</p>
-                                </div>
-                              </div>                  
-                            </div>
-                          </div>
-                        </div>
-                        
-                        <!-- Slide 2 -->
-                        <div class="slide-content">
-                          <div class="two-column-layout">
-                            <div class="left-column">
-                              <img src="../images/project1/carousel_image3.png" alt="Static Insight Image" class="static-image clickable">
-                            </div>
-                            <div class="right-column">
-                              <div class="caption carousel-container">
-                                <!-- First Caption Section -->
-                                <div class="caption-section">
-                                  <h4 class="caption-title">User Insight #2</h4>
-                                  <p class="caption-text">
-                                    <strong>Competitive Spirit:</strong> Showing where they stand compared to others fuels individual sellers' drive, with visualizations of rankings pushing them to excel.
-                                  </p>
-                                </div>
-                                
-                                <!-- Second Caption Section with Padding -->
-                                <div class="caption-section" style="padding-top: 1em;">
-                                  <h4 class="caption-title">Design Decisions</h4>
-                                  <p class="caption-text">This leaderboard illuminates each seller's standing with color-coded predictions of close-won likelihood, sparking a drive to not just climb the ranks but also focus efforts on the most winnable deals to improve their standing and the company's bottom line.</p>
-                                </div>
-                              </div>   
-                            </div>
-                          </div>
-                        </div>
-                        
-                        <!-- Slide 3 -->
-                        <div class="slide-content">
-                          <div class="two-column-layout">
-                            <div class="left-column">
-                              <img src="../images/project1/carousel_image4.png" alt="Static Insight Image" class="static-image clickable">
-                            </div>
-                            <div class="right-column">
-                              <div class="caption carousel-container">
-                                <!-- First Caption Section -->
-                                <div class="caption-section">
-                                  <h4 class="caption-title">User Insight #3</h4>
-                                  <p class="caption-text">
-                                    <strong>Effort vs. Reward:</strong> Sellers aim to maximize returns with minimal effort, seeking insights into which opportunities could yield the biggest rewards with the least effort, enabling them to pursue even more deals.
-                                  </p>
-                                </div>
-                                
-                                <!-- Second Caption Section with Padding -->
-                                <div class="caption-section" style="padding-top: 1em;">
-                                  <h4 class="caption-title">Design Decisions</h4>
-                                  <p class="caption-text">The scatter plot points sellers to high-value, undecided deals at the top-middle — the sweet spot for effort to yield big wins. Deals towards the bottom promise less reward, while those on the far left and right are unlikely to change, even with more effort, marking the center as the strategic focal point for sellers.</p>
-                                </div>
-                              </div>   
-                            </div>
-                          </div>
-                        </div>
-                        
-                        <!-- Slide 4 -->
-                        <div class="slide-content">
-                          <div class="two-column-layout">
-                            <div class="left-column">
-                              <img src="../images/project1/carousel_image5.png" alt="Static Insight Image" class="static-image clickable">
-                            </div>
-                            <div class="right-column">
-                              <div class="caption carousel-container">
-                                <!-- First Caption Section -->
-                                <div class="caption-section">
-                                  <h4 class="caption-title">User Insight #4</h4>
-                                  <p class="caption-text">
-                                    <strong>Big-Picture Concerns:</strong> Sales managers focus on the broader health of the team, from the adequacy of support and recognition to training needs and overall performance forecasts.
-                                  </p>
-                                </div>
-                                
-                                <!-- Second Caption Section with Padding -->
-                                <div class="caption-section" style="padding-top: 1em;">
-                                  <h4 class="caption-title">Design Decisions</h4>
-                                  <p class="caption-text">The 'Sales Performance Trajectory' graph shows a monthly view of wins and losses, helping managers forecast and evaluate the sales pipeline's health.<br>'Pipeline Potential' uses a heatmap to display open opportunities by likelihood of closing, value, and stage, empowering managers to adjust tactics and training whenever deals deviate from expected success rates.</p>
-                                </div>
-                              </div>   
-                            </div>
-                          </div>
-                        </div>
-                        
-                      </div>
-                    </div>
-                    <div class="carousel-dots">
-                      <span class="dot"></span>
-                      <span class="dot"></span>
-                      <span class="dot"></span>
-                      <span class="dot"></span>
-                    </div>
-                  </div>
-
-                  <p style="padding-top: 2em;">Aesthetically, we transitioned from grey-scale sketches to a basic red-yellow-green palette for simplicity, and finally to the company's branding colors for a sophisticated yet clear performance categorization.</p>
-
-                  <div class="single-image">
-                    <div class="two-column-layout">
-                        <div class="left-column">
-                            <img src="../images/project1/dataGuardian_final_mockup.png" alt="Final signed-off designs" class="static-image clickable">
-                        </div>
             
-                        <div class="right-column">
-                            <div class="caption">
-                                <p>DataGuardian said that it was critical that the dashboard looked “cool”, so that their potential customers would be excited to buy it.</p>
-                                <p>While the red-yellow-green color pallet I chose initially made it super easy for users to read the dashboard, it looked unpolished and basic.</p>
-                                <p>I experimented with applying their branding colors, and the final result not only looked a lot more elegant, but also looked like it belonged in DataGaurdian’s application ecosphere.</p>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-
-                  <p style="padding-top: 2em;">By the end of the two-week sprint, I secured design sign-off, confirming that the designs perfectly aligned with DataGuardian’s vision in content, flow, and structure. This milestone also meant that developers could move forward full-speed-ahead, building out the dashboard with certainty and little to no anticipated changes.</p>
-                  
-                </div>
-              </li>
-              
-            </ol>
           
-            <h5>Bringing Design Dreams to Data Life</h5>            
-            <p class="text-left">As we moved from design to development, our goal was to make sure the dashboard matched our vision, tackling technical challenges with creativity. I led the effort to keep design and development in sync, frequently reviewing the UI against my designs and discussing discrepancies with developers.</p>            
-            <p class="text-left">Challenges arose when developers indicated certain parts of my designs weren’t feasible within QuickSight. In those moments, I collaborated closely with the devs, ideating on alternative solutions that continued to meet user needs and deliver value, all while being achievable within QuickSight's framework and our project timeline.</p>
+            <h5>Bridging the Theming Gap &#127912;</h5>            
+            <p>As I started handing my designs off to our front end developer, I noticed that he was styling components individually in the code. I realized this was likely because my documentation wasn’t speaking his language. He was just following our usual process, but I saw an opportunity to improve for cleaner, maintainable code.</p>            
+            <p>To address this, I used the MUI Theme Creator to generate theme code, and added custom code for box shadows and border radiuses. While we iterated on the code together to get the syntax right, my initial work gave the developer what he needed to start theming efficiently.</p>
+            <p><span class="boldText">Outcome:</span> By reaching out to the developer, I discovered this gap between design and development and addressed it, leading to a more cohesive and scalable app, saving development time, and ensuring styling consistency across the board.</p>
         </div>
     </div>
 </section> 
@@ -374,17 +115,20 @@ projectTeam:
         </div>
         <!-- TEXT -->
         <div class="cell bodyText">
-            <h5>The Big Reveal: A Tool That Sees the Future 🔮</h5>
-            <p class="text-left">The unveiling of the final PoC dashboard was a momentous occasion, met with enthusiasm and accolades from DataGuardian. Their expectations were not only met but exceeded, leading to immediate discussions for further collaborations between our two companies. <span class="aquaText boldText">The success of the dashboard underscored my ability to turn complex data into an intuitive, engaging tool for decision-making.</span></p>
+            <p>In the end, we delivered a high-quality product that exceeded the customer's expectations and was delivered in a timely manner. My work enabled the developers to successfully implement the solution without unexpected delays or challenges.</p>
             
-            <h5>Charting the Course: Lessons from the UX Voyage</h5>
-            <p class="text-left">Mastering an unfamiliar tool and navigating the new, detailed world of sales pipelines proved to be a rewarding challenge. This experience showcased my adaptability and dedication to growing my UX design skills, while also highlighting my quick ability to learn and innovate in new areas.<br><br>The success of my designs for this project sparked notable changes within our organization and beyond:</p>
-            <ol class="mainList indentText">
-                <li>My work with QuickSight led our company to adopt it for more projects, enhancing our visualization tools.</li>
-                <li>The success of this project prompted my company to replace an costly, custom internal tool with a QuickSight dashboard, cutting weekly costs by over $600.</li>
-                <li>My dashboard designs drew attention from Amazon's QuickSight designers, resulting in an invite for my team to beta test their new Figma library.</li>
-                <li>After asking me to showcase this solution company-wide, our CEO praised the user research I conducted on the project, urging the entire company to pursue similar efforts on other projects.</li>
-            </ol>
+            <h5>Collaboration with Front-End Developers &#129309;</h5>
+            <p>I loved working closely with our developers on this project. <span class="aquaText boldText">I’ve always been mindful that my designs serve as a map for developers to follow, and the better my instructions, the more likely the vision will be realized.</span> This close collaboration allowed me to see my designs in action and inspired a lot of learning and iteration on how I present designs and accompanying documentation, such as with the theming code.</p>
+
+            <h5>Thoughts on Versioning</h5>
+            <p>Before this project, Tensor's design team lacked a versioning process, making it hard to show the extent of changes to the customer. I found Figma's built-in tools insufficient for capturing major shifts or side-by-side comparisons. So, I experimented with a new versioning system using local components and variants. This system helped cap design iterations and keep the project on track, but still required significant manual work.</p>
+            <p>For future projects, I revisited Figma's built-in versioning, saving and naming main versions, and exporting them to share with the customer. This provided the clear snapshots I needed, with less repetitive work.</p>
+
+            <h5>Final Reflections and Impact</h5>
+            <p>Throughout the design process, the customer appreciated the guidance and orchestration I provided. They were eager to hit deadlines and ensure the final application was a great experience and bug-free. </p>
+            <p>Ultimately, this app is helping EcoLogistics build customer trust, assuring them that their deliveries will always be accurate. Consequently, this will enabled them to move towards a more cost-effective, hands-off delivery system. Soon, drivers will be able to drop pallets of beverages at retailers' doorsteps, leave a photo receipt, and move on to the next shop without needing to take inventory with the recipient.</p>
+            <p><span class="aquaText boldText">This project not only met the customer’s immediate needs but also set a foundation for future efficiency and reliability in their delivery operations.</span></p>
+          
         </div>
     </div>
 </section>  
