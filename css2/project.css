@@ -197,9 +197,8 @@ ol.mainList li::before {
     position: relative;
 }
 
-
-
 #caption li { margin-bottom: 5px; }
+#caption .two-column-layout { margin-top: 0; }
 
 .close {
     position: absolute;
