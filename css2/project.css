@@ -199,7 +199,7 @@ ol.mainList li::before {
 
 #caption li { margin-bottom: 5px; }
 #caption .two-column-layout { margin-top: 0; }
-#caption .carousel-container { padding-top: 0; }
+#caption .carousel-container { padding-top: 0 !important; }
 
 .close {
     position: absolute;
