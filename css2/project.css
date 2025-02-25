@@ -462,15 +462,3 @@ ol.mainList li::before {
     }
 /* END MEDIA QUERIES */
 /***********************/
-
-#imageModal .modal-content {
-  /* Set the maximum height to 100vh minus 40px */
-  max-height: calc(100vh - 40px) !important;
-  /* Push the content down by 40px so it doesn't get hidden under the close button */
-  margin-top: 40px !important;
-  padding-top: 0 !important;
-}
-
-#imageModal .two-column-layout {
-  margin-top: 0 !important;
-}
