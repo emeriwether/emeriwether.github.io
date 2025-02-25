@@ -197,6 +197,12 @@ ol.mainList li::before {
     position: relative;
 }
 
+#modalImage {
+  max-height: calc(100vh - 2em);
+  width: auto;
+  object-fit: contain;
+}
+
 #caption li { margin-bottom: 5px; }
 #caption .two-column-layout { margin-top: 0; }
 #caption .carousel-container { padding-top: 0 !important; }
