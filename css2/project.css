@@ -462,13 +462,3 @@ ol.mainList li::before {
     }
 /* END MEDIA QUERIES */
 /***********************/
-
-#imageModal .modal-content {
-  max-height: 90vh !important;  /* cap the entire modal-content to 90% of the viewport */
-  padding: 0.5em !important;      /* reduce padding */
-}
-
-#imageModal .two-column-layout {
-  margin-top: 0 !important;       /* remove extra top margin */
-  gap: 8px !important;            /* reduce gap between columns if needed */
-}
