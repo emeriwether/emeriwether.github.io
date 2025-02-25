@@ -197,30 +197,6 @@ ol.mainList li::before {
     position: relative;
 }
 
-/* Cap the modal content so it never exceeds almost the full viewport height */
-#imageModal .modal-content {
-  max-height: calc(100vh - 20px) !important;
-  overflow: hidden;
-}
-
-/* Ensure the left column (which holds the image) is capped too */
-#imageModal .left-column {
-  max-height: calc(100vh - 20px) !important;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Make the modal image fill the container without overflowing */
-#modalImage {
-  max-height: 100%;
-  width: auto;
-  object-fit: contain;
-  display: block;
-  margin: auto;
-}
-
 #caption li { margin-bottom: 5px; }
 #caption .two-column-layout { margin-top: 0; }
 #caption .carousel-container { padding-top: 0 !important; }
