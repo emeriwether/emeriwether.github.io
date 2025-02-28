@@ -10,14 +10,6 @@ document.querySelectorAll('.clickable').forEach((img) => {
     img.addEventListener('click', function () {
         modal.style.display = 'block';
         modalImg.src = this.src;
-
-        // Force the image in the left column to have the "modalImage" id
-        setTimeout(() => {
-          const leftColumnImg = document.querySelector('#imageModal .left-column img');
-          if (leftColumnImg) {
-            leftColumnImg.id = 'modalImage';
-          }
-        }, 0);
             
         // Clear existing caption content first
         captionText.innerHTML = '';
