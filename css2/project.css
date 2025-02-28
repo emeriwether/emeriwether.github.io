@@ -198,7 +198,7 @@ ol.mainList li::before {
 }
 
 #imageModal .left-column img {
-  max-height: calc(95vh - 2em) !important;
+  max-height: calc(95vh - 10em) !important;
   width: auto;
   object-fit: contain;
   display: block;
