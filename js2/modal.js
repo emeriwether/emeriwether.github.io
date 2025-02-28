@@ -10,6 +10,7 @@ document.querySelectorAll('.clickable').forEach((img) => {
     img.addEventListener('click', function () {
         modal.style.display = 'block';
         modalImg.src = this.src;
+        modalImg.id = 'modalImage';
 
         // Clear existing caption content first
         captionText.innerHTML = '';
