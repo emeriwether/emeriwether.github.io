@@ -197,8 +197,8 @@ ol.mainList li::before {
     position: relative;
 }
 
-#modalImage {
-  max-height: calc(95vh - 2em); /* 95% of viewport height minus padding */
+#imageModal .left-column img {
+  max-height: calc(95vh - 2em) !important;
   width: auto;
   object-fit: contain;
   display: block;
