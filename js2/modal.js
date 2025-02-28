@@ -10,8 +10,15 @@ document.querySelectorAll('.clickable').forEach((img) => {
     img.addEventListener('click', function () {
         modal.style.display = 'block';
         modalImg.src = this.src;
-        modalImg.id = 'modalImage';
 
+        // Force the image in the left column to have the "modalImage" id
+        setTimeout(() => {
+          const leftColumnImg = document.querySelector('#imageModal .left-column img');
+          if (leftColumnImg) {
+            leftColumnImg.id = 'modalImage';
+          }
+        }, 0);
+            
         // Clear existing caption content first
         captionText.innerHTML = '';
 
@@ -50,12 +57,10 @@ document.querySelectorAll('.clickable').forEach((img) => {
         if (modalPrevButton && modalNextButton) {
             modalPrevButton.addEventListener("click", () => {
                 console.log("Modal carousel-prev clicked");
-                // Add any further logic for the carousel-prev here
             });
 
             modalNextButton.addEventListener("click", () => {
                 console.log("Modal carousel-next clicked");
-                // Add any further logic for the carousel-next here
             });
         }
     });
