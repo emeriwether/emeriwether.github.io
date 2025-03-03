@@ -10,6 +10,10 @@ document.querySelectorAll('.clickable').forEach((img) => {
     img.addEventListener('click', function () {
         modal.style.display = 'block';
         modalImg.src = this.src;
+        
+        // Reset modal layout to default (assume caption is present)
+        document.querySelector('#imageModal .right-column').style.display = 'block';
+        document.querySelector('#imageModal .left-column').style.width = '';
             
         // Clear existing caption content first
         captionText.innerHTML = '';
@@ -40,6 +44,10 @@ document.querySelectorAll('.clickable').forEach((img) => {
             if (modalCarousel && window.initializeCarousel) {
                 window.initializeCarousel(modalCarousel);
             }
+        } else {
+            // No caption found: hide right column and let image be full width.
+            document.querySelector('#imageModal .right-column').style.display = 'none';
+            document.querySelector('#imageModal .left-column').style.width = '100%';
         }
 
         // Add carousel controls event listeners for the modal
