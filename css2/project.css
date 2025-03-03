@@ -198,7 +198,7 @@ ol.mainList li::before {
 }
 
 #imageModal .left-column img {
-  max-height: calc(95vh - 10em) !important;
+  max-height: calc(95vh - 4em) !important;
   width: auto;
   object-fit: contain;
   display: block;
@@ -418,6 +418,10 @@ ol.mainList li::before {
             overflow: scroll;
             max-height: 40em;
         }
+
+          #imageModal .left-column img {
+            max-height: calc(95vh - 10em) !important;
+          }
         /* END SECTION STYLING */
         /***********************/
     }
