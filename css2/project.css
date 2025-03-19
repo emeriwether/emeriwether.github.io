@@ -153,6 +153,40 @@ ol.mainList li::before {
     text-align: center;
 }
 
+/* NUMBERED LIST FOR CAPTIONS */
+ol.styled-numbered-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+ol.styled-numbered-list > li {
+    counter-increment: styledListCounter;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.5;
+}
+
+ol.styled-numbered-list li::before {
+    content: counter(styledListCounter);
+    font-weight: bold;
+    color: white;
+    background-color: #E14658;
+    margin-right: 10px;
+    display: inline-block;
+    position: relative;
+    border-radius: 5px 0 5px 0;
+    width: 25px;
+    height: 25px;
+    line-height: 29px;
+    top: 6px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
 /* END LIST STYLING */
 /***********************/
 
