@@ -181,10 +181,12 @@ ol.styled-numbered-list li::before {
     line-height: 29px;    
     font-weight: bold;
     margin-right: 10px;
-    
+    vertical-align: middle;
+
+    /*
     position: relative;
     top: 6px;
-    flex-shrink: 0;
+    flex-shrink: 0;*/
 }
 
 /*
