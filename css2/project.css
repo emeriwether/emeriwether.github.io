@@ -158,8 +158,6 @@ ol.styled-numbered-list {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
-    flex-direction: column;
 }
 
 ol.styled-numbered-list > li {
@@ -167,31 +165,38 @@ ol.styled-numbered-list > li {
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    padding-left: 0;
     line-height: 1.5;
 }
 
 ol.styled-numbered-list li::before {
     content: counter(styledListCounter);
-    font-weight: bold;
-    color: white;
-    background-color: #E14658;
-    margin-right: 10px;
     display: inline-block;
-    position: relative;
-    border-radius: 5px 0 5px 0;
     width: 25px;
     height: 25px;
-    line-height: 29px;
+    background-color: #E14658;
+    color: white;
+    border-radius: 5px 0 5px 0;
+    text-align: center;   
+    line-height: 29px;    
+    font-weight: bold;
+    margin-right: 10px;
+    
+    position: relative;
     top: 6px;
     flex-shrink: 0;
-    text-align: center;
 }
 
+/*
 .styled-numbered-list li h6,
 .styled-numbered-list li p {
   display: block;
   width: 100%;
+} */
+
+ol.styled-numbered-list li .first-row {
+  display: flex;
+  align-items: center;
 }
 
 /* END LIST STYLING */
