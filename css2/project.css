@@ -166,6 +166,7 @@ ol.styled-numbered-list > li {
     counter-increment: styledListCounter;
     margin-bottom: 10px;
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
     line-height: 1.5;
 }
