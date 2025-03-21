@@ -187,6 +187,12 @@ ol.styled-numbered-list li::before {
     text-align: center;
 }
 
+.styled-numbered-list li h6,
+.styled-numbered-list li p {
+  display: block;
+  width: 100%;
+}
+
 /* END LIST STYLING */
 /***********************/
 
