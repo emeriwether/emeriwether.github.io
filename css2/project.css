@@ -163,12 +163,39 @@ ol.styled-numbered-list {
 ol.styled-numbered-list > li {
     counter-increment: styledListCounter;
     margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
+
+    /*flex-direction: column;
     padding-left: 0;
-    line-height: 1.5;
+    line-height: 1.5;*/
 }
 
+.first-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.first-row::before {
+  content: counter(styledListCounter);
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #E14658;
+  color: white;
+  border-radius: 5px 0 5px 0;
+  text-align: center;
+  line-height: 29px;
+  font-weight: bold;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.first-row h6 {
+  display: inline-block;
+  margin: 0;
+}
+
+/*
 ol.styled-numbered-list li::before {
     content: counter(styledListCounter);
     display: inline-block;
@@ -182,24 +209,12 @@ ol.styled-numbered-list li::before {
     font-weight: bold;
     margin-right: 10px;
     vertical-align: middle;
-
-    /*
-    position: relative;
-    top: 6px;
-    flex-shrink: 0;*/
 }
-
-/*
-.styled-numbered-list li h6,
-.styled-numbered-list li p {
-  display: block;
-  width: 100%;
-} */
 
 ol.styled-numbered-list li .first-row {
   display: flex;
   align-items: center;
-}
+}*/
 
 /* END LIST STYLING */
 /***********************/
