@@ -195,26 +195,9 @@ ol.styled-numbered-list > li {
   margin: 0;
 }
 
-/*
-ol.styled-numbered-list li::before {
-    content: counter(styledListCounter);
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    background-color: #E14658;
-    color: white;
-    border-radius: 5px 0 5px 0;
-    text-align: center;   
-    line-height: 29px;    
-    font-weight: bold;
-    margin-right: 10px;
-    vertical-align: middle;
+ol.styled-numbered-list li p {
+  margin-left: 35px;
 }
-
-ol.styled-numbered-list li .first-row {
-  display: flex;
-  align-items: center;
-}*/
 
 /* END LIST STYLING */
 /***********************/
