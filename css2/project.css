@@ -163,31 +163,28 @@ ol.styled-numbered-list {
 ol.styled-numbered-list > li {
     counter-increment: styledListCounter;
     margin-bottom: 10px;
-
-    /*flex-direction: column;
-    padding-left: 0;
-    line-height: 1.5;*/
 }
 
 .first-row {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: start;
 }
 
 .first-row::before {
-  content: counter(styledListCounter);
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  background-color: #E14658;
-  color: white;
-  border-radius: 5px 0 5px 0;
-  text-align: center;
-  line-height: 29px;
-  font-weight: bold;
-  margin-right: 10px;
-  flex-shrink: 0;
+    content: counter(styledListCounter);
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #E14658;
+    color: white;
+    border-radius: 5px 0 5px 0;
+    text-align: center;
+    line-height: 29px;
+    font-weight: bold;
+    margin-right: 10px;
+    flex-shrink: 0;
+    padding-top: 5px;
 }
 
 .first-row h6 {
