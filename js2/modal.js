@@ -24,7 +24,7 @@ document.querySelectorAll('.clickable').forEach((img) => {
 
         // Check for a direct .caption or .carousel-container
         if (parentContainer) {
-            captionElement = parentContainer.querySelector('.caption') || parentContainer.querySelector('.carousel-container');
+            captionElement = parentContainer.querySelector('.caption, .carousel-container');
         }
 
         // Append the content if it's found, ensuring no duplication
