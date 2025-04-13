@@ -7,18 +7,10 @@ main {
 }
 
 /* HEADER */
-header {padding: 3em 1em 4em 1em;}
+header {padding: 3em 1em 2em 1em;}
 header h1 {font-size: 2.5em;}
 header h2 {font-size: 1.5em;}
-
-header h3 {
-    font-family: Cabin;
-    font-weight: 400;
-    font-size: 1.05em;
-}
-
 header p {padding-top: 1.5em;}
-
 #headerImg {padding: 1.75em 0.7em 0 0.7em;}
 
 /* MAIN */
