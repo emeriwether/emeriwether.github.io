@@ -3,7 +3,7 @@ body {background-image: url(/images/texturedBackground.jpg);}
 
 /* HEADER */
 header {padding: 3em 1em 2em 1em;}
-header h1 {font-size: 2.5em;}
+header h1 {font-size: 3.5em;}
 header h2 {font-size: 1.5em;}
 header p {padding-top: 1.5em;}
 #headerImg {padding: 1.75em 0.7em 0 0.7em;}
@@ -18,11 +18,11 @@ header p {padding-top: 1.5em;}
 }
 
 .about-portrait {
-  display: block;
-  margin: 0 auto 1.5rem auto;
-  width: 220px;
-  max-width: 80%;
-  height: auto;
+    float: right;
+    display: block;
+    margin: 0 0 1.25rem 1.5rem;
+    width: 214px;
+    max-width: 80%;
 }
 
 /************* BEGIN MEDIA QUERIES *****************/
