@@ -59,6 +59,7 @@ main section:nth-child(3) p {padding-bottom: 5em;}
     border-left-width: 10px;
     border-left-style: solid;
     border-color: #22252C;
+    border-radius: 5px;
 }
 
 /************* BEGIN MEDIA QUERIES *****************/
