@@ -75,6 +75,8 @@ main .card:hover {
 
 main .card img {
     width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
 }
 
 main .card p:first-child {
