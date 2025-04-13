@@ -288,9 +288,14 @@ ol.styled-numbered-list li p {
     align-items: center;
 }
 
+.carousel .left-column {
+    height: 400px;
+}
+
 /* Force all carousel images to have a consistent max height */
 .carousel .left-column img {
-    max-height: 400px; 
+    height: 100% !important;
+    max-height: 100% !important;
     width: auto;
     object-fit: contain;
 }
