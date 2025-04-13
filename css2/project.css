@@ -291,7 +291,7 @@ ol.styled-numbered-list li p {
 /* Force the carousel container and left column to a fixed height */
 .carousel,
 .carousel .left-column {
-  height: 400px !important;
+  height: 800px !important;
   min-height: 0;  /* Prevent flex from forcing extra height */
 }
 
