@@ -36,13 +36,6 @@ header p {
     padding: 1em 0 2em 0;
 }
 
-#featuredLabel {
-    position: absolute;
-    padding: 2% 2em;
-}
-
-#featuredLabel h2 {color: #1399AA;}
-
 #projectGallery {padding: 0em 1em 2em 1em;}
 
 main .card {
@@ -85,7 +78,6 @@ main .card p:first-child {font-size: 0.8em;}
 
 /* Large and up */
 @media screen and (min-width: 64em) {    
-    #sectionDivider {padding: .5em 7em 2em 7em;}
     #projectGallery {padding: 0 3.6em 2em 3.6em;}
     #projectGallery h2 {font-size: 2.2rem;}
 }
