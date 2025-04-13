@@ -1,7 +1,5 @@
 /* PAGE SPECIFIC STYLING */
-body {
-    background-image: url(/images/texturedBackground.jpg);
-}
+body {background-image: url(/images/texturedBackground.jpg);}
 
 main {
     padding-bottom: 3em;
@@ -9,17 +7,9 @@ main {
 }
 
 /* HEADER */
-header {
-    padding: 3em 1em 4em 1em;
-}
-
-header h1 {
-    font-size: 2.5em;
-}
-
-header h2 {
-    font-size: 1.5em;
-}
+header {padding: 3em 1em 4em 1em;}
+header h1 {font-size: 2.5em;}
+header h2 {font-size: 1.5em;}
 
 header h3 {
     font-family: Cabin;
@@ -27,9 +17,7 @@ header h3 {
     font-size: 1.05em;
 }
 
-header p {
-    padding-top: 1.5em;
-}
+header p {padding-top: 1.5em;}
 
 .card.aboutSectionCard {
     padding: 2em 1em 2em 1em;
@@ -40,9 +28,7 @@ header p {
     border-radius: 5px;
 }
 
-#headerImg {
-    padding: 1.75em 0.7em 0 0.7em;
-}
+#headerImg {padding: 1.75em 0.7em 0 0.7em;}
 
 #caret-square-down {
     max-width: 0.85em;
@@ -50,51 +36,10 @@ header p {
     padding-left: 0.2em;
 }
 
-.rwd-break {
-    display: block;
-}
-
-/* ASIDE */
-/* COLLAGE */
-.collage {
-    padding: 0 0.5em;
-}
-
-.collage img {
-    border: 1.5px solid transparent;
-    height: 100%;
-    width: 100%;
-}
-
-.collage img:hover {opacity: 0.7;}
-
-/* COLLAGE MODALS */
-aside .card {border: 0;}
-
-aside .card-section {padding-left: 0;}
-
-aside .card img {
-    width: 100%;
-    height: auto;
-    padding-top: 1.5em;
-}
-
-.imageNumber {
-    font-family: "Roboto Condensed";
-    padding: 0 1em;
-}
-
-.card img {
-    padding-top: 1.75em;
-    object-fit: contain;
-    width: 100%;
-}
-
+.rwd-break {display: block;}
 
 /* MAIN */
-.aboutSection {
-    padding: 2.5em 1em 0 1em;
-}
+.aboutSection {padding: 2.5em 1em 0 1em;}
 
 .aboutSection h4 {
     padding-top: 0.75em;
@@ -106,9 +51,7 @@ aside .card img {
     font-weight: 400;
 }
 
-main section:nth-child(3) p {
-    padding-bottom: 5em;
-}
+main section:nth-child(3) p {padding-bottom: 5em;}
     
 .card.sectionCard {
     padding: 2em 1em 2em 1em;
@@ -118,254 +61,10 @@ main section:nth-child(3) p {
     border-color: #22252C;
 }
 
-/* TOOLBOX */
-#toolbox {
-    position: relative;
-    /*background-image: url(/images/about/toolbox/toolbox.png);*/
-    height: 12em;
-}
-
-.toolboxIcon {
-    display: inline;
-    position: absolute;
-}
-
-/* large icons */
-#sketch {
-    width: 20%;
-    top: -75px;
-    left: 35px;
-}
-
-#photoshop {
-    width: 20%;
-    top: 35px;
-    left: 0px;
-}
-
-#html {
-    width: 20%;
-    top: 0;
-    left: 150px;
-}
-
-#css {
-    width: 20%;
-    top: -65px;
-    left: 170px;
-}
-
-/* medium icons */
-#illustrator {
-    width: 17%;
-    top: 92px;
-    left: 50px;
-}
-
-#usertesting {
-    width: 17%;
-    top: 70px;
-    left: 205px;
-}
-
-#omnigraffle {
-    width: 17%;
-    top: -20px;
-    left: 225px;
-}
-
-#invision {
-    width: 17%;
-    top: -5px;
-    left: 50px;
-}
-
-/* small icons */
-#marvel {
-    width: 14%;
-    top: -40px;
-    left: 115px;
-}
-
-#figma {
-    width: 14%;
-    top: 35px;
-    left: 245px;
-}
-
-#javascript {
-    width: 14%;
-    top: 65px;
-    left: 140px;
-}
-
-#usabilityhub {
-    width: 14%;
-    top: 55px;
-    left: 85px;
-}
-
-
 /************* BEGIN MEDIA QUERIES *****************/
-/* 400+ */
-@media screen and (min-width: 25em) {
-    /* large icons */
-    #sketch { top: calc(-75px - 15px); left: calc(35px + 15px); }
-
-    #photoshop { top: calc(35px - 15px); left: calc(0px + 15px); }
-
-    #html { top: calc(0 - 15px); left: calc(150px + 15px); }
-
-    #css { top: calc(-65px - 15px); left: calc(170px + 15px); }
-
-    /* medium icons */
-    #illustrator {top: calc(92px - 15px); left: calc(50px + 15px); }
-
-    #usertesting { top: calc(70px + 5px); left: calc(205px + 25px); }
-
-    #omnigraffle { top: calc(-20px - 25px); left: calc(225px + 35px); }
-
-    #invision { top: calc(-5px - 15px); left: calc(50px + 15px); }
-
-    /* small icons */
-    #marvel { top: calc(-40px - 15px); left: calc(115px + 15px); }
-
-    #figma { top: calc(35px - 15px); left: calc(245px + 15px); }
-
-    #javascript { top: calc(65px + 25px); left: calc(140px + 15px); }
-
-    #usabilityhub { top: calc(55px - 15px); left: calc(85px + 25px); }
-}
-
-/* 450+ */
-@media screen and (min-width: 28.125em) {
-    /* large icons */
-    #sketch { top: calc(-75px - 15px); left: calc(35px + 10px); }
-
-    #photoshop { top: calc(35px - 15px); left: calc(0px + 25px); }
-
-    #html { top: calc(0 - 15px); left: calc(150px + 55px); }
-
-    #css { top: calc(-65px - 25px); left: calc(170px + 55px); }
-
-    /* medium icons */
-    #illustrator {top: calc(92px - 15px); left: calc(50px + 40px); }
-
-    #usertesting { top: calc(70px + 5px); left: calc(205px + 65px); }
-
-    #omnigraffle { top: calc(-20px - 25px); left: calc(225px + 75px); }
-
-    #invision { top: calc(-5px - 15px); left: calc(50px + 55px); }
-
-    /* small icons */
-    #marvel { top: calc(-40px - 15px); left: calc(115px + 55px); }
-
-    #figma { top: calc(35px - 15px); left: calc(245px + 55px); }
-
-    #javascript { top: calc(65px + 25px); left: calc(140px + 55px); }
-
-    #usabilityhub { top: calc(55px - 15px); left: calc(85px + 65px); }
-}
-
-/* 500+ */
-@media screen and (min-width: 31.25em) {
-    /* large icons */
-    #sketch { width: 18%; top: calc(-75px - 15px); left: calc(35px + 35px); }
-
-    #photoshop { width: 18%; top: calc(35px - 15px); left: calc(0px + 45px); }
-
-    #html { width: 18%; top: calc(0 - 15px); left: calc(150px + 85px); }
-
-    #css { width: 18%; top: calc(-65px - 15px); left: calc(170px + 75px); }
-
-    /* medium icons */
-    #illustrator { width: 15%; top: calc(92px - 15px); left: calc(50px + 75px); }
-
-    #usertesting { width: 15%; top: calc(70px + 5px); left: calc(205px + 85px); }
-
-    #omnigraffle { width: 15%; top: calc(-20px - 25px); left: calc(225px + 105px); }
-
-    #invision { width: 15%; top: calc(-5px - 15px); left: calc(50px + 75px); }
-
-    /* small icons */
-    #marvel { width: 12%; top: calc(-40px - 15px); left: calc(115px + 75px); }
-
-    #figma { width: 12%; top: calc(35px - 15px); left: calc(245px + 85px); }
-
-    #javascript { width: 12%; top: calc(65px + 25px); left: calc(140px + 85px); }
-
-    #usabilityhub { width: 12%; top: calc(55px - 15px); left: calc(85px + 95px); }
-}
-
-/* 550+ */
-@media screen and (min-width: 34.375em) {
-    /* large icons */
-    #sketch { width: 18%; top: calc(-75px - 15px); left: calc(35px + 35px); }
-
-    #photoshop { width: 18%; top: calc(35px - 15px); left: calc(0px + 45px); }
-
-    #html { width: 18%; top: calc(0px - 5px); left: calc(150px + 100px); }
-
-    #css { width: 18%; top: calc(-65px - 25px); left: calc(170px + 115px); }
-
-    /* medium icons */
-    #illustrator { width: 15%; top: calc(92px - 15px); left: calc(50px + 75px); }
-
-    #usertesting { width: 15%; top: calc(70px + 5px); left: calc(205px + 125px); }
-
-    #omnigraffle { width: 15%; top: calc(-20px - 45px); left: calc(225px + 165px); }
-
-    #invision { width: 15%; top: calc(-5px - 5px); left: calc(50px + 75px); }
-
-    /* small icons */
-    #marvel { width: 12%; top: calc(-40px - 15px); left: calc(115px + 85px); }
-
-    #figma { width: 12%; top: calc(35px - 25px); left: calc(245px + 105px); }
-
-    #javascript { width: 12%; top: calc(65px + 25px); left: calc(140px + 115px); }
-
-    #usabilityhub { width: 12%; top: calc(55px - 15px); left: calc(85px + 105px); }
-}
-
-/* 600+ */
-@media screen and (min-width: 37.5em) {
-    /* large icons */
-    #sketch { width: 16%; top: calc(-75px - 15px); left: calc(35px + 35px); }
-
-    #photoshop { width: 16%; top: calc(35px - 15px); left: calc(0px + 45px); }
-
-    #html { width: 16%; top: calc(0px - 5px); left: calc(150px + 120px); }
-
-    #css { width: 16%; top: calc(-65px - 25px); left: calc(170px + 145px); }
-
-    /* medium icons */
-    #illustrator { width: 13%; top: calc(92px - 15px); left: calc(50px + 95px); }
-
-    #usertesting { width: 13%; top: calc(70px + 5px); left: calc(205px + 185px); }
-
-    #omnigraffle { width: 13%; top: calc(-20px - 45px); left: calc(225px + 185px); }
-
-    #invision { width: 13%; top: calc(-5px - 5px); left: calc(50px + 85px); }
-
-    /* small icons */
-    #marvel { width: 10%; top: calc(-40px - 15px); left: calc(115px + 95px); }
-
-    #figma { width: 10%; top: calc(35px - 25px); left: calc(245px + 135px); }
-
-    #javascript { width: 10%; top: calc(65px + 25px); left: calc(140px + 165px); }
-
-    #usabilityhub { width: 10%; top: calc(55px - 15px); left: calc(85px + 125px); }
-}
-
 /* Medium and up - 640px+ */
 @media screen and (min-width: 40em) {    
-    #toolbox {
-        height: 21em;
-    }
-    
-    .reveal.large.medReveal, .reveal.large.narrowReveal {
-        width: 55%;
-    }
+    .reveal.large.medReveal, .reveal.large.narrowReveal {width: 55%;}
     
     .card.sectionCard {
         padding: 2.5em 4em 2.5em 4em;
@@ -376,313 +75,47 @@ main section:nth-child(3) p {
         padding: 2.5em;
         border-left-width: 20px;
     }
-    
-    header {
-        padding: 3em 4em 6em 4em;
-    }
-    
-    .rwd-break {
-        display: none;
-    } 
-    
-    .aboutSection {
-        padding: 3em 4em 0 4em;
-    }
-    
-    .collage img {
-        border: 3px solid #EBEDF3;
-    }
+    header {padding: 3em 4em 6em 4em;}
+    .rwd-break {display: none;} 
+    .aboutSection {padding: 3em 4em 0 4em;}
 
     header h3 {
         font-size: 1em;
         font-family: Cabin;
     }
     
-    #headerImg {
-        padding: 0em 0.7em 0 0.7em;
-    }
-    
-    header p {
-        font-size: 1em;
-    }
-    
-    .card img {
-        max-height: 40vw;
-    }
+    #headerImg {padding: 0em 0.7em 0 0.7em;}
+    header p {font-size: 1em;}
+    .card img {max-height: 40vw;}
+    .aboutSection p {font-size: 1.2em;}
+    .bodyText {padding: 0 0;}
     
     .sectionTag {
         padding-left: 1em;
         max-width: 475px;
     }
-    
-    .aboutSection p {
-        font-size: 1.2em;
-    }
-
-    .bodyText {
-        padding: 0 0;
-    }
-
 }
 
-/* 700+ */
-@media screen and (min-width: 43.75em) {
-    /* large icons */
-    #sketch { width: 16%; top: calc(-75px - 15px); left: calc(35px + 35px); }
-
-    #photoshop { width: 16%; top: calc(35px - 15px); left: calc(0px + 45px); }
-
-    #html { width: 16%; top: calc(0px - 15px); left: calc(150px + 120px); }
-
-    #css { width: 16%; top: calc(-65px - 35px); left: calc(170px + 175px); }
-
-    /* medium icons */
-    #illustrator { width: 13%; top: calc(92px - 15px); left: calc(50px + 95px); }
-
-    #usertesting { width: 13%; top: calc(70px - 15px); left: calc(205px + 265px); }
-
-    #omnigraffle { width: 13%; top: calc(-20px - 45px); left: calc(225px + 255px); }
-
-    #invision { width: 13%; top: calc(-5px - 5px); left: calc(50px + 105px); }
-
-    /* small icons */
-    #marvel { width: 10%; top: calc(-40px - 45px); left: calc(115px + 95px); }
-
-    #figma { width: 10%; top: calc(35px - 25px); left: calc(245px + 155px); }
-
-    #javascript { width: 10%; top: calc(65px + 25px); left: calc(140px + 225px); }
-
-    #usabilityhub { width: 10%; top: calc(55px + 25px); left: calc(85px + 155px); }
-}
 
 /* 800px+ */
 @media screen and (min-width: 50em) {
-    header h3, header p {
-        font-size: 1.2em;
-    }
-    
-    /* large icons */
-    #sketch { width: 14%; top: calc(-75px - 15px); left: calc(35px + 75px); }
-
-    #photoshop { width: 14%; top: calc(35px - 15px); left: calc(0px + 85px); }
-
-    #html { width: 14%; top: calc(0px - 15px); left: calc(150px + 160px); }
-
-    #css { width: 14%; top: calc(-65px - 35px); left: calc(170px + 205px); }
-
-    /* medium icons */
-    #illustrator { width: 11%; top: calc(92px - 15px); left: calc(50px + 135px); }
-
-    #usertesting { width: 11%; top: calc(70px - 15px); left: calc(205px + 305px); }
-
-    #omnigraffle { width: 11%; top: calc(-20px - 45px); left: calc(225px + 295px); }
-
-    #invision { width: 11%; top: calc(-5px - 5px); left: calc(50px + 145px); }
-
-    /* small icons */
-    #marvel { width: 8%; top: calc(-40px - 45px); left: calc(115px + 135px); }
-
-    #figma { width: 8%; top: calc(35px - 25px); left: calc(245px + 195px); }
-
-    #javascript { width: 8%; top: calc(65px + 25px); left: calc(140px + 265px); }
-
-    #usabilityhub { width: 8%; top: calc(55px + 25px); left: calc(85px + 195px); }
-}
-
-/* 850+ */
-@media screen and (min-width: 53.125em) {
-    /* large icons */
-    #sketch { width: 14%; top: calc(-75px - 15px); left: calc(35px + 95px); }
-
-    #photoshop { width: 14%; top: calc(35px - 15px); left: calc(0px + 105px); }
-
-    #html { width: 14%; top: calc(0px - 15px); left: calc(150px + 180px); }
-
-    #css { width: 14%; top: calc(-65px - 35px); left: calc(170px + 225px); }
-
-    /* medium icons */
-    #illustrator { width: 11%; top: calc(92px - 15px); left: calc(50px + 155px); }
-
-    #usertesting { width: 11%; top: calc(70px - 15px); left: calc(205px + 325px); }
-
-    #omnigraffle { width: 11%; top: calc(-20px - 45px); left: calc(225px + 315px); }
-
-    #invision { width: 11%; top: calc(-5px - 5px); left: calc(50px + 165px); }
-
-    /* small icons */
-    #marvel { width: 8%; top: calc(-40px - 45px); left: calc(115px + 155px); }
-
-    #figma { width: 8%; top: calc(35px - 25px); left: calc(245px + 215px); }
-
-    #javascript { width: 8%; top: calc(65px + 25px); left: calc(140px + 285px); }
-
-    #usabilityhub { width: 8%; top: calc(55px + 25px); left: calc(85px + 215px); }
-}
-
-/* 900+ */
-@media screen and (min-width: 56.25em) {
-    /* large icons */
-    #sketch { width: 14%; top: calc(-75px - 15px); left: calc(35px + 115px); }
-
-    #photoshop { width: 14%; top: calc(35px - 15px); left: calc(0px + 125px); }
-
-    #html { width: 14%; top: calc(0px - 25px); left: calc(150px + 200px); }
-
-    #css { width: 14%; top: calc(-65px - 35px); left: calc(170px + 265px); }
-
-    /* medium icons */
-    #illustrator { width: 11%; top: calc(92px - 15px); left: calc(50px + 175px); }
-
-    #usertesting { width: 11%; top: calc(70px - 15px); left: calc(205px + 345px); }
-
-    #omnigraffle { width: 11%; top: calc(-20px - 45px); left: calc(225px + 335px); }
-
-    #invision { width: 11%; top: calc(-5px - 5px); left: calc(50px + 195px); }
-
-    /* small icons */
-    #marvel { width: 8%; top: calc(-40px - 45px); left: calc(115px + 175px); }
-
-    #figma { width: 8%; top: calc(35px - 15px); left: calc(245px + 235px); }
-
-    #javascript { width: 8%; top: calc(65px + 25px); left: calc(140px + 305px); }
-
-    #usabilityhub { width: 8%; top: calc(55px + 25px); left: calc(85px + 235px); }
-}
-
-/* 950+ */
-@media screen and (min-width: 58.375em) {
-    /* large icons */
-    #sketch { width: 14%; top: calc(-75px - 35px); left: calc(35px + 115px); }
-
-    #photoshop { width: 14%; top: calc(35px - 15px); left: calc(0px + 75px); }
-
-    #html { width: 14%; top: calc(0px - 25px); left: calc(150px + 220px); }
-
-    #css { width: 14%; top: calc(-65px - 35px); left: calc(170px + 315px); }
-
-    /* medium icons */
-    #illustrator { width: 11%; top: calc(92px - 15px); left: calc(50px + 155px); }
-
-    #usertesting { width: 11%; top: calc(70px - 15px); left: calc(205px + 395px); }
-
-    #omnigraffle { width: 11%; top: calc(-20px - 45px); left: calc(225px + 415px); }
-
-    #invision { width: 11%; top: calc(-5px - 15px); left: calc(50px + 195px); }
-
-    /* small icons */
-    #marvel { width: 8%; top: calc(-40px - 45px); left: calc(115px + 215px); }
-
-    #figma { width: 8%; top: calc(35px - 5px); left: calc(245px + 275px); }
-
-    #javascript { width: 8%; top: calc(65px + 25px); left: calc(140px + 305px); }
-
-    #usabilityhub { width: 8%; top: calc(55px + 25px); left: calc(85px + 235px); }
+    header h3, header p {font-size: 1.2em;}
 }
 
 /* 1000px+ */
 @media screen and (min-width: 62.5em) {
-    header h2 {
-        font-size: 1.6em;
-    }
-    
-    header h3, header p {
-        font-size: 1.3em;
-    }
+    header h2 {font-size: 1.6em;}
+    header h3, header p {font-size: 1.3em;}
 }
 
 /* Large and up - 1024px+ */
 @media screen and (min-width: 64em) {
-    main section:nth-child(3) p {
-        padding-bottom: 2em;
-    }
-    
-    /* large icons */
-    #sketch { width: 20%; top: calc(-75px + 45px); left: calc(35px - 25px); }
-
-    #photoshop { width: 20%; top: calc(35px + 65px); left: calc(0px - 55px); }
-
-    #html { width: 20%; top: calc(0px + 25px); left: calc(150px + 140px); }
-
-    #css { width: 20%; top: calc(-65px + 5px); left: calc(170px + 245px); }
-
-    /* medium icons */
-    #illustrator { width: 17%; top: calc(92px + 85px); left: calc(50px + 35px); }
-
-    #usertesting { width: 17%; top: calc(70px + 95px); left: calc(205px + 310px); }
-
-    #omnigraffle { width: 17%; top: calc(-20px + 45px); left: calc(225px + 305px); }
-
-    #invision { width: 17%; top: calc(-5px + 65px); left: calc(50px + 65px); }
-
-    /* small icons */
-    #marvel { width: 14%; top: calc(-40px - 15px); left: calc(115px + 115px); }
-
-    #figma { width: 14%; top: calc(35px + 55px); left: calc(245px + 180px); }
-
-    #javascript { width: 14%; top: calc(65px + 115px); left: calc(140px + 215px); }
-
-    #usabilityhub { width: 14%; top: calc(55px + 85px); left: calc(85px + 145px); }
-    
-    #toolbox {
-        height: 33em;
-    }
-    
-    /*.timelineDiv {
-        padding-left: 300px;
-    }*/
-    
-    .reveal.large.narrowReveal {
-        width: 35%;
-    }
-    
-    .reveal.large.medReveal {
-        width: 45%;
-    }
-    
-    header {
-        padding: 3em 4em 5em 4em;
-    }
-    
-    aside {
-        padding-bottom: 1.5em;
-    }
-    
-    .collage {
-        padding-top: 2em;
-    }
-    
-    .collage img {
-        border: 4px solid #EBEDF3;
-    } 
-    
-    .collage div {
-        height: 10em;
-    }  
-    
-    .aboutSection {
-        padding-top: 3em;
-    }
-    
-    /*.aboutSection h4 {
-        padding-top: 0;
-    }*/
-    
-    .aboutSection p {
-        font-size: 1.3em;
-    }
-    
-    #aboutMyProcess {
-        padding-top: 5em;
-    }
-    
-    /*.sectionTag {
-        padding: 0 1em;
-        max-width: 300px;
-    }
-
-    .aboutSection .bodyText {
-        padding-left: 1.5em;
-        width: 70%;
-    }*/
+    main section:nth-child(3) p {padding-bottom: 2em;}    
+    .reveal.large.narrowReveal {width: 35%;}   
+    .reveal.large.medReveal {width: 45%;}   
+    header {padding: 3em 4em 5em 4em;}   
+    .aboutSection {padding-top: 3em;}    
+    .aboutSection p {font-size: 1.3em;}    
+    #aboutMyProcess {padding-top: 5em;}
 }
 /************* END MEDIA QUERIES *****************/
