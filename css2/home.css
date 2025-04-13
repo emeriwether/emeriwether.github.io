@@ -70,7 +70,9 @@ main .card p:first-child {font-size: 0.8em;}
         padding: 2.5em;
         border-left-width: 20px;
     }
-    
+    header h1 {font-size: 2.3em;}
+    header h2 {font-size: 1.7em;}   
+    header p {font-size: 1.2em;}
     #projectGallery {padding: 0 4.6em 2em 4.6em;} 
     #projectGallery h2 {font-size: 1.8em;}
 }
