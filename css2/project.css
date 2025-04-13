@@ -288,16 +288,20 @@ ol.styled-numbered-list li p {
     align-items: center;
 }
 
+/* Force the carousel container and left column to a fixed height */
+.carousel,
 .carousel .left-column {
-    height: 400px;
+  height: 400px !important;
+  min-height: 0;  /* Prevent flex from forcing extra height */
 }
 
-/* Force all carousel images to have a consistent max height */
-.carousel .left-column img {
-    height: 100% !important;
-    max-height: 100% !important;
-    width: auto;
-    object-fit: contain;
+/* Force the image to fill the left column */
+.carousel .left-column img.static-image {
+  height: 100% !important;
+  max-height: 100% !important;
+  width: auto;
+  object-fit: contain;
+  display: block;
 }
 
 .right-column {
