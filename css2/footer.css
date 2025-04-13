@@ -26,21 +26,18 @@ footer p {
     font-size: 1.4em;
 }
 
-#linkedInIcon {
+#linkedInIcon, #resumeIcon {
     display: block;
     text-indent: -9999px;
     width: 35px;
     height: 35px;
-    background: url('/images/linkedin_aqua.svg');
     background-size: 35px 35px;
 }
 
-#linkedInIcon:hover {
-    background: url('/images/linkedin_gold.svg');
-    width: 35px;
-    height: 35px;
-    background-size: 35px 35px;
-}
+#linkedInIcon { background: url('../images/linkedin_aqua.svg'); }
+#linkedInIcon:hover { background: url('../images/linkedin_gold.svg'); }
+#resumeIcon { background: url('../images/resume_aqua.svg'); }
+#resumeIcon:hover { background: url('../images/resume_gold.svg'); }
 
 #footerEmail {
     padding-top: 1em;
