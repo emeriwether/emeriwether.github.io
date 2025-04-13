@@ -92,7 +92,7 @@ footer p {
         display: none;
     }         
 
-    #linkedInIcon {
+    #linkedInIcon, #resumeIcon {
         padding-top: 0;
     }
 }
@@ -137,14 +137,13 @@ footer p {
         font-size: 1em;
     }
     
-    #linkedInIcon {
+    #linkedInIcon, #resumeIcon {
         width: 42px;
         height: 42px;
         background-size: 42px 42px;
     }
     
-    #linkedInIcon:hover {
-        background: url('/images/linkedin_gold.svg');
+    #linkedInIcon:hover, #resumeIcon:hover {
         width: 42px;
         height: 42px;
         background-size: 42px 42px;
