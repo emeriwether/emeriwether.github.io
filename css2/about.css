@@ -42,15 +42,4 @@ header p {padding-top: 1.5em;}
     header h2 {font-size: 2em;}   
     header p {font-size: 1.5em;}
 }
-
-/* 1000px+ */
-@media screen and (min-width: 62.5em) {
-    header h2 {font-size: 1.6em;}
-    header p {font-size: 1.3em;}
-}
-
-/* Large and up - 1024px+ */
-@media screen and (min-width: 64em) {
-    header {padding: 3em 4em 5em 4em;}   
-}
 /************* END MEDIA QUERIES *****************/
