@@ -29,28 +29,19 @@ header p {padding-top: 1.5em;}
 /* Medium and up - 640px+ */
 @media screen and (min-width: 40em) {        
     .card.sectionCard {
-        padding: 2.5em 4em 2.5em 4em;
+        padding: 2.5em;
         border-left-width: 20px;
     }
-    
-    header {padding: 3em 4em 6em 4em;}
-    
-    #headerImg {padding: 0em 0.7em 0 0.7em;}
-    header p {font-size: 1em;}
-    .card img {max-height: 40vw;}
-
-    .about-portrait {
-        float: right;
-        margin: 0 0 1.5rem 2rem;
-        max-width: 40%;
-        shape-outside: circle(50%);
-        clip-path: circle(50%);
-      }    
+    header h1 {font-size: 2.3em;}
+    header h2 {font-size: 1.7em;}   
+    header p {font-size: 1.2em;}
 }
 
 /* 800px+ */
 @media screen and (min-width: 50em) {
-    header p {font-size: 1.2em;}
+    header h1 {font-size: 3.1em;}
+    header h2 {font-size: 2em;}   
+    header p {font-size: 1.5em;}
 }
 
 /* 1000px+ */
