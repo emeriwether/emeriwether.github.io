@@ -49,12 +49,10 @@ footer p {
 
 #resumeIcon {
     background: url('/images/pdf_aqua.svg') no-repeat center center;
-    background-size: contain;
 }
 
 #resumeIcon:hover {
   background: url('../images/pdf_gold.svg') no-repeat center center;
-    background-size: contain; 
 }
 
 #footerEmail {
