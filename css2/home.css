@@ -16,17 +16,17 @@ header {
 }
 
 header h1 {
-    font-size: 2em;
+    font-size: 1.9em;
     line-height: 1em;
 }
 
 header h2 {
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
 header p {
     padding-top: 1em;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .card.sectionCard {
@@ -126,11 +126,11 @@ main .card p:first-child {
     }
     
     header h1 {
-        font-size: 4em;
+        font-size: 3.1em;
     }
     
     header h2 {
-        font-size: 3.3em;
+        font-size: 2em;
     }
     
     header p {
