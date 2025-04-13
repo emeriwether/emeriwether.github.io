@@ -38,8 +38,6 @@
 
 .italicText { font-style: italic; }
 
-.boldText { font-weight: 700; }
-
 .linkText {
     font-family: "Roboto Condensed";
     color: #1399AA;
@@ -48,7 +46,6 @@
 
 h1, h2, h3, h4, h5, h6, .button {
     font-family: "Roboto Condensed";
-    font-weight: 700;
     color: #3C3C3D;
 }
 
