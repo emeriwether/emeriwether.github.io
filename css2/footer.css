@@ -26,8 +26,15 @@ footer p {
     font-size: 1.4em;
 }
 
+.footerIcons {
+    display: flex;
+    gap: 10px; 
+    justify-content: center; 
+    align-items: center;
+}
+
 #linkedInIcon, #resumeIcon {
-    display: block;
+    display: inline-block;
     text-indent: -9999px;
     width: 35px;
     height: 35px;
