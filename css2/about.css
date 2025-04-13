@@ -1,11 +1,6 @@
 /* PAGE SPECIFIC STYLING */
 body {background-image: url(/images/texturedBackground.jpg);}
 
-main {
-    padding-bottom: 3em;
-    padding-top: 2em;
-}
-
 /* HEADER */
 header {padding: 3em 1em 2em 1em;}
 header h1 {font-size: 2.5em;}
@@ -13,21 +8,6 @@ header h2 {font-size: 1.5em;}
 header p {padding-top: 1.5em;}
 #headerImg {padding: 1.75em 0.7em 0 0.7em;}
 
-/* MAIN */
-.aboutSection {padding: 2.5em 1em 0 1em;}
-
-.aboutSection h4 {
-    padding-top: 0.75em;
-    font-size: 1.5em;
-}
-
-.aboutSection p {
-    font-family: Cabin;
-    font-weight: 400;
-}
-
-main section:nth-child(3) p {padding-bottom: 5em;}
-    
 .card.sectionCard {
     padding: 2em 1em 2em 1em;
     box-shadow: 6px 7px 10px 3px #B5B5B5;
@@ -35,6 +15,14 @@ main section:nth-child(3) p {padding-bottom: 5em;}
     border-left-style: solid;
     border-color: #22252C;
     border-radius: 5px;
+}
+
+.about-portrait {
+  display: block;
+  margin: 0 auto 1.5rem auto;
+  width: 220px;
+  max-width: 80%;
+  height: auto;
 }
 
 /************* BEGIN MEDIA QUERIES *****************/
@@ -45,47 +33,34 @@ main section:nth-child(3) p {padding-bottom: 5em;}
         border-left-width: 20px;
     }
     
-    .card.aboutSectionCard {
-        padding: 2.5em;
-        border-left-width: 20px;
-    }
     header {padding: 3em 4em 6em 4em;}
-    .aboutSection {padding: 3em 4em 0 4em;}
-
-    header h3 {
-        font-size: 1em;
-        font-family: Cabin;
-    }
     
     #headerImg {padding: 0em 0.7em 0 0.7em;}
     header p {font-size: 1em;}
     .card img {max-height: 40vw;}
-    .aboutSection p {font-size: 1.2em;}
-    .bodyText {padding: 0 0;}
-    
-    .sectionTag {
-        padding-left: 1em;
-        max-width: 475px;
-    }
+
+    .about-portrait {
+        float: right;
+        margin: 0 0 1.5rem 2rem;
+        max-width: 40%;
+        shape-outside: circle(50%);
+        clip-path: circle(50%);
+      }    
 }
 
 /* 800px+ */
 @media screen and (min-width: 50em) {
-    header h3, header p {font-size: 1.2em;}
+    header p {font-size: 1.2em;}
 }
 
 /* 1000px+ */
 @media screen and (min-width: 62.5em) {
     header h2 {font-size: 1.6em;}
-    header h3, header p {font-size: 1.3em;}
+    header p {font-size: 1.3em;}
 }
 
 /* Large and up - 1024px+ */
 @media screen and (min-width: 64em) {
-    main section:nth-child(3) p {padding-bottom: 2em;}    
     header {padding: 3em 4em 5em 4em;}   
-    .aboutSection {padding-top: 3em;}    
-    .aboutSection p {font-size: 1.3em;}    
-    #aboutMyProcess {padding-top: 5em;}
 }
 /************* END MEDIA QUERIES *****************/
