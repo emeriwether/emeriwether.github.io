@@ -43,8 +43,16 @@ footer p {
 
 #linkedInIcon { background: url('../images/linkedin_aqua.svg'); }
 #linkedInIcon:hover { background: url('../images/linkedin_gold.svg'); }
-#resumeIcon { background: url('../images/pdf_aqua.svg'); }
-#resumeIcon:hover { background: url('../images/pdf_gold.svg'); }
+
+#resumeIcon {
+    background: url('/images/pdf_aqua.svg') no-repeat center center;
+    background-size: contain;
+}
+
+#resumeIcon:hover {
+  background: url('../images/pdf_gold.svg') no-repeat center center;
+    background-size: contain; 
+}
 
 #footerEmail {
     padding-top: 1em;
