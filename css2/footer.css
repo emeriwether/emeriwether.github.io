@@ -36,9 +36,12 @@ footer p {
 #linkedInIcon, #resumeIcon {
     display: inline-block;
     text-indent: -9999px;
-    width: 35px;
     height: 35px;
-    background-size: 35px 35px;
+    width: auto;
+    aspect-ratio: 1 / 1;
+    background-size: auto 35px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #linkedInIcon { background: url('../images/linkedin_aqua.svg'); }
