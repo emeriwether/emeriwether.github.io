@@ -14,18 +14,10 @@ footer mark {
     line-height: 100%;
 }
 
-footer div {
-    max-width: 53rem;
-}
+footer div {max-width: 53rem;}
 
 /* RESPONSIVE LINE BREAK STYLING */
-.rwd-break {
-    display: block;
-}
-
-footer p {
-    font-size: 1.4em;
-}
+.rwd-break {display: block;}
 
 .footerIcons {
     display: flex;
@@ -64,74 +56,30 @@ footer p {
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
-    footer {
-        padding: 2em 4em;
-    }
-    
-    footer mark {
-        font-size: 1.734em;
-    }
-    
-    footer p {
-        font-size: 1.8em;
-    }
-
-    #footerEmail {
-        font-size: 1.4em;
-    }
-
-    #copyright {
-        font-size: 1em;
-    }
-        
-    .rwd-break {
-        display: none;
-    }         
-
-    #linkedInIcon, #resumeIcon, #emailIcon {
-        padding-top: 0;
-    }
+    footer {padding: 2em 4em;}
+    footer mark {font-size: 1.734em;}
+    #copyright {font-size: 1em;}  
+    .rwd-break {display: none;}         
+    #linkedInIcon, #resumeIcon, #emailIcon {padding-top: 0;}
 }
 
 @media screen and (min-width: 60.313em) {
-    footer{
-        padding: 2em 4.5em;
-    }
+    footer{padding: 2em 4.5em;}
 }
 
 @media screen and (min-width: 60.938em) {
-    footer{
-        padding: 2em 5.8em;
-    }
+    footer{padding: 2em 5.8em;}
 }
 
 @media screen and (min-width: 62.5em) {
-    footer{
-        padding: 2em 6.2em;
-    }
+    footer{padding: 2em 6.2em;}
 }
 
 /* Large and up */
 @media screen and (min-width: 64em) {
-    footer {
-      padding: 2em 5.8em;
-    }
-
-    footer mark {
-      font-size: 2.07em;
-    }
-    
-    footer p {
-        font-size: 2em;
-    }
-
-    #footerEmail {
-        font-size: 1.5em;
-    }
-
-    #copyright {
-        font-size: 1em;
-    }
+    footer {padding: 2em 5.8em;}
+    footer mark {font-size: 1.8em;}
+    #copyright {font-size: 1em;}
     
     #linkedInIcon, #resumeIcon, #emailIcon {
         width: 42px;
@@ -143,6 +91,5 @@ footer p {
         width: 42px;
         height: 42px;
         background-size: 42px 42px;
-    }
-    
+    } 
 }
