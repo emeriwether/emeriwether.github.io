@@ -240,11 +240,12 @@ ol.styled-numbered-list li p {
 }
 
 #imageModal .left-column img {
-  max-height: calc(95vh - 4em) !important;
-  width: auto;
-  object-fit: contain;
-  display: block;
-  margin: 0 auto;
+    max-height: calc(95vh - 4em) !important;
+    width: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    transform: none !important;
 }
 
 #caption li { margin-bottom: 5px; }
