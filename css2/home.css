@@ -92,9 +92,13 @@ main .card p:first-child {font-size: 0.8em;}
 }
 
 @media screen and (min-width: 50em) {    
-    .card-section {aspect-ratio: 8/7;}
+    .card-section {aspect-ratio: 3/2;}
     header h1 {font-size: 3.1em;}
     header h2 {font-size: 2em;}   
     header p {font-size: 1.5em;}
     #projectGallery h2 {font-size: 1.8em;}
+}
+
+@media screen and (min-width: 64em) {    
+    .card-section {aspect-ratio: 8/7;}
 }
