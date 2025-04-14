@@ -313,9 +313,8 @@ ol.styled-numbered-list li p {
 
 .carousel .right-column .caption {
   width: 100%;
-  aspect-ratio: 4 / 3;  /* Adjust this ratio if you need a taller or shorter area */
-  overflow-y: auto;     /* Allows scrolling if the caption text is too long */
-  padding: 1rem;        /* Optional: add some padding for readability */
+  aspect-ratio: 3 / 4; 
+  overflow-y: auto;
   box-sizing: border-box;
 }
 
