@@ -80,9 +80,3 @@ main .card p:first-child {font-size: 0.8em;}
     header h2 {font-size: 2em;}   
     header p {font-size: 1.5em;}
 }
-
-/* Large and up */
-@media screen and (min-width: 64em) {    
-    #projectGallery {padding: 0 3.6em 2em 3.6em;}
-    #projectGallery h2 {font-size: 2.2rem;}
-}
