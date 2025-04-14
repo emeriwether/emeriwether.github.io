@@ -34,10 +34,13 @@ footer div {max-width: 53rem;}
     background-repeat: no-repeat !important;
     background-position: center !important;
     background-size: contain !important;
+    transition: fill 0.3s;
 }
 
-#linkedInIcon { background: url('../images/linkedin_aqua.svg'); }
-#linkedInIcon:hover { background: url('../images/linkedin_gold.svg'); }
+#linkedInIcon:hover {fill:#F38C3E;}
+
+/*#linkedInIcon { background: url('../images/linkedin_aqua.svg'); }
+#linkedInIcon:hover { background: url('../images/linkedin_gold.svg'); }*/
 #resumeIcon { background: url('../images/pdf_aqua.svg'); }
 #resumeIcon:hover { background: url('../images/pdf_gold.svg');}
 #emailIcon { background-image: url('/images/email_aqua.svg'); }
