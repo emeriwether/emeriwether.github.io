@@ -290,7 +290,7 @@ ol.styled-numbered-list li p {
 
 .carousel .left-column {
   width: 100%;
-  aspect-ratio: 16 / 9; /* Adjust ratio if needed (e.g., 4/3, 3/2) */
+  aspect-ratio: 8 / 7;
   overflow: hidden;
   display: flex;
   justify-content: center;
