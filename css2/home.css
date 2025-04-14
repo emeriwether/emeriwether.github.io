@@ -64,7 +64,7 @@ main .card p:first-child {font-size: 0.8em;}
         border-left-width: 20px;
     }
     .card-section {
-        aspect-ratio: 12 / 13;
+        aspect-ratio: 2/3;
         overflow-y: auto;
     }
     header h1 {font-size: 2.3em;}
@@ -72,6 +72,10 @@ main .card p:first-child {font-size: 0.8em;}
     header p {font-size: 1.2em;}
     #projectGallery {padding: 0 4.6em 2em 4.6em;} 
     #projectGallery h2 {font-size: 1.8em;}
+}
+
+@media screen and (min-width: 43em) {    
+    .card-section {aspect-ratio: 12 / 13;}
 }
 
 @media screen and (min-width: 50em) {    
