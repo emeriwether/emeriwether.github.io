@@ -87,7 +87,7 @@ main .card p:first-child {font-size: 0.8em;}
     .card-section {aspect-ratio: 5/4;}
 }
 
-@media screen and (min-width: 48em) {    
+@media screen and (min-width: 48.7em) {    
     .card-section {aspect-ratio: 3/2;}
 }
 
