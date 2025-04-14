@@ -30,6 +30,11 @@ header p {
     border-radius: 5px;
 }
 
+.card-section {
+    aspect-ratio: 3 / 2;
+    overflow-y: auto;
+}
+
 #sectionDivider {
     width: 100%;
     height: auto;
