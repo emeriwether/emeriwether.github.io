@@ -10,14 +10,24 @@
     font-style: normal;
 }
 
+/* Roboto Condensed Bold */
 @font-face {
     font-family: 'Roboto Condensed';
-    src: url('/fonts/robotocondensed-bold-webfont.eot');
-    src: url('/fonts/robotocondensed-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/robotocondensed-bold-webfont.woff') format('woff'),
-         url('/fonts/robotocondensed-bold-webfont.ttf') format('truetype');
+    src: url('/fonts/RobotoCondensed-Bold.woff2') format('woff2'),
+         url('/fonts/RobotoCondensed-Bold.woff') format('woff'),
+         url('/fonts/RobotoCondensed-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
+}
+
+/* Roboto Condensed Bold Italic */
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('/fonts/RobotoCondensed-BoldItalic.woff2') format('woff2'),
+         url('/fonts/RobotoCondensed-BoldItalic.woff') format('woff'),
+         url: url('/fonts/RobotoCondensed-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
 }
 
 @font-face {
@@ -32,12 +42,21 @@
 
 @font-face {
     font-family: 'Cabin';
-    src: url('/fonts/cabin-bold-webfont.eot');
-    src: url('/fonts/cabin-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/cabin-bold-webfont.woff') format('woff'),
-         url('/fonts/cabin-bold-webfont.ttf') format('truetype');
+    src: url('/fonts/Cabin-Bold.woff2') format('woff2'),
+         url('/fonts/Cabin-Bold.woff') format('woff'),
+         url('/fonts/Cabin-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
+}
+
+/* Cabin Bold Italic */
+@font-face {
+    font-family: 'Cabin';
+    src: url('/fonts/Cabin-BoldItalic.woff2') format('woff2'),
+         url('/fonts/Cabin-BoldItalic.woff') format('woff'),
+         url('/fonts/Cabin-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
 }
 /* END FONT FACE CREATION */
 /********************/
