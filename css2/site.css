@@ -57,6 +57,12 @@ p, a {
     color: #3C3C3D;
     font-size: 1.1em;
 }
+
+/* Safari font rendering fix */
+* {
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+}
 /* END FONT STYLING */
 /********************/
 
