@@ -4,7 +4,7 @@ body {background-image: url(/images/texturedBackground.jpg);}
 /* HEADER */
 header {padding: 3em 1em 2em 1em;}
 header h1 {
-    font-size: 2.5em;
+    font-size: 2.3em;
     line-height: 100%;
 }
 header h2 {
@@ -33,9 +33,9 @@ header p {padding-top: 1.5em;}
 
 /************* BEGIN MEDIA QUERIES *****************/
 @media screen and (min-width: 30em) {        
-    .about-portrait {
-        float: right;
-    }
+    .about-portrait {float: right;}
+    header h1 {font-size: 2.7em;}
+}
 
 /* Medium and up - 640px+ */
 @media screen and (min-width: 40em) {        
