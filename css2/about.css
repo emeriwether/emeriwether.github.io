@@ -18,13 +18,18 @@ header p {padding-top: 1.5em;}
 }
 
 .about-portrait {
-    float: right;
     display: block;
     width: 214px;
     max-width: 80%;
+    margin: 0 auto;
 }
 
 /************* BEGIN MEDIA QUERIES *****************/
+@media screen and (min-width: 30em) {        
+    .about-portrait {
+        float: right;
+    }
+
 /* Medium and up - 640px+ */
 @media screen and (min-width: 40em) {        
     .card.sectionCard {
